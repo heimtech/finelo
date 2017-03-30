@@ -1,0 +1,17 @@
+
+
+<section class="col-xs-12 mt-element-step">
+    <div class="row">
+
+        <div class="col-xs-12 step-thin">
+            <div  ng-repeat="singlePage in wizard.steps" class="col-xs-3 col-sm-3 bg-grey mt-step-col" ng-class="{active : $index === wizard.slickCurrentIndex }">
+                <div class="mt-step-number first bg-white font-grey">{{$index +1}}</div>
+                <div translate class="hidden-xs mt-step-title uppercase font-grey-cascade">{{singlePage.name}}</div>
+                <div class="hidden-sm hidden-xs mt-step-content font-grey-cascade">{{singlePage.description}}</div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>

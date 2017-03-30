@@ -1,0 +1,5414 @@
+.hidden {
+    display: none;
+}
+
+.preamble {
+    font-weight: 400;
+}
+
+.caption {
+    color: #666;
+}
+
+.input .inputleft, .input .inputright, .input .inputbutton, .input .inputtile {
+    padding: 0;
+    margin: 0;
+    height: 28px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.input .inputleft, .input .inputright {
+    width: 7px;
+}
+
+.input .inputbutton {
+    width: 30px;
+}
+
+.input input {
+    background-color: transparent;
+    height: 22px;
+    padding: 3px 0;
+    width: 100%;
+    border: none;
+    line-height: 22px;
+    text-indent: 6px;
+}
+
+.input.yellow .inputleft {
+    background-image: url(../../../images/tibp/coromant/inputleft_light.png);
+}
+
+.input.yellow .inputright {
+    background-image: url(../../../images/tibp/coromant/inputright_light.png);
+}
+
+.input.yellow .inputtile {
+    background-image: url(../../../images/tibp/coromant/inputtile_light.png);
+    background-repeat: repeat-x;
+}
+
+.input.yellow input {
+    color: #333;
+}
+
+    .input.yellow input.active {
+        color: #333;
+    }
+
+.graytext {
+    color: #666;
+}
+
+.lightgraytext {
+    color: #999;
+}
+
+.topgradient {
+    background-image: url(../../../images/tibp/coromant/gradienttile_gray.png);
+    background-repeat: repeat-x;
+}
+
+.textright {
+    text-align: right;
+}
+
+.temp_textfield, .temp_dropdown, .inp_textfield, .inp_dropdown {
+    margin: 6px 0;
+}
+
+.inp_textfield_multi {
+    margin: 6px 0 !important;
+    overflow: auto !important;
+}
+
+.temp_dropdown, .inp_dropdown {
+    width: 214px;
+}
+
+.inp_textfield_wide {
+    width: 300px;
+}
+
+.inp_textfield.nomargin {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+tr.padbot td {
+    padding-bottom: 10px;
+}
+
+tr.padtop td {
+    padding-top: 10px;
+}
+
+tr.padbot th {
+    padding-bottom: 10px;
+}
+
+tr.padtop th {
+    padding-top: 10px;
+}
+
+.datatable {
+    width: 100%;
+    margin-top: 10px;
+    border-spacing: 0;
+}
+
+@media screen and (max-width:568px) {
+    .responsive #OrderTable.datatable {
+        background: #e8e8e8;
+    }
+}
+
+.datatable .head {
+    height: 35px;
+}
+
+    .datatable .head td, .datatable .tallhead td {
+        background: #fcfcfc;
+        background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZjZmNmYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkMWQxZDEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+        background: -moz-linear-gradient(top,#fcfcfc 0%,#d1d1d1 100%);
+        background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#fcfcfc),color-stop(100%,#d1d1d1));
+        background: -webkit-linear-gradient(top,#fcfcfc 0%,#d1d1d1 100%);
+        background: -o-linear-gradient(top,#fcfcfc 0%,#d1d1d1 100%);
+        background: -ms-linear-gradient(top,#fcfcfc 0%,#d1d1d1 100%);
+        background: linear-gradient(to bottom,#fcfcfc 0%,#d1d1d1 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc',endColorstr='#d1d1d1',GradientType=0);
+    }
+
+        .datatable .head td:first-child, .datatable .tallhead td:first-child {
+            border-radius-topleft: 5px;
+            border-radius-bottomleft: 5px;
+            -moz-border-radius-topleft: 5px;
+            -moz-border-radius-bottomleft: 5px;
+            -webkit-border-top-left-radius: 5px;
+            -webkit-border-bottom-left-radius: 5px;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+
+        .datatable .head td:last-child, .datatable .tallhead td:last-child {
+            border-radius-topright: 5px;
+            border-radius-bottomright: 5px;
+            -moz-border-radius-topright: 5px;
+            -moz-border-radius-bottomright: 5px;
+            -webkit-border-top-right-radius: 5px;
+            -webkit-border-bottom-right-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+.datatable .tallhead {
+    height: 52px;
+}
+
+.datatable tr > td, .datatable tr > th {
+    padding: 8px;
+    width: 25%;
+}
+
+@media screen and (max-width:991px) {
+    .responsive .datatable tr > td, .responsive .datatable tr > th {
+        padding: 5px 1px 5px 1px;
+    }
+
+    .responsive .datatable tr.addressrow > td {
+        padding: 1px;
+        font-size: 10.5px;
+    }
+}
+
+@media screen and (min-width:768px)and (max-width:991px) {
+    .responsive #OrdersTable.datatable tr.head td {
+        overflow: hidden;
+        max-width: 80px;
+        text-overflow: ellipsis;
+    }
+
+    .responsive #shoppingcart.datatable tr.tallhead td {
+        overflow: hidden;
+        max-width: 80px;
+        text-overflow: ellipsis;
+    }
+}
+
+.datatable .head td, .datatable .tallhead td, .datatable .head th, .datatable .tallhead th {
+    padding-top: 0;
+    padding-bottom: 0;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+.datatable tr.head td a, .datatable tr.head td a:link, .datatable tr.tallhead td a, .datatable tr.tallhead td a:link, .datatable.backendaddresspicker tr.head td a:link {
+    color: #333;
+}
+
+.datatable td .productimage {
+    padding-left: 10px;
+    vertical-align: middle;
+}
+
+.datatable tr.padtop > td, .datatable tr.padtop > th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.datatable tr.padbot > td, .datatable tr.padbot > th {
+    padding-bottom: 25px;
+}
+
+.datatable tr.noLanding {
+    background-color: #e0e0e0;
+}
+
+.datatable tr.alternaterow {
+    background-color: #f0f0f0;
+}
+
+.datatable .border {
+    border-bottom: 1px solid #ccc;
+}
+
+.datatable.nomargintop {
+    margin-top: 0;
+}
+
+.sublabelcontainer {
+    white-space: nowrap;
+}
+
+    .sublabelcontainer .sublabel {
+        display: inline-block;
+        width: 30px;
+        text-align: right;
+    }
+
+.ordertableheader {
+    display: block;
+    margin-top: 10px;
+}
+
+.ordertable .inp_textfield, .ordertable .inp_dropdown {
+    width: 100%;
+}
+
+.ordertable .intablelabel2 {
+    display: none;
+}
+
+.ordertable .labelcolumn {
+    width: 250px;
+}
+
+    .ordertable .labelcolumn .optionalLabel {
+        display: block;
+        min-height: 41px;
+        padding: 14px 0 0 0;
+    }
+
+.ordertable .datacolumn {
+    position: relative;
+    width: 240px;
+}
+
+.ordertable .sublabelcontainer.from, .ordertable .sublabelcontainer.to {
+    position: absolute;
+    top: 0;
+}
+
+    .ordertable .sublabelcontainer.from .inp_textfield, .ordertable .sublabelcontainer.to .inp_textfield {
+        width: 100px;
+    }
+
+.ordertable .sublabelcontainer.from {
+    left: -33px;
+}
+
+.ordertable .sublabelcontainer.to {
+    right: 0;
+}
+
+.ordertable .daterangeselect .inp_dropdown {
+    width: 180px;
+    margin-right: 60px;
+}
+
+.ordertable .actioncontainer {
+    text-align: right;
+}
+
+#InvoiceHistoryView .sublabelcontainer.from {
+    margin-left: -34px;
+}
+
+@media screen and (max-width:568px) {
+    .responsive .ordertable {
+        display: block;
+    }
+
+        .responsive .ordertable tbody, .responsive .ordertable tr, .responsive .ordertable td {
+            display: block;
+            margin: 0;
+        }
+
+        .responsive .ordertable .labelcolumn {
+            width: 100%;
+        }
+
+        .responsive .ordertable .datacolumn {
+            width: 100%;
+        }
+
+            .responsive .ordertable .datacolumn.fromTo {
+                height: 55px;
+            }
+
+        .responsive .ordertable .intablelabel2 {
+            display: block;
+        }
+
+        .responsive .ordertable .inp_textfield, .responsive .ordertable .inp_dropdown {
+            margin: 0 0 10px 0;
+        }
+
+        .responsive .ordertable .sublabelcontainer.from {
+            left: 0;
+        }
+
+        .responsive .ordertable .sublabelcontainer.from, .responsive .ordertable .sublabelcontainer.to {
+            width: 40%;
+        }
+
+            .responsive .ordertable .sublabelcontainer.from .inp_textfield, .responsive .ordertable .sublabelcontainer.to .inp_textfield {
+                width: 100%;
+            }
+
+        .responsive .ordertable .sublabelcontainer .sublabel {
+            display: block;
+            text-align: left;
+        }
+
+    .responsive .daterangeselect {
+        margin-left: 0;
+    }
+
+        .responsive .daterangeselect .inp_dropdown {
+            width: 100%;
+        }
+
+    .responsive .insiderow .insidecolumn_first {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .responsive .sublabelcontainer {
+        display: block;
+    }
+}
+
+#orderDetailsTable .returnOrderActionButton {
+    display: none;
+}
+
+.orderResultTable .orderItemRow .returnOrderActionButton, .orderItemsTable .orderItemRow .returnOrderActionButton {
+    display: none;
+}
+
+#openOrderLineResultTable #orderDetailsTable h3, .orderItemsHeader {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.orderItemsHeader {
+    margin-top: 20px;
+}
+
+#orderDetailsTable .intablelabel_orderItem {
+    color: #777;
+    font-weight: normal;
+}
+
+#orderDetailsTable .datafield {
+    font-weight: 400;
+}
+
+.actioncolumn {
+    width: 40%;
+    display: inline-block;
+}
+
+    .actioncolumn .actions {
+        float: right;
+        text-align: right;
+    }
+
+#orderDetailsTable .headerrow {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+    #orderDetailsTable .headerrow h3 {
+        margin: 20px 0 0 0 !important;
+        display: inline-block;
+        float: left;
+    }
+
+    #orderDetailsTable .headerrow .actions {
+        margin-top: 20px;
+        float: right;
+        white-space: nowrap;
+        text-align: right;
+    }
+
+.orderHeaderTable .backendAddressDetail {
+    padding-top: 10px;
+}
+
+@media screen and (max-width:767px) {
+    .responsive #orderDetailsTable tr {
+        padding-left: 0 !important;
+    }
+
+    .responsive #orderDetailsTable h3 {
+        margin-top: 20px;
+    }
+
+    .responsive #orderDetailsTable .quickOrderActionButton {
+        float: right;
+    }
+
+    .responsive #orderDetailsTable .returnOrderActionButton {
+        float: right;
+    }
+
+    .responsive #OrdersTable .orderItemsHeader, .responsive #openOrderLineResultTable .orderItemsHeader {
+        margin-left: 20px;
+    }
+
+    .responsive #OrdersTable .orderItemsTable, .responsive #openOrderLineResultTable .orderItemsTable {
+        border: solid 1px #ccc;
+    }
+
+    .responsive #OrdersTable .orderItemRow > td, .responsive #openOrderLineResultTable .orderItemRow > td {
+        text-align: left !important;
+    }
+
+    .responsive .orderHeaderTable tr {
+        padding-left: 0 !important;
+    }
+
+    .responsive .orderHeaderTable .intablelabel_orderItem {
+        width: 48% !important;
+        display: inline-block !important;
+    }
+
+    .responsive .orderHeaderTable .datafield {
+        width: 48% !important;
+        display: inline-block !important;
+    }
+
+    .responsive .orderItemsTable .orderItemRow .quickOrderActionButton {
+        float: right;
+        margin-top: -30px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+}
+
+.intablelabel {
+    display: none;
+}
+
+.subtablelabel {
+    color: #888;
+}
+
+.productdetailslink::after {
+    content: '>';
+}
+
+@media screen and (max-width:767px) {
+    .responsive #OrderHistoryView .datatable tr > td, .responsive #OrderHistoryView .datatable tr > th, .responsive #InvoiceHistoryView .datatable tr > td, .responsive #InvoiceHistoryView .datatable tr > th, .responsive #ReturnHistoryView .datatable tr > td, .responsive #ReturnHistoryView .datatable tr > th, .responsive #replacementTable .datatable tr > td, .responsive #replacementTable .datatable tr > th {
+        display: block;
+    }
+
+    .responsive #OrderHistoryView .intablelabel, .responsive #InvoiceHistoryView .intablelabel, .responsive #ReturnHistoryView .intablelabel, .responsive #replacementTable .intablelabel {
+        display: inline;
+    }
+
+        .responsive #OrderHistoryView .intablelabel:after, .responsive #InvoiceHistoryView .intablelabel:after, .responsive #ReturnHistoryView .intablelabel:after, .responsive #replacementTable .intablelabel:after {
+            content: ':';
+        }
+
+    .responsive #OrderHistoryView .field, .responsive #InvoiceHistoryView .field, .responsive #ReturnHistoryView .field, .responsive #replacementTable .field {
+        font-weight: 400;
+    }
+
+    .responsive #OrderHistoryView .datatable tr.head td, .responsive #InvoiceHistoryView .datatable tr.head td, .responsive #ReturnHistoryView .datatable tr.head td, .responsive #replacementTable .datatable tr.head td {
+        display: none !important;
+    }
+
+    .responsive #OrderHistoryView .datatable tr > td, .responsive #InvoiceHistoryView .datatable tr > td, .responsive #ReturnHistoryView .datatable tr > td, .responsive #replacementTable .datatable tr > td {
+        margin: 0;
+    }
+}
+
+#shoppingcart .field, #ReplacementContent .field, #productsearchresult .field, .orderlines-js-selector .field {
+    display: block;
+}
+
+#shoppingcart tr.product-details-row, #ReplacementContent tr.product-details-row, #productsearchresult tr.product-details-row, .orderlines-js-selector tr.product-details-row {
+    display: table-row;
+}
+
+    #shoppingcart tr.product-details-row.hidden, #ReplacementContent tr.product-details-row.hidden, #productsearchresult tr.product-details-row.hidden, .orderlines-js-selector tr.product-details-row.hidden {
+        display: none;
+    }
+
+#shoppingcart .product-details-content .loading-text, #ReplacementContent .product-details-content .loading-text, #productsearchresult .product-details-content .loading-text, .orderlines-js-selector .product-details-content .loading-text {
+    font-style: italic;
+}
+
+#shoppingcart .product-details-content .alternate-product-0, #ReplacementContent .product-details-content .alternate-product-0, #productsearchresult .product-details-content .alternate-product-0, .orderlines-js-selector .product-details-content .alternate-product-0 {
+    display: none;
+}
+
+#shoppingcart .product-details-content .heading, #ReplacementContent .product-details-content .heading, #productsearchresult .product-details-content .heading, .orderlines-js-selector .product-details-content .heading {
+    font-weight: 400;
+    display: block;
+}
+
+#shoppingcart .product-details-content .subheading, #ReplacementContent .product-details-content .subheading, #productsearchresult .product-details-content .subheading, .orderlines-js-selector .product-details-content .subheading {
+    font-style: italic;
+}
+
+#shoppingcart .product-details-content ul, #shoppingcart .product-details-content li, #ReplacementContent .product-details-content ul, #ReplacementContent .product-details-content li, #productsearchresult .product-details-content ul, #productsearchresult .product-details-content li, .orderlines-js-selector .product-details-content ul, .orderlines-js-selector .product-details-content li {
+    display: block;
+    padding-left: 0;
+}
+
+.responsive .moreProductDetails a.proddetaillink::before {
+    content: '>';
+}
+
+.responsive .moreProductDetails .product-details-link::before {
+    content: '>';
+}
+
+.responsive .moreProductDetails {
+    position: relative;
+}
+
+#shoppingcart .inp_textfield.edit {
+    display: block;
+    width: 8em;
+}
+
+@media screen and (max-width:767px) {
+    .responsive #shoppingcart .inp_textfield.edit {
+        display: inline;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .responsive #shoppingcart .inp_textfield.edit {
+        width: 100%;
+    }
+}
+
+.subtable {
+    width: 50%;
+    float: left;
+}
+
+@media screen and (max-width:767px) {
+    .subtable {
+        width: 100%;
+        float: none;
+    }
+}
+
+@media screen and (max-width:568px) {
+    #templateArea .actionButtons {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .responsive #shoppingcart tr, .responsive #OrdersTable tr, .responsive #openOrderLineResultTable tr, .responsive .invoiceResultTable tr, .responsive #ReturnOrdersTable tr, .responsive #ResultTable tr, .responsive #addresses tr, .responsive #LocalAddress tr, .responsive #replacementTable tr, .responsive .backendaddresspicker tr {
+        display: block;
+        padding: 5px 10px;
+        position: relative;
+    }
+
+        .responsive #shoppingcart tr.head, .responsive #OrdersTable tr.head, .responsive #openOrderLineResultTable tr.head, .responsive .invoiceResultTable tr.head, .responsive #ReturnOrdersTable tr.head, .responsive #ResultTable tr.head, .responsive #addresses tr.head, .responsive #LocalAddress tr.head, .responsive #replacementTable tr.head, .responsive .backendaddresspicker tr.head {
+            display: none;
+        }
+
+    .responsive #shoppingcart.datatable tr > td, .responsive #OrdersTable.datatable tr > td, .responsive #openOrderLineResultTable.datatable tr > td, .responsive .invoiceResultTable.datatable tr > td, .responsive #ReturnOrdersTable.datatable tr > td, .responsive #ResultTable.datatable tr > td, .responsive #addresses.datatable tr > td, .responsive #LocalAddress.datatable tr > td, .responsive #replacementTable.datatable tr > td, .responsive .backendaddresspicker.datatable tr > td {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .responsive #shoppingcart.datatable tr > td, .responsive #shoppingcart.datatable tr > th, .responsive #OrdersTable.datatable tr > td, .responsive #OrdersTable.datatable tr > th, .responsive #openOrderLineResultTable.datatable tr > td, .responsive #openOrderLineResultTable.datatable tr > th, .responsive .invoiceResultTable.datatable tr > td, .responsive .invoiceResultTable.datatable tr > th, .responsive #ReturnOrdersTable.datatable tr > td, .responsive #ReturnOrdersTable.datatable tr > th, .responsive #ResultTable.datatable tr > td, .responsive #ResultTable.datatable tr > th, .responsive #addresses.datatable tr > td, .responsive #addresses.datatable tr > th, .responsive #LocalAddress.datatable tr > td, .responsive #LocalAddress.datatable tr > th, .responsive #replacementTable.datatable tr > td, .responsive #replacementTable.datatable tr > th, .responsive .backendaddresspicker.datatable tr > td, .responsive .backendaddresspicker.datatable tr > th {
+        display: block;
+        text-align: left;
+    }
+
+        .responsive #shoppingcart.datatable tr > td.action, .responsive #OrdersTable.datatable tr > td.action, .responsive #openOrderLineResultTable.datatable tr > td.action, .responsive .invoiceResultTable.datatable tr > td.action, .responsive #ReturnOrdersTable.datatable tr > td.action, .responsive #ResultTable.datatable tr > td.action, .responsive #addresses.datatable tr > td.action, .responsive #LocalAddress.datatable tr > td.action, .responsive #replacementTable.datatable tr > td.action, .responsive .backendaddresspicker.datatable tr > td.action {
+            position: absolute;
+            width: 100%;
+        }
+
+    .responsive #shoppingcart.datatable .tallhead, .responsive #OrdersTable.datatable .tallhead, .responsive #openOrderLineResultTable.datatable .tallhead, .responsive .invoiceResultTable.datatable .tallhead, .responsive #ReturnOrdersTable.datatable .tallhead, .responsive #ResultTable.datatable .tallhead, .responsive #addresses.datatable .tallhead, .responsive #LocalAddress.datatable .tallhead, .responsive #replacementTable.datatable .tallhead, .responsive .backendaddresspicker.datatable .tallhead {
+        display: none;
+    }
+
+    .responsive #shoppingcart.datatable tr > td.itemindex, .responsive #OrdersTable.datatable tr > td.itemindex, .responsive #openOrderLineResultTable.datatable tr > td.itemindex, .responsive .invoiceResultTable.datatable tr > td.itemindex, .responsive #ReturnOrdersTable.datatable tr > td.itemindex, .responsive #ResultTable.datatable tr > td.itemindex, .responsive #addresses.datatable tr > td.itemindex, .responsive #LocalAddress.datatable tr > td.itemindex, .responsive #replacementTable.datatable tr > td.itemindex, .responsive .backendaddresspicker.datatable tr > td.itemindex {
+        display: none;
+    }
+
+    .responsive #shoppingcart .field, .responsive #OrdersTable .field, .responsive #openOrderLineResultTable .field, .responsive .invoiceResultTable .field, .responsive #ReturnOrdersTable .field, .responsive #ResultTable .field, .responsive #addresses .field, .responsive #LocalAddress .field, .responsive #replacementTable .field, .responsive .backendaddresspicker .field {
+        display: inline;
+    }
+
+    .responsive #shoppingcart .datafield, .responsive #OrdersTable .datafield, .responsive #openOrderLineResultTable .datafield, .responsive .invoiceResultTable .datafield, .responsive #ReturnOrdersTable .datafield, .responsive #ResultTable .datafield, .responsive #addresses .datafield, .responsive #LocalAddress .datafield, .responsive #replacementTable .datafield, .responsive .backendaddresspicker .datafield {
+        font-weight: 400;
+    }
+
+        .responsive #shoppingcart .datafield.new-line, .responsive #OrdersTable .datafield.new-line, .responsive #openOrderLineResultTable .datafield.new-line, .responsive .invoiceResultTable .datafield.new-line, .responsive #ReturnOrdersTable .datafield.new-line, .responsive #ResultTable .datafield.new-line, .responsive #addresses .datafield.new-line, .responsive #LocalAddress .datafield.new-line, .responsive #replacementTable .datafield.new-line, .responsive .backendaddresspicker .datafield.new-line {
+            display: inline;
+        }
+
+    .responsive #shoppingcart .datafieldproductname, .responsive #OrdersTable .datafieldproductname, .responsive #openOrderLineResultTable .datafieldproductname, .responsive .invoiceResultTable .datafieldproductname, .responsive #ReturnOrdersTable .datafieldproductname, .responsive #ResultTable .datafieldproductname, .responsive #addresses .datafieldproductname, .responsive #LocalAddress .datafieldproductname, .responsive #replacementTable .datafieldproductname, .responsive .backendaddresspicker .datafieldproductname {
+        font-weight: 500;
+        display: block;
+        text-transform: uppercase;
+    }
+
+    .responsive #shoppingcart .datafieldblock, .responsive #OrdersTable .datafieldblock, .responsive #openOrderLineResultTable .datafieldblock, .responsive .invoiceResultTable .datafieldblock, .responsive #ReturnOrdersTable .datafieldblock, .responsive #ResultTable .datafieldblock, .responsive #addresses .datafieldblock, .responsive #LocalAddress .datafieldblock, .responsive #replacementTable .datafieldblock, .responsive .backendaddresspicker .datafieldblock {
+        font-weight: 500;
+        display: block;
+    }
+
+    .responsive #shoppingcart .intablelabel, .responsive #OrdersTable .intablelabel, .responsive #openOrderLineResultTable .intablelabel, .responsive .invoiceResultTable .intablelabel, .responsive #ReturnOrdersTable .intablelabel, .responsive #ResultTable .intablelabel, .responsive #addresses .intablelabel, .responsive #LocalAddress .intablelabel, .responsive #replacementTable .intablelabel, .responsive .backendaddresspicker .intablelabel {
+        display: inline;
+        color: #888;
+    }
+
+    .responsive #shoppingcart.datatable tr > td, .responsive #OrdersTable.datatable tr > td, .responsive #openOrderLineResultTable.datatable tr > td, .responsive .invoiceResultTable.datatable tr > td, .responsive #ReturnOrdersTable.datatable tr > td, .responsive #ResultTable.datatable tr > td, .responsive #addresses.datatable tr > td, .responsive #LocalAddress.datatable tr > td, .responsive #replacementTable.datatable tr > td, .responsive .backendaddresspicker.datatable tr > td {
+        margin: 0;
+    }
+
+    .responsive #shoppingcart .intablelabel:after, .responsive #OrdersTable .intablelabel:after, .responsive #openOrderLineResultTable .intablelabel:after, .responsive .invoiceResultTable .intablelabel:after, .responsive #ReturnOrdersTable .intablelabel:after, .responsive #ResultTable .intablelabel:after, .responsive #addresses .intablelabel:after, .responsive #LocalAddress .intablelabel:after, .responsive #replacementTable .intablelabel:after, .responsive .backendaddresspicker .intablelabel:after {
+        content: ':';
+    }
+
+    .responsive #shoppingcart span.aslink, .responsive #OrdersTable span.aslink, .responsive #openOrderLineResultTable span.aslink, .responsive .invoiceResultTable span.aslink, .responsive #ReturnOrdersTable span.aslink, .responsive #ResultTable span.aslink, .responsive #addresses span.aslink, .responsive #LocalAddress span.aslink, .responsive #replacementTable span.aslink, .responsive .backendaddresspicker span.aslink {
+        position: absolute;
+        right: 26px;
+    }
+
+        .responsive #shoppingcart span.aslink.editlink, .responsive #OrdersTable span.aslink.editlink, .responsive #openOrderLineResultTable span.aslink.editlink, .responsive .invoiceResultTable span.aslink.editlink, .responsive #ReturnOrdersTable span.aslink.editlink, .responsive #ResultTable span.aslink.editlink, .responsive #addresses span.aslink.editlink, .responsive #LocalAddress span.aslink.editlink, .responsive #replacementTable span.aslink.editlink, .responsive .backendaddresspicker span.aslink.editlink {
+            bottom: 60px;
+        }
+
+        .responsive #shoppingcart span.aslink.updatelink, .responsive #OrdersTable span.aslink.updatelink, .responsive #openOrderLineResultTable span.aslink.updatelink, .responsive .invoiceResultTable span.aslink.updatelink, .responsive #ReturnOrdersTable span.aslink.updatelink, .responsive #ResultTable span.aslink.updatelink, .responsive #addresses span.aslink.updatelink, .responsive #LocalAddress span.aslink.updatelink, .responsive #replacementTable span.aslink.updatelink, .responsive .backendaddresspicker span.aslink.updatelink {
+            bottom: 60px;
+        }
+
+        .responsive #shoppingcart span.aslink.cancellink, .responsive #OrdersTable span.aslink.cancellink, .responsive #openOrderLineResultTable span.aslink.cancellink, .responsive .invoiceResultTable span.aslink.cancellink, .responsive #ReturnOrdersTable span.aslink.cancellink, .responsive #ResultTable span.aslink.cancellink, .responsive #addresses span.aslink.cancellink, .responsive #LocalAddress span.aslink.cancellink, .responsive #replacementTable span.aslink.cancellink, .responsive .backendaddresspicker span.aslink.cancellink {
+            bottom: 80px;
+        }
+
+        .responsive #shoppingcart span.aslink.deletelink, .responsive #OrdersTable span.aslink.deletelink, .responsive #openOrderLineResultTable span.aslink.deletelink, .responsive .invoiceResultTable span.aslink.deletelink, .responsive #ReturnOrdersTable span.aslink.deletelink, .responsive #ResultTable span.aslink.deletelink, .responsive #addresses span.aslink.deletelink, .responsive #LocalAddress span.aslink.deletelink, .responsive #replacementTable span.aslink.deletelink, .responsive .backendaddresspicker span.aslink.deletelink {
+            bottom: 80px;
+        }
+
+    .responsive #shoppingcart tr, .responsive #ReplacementContent tr, .responsive #productsearchresult tr, .responsive .orderlines-js-selector tr {
+        padding: 5px 10px;
+        position: relative;
+    }
+
+        .responsive #shoppingcart tr .product-details-content-placeholder, .responsive #ReplacementContent tr .product-details-content-placeholder, .responsive #productsearchresult tr .product-details-content-placeholder, .responsive .orderlines-js-selector tr .product-details-content-placeholder {
+            margin: 5px 10px;
+        }
+
+        .responsive #shoppingcart tr.product-details-row, .responsive #ReplacementContent tr.product-details-row, .responsive #productsearchresult tr.product-details-row, .responsive .orderlines-js-selector tr.product-details-row {
+            display: table-row;
+        }
+
+            .responsive #shoppingcart tr.product-details-row.hidden, .responsive #ReplacementContent tr.product-details-row.hidden, .responsive #productsearchresult tr.product-details-row.hidden, .responsive .orderlines-js-selector tr.product-details-row.hidden {
+                display: none;
+            }
+
+    .responsive .ordersResultPanel h4, .responsive .invoiceResultPanel h4, .responsive .returnOrderResultPanel h4 {
+        margin-top: 10px;
+        padding-top: 10px;
+        border-top: solid 1px #ccc;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .responsive #addresses .datafield {
+        font-weight: normal;
+    }
+
+    .responsive #addresses .editlink {
+        top: 10px;
+    }
+
+    .responsive #addresses .deletelink {
+        top: 30px;
+    }
+
+    .responsive #addresses .updatelink {
+        top: 30px;
+    }
+
+    .responsive #addresses .cancellink {
+        top: 10px;
+    }
+
+    .responsive #addresses .inp_textfield {
+        margin: 0 0 1px -5px;
+        padding: 0 0 0 5px !important;
+        border: none !important;
+    }
+
+    .responsive #addresses .key_CompanyName .inp_textfield, .responsive #addresses .key_DeliverTo .inp_textfield, .responsive #addresses .key_Line1 .inp_textfield {
+        width: 180px;
+    }
+
+    .responsive #addresses .key_City .inp_textfield {
+        margin-left: -5px;
+        width: 180px;
+    }
+
+    .responsive #addresses .key_ZipPostalCode {
+        float: left;
+    }
+
+        .responsive #addresses .key_ZipPostalCode .inp_textfield {
+            width: 70px;
+        }
+
+        .responsive #addresses .key_ZipPostalCode + .key_City .inp_textfield {
+            width: 104px;
+            margin-left: 5px;
+        }
+}
+
+.responsive #addresses .intablelabel {
+    display: none;
+}
+
+#addresses .inp_textfield {
+    width: 8em;
+}
+
+#OrderHistoryView .specialbodytext, #InvoiceHistoryView .specialbodytext, #ReturnHistoryView .specialbodytext {
+    padding-top: 50px;
+    margin-top: -62px !important;
+}
+
+a.aslink.proddetaillink, a.product-details-link {
+    display: block;
+    white-space: nowrap;
+}
+
+.proddetailtext {
+    display: none;
+}
+
+.orderingCode .proddetaillink.open::before {
+    content: '>';
+}
+
+.orderingCode .proddetaillink.closed::before {
+    content: '^';
+}
+
+.orderResultTable .orderNumberPicker.open::before {
+    content: '^';
+}
+
+.orderResultTable .orderNumberPicker.closed::before {
+    content: '>';
+}
+
+#openOrderLineResultTable .orderPicker.closed::before {
+    content: '>';
+}
+
+#openOrderLineResultTable .orderPicker.open::before {
+    content: 'v';
+}
+
+.moreProductDetails {
+    display: none;
+}
+
+.ProductSearchAction_OneLine {
+    cursor: pointer;
+    padding: 5px 10px 5px 10px;
+    -moz-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border-radius: 3px;
+}
+
+@media screen and (max-width:767px) {
+    .responsive a.aslink.proddetaillink, .responsive a.product-details-link {
+        display: inline;
+    }
+
+    .responsive .proddetailtext {
+        display: block;
+    }
+
+    .responsive .orderingCode {
+        width: inherit;
+    }
+
+    .responsive .ProductSearchAction_OneLine {
+        position: absolute;
+        right: 0;
+        top: 10px;
+    }
+
+    .responsive .moreProductDetails {
+        display: block;
+    }
+}
+
+.rowmargin .column, .insiderowmargin {
+    padding-bottom: 20px;
+}
+
+.bottommargin {
+    margin-bottom: 10px;
+}
+
+.borderedrow {
+    border-top: 1px solid #e5e5e5;
+    margin-top: 50px;
+    padding-top: 25px;
+    float: left;
+    display: block;
+}
+
+.noborderedrow {
+    padding-top: 25px;
+    float: left;
+    display: block;
+}
+
+.right {
+    float: right;
+}
+
+.disclaimerheader {
+    font-weight: 400;
+    padding: 5px;
+}
+
+.disclaimerbox {
+    width: 400px;
+    margin: 20px;
+}
+
+.disclaimerbuttons {
+    text-align: center;
+}
+
+.mainContent {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.middle {
+    vertical-align: middle;
+}
+
+.caption {
+    font-size: 10px;
+}
+
+.s4-breadcrumb-menu {
+    background: #f2f2f2;
+}
+
+.s4-ca {
+    background: transparent none repeat scroll 0 0;
+    min-height: 0;
+}
+
+.ms-PartSpacingVertical {
+    display: none;
+}
+
+.ms-rteElement-H1 {
+    font-size: 28px;
+}
+
+.ms-rteElement-H2 {
+    font-size: 24px;
+}
+
+.ms-rteElement-H3 {
+    font-size: 18px;
+}
+
+.ms-rteElement-H4 {
+    font-size: 14px;
+}
+
+.ms-rteElement-H5 {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.ms-rteElement-P {
+    margin: 0 0 16px 0;
+    padding: 0;
+    font-weight: normal;
+    color: #333;
+}
+
+.ms-rtestate-field .ms-rtestate-read .ms-webpartzone-cell {
+    margin: auto;
+}
+
+.ms-rtestate-field h1, h1.ms-rteElement-H1, .ms-rtestate-field h2, h2.ms-rteElement-H2 {
+    color: #000;
+}
+
+.ms-webpart-zone .sidebox, .ms-webpart-zone sidebox-social {
+    width: 99%;
+}
+
+.ms-rtestate-write .pushsection img {
+    width: 175px !important;
+}
+
+.ms-webpart-zone {
+    background-color: #fff;
+}
+
+@media screen and (max-width:568px) {
+    .responsive #inquiries {
+        margin-top: 73px;
+    }
+
+        .responsive #inquiries.coromanttab.specialbodytext .coromanttab_list li {
+            padding: 7px 6px;
+            margin-right: 1px;
+        }
+
+        .responsive #inquiries.coromanttab .coromanttab_list {
+            margin: -73px 0 0 0;
+        }
+
+            .responsive #inquiries.coromanttab .coromanttab_list li {
+                width: 100%;
+                display: block;
+                float: none;
+                max-width: 100%;
+            }
+}
+
+.droplayer .dropbacklink {
+    margin-top: 6px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #aaa;
+}
+
+    .droplayer .dropbacklink a {
+        outline: none;
+        margin-left: 10px;
+        color: #333;
+    }
+
+#taxonomybreadcrumb {
+    padding-left: 10px;
+}
+
+.droplayer {
+    background-color: #fff;
+    background-color: #eaeaea;
+    background-image: url(../../../images/tibp/coromant/dropdown_bg.png);
+    background-repeat: repeat-x;
+    background-position: top;
+    background-image: -moz-linear-gradient(top,#fff,#dedede);
+    background-image: -o-linear-gradient(top,#fff,#dedede);
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#fff),color-stop(1,#dedede));
+    background-image: -webkit-linear-gradient(#fff,#dedede);
+    background-image: linear-gradient(top,#fff,#dedede);
+    -pie-background: linear-gradient(#fff,#dedede 100%);
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -o-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #999;
+    -moz-box-shadow: 2px 2px 4px #333;
+    -webkit-box-shadow: 2px 2px 4px #333;
+    box-shadow: 1px 1px 3px #333;
+    behavior: url(/_layouts/15/tibp/coromant/CSS/PIE_2.htc);
+}
+
+    .droplayer ul {
+        float: left;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        margin-right: 4px;
+    }
+
+    .droplayer.withimages ul li {
+        line-height: 42px;
+        float: left;
+    }
+
+    .droplayer ul.last-child {
+        margin-right: 0;
+    }
+
+    .droplayer ul li {
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin: 0;
+        border-bottom: 1px solid #aaa;
+        border-top: 1px solid #fff;
+        float: left;
+        clear: left;
+    }
+
+        .droplayer ul li:first-child {
+            border-top: none;
+        }
+
+    .droplayer ul .last-child {
+        border-bottom: none;
+    }
+
+    .droplayer ul li a, .droplayer ul li a:link {
+        float: left;
+        padding: 4px 0;
+        color: #333;
+        text-decoration: none;
+        height: 100%;
+        width: 100%;
+        outline: none;
+    }
+
+    .droplayer.withimages ul li a, .droplayer.withimages ul li a:link {
+        padding: 0;
+        width: auto;
+    }
+
+    .droplayer ul li a:hover {
+        color: #000;
+    }
+
+    .droplayer a.droptext {
+        margin-top: 14px;
+        line-height: 12px;
+    }
+
+    .droplayer ul li img {
+        float: left;
+        padding: 3px 12px 3px 0;
+    }
+
+    .droplayer.withimages a.droplink:hover {
+        text-decoration: underline;
+    }
+
+    .droplayer.withimages a.nolink {
+        text-decoration: none !important;
+        cursor: default;
+    }
+
+.zoomicon {
+    background-image: url(../../../images/tibp/coromant/zoom-in.png);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    z-index: 50;
+}
+
+.toolselector {
+    height: 720px;
+}
+
+.toolselectorlight {
+    height: 800px;
+}
+
+H1.corElement-H1 {
+    -ms-name: "Heading 1";
+    color: inherit;
+}
+
+H2.corElement-H2 {
+    -ms-name: "Heading 2";
+    color: inherit;
+}
+
+H3.corElement-H3 {
+    -ms-name: "Heading 3";
+    color: inherit;
+}
+
+H4.corElement-H4 {
+    -ms-name: "Heading 4";
+    color: inherit;
+}
+
+H5.corElement-H5 {
+    -ms-name: "Heading 5";
+    color: inherit;
+}
+
+p.corElement-p {
+    -ms-name: "Paragraph";
+}
+
+p.corElement-preamble {
+    -ms-name: "Preamble";
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.pushsection p {
+    line-height: normal;
+}
+
+p.corElement-caption {
+    -ms-name: "Caption";
+    color: #666;
+}
+
+hr.corElement-hr {
+    -ms-name: "Horizontal rule";
+}
+
+div.corElement-leftcolumn {
+    -ms-name: "Left column1";
+    position: relative;
+    width: 48%;
+    padding-right: 2%;
+    float: left;
+}
+
+div.corElement-rightcolumn {
+    -ms-name: "Right column1";
+    position: relative;
+    width: 47%;
+    padding-left: 2%;
+    float: left;
+}
+
+.corStyle-Symbol {
+    -ms-name: "Font symbol";
+    font-family: Symbol;
+}
+
+.corPosition-1 {
+    -ms-name: "Left";
+    float: left;
+}
+
+.corPosition-2 {
+    -ms-name: "Right";
+    float: right;
+}
+
+.corPosition-3 {
+    -ms-name: "Top";
+    vertical-align: text-top;
+}
+
+.corPosition-4 {
+    -ms-name: "Middle";
+    vertical-align: middle;
+}
+
+.corPosition-5 {
+    -ms-name: "Bottom";
+    vertical-align: text-bottom;
+}
+
+.corTable-Head {
+    -ms-name: "Coromant table";
+}
+
+.corTable-TallHead {
+    -ms-name: "Coromant table - Tall head";
+}
+
+.corTable-Head, .corTable-TallHead {
+    width: 100%;
+    margin-top: 10px;
+    border-spacing: 0;
+    text-align: left;
+}
+
+    .corTable-Head tr > td, .corTable-TallHead tr > td, .corTable-Head tr > th, .corTable-TallHead tr > th {
+        padding: 10px;
+        text-align: center;
+    }
+
+.corTableHeaderRow-Head {
+    background-image: url(../../../images/tibp/coromant/tablehead_tile.png);
+    background-repeat: repeat-x;
+    height: 35px;
+}
+
+.corTableHeaderRow-TallHead {
+    background-image: url(../../../images/tibp/coromant/tablehead_tall_tile.png);
+    background-repeat: repeat-x;
+    height: 52px;
+}
+
+    .corTableHeaderRow-Head td, .corTableHeaderRow-Head th, .corTableHeaderRow-TallHead td, .corTableHeaderRow-TallHead th {
+        padding-top: 0;
+        padding-bottom: 0;
+        text-shadow: 1px 1px 1px #fff;
+    }
+
+        .corTableHeaderRow-Head td a, .corTableHeaderRow-Head th a, .corTableHeaderRow-TallHead td a, .corTableHeaderRow-TallHead th a {
+            color: #333;
+        }
+
+.corTableHeaderRow-Head .corTableHeaderFirstCol-Head {
+    background-image: url(../../../images/tibp/coromant/tablehead_left.png);
+    background-repeat: no-repeat;
+    padding-left: 14px;
+}
+
+.corTableHeaderRow-Head .corTableHeaderLastCol-Head {
+    background-image: url(../../../images/tibp/coromant/tablehead_right.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.corTableHeaderRow-TallHead .corTableHeaderFirstCol-TallHead {
+    background-image: url(../../../images/tibp/coromant/tablehead_tall_left.png);
+    background-repeat: no-repeat;
+    padding-left: 14px;
+}
+
+.corTableHeaderRow-TallHead .corTableHeaderLastCol-TallHead {
+    background-image: url(../../../images/tibp/coromant/tablehead_tall_right.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.corTableOddRow-Head, .corTableOddRow-TallHead {
+    background-color: #f0f0f0;
+}
+
+.selectaction-banner {
+    padding-bottom: 15px;
+}
+
+.banner-content {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 300px;
+}
+
+    .banner-content h3 {
+        margin-top: 16px;
+    }
+
+.drop-bannerwidth {
+    min-width: 100px;
+    max-width: 180px;
+}
+
+.sidemenutitle, .sidemenutitle a {
+    font-family: Verdana,Geneva sans-serif;
+    color: #24252b;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 0 16px 0;
+}
+
+.myPage #leftnav.sidemenu {
+    visibility: hidden;
+}
+
+#relatedItems {
+    padding: 10px 0 0 0;
+}
+
+.relatedItem {
+    padding: 0 0 10px 0;
+}
+
+    .relatedItem .technicalguide img {
+        padding: 5px 5px 5px 0;
+    }
+
+    .relatedItem .technicalguide .body {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .relatedItem .generic {
+        padding: 0 10px 0 10px;
+    }
+
+#productfamilybanner {
+    height: 283px;
+    width: 100%;
+    overflow: hidden;
+    background-image: url(../../../images/tibp/coromant/prod_family_backgroundimage.jpg);
+    background-repeat: no-repeat;
+}
+
+    #productfamilybanner .header {
+        width: 380px;
+    }
+
+    #productfamilybanner .productDescription {
+        width: 380px;
+        margin-top: 16px;
+        font-size: 24px;
+        display: block;
+    }
+
+    #productfamilybanner .productTitle {
+        display: block;
+    }
+
+    #productfamilybanner .bannerimage {
+        float: right;
+        z-index: 10;
+        margin-right: -25px;
+    }
+
+    #productfamilybanner .tabs {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+    }
+
+.banner-text-slide, .banner-double-slide {
+    float: left;
+    padding-bottom: 15px;
+    overflow: hidden;
+    line-height: 1.2;
+}
+
+    .banner-double-slide .bx-controls-direction a.disabled {
+        display: block !important;
+    }
+
+#slider, .doubleSlider {
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 100%;
+}
+
+    #slider .main, .doubleSlider .main {
+        float: left;
+        width: 100%;
+        height: 262px;
+    }
+
+    .doubleSlider h4 {
+        margin-bottom: 2px;
+    }
+
+    #slider .positionright .content, #slider .position .content, .doubleSlider .positionright .content, .doubleSlider .position .content {
+        float: right;
+        width: 423px;
+        margin-left: 10px;
+        margin-right: 55px;
+        margin-top: 40px;
+    }
+
+    #slider .positionleft .content, .doubleSlider .positionleft .content {
+        float: left;
+        width: 423px;
+        margin-left: 55px;
+        margin-top: 40px;
+    }
+
+    #slider li, .doubleSlider li {
+        list-style: none;
+        list-style-type: none;
+        margin: 0;
+        border: 0;
+        padding: 0;
+        float: left;
+        width: 100%;
+    }
+
+        .doubleSlider li.double {
+            width: 350px;
+        }
+
+            .doubleSlider li.double .positionright .content, .doubleSlider li.double .position .content {
+                width: auto;
+                float: right;
+                margin: 20px 20px 0 20px;
+            }
+
+            .doubleSlider li.double .positionleft .content {
+                width: auto;
+                float: left;
+                margin: 20px 20px 0 20px;
+            }
+
+.textwhite, .textwhite a, .textwhite h3, .textwhite h4 {
+    color: #fff !important;
+}
+
+.textgray, .textgray a, .textgray h3, .textgray h4 {
+    color: #333 !important;
+}
+
+.banner-text-slide .prev-button {
+    position: absolute;
+    margin-top: 130px;
+    z-index: 1000;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.banner-text-slide .next-button {
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 901px;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.banner-double-slide .prev-button {
+    position: absolute;
+    margin-top: 130px;
+    z-index: 1000;
+    cursor: pointer;
+    margin-left: -15px;
+}
+
+.banner-double-slide .next-button {
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 685px;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+#ApplicationAreas {
+    margin: 15px 0 20px 0;
+}
+
+.applicationAreasTable {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+    .applicationAreasTable td.outercell {
+        padding: 5px;
+        width: 175px;
+        text-align: center;
+        border-right: 1px solid #d0d0d0;
+        border-bottom: 1px solid #d0d0d0;
+    }
+
+    .applicationAreasTable td table.innertable td.left {
+        width: 60px;
+    }
+
+    .applicationAreasTable td table.innertable td.right {
+        width: 100%;
+        padding-left: 10px;
+        text-align: left;
+    }
+
+    .applicationAreasTable tr.lastrow td {
+        padding-top: 5px;
+        border-right: 1px solid #d0d0d0;
+    }
+
+    .applicationAreasTable td.last {
+        border-right: 0 !important;
+    }
+
+#topbar .right {
+    float: right;
+    margin-left: 30px;
+}
+
+#topbar .mypage {
+    float: right;
+    min-width: 102px;
+}
+
+    #topbar .mypage .mypageIcon {
+        float: left;
+        margin-right: 6px;
+    }
+
+    #topbar .mypage .mypageIconArrow {
+        float: left;
+        margin-left: 10px;
+    }
+
+#topbar .cartItems {
+    padding-left: 16px;
+}
+
+#topbar ul, #topbar li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#topbar .mypagemenu {
+    display: none;
+    border: 1px solid #1c1c1c;
+    margin-top: 12px;
+    position: absolute;
+    border-top: 0;
+    z-index: 10000;
+}
+
+    #topbar .mypagemenu li {
+        background-color: #555;
+    }
+
+        #topbar .mypagemenu li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+        }
+
+            #topbar .mypagemenu li a:hover {
+                text-decoration: underline;
+            }
+
+#topbar_settings {
+    background-color: #555;
+    color: #fff;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+    #topbar_settings .Label {
+        font-weight: 400;
+    }
+
+    #topbar_settings .save_settings {
+        font-weight: 400;
+        margin-top: 25px;
+        padding: 5px 10px 5px 10px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+    }
+
+    #topbar_settings select {
+        margin-top: 10px;
+    }
+
+    #topbar_settings label {
+        margin-top: 16px;
+        display: inline-block;
+    }
+
+    #topbar_settings input[type=radio] {
+        margin-top: 16px;
+    }
+
+#topbar_menucontent {
+    background-color: #555;
+    color: #fff;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+    #topbar_menucontent .links a {
+        display: block;
+    }
+
+.ie7 #topbar_menucontent .links a, .ie8 #topbar_menucontent .links a, .ie9 #topbar_menucontent .links a {
+    width: 49%;
+    float: left;
+}
+
+#topbar_menucontent h2 {
+    color: #fff;
+    font-size: 14px;
+    padding: 0;
+}
+
+#topbar_menucontent a {
+    color: #fff;
+    line-height: 22px;
+}
+
+#loggedinaslink {
+    position: relative;
+}
+
+#loggedinaslink, #change {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+    #loggedinaslink .decoration:hover .my_page, #change:hover .language_setting {
+        text-decoration: underline;
+    }
+
+    #topbar #loggedinaslink .expander.open:after, #change .expander.open:after, #topbar_menucontent .expander.open:after {
+        content: '▲';
+    }
+
+    #topbar #loggedinaslink .expander.closed:after, #change .expander.closed:after, #topbar_menucontent .expander.closed:after {
+        content: '▼';
+    }
+
+#customernumber {
+    margin-right: 10px;
+}
+
+#topbar .signout {
+    display: none;
+}
+
+#topbar .my_page, .language_setting {
+    padding-left: 5px;
+    font-weight: 500;
+}
+
+#topbar_menucontent .signout {
+    font-weight: 400;
+}
+
+#topbar_menucontent .logout {
+    position: absolute;
+    bottom: 20px;
+}
+
+.customer_details {
+    background-color: #666;
+    color: #ccc;
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+    .customer_details > div {
+        line-height: 16px;
+    }
+
+    .customer_details .city {
+        margin-left: 10px;
+    }
+
+#topbar_menucontent a.head {
+    text-decoration: none;
+}
+
+    #topbar_menucontent a.head .name_number:hover {
+        text-decoration: underline;
+    }
+
+#topbar_menucontent .expander {
+    margin-left: 5px;
+}
+
+.pagesDropdown {
+    visibility: hidden;
+}
+
+.datatable .head td.first {
+    height: 35px;
+}
+
+.datatable .head td.last {
+    height: 35px;
+}
+
+.downloadsItem {
+    height: 270px;
+}
+
+.downloadsThumb {
+    height: 173px;
+    overflow: hidden;
+}
+
+img.landscape {
+    width: 140px;
+    margin-top: 25%;
+}
+
+img.portrait {
+    min-height: 173px;
+    width: 100%;
+}
+
+.downloadsTitle {
+    height: 3.65em;
+    overflow: hidden;
+    margin-top: .5em;
+}
+
+.downloadsLinks {
+    height: 3.65em;
+    overflow: hidden;
+    margin-top: .5em;
+}
+
+.downloadsTable {
+    padding-right: 10px;
+}
+
+    .downloadsTable td {
+        padding-bottom: 10px;
+    }
+
+        .downloadsTable td.leftCell {
+            width: 65%;
+        }
+
+            .downloadsTable td.leftCell div {
+                overflow: hidden;
+                width: 140px;
+            }
+
+        .downloadsTable td.rightCell {
+            width: 35%;
+        }
+
+        .downloadsTable td a {
+            color: #4b8232;
+            padding-bottom: 3px;
+        }
+
+    .downloadsTable .date {
+        padding-right: 5px;
+        white-space: nowrap;
+    }
+
+div .contentsource {
+    color: #666;
+}
+
+.horizontalTitle {
+    width: 100%;
+    font-size: 12px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: #cecece 1px solid;
+}
+
+.popupImage {
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.popupContainer {
+    width: 650px;
+    margin: 20px;
+}
+
+    .popupContainer .meta div {
+        float: left;
+        padding-right: 5px;
+    }
+
+    .popupContainer ul {
+    }
+
+ol.topdownloads {
+    width: 198px;
+    float: none;
+    overflow: hidden;
+    padding: 0 10px;
+    list-style-type: decimal;
+}
+
+    ol.topdownloads li {
+        padding-bottom: 5px;
+        float: none;
+        clear: both;
+    }
+
+        ol.topdownloads li a {
+            width: 178px;
+            padding-left: 0;
+            padding-right: 10px;
+            float: none;
+            color: #4b8232;
+            margin-bottom: 3px;
+        }
+
+            ol.topdownloads li a span {
+                float: none;
+                padding: 0;
+            }
+
+.azure-downloads-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.azure-downloads-meta div {
+    float: left;
+    padding-right: 5px;
+}
+
+    .azure-downloads-meta div span {
+        display: inline-block;
+        vertical-align: text-top;
+    }
+
+.azure-downloads-thumb {
+    float: left;
+}
+
+    .azure-downloads-thumb a img {
+        max-height: 140px;
+        max-width: 140px;
+    }
+
+.azure-downloads-btn {
+    width: 200px;
+    float: right;
+}
+
+.followustext {
+    float: left;
+    padding-bottom: 10px;
+}
+
+.selectordrop {
+    float: left;
+    position: relative;
+}
+
+    .selectordrop select {
+        margin: 0;
+        border: 1px solid #999;
+        border-radius: 6px;
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        -o-border-radius: 6px;
+        -khtml-border-radius: 6px;
+        position: relative;
+        z-index: 100;
+        background-image: url(../../../images/tibp/coromant/dropdown_bg.png);
+        background-repeat: repeat-x;
+        background-position: top;
+        background-image: -moz-linear-gradient(top,#fff,#dedede);
+        background-image: -o-linear-gradient(top,#fff,#dedede);
+        background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#fff),color-stop(1,#dedede));
+        background-image: -webkit-linear-gradient(#fff,#dedede);
+        background-image: linear-gradient(top,#fff,#dedede);
+        -pie-background: linear-gradient(#fff,#dedede 100%);
+        behavior: url(/_layouts/15/tibp/coromant/CSS/PIE_2.htc);
+        overflow: visible;
+    }
+
+.userregheader {
+    margin-top: 25px;
+}
+
+.labelcell {
+    padding-top: 12px;
+}
+
+.separator {
+    height: 390px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    width: 2px;
+    border: 0 !important;
+}
+
+.steps {
+    margin-top: 50px;
+}
+
+.slitem {
+    padding-bottom: 6px;
+    padding-top: 6px;
+    padding-left: 4px;
+    padding-right: 0;
+    vertical-align: top;
+    clear: both;
+}
+
+.sllink-item, .link-item a, .link-item a:link {
+    float: left;
+    font-family: tahoma;
+    font-size: 8pt;
+    color: #039;
+    text-decoration: none;
+}
+
+    .link-item a:visited, .link-item a:active {
+        color: #4167af;
+        text-decoration: none;
+    }
+
+    .link-item a:hover {
+        color: #000;
+        text-decoration: underline;
+    }
+
+.link-item-large, .link-item-large a, .link-item-large a:link {
+    font-family: tahoma;
+    font-size: 18pt;
+    color: #039;
+    text-decoration: none;
+}
+
+    .link-item-large a:visited, .link-item-large a:active {
+        color: #4167af;
+        text-decoration: none;
+    }
+
+    .link-item-large a:hover {
+        color: #000;
+        text-decoration: underline;
+    }
+
+.sldescription {
+    font-family: tahoma;
+    font-size: 8pt;
+    color: #4c4c4c;
+}
+
+.slimage-area-left {
+    float: left;
+    padding-right: 5px;
+    padding-left: 0;
+    vertical-align: top;
+}
+
+.slimage-area-right {
+    float: right;
+    padding-left: 5px;
+    padding-right: 0;
+    vertical-align: top;
+    vertical-align: top;
+}
+
+.image-area-top {
+    padding-bottom: 5px;
+}
+
+.image {
+    border: 0;
+}
+
+.image-fixed-width {
+    border: 0;
+    width: 90px;
+}
+
+.slimage-top {
+    padding-bottom: 5px;
+    width: 220px;
+    text-align: center;
+}
+
+.slreadmore {
+    text-align: right;
+}
+
+.bullet {
+    border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    vertical-align: top;
+    background-image: url("/_layouts/15/images/lstbulet.gif");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 10px;
+    padding-right: 0;
+}
+
+.groupheader {
+    font-family: tahoma;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 20pt;
+    font-weight: 400;
+    color: #000;
+    clear: both;
+}
+
+.cart {
+    border-bottom: 1px solid #000;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+    .cart tr td.action {
+        white-space: nowrap;
+    }
+
+.template, .emailtextbox {
+    font-style: italic;
+}
+
+.focused {
+    font-style: normal !important;
+}
+
+.clear {
+    clear: both;
+}
+
+.buyButton {
+    white-space: nowrap;
+}
+
+.searchpaging {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.paging_handler {
+    font: 400 12px/18px Verdana;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+    .paging_handler:hover {
+        text-decoration: underline;
+    }
+
+.aslink {
+    color: #4b8232;
+    border: 0;
+    border-collapse: collapse;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+    .aslink:hover {
+        text-decoration: underline;
+    }
+
+input.prodsearch {
+    font-style: italic;
+}
+
+.searchstats {
+    font-size: 110%;
+}
+
+.searchgroupcontainer {
+    clear: both;
+    text-decoration: none;
+    cursor: pointer;
+    width: 90%;
+    position: relative;
+    padding-bottom: 5px;
+    float: left;
+    display: inline;
+}
+
+.searchgroup {
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+.searchgroupproduct {
+    margin-bottom: 4em;
+    margin-left: 4em;
+    cursor: pointer;
+}
+
+.searchgroupproductimage {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.autocomplete-widget {
+    width: 251px !important;
+    z-index: 9999 !important;
+}
+
+.autocomplete-general-widget {
+    width: 213px !important;
+    z-index: 9999 !important;
+}
+
+.autocomplete-widget p {
+    margin-bottom: 0;
+}
+
+.autocomplete-orderitem {
+    padding-top: 6px;
+    padding-left: 10px;
+    min-height: 48px;
+}
+
+    .autocomplete-orderitem .autocomplete-orderitem-wrapper {
+        padding-left: 48px;
+    }
+
+    .autocomplete-orderitem .autocomplete-orderitem-value {
+        height: 32px;
+        font-weight: 400;
+    }
+
+    .autocomplete-orderitem .autocomplete-orderitem-desc {
+        font-size: .9em;
+        line-height: 1.1em;
+    }
+
+.autocomplete-prodfam {
+    min-height: 50px;
+}
+
+    .autocomplete-prodfam .autocomplete-prodfam-wrapper {
+        padding-left: 54px;
+        padding-top: 6px;
+    }
+
+    .autocomplete-prodfam .autocomplete-prodfam-value {
+        height: 32px;
+        font-weight: 400;
+    }
+
+    .autocomplete-prodfam .autocomplete-prodfam-desc {
+        font-size: .9em;
+        line-height: 1.1em;
+    }
+
+.autocomplete-toolstylecode {
+    padding-top: 6px;
+    padding-left: 10px;
+    min-height: 48px;
+}
+
+    .autocomplete-toolstylecode .autocomplete-toolstylecode-wrapper {
+        padding-left: 48px;
+    }
+
+    .autocomplete-toolstylecode .autocomplete-toolstylecode-value {
+        height: 32px;
+        font-weight: 400;
+    }
+
+    .autocomplete-toolstylecode .autocomplete-toolstylecode-desc {
+        font-size: .9em;
+        line-height: 1.1em;
+    }
+
+.dsnavcontainer {
+    float: left;
+    padding: 10px;
+    margin: .5em .5em 0 0;
+    width: 22%;
+    min-width: 22%;
+    min-height: 12em;
+    background-color: #eee;
+}
+
+    .dsnavcontainer:hover {
+        background-color: #e1e1e1;
+    }
+
+.dsnavcontainer_inner {
+    clear: left;
+    overflow: auto;
+    height: 113px;
+}
+
+.dsf_container, .dsfa_container {
+    padding-bottom: 10px;
+}
+
+.dsnavadditional span {
+    font-size: 12px;
+}
+
+.dsnavcount {
+    color: #d73129;
+}
+
+.dsnavitem {
+    clear: both;
+    padding-bottom: .3em;
+}
+
+.dsnavlink {
+    color: #333 !important;
+    cursor: pointer;
+}
+
+    .dsnavlink:hover {
+        text-decoration: underline;
+    }
+
+.dnfilter {
+    min-height: 7.4em;
+}
+
+.dsfatoggler {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.morefilters {
+    font-size: 12px;
+    padding: 10px 10px;
+    float: left;
+}
+
+.removefilter {
+    margin-top: 10px;
+}
+
+.white {
+    background-color: #fff;
+}
+
+.knowledgenav h4 {
+    margin-left: 12px;
+}
+
+.addtocartpop {
+    padding: 10px;
+    line-height: 1.1em;
+}
+
+    .addtocartpop table {
+        padding-bottom: 10px;
+    }
+
+        .addtocartpop table td {
+            padding-bottom: 6px;
+        }
+
+#returnOrderDetailsTable td, #returnOrderDetailsTable th {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#qoe {
+    position: relative;
+}
+
+    #qoe .hidden {
+        display: none;
+        visibility: hidden;
+    }
+
+    #qoe .datatable {
+        margin-top: 0;
+    }
+
+        #qoe .datatable .head td {
+            font-weight: 400;
+        }
+
+        #qoe .datatable td {
+            padding: 0 4px 0 4px;
+        }
+
+    #qoe .dataRow td {
+        padding: 2px 4px 2px 4px;
+    }
+
+@media screen and (max-width:768px) {
+    .responsive #qoe td, .responsive #qoe th {
+        padding: 2px 0 2px 0;
+    }
+}
+
+#qoe .checkbox {
+    padding-left: 10px;
+}
+
+#qoe .info {
+    position: relative;
+    top: 5px;
+}
+
+#qoe .actions .btn, #cart .actions .btn {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width:420px) {
+    .responsive #qoe .actions .btn, .responsive #cart .actions .btn {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .responsive #cart .template, .responsive #cart #saveTemplateLink, .responsive #cart .btn {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .responsive #cart .left {
+        float: none;
+    }
+
+    .responsive #cart #saveTemplateLink .btn {
+        margin-bottom: 20px;
+    }
+
+    .responsive .toggleOptionalcontainer {
+        text-align: left;
+    }
+
+    .responsive #OrderingCodeTabPanel .connect-rows {
+        margin-left: 0;
+    }
+
+    .responsive .toggleOptionalcontainer #ToggleOptional {
+        display: block;
+    }
+
+    .responsive .QOE_help .expander {
+        margin-left: 0;
+    }
+}
+
+#qoe input[type=file] {
+    border: none;
+}
+
+#qoe .UseBlisterPackService {
+    border: none !important;
+    width: 25px;
+    line-height: 1.5;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#qoe .td-center-align {
+    text-align: center;
+}
+
+#availablefields, #selectedfields {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+    background: #aaa;
+    padding: 5px;
+    width: 200px;
+    min-height: 50px;
+}
+
+    #availablefields li, #selectedfields li {
+        margin: 5px;
+        padding: 5px;
+        font-size: 1.2em;
+        width: 172px;
+        cursor: move;
+    }
+
+#qoe .fields {
+    float: left;
+    margin-bottom: 10px;
+}
+
+    #qoe .fields ul {
+        margin-top: 10px;
+    }
+
+#qoe .padder {
+    padding: 12px 12px 12px 12px;
+}
+
+#availabletemplates {
+    list-style-type: none;
+    padding: 0;
+}
+
+    #availabletemplates li {
+        margin: 0;
+        padding: 5px 0;
+        width: 372px;
+    }
+
+        #availabletemplates li ul {
+            list-style-type: none;
+        }
+
+        #availabletemplates li > a {
+            cursor: pointer;
+            cursor: hand;
+        }
+
+.mytemplates table {
+    width: 100%;
+    margin: 0 0 10px 0;
+}
+
+    .mytemplates table td {
+        padding-left: 0;
+    }
+
+        .mytemplates table td.first, .mytemplates table td.last {
+            width: 10px;
+        }
+
+.mytemplates-item {
+    margin: 0 0 30px 0;
+}
+
+.mytemplates-qty {
+    width: 30px;
+}
+
+.mytemplates-delete {
+    width: 80px;
+    text-align: center;
+}
+
+.mytemplates h3 {
+    border-bottom: 1px solid #666;
+    color: #666;
+    font-size: 13px;
+    padding: 0 0 4px 10px;
+    margin: 0 0 8px 0;
+    background-image: url(../../../images/tibp/coromant/sidemenulevel1arrow.png);
+    background-position: left 4px;
+    background-repeat: no-repeat;
+}
+
+.mytemplates .active h3 {
+    background-image: url(../../../images/tibp/coromant/sidemenulevel1arrow_expanded.png);
+}
+
+.mytemplates-item-delete {
+    margin-top: 5px;
+    float: right;
+    padding: 2px 2px 2px 0;
+}
+
+div.fileinputs {
+    position: relative;
+}
+
+div.fakefile {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+input.file {
+    position: relative;
+    text-align: right;
+    -moz-opacity: 0;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    z-index: 2;
+}
+
+.SearchInvoice {
+    padding: 0 5px 0 5px;
+}
+
+.SearchInvoiceDisabled {
+    padding: 0 5px 0 5px;
+}
+
+.qoe-autocomplete {
+    z-index: 2000 !important;
+}
+
+.NetPriceTotalElement, .ListPriceTotalElement {
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.inp_textfield_variable_length {
+    padding: 6px !important;
+    border-top: 1px solid #b3b3b3 !important;
+    border-right: 1px solid #e1e1e1 !important;
+    border-left: 1px solid #e5e5e5 !important;
+    border-bottom: 1px solid #efefef !important;
+    margin: 6px 0 !important;
+}
+
+.customerinfo {
+    min-height: 13px;
+    margin-left: 10px;
+    padding-right: 20px;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    width: 15px;
+    cursor: pointer;
+    background-image: url(/_layouts/15/images/tibp/coromant/mypageiconarrow.png);
+    background-repeat: no-repeat;
+}
+
+#searchresult .buycell {
+    padding-right: 10px;
+}
+
+#invoiceDetailContents {
+    padding: 10px;
+}
+
+    #invoiceDetailContents hr {
+        display: none;
+    }
+
+.additionalInvoiceDetails {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.showinvoiceDetails {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#productsearchresult {
+}
+
+    #productsearchresult .orderingCode {
+        width: 100px;
+    }
+
+.ProductDetailsResult .specialbodytext {
+    background: none;
+    border: none;
+    width: 50%;
+    float: left;
+}
+
+    .ProductDetailsResult .specialbodytext div {
+        margin: 0;
+    }
+
+#ProductInformationTable .head td, #AvailabilityInformationTable .head td {
+    background: none;
+}
+
+ul.archive-filters {
+    width: 198px;
+    float: none;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 0;
+    list-style-type: none;
+}
+
+    ul.archive-filters ul {
+        padding-bottom: 0;
+        padding-top: 6px;
+    }
+
+    ul.archive-filters li {
+        float: left;
+        clear: both;
+        margin: 6px 0 0 10px;
+        padding-bottom: 0;
+        list-style: none;
+    }
+
+        ul.archive-filters li li {
+            margin-left: 0;
+        }
+
+        ul.archive-filters li a {
+            width: 178px;
+            padding-left: 0;
+            padding-right: 10px;
+            float: left;
+            color: #4b8232;
+            margin-bottom: 3px;
+        }
+
+.news-archive-filters {
+    background-image: url("/_layouts/15/images/tibp/coromant/sidemenugradient.png");
+    background-repeat: repeat-x;
+    background-position: center bottom;
+    border: 1px solid #cecece;
+    padding: 10px;
+}
+
+.news-archive-filter-heading {
+    font-weight: 400;
+}
+
+span.news-archive-taglink {
+    color: #b0b0b0;
+}
+
+a.news-archive-taglink {
+    color: #b0b0b0;
+}
+
+h3.news-archive-rollup-heading {
+    margin-bottom: 10px;
+}
+
+.fading-background {
+    background-image: url(/_layouts/15/images/tibp/coromant/sidemenugradient.png);
+    background-repeat: repeat-x;
+    background-position: center bottom;
+}
+
+.dialog-heading {
+    font-size: 18px;
+}
+
+.dialog-ingress {
+    font-style: italic;
+    margin-top: 4px;
+}
+
+.dialog-question {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+.message {
+    padding: 2px 4px;
+    margin: 10px 0;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    clear: both;
+    float: left;
+    line-height: 30px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -o-border-radius: 6px;
+    -khtml-border-radius: 6px;
+}
+
+    .message.success {
+        border: solid 1px #c0f0b9;
+        background: #d5ffc6;
+        color: #48a41c;
+    }
+
+    .message.error {
+        background: #f0ad4e;
+        color: #fff;
+    }
+
+    .message.warning {
+        background: #f0ad4e;
+        color: #fff;
+    }
+
+    .message.info {
+        background: #f0ad4e;
+        color: #fff;
+    }
+
+#content_wrap .bx-wrapper .bx-viewport {
+    border: none;
+    box-shadow: none;
+    left: 0;
+}
+
+#content_wrap .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    bottom: 5px;
+    position: absolute;
+    width: 100%;
+    z-index: 51;
+}
+
+#content_wrap .bx-wrapper .bx-prev {
+    left: 10px;
+    background: url(/_layouts/15/images/tibp/coromant/prevbutton.png) no-repeat;
+}
+
+#content_wrap .bx-wrapper .bx-next {
+    right: 10px;
+    background: url(/_layouts/15/images/tibp/coromant/nextbutton.png) no-repeat;
+}
+
+#content_wrap .bx-wrapper .bx-prev:hover {
+    background: url(/_layouts/15/images/tibp/coromant/prevbutton.png) no-repeat;
+}
+
+#content_wrap .bx-wrapper .bx-next:hover {
+    background: url(/_layouts/15/images/tibp/coromant/nextbutton.png) no-repeat;
+}
+
+#content_wrap .bx-wrapper .bx-pager.bx-default-pager a {
+    background: none repeat scroll 0 0 #fff;
+    border: thin solid #999;
+    border-radius: 6px 6px 6px 6px;
+    display: block;
+    height: 12px;
+    margin: 0 6px;
+    outline: 0 none;
+    text-indent: -9999px;
+    width: 12px;
+}
+
+    #content_wrap .bx-wrapper .bx-pager.bx-default-pager a.active {
+        background: none repeat scroll 0 0 transparent;
+    }
+
+.excel-slider-container {
+    width: 200px;
+}
+
+    .excel-slider-container .excel-values {
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+
+    .excel-slider-container .minvalue, .excel-slider-container .maxvalue, .excel-slider-container .slidevalue {
+        font-size: 10px;
+        width: 35px;
+        float: right;
+        margin-top: -4px;
+        border: 1px solid #e5e5e5;
+        padding: 2px;
+    }
+
+    .excel-slider-container .excel-separator {
+        margin: 0 6px;
+        float: right;
+    }
+
+.no-left-margin {
+    margin-left: 0 !important;
+}
+
+.catalogue-link-row-margin {
+    margin-right: 6px;
+}
+
+#locale, .menucontent, #topbar .topbar_content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+}
+
+.non-responsive {
+}
+
+    .non-responsive #header, .non-responsive #topbar, .non-responsive #topbar_menucontent, .non-responsive #topbar_settings {
+    }
+
+    .non-responsive #footer {
+        width: 940px;
+    }
+
+#locale .col, .menucontent .col {
+    width: 22%;
+    margin-left: 2%;
+    float: left;
+}
+
+.menucontent .links {
+    width: 45%;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+}
+
+.menucontent h2 {
+    margin-left: 10px;
+}
+
+@media screen and (max-width:500px) {
+    .menucontent .links {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+}
+
+@media screen and (max-width:666px) {
+    .responsive .menucontent .col {
+        width: 94%;
+    }
+
+        .responsive .menucontent .col.links {
+            margin-top: 10px;
+            margin-left: 30px;
+        }
+
+        .responsive .menucontent .col .name_number {
+            margin-left: 20px;
+        }
+
+    .responsive #topbar_menucontent .menucontent .links a {
+        width: 55%;
+    }
+
+    .responsive #topbar_menucontent .logout {
+        position: inherit;
+    }
+
+    .responsive #topbar_menucontent .use {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width:666px)and (min-width:400px) {
+    .responsive #locale .col {
+        width: 46%;
+        margin-left: 4%;
+    }
+
+        .responsive #locale .col select {
+            margin-top: 5px;
+        }
+
+        .responsive #locale .col.second {
+            margin-top: 20px;
+        }
+
+        .responsive #locale .col label {
+            margin-top: 12px;
+        }
+
+    #locale > .col:nth-child(3) {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:399px) {
+    .responsive #locale .col {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+        .responsive #locale .col select {
+            margin-top: 5px;
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+
+        .responsive #locale .col.second {
+            margin-top: 0;
+        }
+
+        .responsive #locale .col input {
+            margin-left: 5%;
+        }
+
+        .responsive #locale .col label {
+            margin-top: 12px;
+        }
+
+        .responsive #locale .col .label {
+            margin-left: 5%;
+        }
+
+    .responsive #locale .dropdown {
+        float: none;
+    }
+
+    .responsive #locale .selectordrop {
+        float: none;
+    }
+}
+
+@media screen and (max-width:979px)and (min-width:769px) {
+    .responsive #topbar .row {
+        width: 768px;
+    }
+}
+
+@media screen and (max-width:768px)and (min-width:569px) {
+    .responsive #topsearch {
+        right: 10px;
+    }
+
+    .responsive #newstable td:first-child {
+        width: 120px;
+    }
+
+    .responsive #footer .grid_4 {
+        width: 50%;
+        float: left;
+    }
+
+        .responsive #footer .grid_4:last-child {
+            float: right;
+        }
+}
+
+@media screen and (max-width:768px) {
+    .responsive {
+    }
+
+        .responsive #locale {
+            width: 100%;
+        }
+
+        .responsive .menucontent {
+            width: 100%;
+        }
+
+        .responsive #topbar .topbar_content {
+            width: 96%;
+        }
+
+        .responsive #topbar_menucontent h2, .responsive .responsive #topbar_menucontent .customer, .responsive .responsive #topbar_menucontent .links {
+            padding-left: 20px;
+        }
+
+        .responsive #menu {
+            margin: 0;
+        }
+
+        .responsive #topbar {
+            padding-left: 0;
+        }
+
+        .responsive .application_overview {
+            width: 100%;
+        }
+
+        .responsive #contact_us {
+            display: none !important;
+        }
+
+        .responsive #topbar .row {
+            width: 100%;
+        }
+}
+
+.short-name {
+    display: none;
+}
+
+@media screen and (max-width:640px) {
+    .responsive .long-name, .responsive .language_setting, .responsive #topbar .my_page {
+        display: none;
+    }
+
+    .responsive .short-name {
+        display: inherit;
+    }
+
+    .responsive #topbar {
+        padding-right: 5px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .responsive #customernumber {
+        margin-right: 5px;
+    }
+
+    .responsive .long-name, .responsive .responsive .language_setting, .responsive .responsive #topbar .my_page, .responsive .responsive .name, .responsive .cartItems .items {
+        display: none;
+    }
+
+    .responsive .short-name {
+        display: inherit;
+    }
+
+    .responsive #topbar {
+        padding-right: 0;
+    }
+
+        .responsive #topbar .topbar_content {
+            padding-left: 5px !important;
+        }
+}
+
+@media screen and (max-width:380px) {
+    .responsive #topbar #loggedinas {
+        max-width: 31%;
+        display: inline-block;
+        white-space: nowrap;
+        overflow-x: hidden;
+        position: relative;
+        top: 4px;
+    }
+}
+
+.buildingblock {
+    position: relative;
+    height: 250px;
+    max-height: 250px;
+    width: 300px;
+    border: 1px solid #555;
+    margin-bottom: 20px;
+}
+
+    .buildingblock .title {
+        background-color: #555;
+        height: 38px;
+        float: left;
+        width: 300px;
+        line-height: 38px;
+        text-indent: 10px;
+    }
+
+        .buildingblock .title h4 {
+            color: #fff;
+        }
+
+    .buildingblock .content {
+        position: relative;
+        display: inline-block;
+        min-width: 280px;
+        width: 280px;
+        min-height: 192px;
+        line-height: normal;
+        padding: 10px;
+        vertical-align: top;
+        background-image: url(/_layouts/15/images/tibp/coromant/sidemenugradient.png);
+        background-repeat: repeat-x;
+        background-position: center bottom;
+    }
+
+.dropdownpagenavigation {
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .responsive ul.pagesTabs {
+        padding-left: 10px;
+    }
+
+        .responsive ul.pagesTabs li {
+            margin-right: 3px;
+        }
+}
+
+@media screen and (max-width:630px) {
+    .responsive ul.pagesTabs {
+        padding-left: 5px;
+    }
+
+        .responsive ul.pagesTabs li {
+            margin-right: 2px;
+        }
+
+            .responsive ul.pagesTabs li a {
+                padding: 3px 4px 3px 4px;
+                font-size: 10px;
+            }
+}
+
+@media screen and (max-width:520px) {
+    .responsive ul.pagesTabs {
+        padding-left: 1px;
+    }
+
+        .responsive ul.pagesTabs li {
+            margin-right: 1px;
+        }
+
+            .responsive ul.pagesTabs li a {
+                padding: 2px 3px 2px 3px;
+                font-size: 9px;
+            }
+}
+
+@media screen and (max-width:500px) {
+    .responsive ul.pagesTabs {
+        padding-left: 1px;
+    }
+
+        .responsive ul.pagesTabs li {
+            float: none;
+        }
+
+            .responsive ul.pagesTabs li a {
+                font-size: 11px;
+            }
+}
+
+.responsive #ProductSearchTabPanel .inputtable {
+    margin-bottom: 20px;
+}
+
+    .responsive #ProductSearchTabPanel .inputtable td {
+    }
+
+    .responsive #ProductSearchTabPanel .inputtable input, .responsive #ProductSearchTabPanel .inputtable select {
+        width: 100%;
+    }
+
+@media screen and (max-width:500px) {
+    .responsive #ProductSearchTabPanel .inputtable tr, .responsive #ProductSearchTabPanel .inputtable td {
+        display: block;
+        margin: 0;
+    }
+
+    .responsive #ProductSearchTabPanel .inputtable td {
+        width: 100%;
+    }
+
+    .responsive #ProductSearchTabPanel .inputtable input, .responsive #ProductSearchTabPanel .inputtable select {
+        width: 100%;
+    }
+}
+
+#toprowbutton {
+    display: none;
+}
+
+.responsive .nike td {
+    width: 25%;
+}
+
+    .responsive .nike td input[type=text], .responsive .nike td select {
+        width: 100%;
+    }
+
+.localAdressAction {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: -20px;
+}
+
+#LocalAddressBook {
+    width: 100%;
+}
+
+    #LocalAddressBook input {
+        width: 90%;
+    }
+
+#backendheader .backend-search-help-tooltip {
+    display: none;
+}
+
+#delivery-address {
+    margin-bottom: 15px;
+}
+
+.backend-address-listing {
+    padding-bottom: 15px;
+}
+
+@media screen and (max-width:568px) {
+    .responsive .nike tr {
+        display: block;
+    }
+
+        .responsive .nike tr td {
+            display: block;
+            margin: 0;
+        }
+
+    .responsive #LocalAddress {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .responsive #LocalAddressBook tr {
+        display: block;
+    }
+
+        .responsive #LocalAddressBook tr td {
+            display: block;
+            margin: 0;
+        }
+
+            .responsive #LocalAddressBook tr td input {
+                width: 100%;
+            }
+
+    .responsive .localAdressAction {
+        margin-left: 0;
+    }
+
+    .responsive .nike td {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:990px) {
+    .responsive #delivery-address-different h3, .responsive .thirdPartyShippingPanel h3 {
+        margin-top: 20px;
+    }
+}
+
+#delivery-address-different {
+    position: inherit;
+}
+
+@media screen and (max-width:568px) {
+    table#LocalAddress tr:last-child td:nth-child(3) {
+        text-align: left;
+    }
+}
+
+.moduleTabs UL LI A, .moduleTabs UL LI A.active {
+    height: 33px !important;
+}
+
+#OrderingCodeTabPanel .connect-rows {
+    margin-left: 10px;
+}
+
+#OrderingCodeTabPanel .OrderingCodeTabPanel {
+    padding: .7em;
+}
+
+#OrderingCodeTabPanel .alertIcon {
+    float: left;
+    margin-right: .3em;
+}
+
+.showDetailsContainer {
+    margin-top: 10px;
+}
+
+#customerUserData select, #customerUserData input[type=text] {
+    width: 100%;
+}
+
+.showaddresses a, .changePassword a {
+    font-size: 14px;
+}
+
+.updateCustomerContainer, .savePasswordContainer {
+    text-align: right;
+}
+
+.changePasswordContainer .inp_textfield {
+    width: 100%;
+}
+
+.changePassword.expander {
+    margin-left: -10px;
+    margin-top: 10px;
+}
+
+    .changePassword.expander.open::before {
+        content: 'v';
+        margin-right: -3px;
+    }
+
+    .changePassword.expander.closed::before {
+        content: '>';
+        margin-right: -3px;
+    }
+
+.showaddresses {
+    margin-top: 20px;
+    margin-left: 0;
+}
+
+.mysettings {
+    margin-bottom: 20px;
+}
+
+    .mysettings h4 {
+        margin-top: 30px;
+    }
+
+    .mysettings .marketing label {
+        width: 80%;
+    }
+
+    .mysettings .marketing input[type='checkbox'] {
+        vertical-align: top;
+    }
+
+@media screen and (max-width:568px) {
+    .responsive .showaddresses {
+        margin-left: 10px;
+    }
+
+    .responsive .changePassword.expander {
+        margin-left: 0;
+    }
+
+    .responsive #customerUserData td {
+        width: 100% !important;
+        display: block;
+        margin: 0;
+        vertical-align: top;
+    }
+}
+
+.QOE_help {
+    margin-bottom: 5px;
+}
+
+    .QOE_help a {
+        font-weight: 400;
+    }
+
+    .QOE_help .expander {
+        margin-left: 16px;
+        display: inline-block;
+        padding: 5px;
+    }
+
+    .QOE_help.open .expander {
+        background-color: #f2f2f2;
+    }
+
+        .QOE_help.open .expander::before {
+            content: 'v';
+            margin-right: 5px;
+        }
+
+    .QOE_help.open .expandee {
+        padding: 5px;
+        background-color: #f2f2f2;
+    }
+
+    .QOE_help.open .innerExpander {
+        padding: 5px;
+    }
+
+        .QOE_help.open .innerExpander.open::before {
+            content: 'v';
+            margin-right: 5px;
+        }
+
+        .QOE_help.open .innerExpander.closed::before {
+            content: '>';
+            margin-right: 5px;
+        }
+
+        .QOE_help.open .innerExpander.closed .innerExpandee {
+            display: none;
+        }
+
+    .QOE_help.closed .expander::before {
+        content: '>';
+        margin-right: 5px;
+    }
+
+    .QOE_help.closed .expandee {
+        display: none;
+    }
+
+.toggleOptionalcontainer {
+    text-align: right;
+}
+
+.form-control:focus {
+    border-color: #ccc !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+.paging-link {
+    display: inline-block;
+    float: right;
+}
+
+    .paging-link a.btn {
+        color: #4b8232 !important;
+    }
+
+        .paging-link a.btn:hover {
+            color: #4b8232 !important;
+            text-decoration: underline !important;
+        }
+
+.new-line {
+    display: block;
+}
+
+#qoeUploadFile h3 {
+    margin-top: 30px;
+}
+
+    #qoeUploadFile h3:first-child {
+        margin-top: 20px;
+    }
+
+#qoeUploadFile p {
+    margin: 0 0 15px;
+}
+
+#qoeUploadFile .textright {
+    text-align: left;
+}
+
+#shopping-cart-wrapper {
+    border: 1px solid #e4e4e4;
+    padding: 15px;
+    margin-bottom: 30px;
+    background-color: #fcfcfc;
+}
+
+    #shopping-cart-wrapper .section-container {
+        border: none;
+        padding: 0;
+    }
+
+#qoeTemplate h3 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#qoeTemplate h4 {
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+#TemplateTabPanel .actionButtons .btn {
+    color: #4b8232;
+    border: none;
+    background: none;
+}
+
+    #TemplateTabPanel .actionButtons .btn:hover {
+        border: none;
+        background: none;
+        text-decoration: underline;
+    }
+
+#TemplateTabPanel .actionButtons .btn-primary {
+    color: #fff;
+    border-color: #398439;
+    background-color: #42732c;
+    text-decoration: none;
+    background: #4b8232;
+    border-top: 1px solid #688c42;
+    border-bottom: 1px solid #4b8232;
+    border-left: 1px solid #4b8232;
+    border-right: 1px solid #4b8232;
+    padding: 4px 19px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.65);
+}
+
+    #TemplateTabPanel .actionButtons .btn-primary:hover {
+        color: #fff;
+        border: 1px solid #398439;
+        background-color: #42732c;
+        text-decoration: none;
+    }
+
+.replacementTable .AddButton {
+    color: #fff;
+    border-color: #398439;
+    background-color: #42732c;
+    text-decoration: none;
+    background: #4b8232;
+    border-top: 1px solid #688c42;
+    border-bottom: 1px solid #4b8232;
+    border-left: 1px solid #4b8232;
+    border-right: 1px solid #4b8232;
+    padding: 4px 19px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.65);
+}
+
+.btn.AddButton {
+    margin-top: 15px;
+    color: #fff;
+    border-color: #398439;
+    background-color: #42732c;
+    text-decoration: none;
+    background: #4b8232;
+    border-top: 1px solid #688c42;
+    border-bottom: 1px solid #4b8232;
+    border-left: 1px solid #4b8232;
+    border-right: 1px solid #4b8232;
+    padding: 4px 19px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.65);
+}
+
+    .btn.AddButton:hover {
+        color: #fff;
+        border-color: #398439;
+        background-color: #42732c;
+        text-decoration: none;
+    }
+
+#change-customer-login-form {
+    display: none;
+}
+
+@media screen and (max-width:767px) {
+    a, a:hover, a:focus, a:link, a:visited {
+        text-shadow: none;
+        text-decoration: none;
+        color: #000;
+    }
+
+    .QOE_help a {
+        color: #000;
+    }
+
+    .pagesTabs, .coromanttab {
+        margin: 0;
+        padding: 0;
+    }
+
+        .pagesTabs li, .coromanttab li {
+            width: 100%;
+        }
+
+            .pagesTabs li.selcted, .coromanttab li.selcted {
+                background: #4b8232;
+            }
+
+    #OrderingCodeTabPanel {
+        overflow: auto;
+    }
+
+    .section-container {
+        overflow: hidden;
+    }
+
+        .section-container .cart, .section-container .datatable {
+            overflow: auto;
+        }
+}
+
+#shoppingcart .datafieldproductname {
+    display: block;
+}
+
+#ProductSearchTabPanel h3 {
+    margin-top: 20px;
+}
+
+#ToggleOptional.aslink {
+    display: inline-block;
+}
+
+.key_CompanyName .inp_textfield, .key_Line1 .inp_textfield {
+    width: 100% !important;
+}
+
+select.ConnectCode {
+    max-width: 120px;
+}
+
+.save-as-csv, .print-cart {
+    color: #fff;
+    background: #4b8232;
+    border-top: 1px solid #688c42;
+    border-bottom: 1px solid #4b8232;
+    border-left: 1px solid #4b8232;
+    border-right: 1px solid #4b8232;
+    padding: 4px 19px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.65);
+    margin-left: 10px;
+}
+
+    .save-as-csv:hover, .print-cart:hover {
+        color: #fff;
+        border-color: #398439;
+        background-color: #42732c;
+        text-decoration: none;
+    }
+
+    .save-as-csv .download-icon, .print-cart .download-icon {
+        width: 16px;
+        height: 16px;
+        margin: 0;
+        background: url('./../img/icon_download_w.png') no-repeat;
+        background: url('./../img/icon_download_w.svg') no-repeat,none;
+        display: block;
+    }
+
+    .save-as-csv .print-icon, .print-cart .print-icon {
+        width: 16px;
+        height: 16px;
+        margin: 0;
+        background: url('./../img/icon_print_w.png') no-repeat;
+        background: url('./../img/icon_print_w.svg') no-repeat,none;
+        display: block;
+        background-size: contain;
+    }
+
+.row.print-hide, #bottomrowprint {
+    padding-right: 7px;
+}
+
+.datatable td:last-child a.btn {
+    color: #fff;
+}
+
+    .datatable td:last-child a.btn:hover {
+        text-decoration: none;
+    }
+
+#addressDeletedRow {
+    background: #4b8232;
+    color: #fff;
+}
+
+    #addressDeletedRow div, #addressDeletedRow p, #addressDeletedRow label {
+        margin: 0;
+        padding: 0;
+    }
+
+    #addressDeletedRow div {
+        margin-bottom: 20px;
+    }
+
+    #addressDeletedRow p {
+        padding: 15px;
+    }
+
+        #addressDeletedRow p label {
+            color: #fff;
+            font-weight: 400;
+        }
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    list-style: none;
+    font-size: 14px;
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0 !important;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    background-clip: padding-box;
+}
+
+@media screen and (max-width:767px) {
+    ul.ui-autocomplete.ui-menu.ui-widget.ui-widget-content {
+        background: #fff;
+        left: 0;
+        width: auto !important;
+        max-height: auto;
+    }
+}
+
+.wag-tab-navigation.btn-group {
+    width: 100%;
+    background-color: #4e4e4e;
+    height: 40px;
+}
+
+    .wag-tab-navigation.btn-group a.btn {
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 40px;
+        float: left;
+        padding: 0 15px 0 15px;
+        position: relative;
+        border: none;
+        background: none;
+        color: #fff;
+    }
+
+        .wag-tab-navigation.btn-group a.btn.active {
+            background-color: #4b8232;
+            color: #fff;
+        }
+
+            .wag-tab-navigation.btn-group a.btn.active:after {
+                top: 100%;
+                left: 50%;
+                border: solid transparent;
+                content: " ";
+                height: 0;
+                width: 0;
+                position: absolute;
+                pointer-events: none;
+                border-width: 8px;
+                margin-left: -8px;
+                border-top-color: #4b8232;
+            }
+
+.ui-sortable li:before {
+    display: none;
+}
+
+table input[type=password], table input[type=text], table input[type=file], table textarea, table .ms-inputBox, table input[type=password]:hover, table input[type=text]:hover, table input[type=file]:hover, table textarea:hover, table .sp-peoplepicker-topLevel:hover, table .ms-inputBox:hover, table .temp_textfield, table .temp_dropdown, table .inp_textfield, table .inp_dropdown, table select, #qoe input[type=password], #qoe input[type=text], #qoe input[type=file], #qoe textarea, #qoe .ms-inputBox, #qoe input[type=password]:hover, #qoe input[type=text]:hover, #qoe input[type=file]:hover, #qoe textarea:hover, #qoe .sp-peoplepicker-topLevel:hover, #qoe .ms-inputBox:hover, #qoe .temp_textfield, #qoe .temp_dropdown, #qoe .inp_textfield, #qoe .inp_dropdown, #qoe select {
+    border-radius: 2px !important;
+    background-color: #fff !important;
+    border-color: #dcdcdc !important;
+    border-top: 1px solid #dcdcdc !important;
+    border-bottom: 1px solid #dcdcdc !important;
+    border-right: 1px solid #dcdcdc !important;
+    border-left: 1px solid #dcdcdc !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    outline: none;
+    padding: 4px !important;
+    height: 30px !important;
+}
+
+table form.wag-standard-form textarea, #qoe form.wag-standard-form textarea {
+    margin-bottom: 15px;
+    height: 115px;
+}
+
+a, .ui-button-text-only {
+    font-color: #4b8232;
+}
+
+    a:hover, .ui-button-text-only:hover {
+        color: #4b8232;
+    }
+
+.btn:hover, .btn:focus {
+    text-decoration: underline;
+}
+
+#qoe .actions .btn, #cart .actions .btn {
+    margin-left: -10px;
+    margin-right: 15px;
+    margin-top: 0;
+}
+
+    #qoe .actions .btn:hover, #qoe .actions .btn:focus, #cart .actions .btn:hover, #cart .actions .btn:focus {
+        text-decoration: none;
+        color: #fff;
+    }
+
+#qoe .actions #btnClearAll:hover {
+    color: #4b8232;
+    text-decoration: underline;
+}
+
+#qoe .actions span.btn:hover, #qoe .actions span.btn:focus, #cart .actions span.btn:hover, #cart .actions span.btn:focus, #qoe .ui-button-text-only:hover, #qoe .ui-button-text-only:focus {
+    text-decoration: underline;
+    color: #4b8232;
+}
+
+.print-icon {
+    width: 16px;
+    height: 16px;
+    margin: 8px 2px 0 0;
+    background: url('./../img/icon_catalog_readmore_plus.png') no-repeat;
+    background: url('./../img/icon_catalog_readmore_plus.svg') no-repeat,none;
+}
+
+.actions .btn:last-child {
+    margin-right: 0 !important;
+}
+
+#qoe .actions {
+    margin: 15px 0 5px 10px;
+}
+
+#shoppingcart td:nth-child(8), #shoppingcart td:nth-child(9) {
+    min-width: 90px;
+}
+
+#OrderTable td.ShippingDate {
+    min-width: 108px;
+}
+
+.alert {
+    border: none !important;
+    padding: 15px;
+}
+
+    .alert .alert {
+        padding: 0;
+        margin: 0;
+    }
+
+#qoe #btnClearAll, #cart .actions span.btn {
+    color: #4b8232;
+}
+
+.btn.btn-primary, .btn-primary, a.btn.ui-priority-primary, .actionButtons .btn-primary, #ProductSearchTabPanel .btn-primary, .btn.select-customer-button {
+    color: #fff;
+    background: #4b8232;
+    border-top: 1px solid #688c42;
+    border-bottom: 1px solid #4b8232;
+    border-left: 1px solid #4b8232;
+    border-right: 1px solid #4b8232;
+    padding: 4px 19px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.65);
+}
+
+    .btn.btn-primary:hover, .btn-primary:hover, a.btn.ui-priority-primary:hover, .actionButtons .btn-primary:hover, #ProductSearchTabPanel .btn-primary:hover, .btn.select-customer-button:hover {
+        color: #fff;
+        border-color: #398439;
+        background-color: #42732c;
+        text-decoration: none;
+    }
+
+.QOE_help .expander {
+    width: 100%;
+    margin-left: 0;
+}
+
+.QOE_help .expandee {
+    margin-left: 5px;
+}
+
+.QOE_help .expander, .QOE_help .expandee {
+    padding-left: 1px;
+}
+
+    .QOE_help .expander a, .QOE_help .expandee a {
+        margin-left: 5px;
+        font-weight: 400;
+        color: #000;
+    }
+
+        .QOE_help .expander a:hover, .QOE_help .expander a:visited, .QOE_help .expander a:active, .QOE_help .expander a:focus, .QOE_help .expandee a:hover, .QOE_help .expandee a:visited, .QOE_help .expandee a:active, .QOE_help .expandee a:focus {
+            color: #000;
+        }
+
+.QOE_help.open .expander, .QOE_help.open .expandee {
+    background: none;
+}
+
+    .QOE_help.open .expander a, .QOE_help .innerExpander.open a {
+        font-weight: 500;
+    }
+
+.orderResultTable .orderNumberPicker.closed::before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    margin: 4px 2px 0 0;
+    background: url('/style library/tibp/walter/img/icon_n4a_faq_arrow.png') no-repeat;
+    background: url('/style library/tibp/walter/img/icon_nba_faq_arrow.svg') no-repeat,none;
+    float: left;
+    display: block;
+}
+
+.orderResultTable .orderNumberPicker.open::before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    margin: 4px 2px 0 0;
+    background: url('/style library/tibp/walter/img/icon_n4a_faq_arrow.png') no-repeat;
+    background: url('/style library/tibp/walter/img/icon_nba_faq_arrow.svg') no-repeat,none;
+    float: left;
+    display: block;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.QOE_help.closed .expander::before, .QOE_help.open .innerExpander.closed::before {
+    content: '';
+    width: 7px;
+    height: 9px;
+    margin: 8px 2px 0 0;
+    background: url('/style library/tibp/walter/img/icon_arrow_numeration_linklist.png') no-repeat;
+    background: url('/style library/tibp/walter/img/icon_arrow_numeration_linklist.svg') no-repeat,none;
+    float: left;
+    display: block;
+}
+
+.QOE_help.open .expander::before, .QOE_help.open .innerExpander.open::before {
+    content: '';
+    width: 7px;
+    height: 9px;
+    margin: 8px 2px 0 0;
+    background: url('/style library/tibp/walter/img/icon_arrow_numeration_linklist.png') no-repeat;
+    background: url('/style library/tibp/walter/img/icon_arrow_numeration_linklist.svg') no-repeat,none;
+    float: left;
+    display: block;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.orderResultTable .orderNumberPicker.closed::before {
+    margin-right: 7px;
+}
+
+.orderResultTable .orderNumberPicker.open::before {
+    margin-right: 7px;
+}
+
+#saveTemplateLink .btn {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.order-entry {
+    margin-top: 80px;
+}
+
+.specialbodytext > * {
+    margin: 0;
+}
+
+.specialbodytext {
+    width: 100%;
+    background: #fcfcfc;
+    border: 1px solid #e4e4e4;
+    border-radius: 0;
+    z-index: 100;
+    position: relative;
+    padding: 15px;
+    z-index: 0;
+}
+
+    .specialbodytext h3 {
+        padding: 0;
+        margin-bottom: 15px;
+    }
+
+    .specialbodytext.nike h3 {
+        margin-bottom: 15px !important;
+    }
+
+    .specialbodytext.nike input, .specialbodytext.nike label {
+        display: inline;
+    }
+
+    .specialbodytext.nike label {
+        font-weight: 500;
+        margin-right: 10px;
+    }
+
+.aslink {
+    color: #4b8232;
+    display: block;
+}
+
+.orderNumberPicker span {
+    color: #4b8232;
+    margin-left: 7px;
+}
+
+.orderNumberPicker:hover span {
+    text-decoration: underline;
+    color: #4b8232;
+}
+
+.orderNumberPicker.open span {
+    color: #4b8232;
+}
+
+.connect-rows {
+    margin-right: 0;
+}
+
+#ConnectRows {
+    display: inline-block;
+}
+
+#qoe .pagesTabs {
+    margin-top: -44px !important;
+}
+
+.coromanttab li, .pagesTabs li, ul.coromanttab, ul.pagesTabs, ul.coromanttab_list {
+    margin-bottom: -1px;
+    position: relative;
+    z-index: 1;
+    list-style: none;
+}
+
+    .coromanttab li:before, .pagesTabs li:before, ul.coromanttab:before, ul.pagesTabs:before, ul.coromanttab_list:before {
+        display: none;
+    }
+
+input[type="radio"], input[type="checkbox"] {
+    margin: 0;
+    margin-top: 1px \9;
+    line-height: normal;
+}
+
+.inp_dropdown {
+    height: 36px;
+}
+
+.toggleOptionalcontainer {
+    text-align: left;
+    margin: 0 0 10px 0;
+}
+
+    .toggleOptionalcontainer label {
+        color: #4b8232 !important;
+    }
+
+        .toggleOptionalcontainer label:hover {
+            text-decoration: underline;
+        }
+
+#qoe .datatable, .datatable {
+    margin-top: 0;
+    border: 1px solid #dcdcdc;
+    width: 100%;
+}
+
+    #qoe .datatable input, .datatable input {
+        width: 100%;
+    }
+
+    #qoe .datatable.expanded .head td, #qoe .datatable.expanded .tallhead td, .datatable.expanded .head td, .datatable.expanded .tallhead td {
+        width: auto;
+    }
+
+    #qoe .datatable .head, #qoe .datatable .tallhead, .datatable .head, .datatable .tallhead {
+        background: #fff;
+    }
+
+        #qoe .datatable .head td, #qoe .datatable .tallhead td, .datatable .head td, .datatable .tallhead td {
+            font-weight: 500 !important;
+            background-image: none;
+            text-shadow: none;
+            font-weight: 400;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            width: auto;
+        }
+
+            #qoe .datatable .head td.first, #qoe .datatable .tallhead td.first, .datatable .head td.first, .datatable .tallhead td.first {
+                width: 1px;
+            }
+
+            #qoe .delivery-information .datatable .head td.first, #qoe .datatable .tallhead td.first, .datatable .head td.first, .datatable .tallhead td.first {
+                width: auto;
+            }
+
+            #qoe .datatable .head td.Quantity, #qoe .datatable .tallhead td.Quantity, .datatable .head td.Quantity, .datatable .tallhead td.Quantity {
+                width: 40px;
+            }
+
+            #qoe .datatable .head td.OrderingCode, #qoe .datatable .tallhead td.OrderingCode, .datatable .head td.OrderingCode, .datatable .tallhead td.OrderingCode {
+                width: 230px;
+            }
+
+    #qoe .datatable tr, .datatable tr {
+        background: #f1f1f1;
+        border-top: 1px solid #e4e4e4;
+    }
+
+    #qoe .datatable td:last-child, .datatable td:last-child {
+        text-align: left;
+        padding-right: 15px !important;
+    }
+
+        #qoe .datatable td:last-child a, .datatable td:last-child a {
+            color: #4b8232;
+        }
+
+            #qoe .datatable td:last-child a:hover, #qoe .datatable td:last-child a:active, .datatable td:last-child a:hover, .datatable td:last-child a:active {
+                text-decoration: underline;
+            }
+
+#cart .datatable .head td, #cart .datatable .tallhead td {
+    vertical-align: middle;
+}
+
+.cart {
+    border-bottom: none;
+    overflow: auto;
+}
+
+.inp_textfield.template {
+    border-radius: 0 !important;
+    background-color: #fff !important;
+    border-color: #dcdcdc !important;
+    border-top: 1px solid #dcdcdc !important;
+    border-bottom: 1px solid #dcdcdc !important;
+    border-right: 1px solid #dcdcdc !important;
+    border-left: 1px solid #dcdcdc !important;
+    color: #b1b1b1 !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    outline: none;
+    width: 50%;
+    float: left;
+}
+
+#saveTemplateLink {
+    float: left;
+    margin: 7px 0 0 15px;
+}
+
+input.focused, .inp_textfield.template.focused {
+    color: #000 !important;
+}
+
+.section-container {
+    border: 1px solid #e4e4e4;
+    padding: 15px;
+    margin-bottom: 30px;
+    background-color: #fcfcfc;
+}
+
+.aslink {
+    margin-right: 7px;
+}
+
+.actions {
+    margin: 10px 0;
+}
+
+#shoppingcart.datatable td {
+    vertical-align: top;
+}
+
+.datatable .head td:last-child, .datatable .tallhead td:last-child, .datatable .head td:first-child, .datatable .tallhead td:first-child {
+    border-radius: 0;
+}
+
+.ListPriceTotalElement {
+    margin-bottom: 20px;
+}
+
+#fileUploadDelimiter {
+    width: 25%;
+}
+
+label {
+    cursor: pointer;
+    font-size: 16px;
+    color: #000;
+    font-weight: normal;
+    padding: 0 10px;
+}
+
+#performSearch {
+    margin-bottom: 15px;
+}
+
+#invoiceResultTable tr.head td.first {
+    min-width: 120px;
+}
+
+#invoiceResultTable tbody tr > td.first > a.invoiceDetailsSelector {
+    color: #4b8232;
+    margin-left: 7px;
+}
+
+    #invoiceResultTable tbody tr > td.first > a.invoiceDetailsSelector:before {
+        content: '';
+        width: 16px;
+        height: 16px;
+        margin: 4px 2px 0 0;
+        background: url('/style library/tibp/walter/img/icon_n4a_faq_arrow.png') no-repeat;
+        background: url('/style library/tibp/walter/img/icon_nba_faq_arrow.svg') no-repeat,none;
+        float: left;
+        display: block;
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+
+    #invoiceResultTable tbody tr > td.first > a.invoiceDetailsSelector:hover {
+        text-decoration: underline;
+    }
+
+    #invoiceResultTable tbody tr > td.first > a.invoiceDetailsSelector.closed:before {
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -ms-transform: rotate(0);
+        -o-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+#OrderHistory, #InvoiceHistory {
+    cursor: pointer;
+    font-size: 16px;
+    color: #000;
+    font-weight: normal;
+    padding: 4px 10px 5px 10px;
+}
+
+#qoe label, #inquiries label {
+    cursor: pointer;
+    font-size: 16px;
+    color: #000;
+    font-weight: normal;
+    padding: 4px 10px 0 0;
+}
+
+#qoe ul.pagesTabs, #inquiries ul.pagesTabs {
+    margin-top: -28px;
+    padding-left: 0;
+}
+
+    #qoe ul.pagesTabs label, #inquiries ul.pagesTabs label {
+        padding: 4px 10px 0 10px;
+        display: block;
+    }
+
+ul.pagesTabs li, ul.coromanttab_list li {
+    background-color: #eaeaea;
+    float: left;
+    list-style: none;
+    margin: 0 6px 0 0;
+    cursor: pointer;
+    border-radius-topleft: 2px;
+    border-radius-topright: 2px;
+    -moz-border-radius-topleft: 2px;
+    -moz-border-radius-topright: 2px;
+    -webkit-border-top-left-radius: 2px;
+    -webkit-border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border: 1px solid #eaeaea;
+}
+
+    ul.pagesTabs li:hover, ul.coromanttab_list li:hover {
+        color: #688c42;
+    }
+
+    ul.pagesTabs li label, ul.coromanttab_list li label {
+        cursor: pointer;
+        font-size: 16px;
+        color: #000;
+        font-weight: normal;
+        padding: 4px 10px 0 10px;
+    }
+
+    ul.pagesTabs li a, ul.coromanttab_list li a {
+        color: #000;
+        padding: 5px 10px 5px 10px;
+        display: block;
+        cursor: pointer;
+    }
+
+    ul.pagesTabs li.selected, ul.pagesTabs li.active, ul.coromanttab_list li.selected, ul.coromanttab_list li.active {
+        border-bottom: 1px solid #fcfcfc;
+        background: #fcfcfc;
+    }
+
+        ul.pagesTabs li.selected label, ul.pagesTabs li.active label, ul.coromanttab_list li.selected label, ul.coromanttab_list li.active label {
+            font-weight: 500;
+        }
+
+#LocalAddress tr td:first-child {
+    padding: 0;
+}
+
+#LocalAddress td {
+    padding: 0 0 0 10px;
+}
+
+#ProductSearchTabPanel .btn {
+    margin-bottom: 15px;
+    float: left;
+}
+
+#deliver-address-different .saveadress {
+    padding-left: 0;
+}
+
+.address .buttonrow a.btn {
+    color: #4b8232;
+    padding-left: 0;
+}
+
+    .address .buttonrow a.btn:hover, .address .buttonrow a.btn:active {
+        text-decoration: underline;
+        color: #4b8232;
+    }
+
+.buttonrow a.btn {
+    color: #4b8232;
+    padding-left: 0;
+}
+
+    .buttonrow a.btn:hover, .buttonrow a.btn:active {
+        text-decoration: underline;
+        color: #4b8232;
+    }
+
+#delivery-address-different a.btn, #delivery-address-different a {
+    color: #4b8232;
+    padding-top: 0;
+}
+
+    #delivery-address-different a.btn:hover, #delivery-address-different a.btn:active, #delivery-address-different a:hover, #delivery-address-different a:active {
+        text-decoration: underline;
+        color: #4b8232;
+    }
+
+.select-customer-button:hover, .select-customer-button:active {
+    text-decoration: none;
+}
+
+#pricefinder {
+    width: 50%;
+    margin-bottom: 25px;
+}
+
+    #pricefinder .first {
+        width: auto;
+    }
+
+    #pricefinder .textright {
+        text-align: left;
+    }
+
+#shopping-cart-wrapper .textright, #shopping-cart-wrapper .actions {
+    margin-right: 7px;
+}
+
+#availablefields {
+    width: auto;
+}
+
+    #availablefields li, #selectedfields li {
+        margin: 5px;
+        padding: 5px;
+        cursor: move;
+        background: #eaeaea;
+        color: #2e2e2e;
+        font-size: 18px;
+    }
+
+        #availablefields li:active, #availablefields li:hover, #selectedfields li:active, #selectedfields li:hover {
+            background: #4b8232;
+            color: #fff;
+        }
+
+#DeltaPlaceHolderMain {
+    display: block;
+}
+
+.wrap.col-sm-12:before, .wag-header-roll-up-image-big:before {
+    content: " ";
+    display: table;
+}
+
+.wrap.col-sm-12:after, .wag-header-roll-up-image-big:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.pricefinder {
+    padding: 0 15px;
+    margin-top: 30px;
+}
+
+.alert {
+    border-radius: 0 !important;
+}
+
+.row > .section-container {
+    border: none;
+    padding: 0;
+    background: none;
+}
+
+.row.change-customer-list-container {
+    margin: 15px 0;
+}
+
+.inquiries-container {
+    padding: 15px;
+    margin-top: 30px;
+}
+
+    .inquiries-container h4 {
+        margin-top: 30px;
+    }
+
+    .inquiries-container table {
+        width: 100%;
+    }
+
+        .inquiries-container table.inquiriestable {
+            width: 100%;
+        }
+
+            .inquiries-container table.inquiriestable .labelcolumn {
+                width: 25%;
+            }
+
+        .inquiries-container table.ordertable {
+            width: 60%;
+        }
+
+            .inquiries-container table.ordertable .fromTo {
+                width: auto;
+            }
+
+                .inquiries-container table.ordertable .fromTo > span:first-child {
+                    display: none;
+                }
+
+            .inquiries-container table.ordertable .labelcolumn {
+                width: 25%;
+            }
+
+            .inquiries-container table.ordertable .sublabelcontainer.from, .inquiries-container table.ordertable .sublabelcontainer.to {
+                position: relative;
+                display: inline-block;
+            }
+
+    .inquiries-container .orderResultTable td.first {
+        width: 130px;
+    }
+
+    .inquiries-container .ordertableheader, .inquiries-container strong {
+        margin: 0 0 15px 0;
+        font-size: 24px;
+        font-weight: 400;
+        color: #4b8232;
+    }
+
+    .inquiries-container .specialbodytext {
+        padding: 0;
+        width: 100%;
+        background: none;
+        border: none;
+        border-radius: 0;
+        position: relative;
+    }
+
+    .inquiries-container .coromanttab_list {
+        padding-left: 0;
+    }
+
+    .inquiries-container .ordertable .sublabelcontainer.from {
+        left: 0;
+        margin-left: 0;
+        margin-right: 15px;
+    }
+
+    .inquiries-container #InvoiceHistoryView .sublabelcontainer.from {
+        left: 0;
+        margin-left: -43px;
+    }
+
+    .inquiries-container .sublabelcontainer .sublabel {
+        text-align: left;
+        width: auto;
+    }
+
+#OrderHistoryView, #InvoiceHistoryView {
+    padding: 15px;
+    width: 100%;
+    background: #fcfcfc;
+    border: 1px solid #e4e4e4;
+    border-radius: 0;
+    z-index: 0;
+    position: relative;
+}
+
+td.actioncontainer > a {
+    margin-top: 15px;
+    float: left;
+}
+
+#qoe .datatable td:last-child, .datatable td:last-child {
+    text-align: left;
+    padding-right: 15px !important;
+}
+
+.mytemplates-code {
+    width: 220px;
+}
+
+#qoe .datatable .head td.mytemplates-code {
+    width: 220px;
+}
+
+#qoe .datatable .head td.mytemplates-qty {
+    width: 40px;
+}
+
+#saveTemplateLink .btn {
+    color: #fff;
+    background: #4b8232;
+    border-top: 1px solid #688c42;
+    border-bottom: 1px solid #4b8232;
+    border-left: 1px solid #4b8232;
+    border-right: 1px solid #4b8232;
+    padding: 4px 19px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.65);
+}
+
+    #saveTemplateLink .btn:hover {
+        color: #fff;
+        border-color: #398439;
+        background-color: #42732c;
+        text-decoration: none;
+    }
+
+#productSearchCriteriaField {
+    width: 214px;
+}
+
+.invoiceDetailsSelector {
+    color: #4b8232;
+}
+
+.ui-datepicker {
+    height: auto;
+    margin: 5px auto 0;
+    font: 16px 'Walter PRO',Verdana,Arial,sans-serif;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ddd;
+    padding: 5px;
+    width: 260px;
+    z-index: 999;
+    background-color: #fff;
+    display: none;
+}
+
+    .ui-datepicker a {
+        text-decoration: none;
+    }
+
+    .ui-datepicker table {
+        width: 100%;
+    }
+
+.ui-datepicker-header {
+    font-weight: normal;
+    height: 24px;
+    line-height: 24px;
+}
+
+.ui-datepicker-title {
+    text-align: center;
+    height: 24px;
+    line-height: 24px;
+}
+
+.ui-datepicker-prev, .ui-datepicker-next {
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: #efefef;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ddd;
+    font-size: 10px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.ui-datepicker-prev {
+    float: left;
+    color: #4b8232 !important;
+}
+
+    .ui-datepicker-prev:before {
+        content: '<<';
+        height: 24px;
+        line-height: 24px;
+        display: block;
+    }
+
+    .ui-datepicker-prev span {
+        visibility: hidden;
+        display: none;
+    }
+
+.ui-datepicker-next {
+    float: right;
+    color: #4b8232 !important;
+}
+
+    .ui-datepicker-next:before {
+        content: '>>';
+        height: 24px;
+        line-height: 24px;
+        display: block;
+    }
+
+    .ui-datepicker-next span {
+        visibility: hidden;
+        display: none;
+    }
+
+.ui-datepicker thead {
+    background-color: none;
+}
+
+.ui-datepicker th {
+    padding: 5px 0;
+    color: #000;
+    font-weight: 500;
+    text-align: center;
+}
+
+.ui-datepicker tbody td {
+    padding: 0;
+}
+
+.ui-datepicker td span, .ui-datepicker td a {
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: #666;
+}
+
+.ui-datepicker-calendar .ui-state-default {
+    color: #000;
+    font-weight: 400;
+}
+
+.ui-datepicker-calendar .ui-state-hover {
+    background: #688c42;
+    color: #fff;
+}
+
+.ui-datepicker-calendar .ui-state-active {
+    background: #4b8232;
+    color: #fff;
+}
+
+.ui-datepicker-unselectable .ui-state-default {
+    background: #f4f4f4;
+    color: #b4b3b3;
+}
+
+.ui-datepicker-calendar td:first-child .ui-state-active {
+    width: 29px;
+    margin-left: 0;
+}
+
+.ui-datepicker-calendar td:last-child .ui-state-active {
+    width: 29px;
+    margin-right: 0;
+}
+
+.ui-datepicker-calendar tr:last-child .ui-state-active {
+    height: 29px;
+    margin-bottom: 0;
+}
+
+#backend-address-container {
+    width: 100%;
+    background: none;
+    border: none;
+    border-radius: 0;
+    position: relative;
+    padding: 30px 15px 15px 15px;
+}
+
+    #backend-address-container h1, #backend-address-container h2, #backend-address-container h3 {
+        font-weight: 400;
+        color: #4b8232;
+        padding: 0 0 17px 0;
+    }
+
+    #backend-address-container a.btn {
+        color: #4b8232;
+        border: none;
+        background: none;
+    }
+
+        #backend-address-container a.btn:hover {
+            border: none;
+            background: none;
+            text-decoration: underline;
+        }
+
+        #backend-address-container a.btn.ui-priority-primary, #backend-address-container #btnNarrow {
+            color: #fff;
+            background: #4b8232;
+            border-top: 1px solid #688c42;
+            border-bottom: 1px solid #4b8232;
+            border-left: 1px solid #4b8232;
+            border-right: 1px solid #4b8232;
+            padding: 4px 19px;
+            box-shadow: 0 1px 3px 0 rgba(0,0,0,.65);
+        }
+
+            #backend-address-container a.btn.ui-priority-primary:hover, #backend-address-container #btnNarrow:hover {
+                color: #fff;
+                border-color: #398439;
+                background-color: #42732c;
+                text-decoration: none;
+            }
+
+.mytemplates {
+    width: 100%;
+    background: none;
+    border: none;
+    border-radius: 0;
+    z-index: 0;
+    position: relative;
+    padding: 30px 15px 15px 15px;
+    z-index: 0;
+}
+
+    .mytemplates .mytemplates-item {
+        width: 50%;
+        background: #fcfcfc;
+        border: 1px solid #e4e4e4;
+        padding: 15px;
+    }
+
+        .mytemplates .mytemplates-item.active h3:before {
+            -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            -o-transform: rotate(90deg);
+            transform: rotate(90deg);
+        }
+
+    .mytemplates h1, .mytemplates h2, .mytemplates h3 {
+        font-weight: 400;
+        color: #4b8232;
+        padding: 0 0 17px 0;
+    }
+
+    .mytemplates h3 {
+        color: #2e2e2e;
+        font-size: 18px;
+        border-color: #e4e4e4;
+    }
+
+        .mytemplates h3:before {
+            content: '';
+            width: 7px;
+            height: 9px;
+            margin: 6px 10px 0 0;
+            background: url('/style library/tibp/walter/img/icon_arrow_numeration_linklist.png') no-repeat;
+            background: url('/style library/tibp/walter/img/icon_arrow_numeration_linklist.svg') no-repeat,none;
+            float: left;
+            display: block;
+        }
+
+    .mytemplates input[type=text] {
+        border-radius: 2px;
+        background-color: #fff;
+        border-color: #dcdcdc;
+        border-top: 1px solid #dcdcdc;
+        border-bottom: 1px solid #dcdcdc;
+        border-right: 1px solid #dcdcdc;
+        border-left: 1px solid #dcdcdc;
+        color: #000;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        outline: none;
+        padding: 4px;
+        height: 30px;
+    }
+
+    .mytemplates .submit-btn {
+        color: #fff;
+        background: #4b8232;
+        border-top: 1px solid #688c42;
+        border-bottom: 1px solid #4b8232;
+        border-left: 1px solid #4b8232;
+        border-right: 1px solid #4b8232;
+        padding: 4px 15px;
+        box-shadow: 0 1px 3px 0 rgba(0,0,0,.65);
+        cursor: pointer;
+    }
+
+        .mytemplates .submit-btn:hover {
+            color: #fff;
+            border-color: #398439;
+            background-color: #42732c;
+            text-decoration: none;
+        }
+
+        .mytemplates .submit-btn input {
+            border: none;
+            background: none;
+            box-shadow: none;
+            width: auto;
+        }
+
+    .mytemplates.specialbodytext {
+        position: inherit;
+    }
+
+#orderDetailsTable .orderHeaderTable {
+    border: none;
+}
+
+    #orderDetailsTable .orderHeaderTable tr {
+        border: none;
+    }
+
+#orderDetailsTable h3 {
+    font-weight: 400;
+    color: #4b8232;
+    padding: 0 0 17px 0;
+}
+
+#orderDetailsTable td.datafield {
+    width: 40%;
+}
+
+#orderDetailsTable .intablelabel_orderItem {
+    width: 20%;
+}
+
+#orderDetailsTable .deliveryAddress {
+    width: 12%;
+}
+
+#orderDetailsTable #delivery-address {
+    width: auto;
+    margin: 0;
+    padding: 0 0 0 15px;
+}
+
+.ui-state-error, .alert-error, .alert-info, .alert-danger {
+    background-color: #f0ad4e !important;
+    border: none !important;
+    color: #fff !important;
+}
+
+#orderconfirm {
+    width: 100%;
+    background: none;
+    border: none;
+    border-radius: 0;
+    z-index: 100;
+    position: relative;
+    padding: 15px;
+    z-index: 0;
+}
+
+    #orderconfirm h1, #orderconfirm h2, #orderconfirm h3 {
+        font-weight: 400;
+        color: #4b8232;
+        padding: 0 0 17px 0;
+    }
+
+    #orderconfirm h3 {
+        color: #2e2e2e;
+        font-size: 18px;
+    }
+
+.specialbodytext .cart h1, .specialbodytext .cart h2, .specialbodytext .cart h3 {
+    font-weight: 400;
+    color: #4b8232;
+    padding: 0 0 17px 0;
+}
+
+h1.ch-headline {
+    font-weight: 400;
+    color: #4b8232;
+    padding: 0 0 20px 0;
+    margin-top: 30px;
+}
+
+#change-customer-login-form, .change-customer-list-container {
+    margin-bottom: 30px;
+}
+
+    #change-customer-login-form p, .change-customer-list-container p {
+        margin-bottom: 15px;
+    }
+
+    #change-customer-login-form h1, #change-customer-login-form h2, #change-customer-login-form h3, .change-customer-list-container h1, .change-customer-list-container h2, .change-customer-list-container h3 {
+        font-weight: 400;
+        color: #4b8232;
+        padding: 0 0 17px 0;
+    }
+
+    #change-customer-login-form label, .change-customer-list-container label {
+        font-weight: 400;
+        margin-left: 0;
+    }
+
+.coromanttab.specialbodytext {
+    position: inherit;
+}
+
+.ui-helper-hidden {
+    display: none;
+}
+
+#addresses.datatable td.first {
+    min-width: 200px;
+}
+
+.list-users {
+    padding: 30px 15px;
+}
+
+    .list-users .specialbodytext {
+        margin: 0;
+        padding: 15px 0;
+    }
+
+    .list-users .row {
+        margin: 0 15px;
+    }
+
+        .list-users .row.rowmargin {
+            margin: 0;
+        }
+
+    .list-users h1, .list-users h2, .list-users h3 {
+        font-weight: 400;
+        color: #4b8232;
+        padding: 0 0 17px 0;
+    }
+
+.shop-address-search {
+    padding: 15px;
+}
+
+    .shop-address-search .specialbodytext {
+        margin-top: 30px;
+    }
+
+    .shop-address-search .actions a.btn {
+        color: #fff;
+        background: #4b8232;
+        border-top: 1px solid #688c42;
+        border-bottom: 1px solid #4b8232;
+        border-left: 1px solid #4b8232;
+        border-right: 1px solid #4b8232;
+        padding: 4px 15px;
+        box-shadow: 0 1px 3px 0 rgba(0,0,0,.65);
+        cursor: pointer;
+        margin-right: 15px;
+    }
+
+        .shop-address-search .actions a.btn:hover {
+            color: #fff;
+            border-color: #398439;
+            background-color: #42732c;
+            text-decoration: none;
+        }
+
+    .shop-address-search h1, .shop-address-search h2, .shop-address-search h3 {
+        font-weight: 400;
+        color: #4b8232;
+        padding: 0 0 17px 0;
+    }
+
+#replacementTable input {
+    display: inline;
+    width: auto;
+    margin-right: 5px;
+}
+
+.admin-user-registration {
+    padding: 15px;
+}
+
+    .admin-user-registration h1, .admin-user-registration h2, .admin-user-registration h3 {
+        font-weight: 400;
+        color: #4b8232;
+        padding: 0;
+    }
+
+    .admin-user-registration p {
+        margin-bottom: 10px;
+    }
+
+    .admin-user-registration .coromanttab_list img, .admin-user-registration .coromanttab_list a {
+        display: inline-block;
+    }
+
+    .admin-user-registration .coromanttab_list img {
+        margin-left: 10px;
+    }
+
+    .admin-user-registration #tab1, .admin-user-registration #tab2, .admin-user-registration #tab3, .admin-user-registration #tab4, .admin-user-registration #brand {
+        padding: 15px;
+    }
+
+        .admin-user-registration #tab1 h3, .admin-user-registration #tab2 h3, .admin-user-registration #tab3 h3, .admin-user-registration #tab4 h3, .admin-user-registration #brand h3 {
+            float: left;
+            margin: 15px 0;
+        }
+
+.product-details-link, .ProductSearchAction_OneLine, tr.addressrow td .datafield a {
+    color: #4b8232 !important;
+}
+
+    .product-details-link:hover, .ProductSearchAction_OneLine:hover, tr.addressrow td .datafield a:hover {
+        text-decoration: underline;
+    }
+
+td.infocell {
+    font-weight: 500 !important;
+}
+
+.specialbodytext .form-error-message {
+    padding-top: 0;
+}
+
+#NoAccessView, .ui-state-error {
+    padding: 15px;
+    background: #f0ad4e;
+}
+
+    #NoAccessView p, .ui-state-error p {
+        margin: 0;
+        color: #fff;
+    }
+
+.product-details-container ul li {
+    width: 100%;
+    display: block;
+}
+
+    .product-details-container ul li:before, .product-details-container ul li:after {
+        content: ".";
+        clear: both;
+        display: block;
+        visibility: hidden;
+        height: 0;
+    }
+
+    .product-details-container ul li span {
+        display: inline-block;
+        float: none;
+    }
+
+        .product-details-container ul li span:nth-child(1) {
+            width: 70%;
+        }
+
+        .product-details-container ul li span:nth-child(2) {
+            width: 30%;
+        }
+
+    .product-details-container ul li.row span {
+        float: left;
+    }
+
+.customer-info .col-sm-6, .customer-info .customerInformationTable {
+    width: 100%;
+}
+
+a.saveadress.saveLocalAddress {
+    padding-left: 0;
+}
+
+.checkoutActionButtons {
+    padding-right: 20px;
+}
+
+    .checkoutActionButtons a.btn.cancel {
+        color: #4b8232;
+    }
+
+        .checkoutActionButtons a.btn.cancel:hover {
+            text-decoration: underline;
+        }
+
+.order-checkout {
+    padding: 30px 15px;
+}
+
+    .order-checkout h1, .order-checkout h2, .order-checkout h3 {
+        font-weight: 400;
+        color: #4b8232;
+        padding: 0;
+    }
+
+    .order-checkout h1 {
+        padding-bottom: 17px;
+    }
+
+    .order-checkout .totals {
+        padding-right: 20px;
+    }
+
+        .order-checkout .totals .right {
+            width: auto !important;
+        }
+
+            .order-checkout .totals .right:last-child {
+                margin-left: 15px;
+                padding-right: 15px;
+            }
+
+@media screen and (max-width:767px) {
+    #replacementTable .intablelabel {
+        margin-right: 15px;
+    }
+
+    .invoiceRow {
+        background-color: #fff;
+    }
+
+    #LocalAddress tr:nth-child(3) td:nth-child(2) {
+        margin-bottom: 15px;
+    }
+
+    .shop-address-search .localAdressAction {
+        margin-top: 25px;
+        text-align: right;
+    }
+
+    #LocalAddress td {
+        padding: 0;
+    }
+
+    .mytemplates .mytemplates-item {
+        width: 100%;
+    }
+
+    #OrdersTable tr.shipment-header-row {
+        display: none;
+    }
+
+    #OrdersTable table.orderItemsTable table {
+        margin: 0;
+    }
+
+        #OrdersTable table.orderItemsTable table .packageRow, #OrdersTable table.orderItemsTable table td {
+            margin-top: 0;
+            padding: 0;
+        }
+
+        #OrdersTable table.orderItemsTable table tr td:first-child {
+            margin-top: 0;
+        }
+
+    #shoppingcart tr {
+        border-bottom: 1px solid #e4e4e4;
+    }
+
+    table.orderItemsTable table tr, #shoppingcart tr, #openOrderLineResultTable tr, #ReturnOrdersTable tr, #ResultTable tr, #addresses tr, #LocalAddress tr, #LocalAddressBook tr, .change-customer-list-container tr, #replacementTable tr, #orderDetailsTable tr, .backendaddresspicker tr {
+        display: block;
+        padding: 10px;
+        position: relative;
+    }
+
+    #OrdersTable tr {
+        padding: 5px 10px;
+    }
+
+        table.orderItemsTable table tr.head, #shoppingcart tr.head, #OrdersTable tr.head, #openOrderLineResultTable tr.head, .invoiceResultTable tr.head, #ReturnOrdersTable tr.head, #ResultTable tr.head, #addresses tr.head, #LocalAddress tr.head, #LocalAddressBook tr.head, .change-customer-list-container tr.head, #replacementTable tr.head, #orderDetailsTable tr.head, .backendaddresspicker tr.head {
+            display: none;
+        }
+
+    table.orderItemsTable table tr > td, #shoppingcart.datatable tr > td, #OrdersTable.datatable tr > td, #openOrderLineResultTable.datatable tr > td, .invoiceResultTable.datatable tr > td, #ReturnOrdersTable.datatable tr > td, #ResultTable.datatable tr > td, #addresses.datatable tr > td, #LocalAddress.datatable tr > td, #LocalAddress tr > td, #LocalAddressBook tr > td, .change-customer-list-container tr > td, #replacementTable.datatable tr > td, #orderDetailsTable tr > td, .backendaddresspicker.datatable tr > td {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    #OrdersTable.datatable tr td:first-child {
+        margin-top: 15px;
+    }
+
+    #OrdersTable.datatable tr td:last-child {
+        margin-bottom: 15px;
+    }
+
+    table.orderItemsTable table tr > td, table.orderItemsTable table tr > th, #shoppingcart.datatable tr > td, #shoppingcart.datatable tr > th, #OrdersTable.datatable tr > td, #OrdersTable.datatable tr > th, #openOrderLineResultTable.datatable tr > td, #openOrderLineResultTable.datatable tr > th, .invoiceResultTable.datatable tr > td, .invoiceResultTable.datatable tr > th, #ReturnOrdersTable.datatable tr > td, #ReturnOrdersTable.datatable tr > th, #ResultTable.datatable tr > td, #ResultTable.datatable tr > th, #addresses.datatable tr > td, #addresses.datatable tr > th, #LocalAddress.datatable tr > td, #LocalAddress.datatable tr > th, #LocalAddress tr > td, #LocalAddress tr > th, #LocalAddressBook tr > td, #LocalAddressBook tr > th, #orderDetailsTable tr > td, #orderDetailsTable tr > th, .change-customer-list-container tr > td, .change-customer-list-container tr > th, #replacementTable.datatable tr > td, #replacementTable.datatable tr > th, .backendaddresspicker.datatable tr > td, .backendaddresspicker.datatable tr > th {
+        display: block;
+        text-align: left;
+    }
+
+        table.orderItemsTable table tr > td.action, #shoppingcart.datatable tr > td.action, #OrdersTable.datatable tr > td.action, #openOrderLineResultTable.datatable tr > td.action, .invoiceResultTable.datatable tr > td.action, #ReturnOrdersTable.datatable tr > td.action, #ResultTable.datatable tr > td.action, #addresses.datatable tr > td.action, #LocalAddress.datatable tr > td.action, #LocalAddress tr > td.action, #LocalAddressBook tr > td.action, .change-customer-list-container tr > td.action, #replacementTable.datatable tr > td.action, .backendaddresspicker.datatable tr > td.action {
+            position: relative;
+            width: 100%;
+            padding-right: 0 !important;
+            text-align: right;
+        }
+
+    table.orderItemsTable table .tallhead, #shoppingcart.datatable .tallhead, #OrdersTable.datatable .tallhead, #openOrderLineResultTable.datatable .tallhead, .invoiceResultTable.datatable .tallhead, #ReturnOrdersTable.datatable .tallhead, #ResultTable.datatable .tallhead, #addresses.datatable .tallhead, #LocalAddress.datatable .tallhead, #LocalAddress .tallhead, #LocalAddressBook .tallhead, .change-customer-list-container .tallhead, #replacementTable.datatable .tallhead, .backendaddresspicker.datatable .tallhead {
+        display: none;
+    }
+
+    table.orderItemsTable table tr > td.itemindex, #shoppingcart.datatable tr > td.itemindex, #OrdersTable.datatable tr > td.itemindex, #openOrderLineResultTable.datatable tr > td.itemindex, .invoiceResultTable.datatable tr > td.itemindex, #ReturnOrdersTable.datatable tr > td.itemindex, #ResultTable.datatable tr > td.itemindex, #addresses.datatable tr > td.itemindex, #LocalAddress.datatable tr > td.itemindex, #LocalAddress tr > td.itemindex, #LocalAddressBook tr > td.itemindex, .change-customer-list-container tr > td.itemindex, #replacementTable.datatable tr > td.itemindex, .backendaddresspicker.datatable tr > td.itemindex {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    table.orderItemsTable table .field, #shoppingcart .field, #OrdersTable .field, #openOrderLineResultTable .field, .invoiceResultTable .field, #ReturnOrdersTable .field, #ResultTable .field, #addresses .field, #LocalAddress .field, #LocalAddressBook .field, .change-customer-list-container .field, #replacementTable .field, .backendaddresspicker .field {
+        display: inline;
+    }
+
+    table.orderItemsTable table .datafield, #shoppingcart .datafield, #openOrderLineResultTable .datafield, .invoiceResultTable .datafield, #ReturnOrdersTable .datafield, #ResultTable .datafield, #addresses .datafield, #LocalAddress .datafield, #LocalAddressBook .datafield, .change-customer-list-container .datafield, #replacementTable .datafield, .backendaddresspicker .datafield {
+        font-weight: 400;
+    }
+
+        table.orderItemsTable table .datafield.new-line, #shoppingcart .datafield.new-line, #OrdersTable .datafield.new-line, #openOrderLineResultTable .datafield.new-line, .invoiceResultTable .datafield.new-line, #ReturnOrdersTable .datafield.new-line, #ResultTable .datafield.new-line, #addresses .datafield.new-line, #LocalAddress .datafield.new-line, #LocalAddress .new-line, #LocalAddressBook .datafield.new-line, .change-customer-list-container .datafield.new-line, #replacementTable .datafield.new-line, .backendaddresspicker .datafield.new-line {
+            display: inline;
+        }
+
+    table.orderItemsTable table .datafieldproductname, #shoppingcart .datafieldproductname, #OrdersTable .datafieldproductname, #openOrderLineResultTable .datafieldproductname, .invoiceResultTable .datafieldproductname, #ReturnOrdersTable .datafieldproductname, #ResultTable .datafieldproductname, #addresses .datafieldproductname, #LocalAddress .datafieldproductname, #LocalAddressBook .datafieldproductname, .change-customer-list-container .datafieldproductname, #replacementTable .datafieldproductname, .backendaddresspicker .datafieldproductname {
+        font-weight: 400;
+        display: block;
+        text-transform: uppercase;
+    }
+
+    table.orderItemsTable table .datafieldblock, #shoppingcart .datafieldblock, #OrdersTable .datafieldblock, #openOrderLineResultTable .datafieldblock, .invoiceResultTable .datafieldblock, #ReturnOrdersTable .datafieldblock, #ResultTable .datafieldblock, #addresses .datafieldblock, #LocalAddress .datafieldblock, #LocalAddressBook .datafieldblock, .change-customer-list-container .datafieldblock, #replacementTable .datafieldblock, .backendaddresspicker .datafieldblock {
+        font-weight: 400;
+        display: block;
+    }
+
+    table.orderItemsTable table .intablelabel, #shoppingcart .intablelabel, #OrdersTable .intablelabel, #openOrderLineResultTable .intablelabel, .invoiceResultTable .intablelabel, #ReturnOrdersTable .intablelabel, #ResultTable .intablelabel, #addresses .intablelabel, #LocalAddress .intablelabel, #LocalAddressBook .intablelabel, .change-customer-list-container .intablelabel, #replacementTable .intablelabel, .backendaddresspicker .intablelabel {
+        display: inline;
+        color: #888;
+    }
+
+    table.orderItemsTable table tr > td, #shoppingcart.datatable tr > td, #openOrderLineResultTable.datatable tr > td, .invoiceResultTable.datatable tr > td, #ReturnOrdersTable.datatable tr > td, #ResultTable.datatable tr > td, #addresses.datatable tr > td, #LocalAddress.datatable tr > td, #LocalAddress tr > td, #LocalAddressBook tr > td, .change-customer-list-container tr > td, #replacementTable.datatable tr > td, .backendaddresspicker.datatable tr > td {
+        margin: 0;
+    }
+
+    table.orderItemsTable table .intablelabel:after, #shoppingcart .intablelabel:after, #OrdersTable .intablelabel:after, #openOrderLineResultTable .intablelabel:after, .invoiceResultTable .intablelabel:after, #ReturnOrdersTable .intablelabel:after, #ResultTable .intablelabel:after, #addresses .intablelabel:after, #LocalAddress .intablelabel:after, #LocalAddressBook .intablelabel:after, .change-customer-list-container .intablelabel:after, #replacementTable .intablelabel:after, .backendaddresspicker .intablelabel:after {
+        content: ':';
+    }
+
+    table.orderItemsTable table span.aslink, #shoppingcart span.aslink, #OrdersTable span.aslink, #openOrderLineResultTable span.aslink, .invoiceResultTable span.aslink, #ReturnOrdersTable span.aslink, #ResultTable span.aslink, #addresses span.aslink, #LocalAddress span.aslink, #LocalAddressBook span.aslink, .change-customer-list-container span.aslink, #replacementTable span.aslink, .backendaddresspicker span.aslink {
+        position: relative;
+        text-align: right;
+    }
+
+        #shoppingcart span.aslink.deletelink, #OrdersTable span.aslink.deletelink, #openOrderLineResultTable span.aslink.deletelink, .invoiceResultTable span.aslink.deletelink, #ReturnOrdersTable span.aslink.deletelink, #ResultTable span.aslink.deletelink, #addresses span.aslink.deletelink, #LocalAddress span.aslink.deletelink, #LocalAddressBook span.aslink.deletelink, .change-customer-list-container span.aslink.deletelink, #replacementTable span.aslink.deletelink, .backendaddresspicker span.aslink.deletelink, .change-customer-list-container td > button {
+            display: inline-block;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+
+    #shoppingcart tr, #ReplacementContent tr, #productsearchresult tr, .orderlines-js-selector tr {
+        padding: 5px 10px;
+        position: relative;
+    }
+
+        #shoppingcart tr .product-details-content-placeholder, #ReplacementContent tr .product-details-content-placeholder, #productsearchresult tr .product-details-content-placeholder, .orderlines-js-selector tr .product-details-content-placeholder {
+            margin: 5px 10px;
+        }
+
+        #shoppingcart tr.product-details-row, #ReplacementContent tr.product-details-row, #productsearchresult tr.product-details-row, .orderlines-js-selector tr.product-details-row {
+            display: table-row;
+        }
+
+            #shoppingcart tr.product-details-row.hidden, #ReplacementContent tr.product-details-row.hidden, #productsearchresult tr.product-details-row.hidden, .orderlines-js-selector tr.product-details-row.hidden {
+                display: none;
+            }
+
+    .ordersResultPanel h4, .invoiceResultPanel h4, .returnOrderResultPanel h4 {
+        margin-top: 10px;
+        padding-top: 10px;
+        border-top: solid 1px #ccc;
+    }
+
+    .product-details-link {
+        color: #4b8232 !important;
+    }
+
+        .product-details-link:hover {
+            text-decoration: underline;
+        }
+
+    .invoiceResultTable tr {
+        background: #fff;
+    }
+
+        .invoiceResultTable tr .invoice-buttons {
+            margin: 15px 0 !important;
+        }
+
+    #qoe .datatable tr, .datatable tr {
+        border-top: none;
+    }
+
+    #orderDetailsTable td.datafield {
+        width: 100%;
+    }
+
+    #orderDetailsTable .intablelabel_orderItem {
+        width: 100%;
+    }
+
+    #orderDetailsTable .deliveryAddress {
+        width: 100%;
+    }
+
+    #orderDetailsTable #delivery-address {
+        width: 100%;
+        padding: 0;
+    }
+
+    a, a:hover, a:focus, a:link, a:visited {
+        color: #2e2e2e;
+    }
+
+    #fileUploadDelimiter {
+        width: 100%;
+    }
+
+    ul.pagesTabs li.active, ul.pagesTabs li.selected, ul.coromanttab_list li.active, ul.coromanttab_list li.selected {
+        background: #4b8232;
+        color: #fff;
+    }
+
+        ul.pagesTabs li.active label, ul.pagesTabs li.active a, ul.pagesTabs li.selected label, ul.pagesTabs li.selected a, ul.coromanttab_list li.active label, ul.coromanttab_list li.active a, ul.coromanttab_list li.selected label, ul.coromanttab_list li.selected a {
+            color: #fff !important;
+        }
+
+    #pricefinder {
+        width: 100%;
+    }
+
+    .inquiries-container #InvoiceHistoryView, .inquiries-container table.ordertable {
+        width: 100%;
+    }
+
+        .inquiries-container #InvoiceHistoryView .labelcolumn, .inquiries-container table.ordertable .labelcolumn {
+            width: 100%;
+        }
+
+        .inquiries-container #InvoiceHistoryView .datacolumn, .inquiries-container table.ordertable .datacolumn {
+            width: 100%;
+        }
+
+        .inquiries-container #InvoiceHistoryView .daterangeselect .inp_dropdown, .inquiries-container table.ordertable .daterangeselect .inp_dropdown {
+            width: 100%;
+        }
+
+        .inquiries-container #InvoiceHistoryView .sublabelcontainer.from, .inquiries-container #InvoiceHistoryView .sublabelcontainer.to, .inquiries-container table.ordertable .sublabelcontainer.from, .inquiries-container table.ordertable .sublabelcontainer.to {
+            margin-left: 0 !important;
+            text-align: left;
+            width: 100%;
+            position: relative;
+            margin-left: 0;
+        }
+
+            .inquiries-container #InvoiceHistoryView .sublabelcontainer.from span, .inquiries-container #InvoiceHistoryView .sublabelcontainer.from input, .inquiries-container #InvoiceHistoryView .sublabelcontainer.to span, .inquiries-container #InvoiceHistoryView .sublabelcontainer.to input, .inquiries-container table.ordertable .sublabelcontainer.from span, .inquiries-container table.ordertable .sublabelcontainer.from input, .inquiries-container table.ordertable .sublabelcontainer.to span, .inquiries-container table.ordertable .sublabelcontainer.to input {
+                text-align: left;
+                width: 75%;
+                margin-left: 15px;
+                display: block;
+            }
+
+    .inquiries-container table {
+        margin-top: 15px;
+    }
+
+        .inquiries-container table td {
+            float: left;
+            width: 100%;
+        }
+
+            .inquiries-container table td label {
+                margin-top: 15px;
+            }
+
+            .inquiries-container table td input {
+                margin-top: 0;
+                width: 100%;
+            }
+
+    #addresses span.aslink {
+        text-align: left;
+    }
+
+        #addresses span.aslink.editlink {
+            margin-top: 7px;
+        }
+}
+
+@media screen and (max-width:991px) {
+    .inquiries-container table.ordertable {
+        width: 100%;
+    }
+}

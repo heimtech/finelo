@@ -1,0 +1,56 @@
+[
+  {
+    "FamilyName": "F615",
+    "DIATYP": "DA",
+    "VALUES": [
+      {
+        "InsertName": "S",
+        "DIAMMIN": 12.7,
+        "DIAMMAX": 250,
+        "INSSIZE": "06",
+        "RADIUSCTL": [
+          {
+            "RADIUS": "0.4",
+            "CTL": "0-5.35"
+          },
+          {
+            "RADIUS": "1.2",
+            "CTL": "0-5.06"
+          }
+        ]
+      },
+      {
+        "InsertName": "S",
+        "DIAMMIN": 17.1,
+        "DIAMMAX": 250,
+        "INSSIZE": "09",
+        "RADIUSCTL": [
+          {
+            "RADIUS": "0.8",
+            "CTL": "0-7.96"
+          },
+          {
+            "RADIUS": "2.0",
+            "CTL": "0-7.51"
+          }
+        ]
+      },
+      {
+        "InsertName": "S",
+        "DIAMMIN": 21.4,
+        "DIAMMAX": 250,
+        "INSSIZE": "12",
+        "RADIUSCTL": [
+          {
+            "RADIUS": "0.8",
+            "CTL": "0-10.71"
+          },
+          {
+            "RADIUS": "2.5",
+            "CTL": "0-10.08"
+          }
+        ]
+      }
+    ]
+  }
+]

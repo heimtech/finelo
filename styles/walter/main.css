@@ -1,0 +1,5949 @@
+/**
+Grid Width Dependent Parameter
+*/
+html {
+	min-height: 100%;
+}
+
+body {
+	background: #eaeaea !important; /* Old browsers */
+	font-family: Arial, Helvetica, sans-serif !important;
+	font-size: 14px;
+	color: #666;
+	margin: 0px !important;
+}
+
+input {
+	color: #000000;
+}
+
+.drawingIFrame	{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 24px;
+    padding-top: 12px;
+}
+
+img {	
+	
+	-ms-interpolation-mode: bicubic;	
+}
+
+
+
+
+button.gwt-Button.uploadButton {
+    float: right;
+    margin-top: 8px;
+    margin-right: 7px;
+    background: #2F79EC;
+    color: white;
+    border-radius: 3px;
+}
+
+.drawingLog {
+    width: 100%;
+    height: 200px;
+}
+
+
+.measureComboInline .measureUnitBox {
+    display: inline-block !important;
+}
+
+.measureComboInline .measureUnitBox .inchContainer {
+    display: block;
+    margin-left: 0px;
+}
+
+.requestHistoryPanel .closeButton {
+  /* position: absolute; */
+  /* top: 0px; */
+  /* right: 0px; */
+  margin-top: -32px;
+    padding-top: 4px;
+}
+
+.gwt-Label.badge.measureBoxBadge.badgeLeft.mmInchBadge {
+    vertical-align: top !important;
+    height: 57px;
+    padding-top: 23px !important;
+}
+
+.productTitleBar {
+    line-height: 28px !important;
+}
+
+.submitCompleteDialog .dialogButtonPanel > * {
+    display: block;
+    width: 97%;
+}
+
+.submitCompleteDialog .dialogButtonPanel {
+   
+    height: auto !important;
+}
+
+
+body .maintenanceToolTip {
+	background: #FFFFFF !important;
+	border-radius: 0 0 0 0 !important;
+	height: 100%;
+	left: 0 !important;
+	margin: 0 !important;
+	overflow: hidden;
+	padding: 0 !important;
+	position: fixed !important;
+	top: 0 !important;
+	width: 100% !important;
+	text-align: center !important;
+}
+
+
+
+.mandatoryVisibleValueComponent {
+	background: none repeat scroll 0 0 #BE0F32;
+}
+
+.chamferWidget.indexable * {
+	display: inline-block;
+}
+
+.indexable .chamferActionButtons {
+	display: block !important;
+	padding-top: 0px;
+	    margin-left: 0px;
+}
+
+.indexable .rightSidePanel>* {
+	display: block;
+}
+
+.indexable .rightSidePanel .barPanel.chamferTitlePanel {
+	width: 115px;
+}
+
+.indexable .barPanel.customBarPanel {
+	width: 115px;
+}
+
+.dialogTitle {
+	font-size: 28px;
+}
+
+.dialogDescription {
+	margin-top: 12px;
+}
+
+.wizardTabsPanel .gwt-HTML.gwt-Label {
+	color: #000000;
+}
+
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+option:disabled {
+	display: none;
+}
+
+.barPanel .gwt-Label {
+	line-height: normal;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+html body .valueRangeToolTip {
+	background: #4B8232 !important;
+	color: white !important;
+	margin-left: 120px !important;
+	margin-top: -35px !important;
+}
+
+.gwt-HTML.gwt-Label.maintenanceHead {
+	color: #4B8232;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 40px;
+	margin-top: 12px;
+}
+
+.gwt-HTML.gwt-Label.maintenanceLabel {
+	color: #000000;
+	font-size: 18px;
+	margin: 0 auto;
+	width: 380px;
+}
+
+.gwt-Label.maintenanceReasonLabel {
+	color: #000000;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+.gwt-Label.maintenanceReasonTextLabel {
+	color: #000000;
+	font-size: 16px;
+}
+
+.gwt-Label.badge.questionBadge.errorToolTip {
+	color: white !important;
+	display: inline-block;
+	background: #BE0f32 !important;
+	/* float: right; */
+	position: absolute;
+	left: 529px;
+	z-index: 5;
+	top: 77px;
+}
+
+select.gwt-ListBox.numberOfChipFluteListBox {
+	margin-top: 12px;
+}
+
+.inputDialog.complexChamferInputDialog {
+	width: 440px;
+}
+
+.cartridgeTypePanel {
+	margin-top: 12px;
+}
+
+.cartridgeListBox {
+	margin-top: 12px;
+}
+
+.spinnerPanel img.gwt-Image {
+	width: 30px;
+	margin-left: 6px;
+	padding: 0px;
+	/* margin: 0px; */
+}
+
+.customerSelectionSearchBox {
+  margin-top: 5px;
+  width: 200px;
+  height: 32px;
+}
+
+.IndexableInserts select.gwt-ListBox.typeOfShankListBox {
+	margin-top: 18px;
+}
+
+.lengthBox {
+	/* float: right; */
+	display: inline-block;
+	right: 0px;
+	position: absolute;
+}
+
+.lengthDialogInputContainer .gwt-Label {
+	margin-top: 12px;
+	display: inline-block;
+}
+
+.materialSubIsoRadioGroup .materialGroupButtonRadioPanel .iradio_line-grey:hover
+	{
+	background: none;
+}
+
+.SolidCarbide .radioGroup.typeofMeasureGroup, .noComponentTooltip {
+	display: inline-block;
+}
+
+.spinnerPanel .gwt-Label {
+	color: white;
+	margin-left: 12px;
+	margin-right: 11px;
+	font-size: 14px;
+	padding: 0px;
+}
+
+.notSupportedPanel {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: white;
+	z-index: 9999999;
+}
+
+.SolidCarbide .chamferActionButtons select.gwt-ListBox {
+	width: 164px;
+	display: inline-block;
+	margin-right: 12px;
+	vertical-align: middle;
+}
+
+.gwt-RadioButton {
+	position: relative;
+}
+
+.labelValue {
+	margin-left: 30px;
+	margin-right: 15px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.wizardHeadPanel .formPanelHeader {
+	display: none;
+}
+
+.SolidCarbide .barPanel.withRadiusBarPanel {
+	display: inline-block;
+	margin-bottom: 0px;
+	vertical-align: middle;
+	padding-right: 8px;
+	margin-top: 10px;
+}
+
+.rightSidePanel .measureComboInline {
+	display: block;
+	position: static;
+	margin-bottom: 6px;
+}
+
+.productTitleBar {
+	background: #404040;
+	color: white;
+	margin-right: 12px;
+}
+
+.chamferDialogDrawingsPanel.left {
+	margin-right: 18px;
+}
+
+.chamferDialogDrawingsPanel {
+	display: inline-block;
+	border: 1px solid #ccc;
+	padding: 1%;
+	border-radius: 4px;
+	text-align: center;
+}
+
+div#RootPanel {
+	border-left: 1px solid #cfcfcf;
+	border-right: 1px solid #cfcfcf;
+	padding-bottom: 50px;
+	background: #f0f0f0;
+}
+
+.chamferDialogDrawingsPanelBadges {
+	width: auto;
+	display: inline-block;
+	position: relative;
+}
+
+.materialSelectionInfoPanel {
+	display: inline-block;
+	margin-left: 0px;
+	line-height: 25px;
+	vertical-align: top;
+	margin-right: 40px;
+	margin-top: 12px;
+}
+
+.materialSliderContainer button.gwt-Button {
+	background: #404040;
+	color: white;
+	padding: 33px 12px;
+	margin: 0px;
+	vertical-align: top;
+}
+
+.materialSliderContainer:hover {
+	cursor: pointer;
+}
+
+.anchorPanel * {
+	display: inline-block;
+	margin-right: 12px;
+}
+
+.materialSliderContainer {
+	padding: 0px;
+	padding-top: 0px !important;
+}
+
+.submitCompleteDialogContent {
+	font-size: 14px;
+	max-width: 480px;
+	width: auto;
+}
+
+.dialogMaterialSelectionRadio .icheck_line-icon {
+	display: none;
+}
+
+.submitCompleteDialogContent .gwt-Label {
+	margin-top: 12px;
+}
+
+.dialogMaterialSelectionRadio .iradio_line-grey {
+	background: none !important;
+	border: none;
+	color: white;
+	vertical-align: middle;
+	padding: 0;
+	margin: 0;
+	margin-top: 20px;
+	height: 20px;
+}
+
+.inputDialog.materialSelectionInputDialog {
+	width: 748px;
+	text-align: center;
+}
+
+.dialogMaterialSelectionRadio .labelValue {
+	border: 1px solid white;
+	height: 42px;
+	width: 52px;
+	margin-left: 16px;
+	border-radius: 5px;
+	padding-top: 9px;
+}
+
+.materialGroupButtonRadioPanel .iradio_line-grey {
+	vertical-align: middle;
+	background: none;
+	margin-top: 47px;
+	border: none;
+	padding-right: 0px;
+}
+
+.materialPDialogGradient {
+	background-color: #BEE0EE !important;
+}
+
+.materialMDialogGradient {
+	background-color: #FFF4D0 !important;
+}
+
+.materialKDialogGradient {
+	background-color: #F5CCDD !important;
+}
+
+.materialNDialogGradient {
+	background-color: #C0DFC1 !important;
+}
+
+.materialSDialogGradient {
+	background-color: #EBDBC6 !important;
+}
+
+.materialHDialogGradient {
+	background-color: #C6C7C8 !important;
+}
+
+.materialODialogGradient {
+	background-color: #C6C7C8 !important;
+}
+
+.materialNDDialogGradient {
+	background-color: #FFFFFF !important;
+}
+
+.radioGroup.dialogMaterialSelectionRadio {
+	line-height: 12px;
+	background: none repeat scroll 0 0 #404040;
+	height: 78px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+.materialSubIsoRadioGroup {
+	text-align: left;
+	margin-left: 0px;
+	background: #404040;
+	margin-right: 0px;
+	padding-left: 1px;
+	padding-top: 1px;
+	line-height: 8px !important;
+	/* margin-top: 0px; */
+}
+
+.materialGroupButtonRadioPanel {
+	border-right: 1px solid #404040;
+	height: 100px;
+	margin: 0 0 1px;
+	padding: 0;
+	width: 50%;
+}
+
+.materialGroupButtonRadioPanel .gwt-RadioButton {
+	float: right;
+	height: 100%;
+}
+
+.formPanelContainer {
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+input[name="MATEN"] {
+	visibility: hidden;
+	position: absolute;
+	bottom: 0px;
+	left: 50%;
+	width: 30px;
+	margin-left: -15px;
+}
+
+.materialGroupButtonRadioPanel div .gwt-Label {
+	margin-left: 8px;
+	line-height: 24px;
+	color: #404040;
+	width: 300px;
+}
+
+.materialGroupButtonRadioPanel>div {
+	overflow: visible;
+	position: absolute;;
+}
+
+.iradio_line-grey.matblue.checked, .iradio_line-grey.matgreen.checked,
+	.iradio_line-grey.matyellow.checked, .iradio_line-grey.matpink.checked,
+	.iradio_line-grey.matbrown.checked, .iradio_line-grey.matice.checked,
+	.iradio_line-grey.matgrey.checked, .iradio_line-grey.matwhite.checked {
+	color: #000000;
+}
+
+.iradio_line-grey.matblue.checked .labelValue, .iradio_line-grey.matgreen.checked .labelValue,
+	.iradio_line-grey.matyellow.checked .labelValue, .iradio_line-grey.matpink.checked .labelValue,
+	.iradio_line-grey.matbrown.checked .labelValue, .iradio_line-grey.matice.checked .labelValue,
+	.iradio_line-grey.matgrey.checked .labelValue, .iradio_line-grey.matwhite.checked .labelValue
+	{
+	border-color: #404040 !important;
+	color: #404040 !important;
+}
+
+.iradio_line-grey.matblue {
+	color: #BEE0EE !important;
+}
+
+.iradio_line-grey.matblue .labelValue {
+	border-color: #BEE0EE !important;
+}
+
+.iradio_line-grey.matyellow {
+	color: #FFF4D0 !important;
+}
+
+.iradio_line-grey.matyellow .labelValue {
+	border-color: #FFF4D0 !important;
+}
+
+.iradio_line-grey.matpink {
+	color: #F5CCDD !important;
+}
+
+.iradio_line-grey.matpink .labelValue {
+	border-color: #F5CCDD !important;
+}
+
+.iradio_line-grey.matgreen {
+	color: #C0DFC1 !important;
+}
+
+.iradio_line-grey.matgreen .labelValue {
+	border-color: #C0DFC1 !important;
+}
+
+.iradio_line-grey.matbrown {
+	color: #EBDBC6 !important;
+}
+
+.iradio_line-grey.matbrown .labelValue {
+	border-color: #EBDBC6 !important;
+}
+
+.iradio_line-grey.matgrey {
+	color: #C6C7C8 !important;
+}
+
+.iradio_line-grey.matgrey .labelValue {
+	border-color: #C6C7C8 !important;
+}
+
+.iradio_line-grey.matice {
+	color: #E1EBF1 !important;
+}
+
+.iradio_line-grey.matice .labelValue {
+	border-color: #E1EBF1 !important;
+}
+
+.iradio_line-grey.matwhite {
+	color: #FFFFFF !important;
+}
+
+.iradio_line-grey.matwhite .labelValue {
+	border-color: #FFFFFF !important;
+}
+
+.dialogMaterialSelectionRadio span.iCheck {
+	position: relative;
+	text-align: center;
+	width: 12%;
+	display: inline-block;
+	height: 78px;
+	overflow: hidden;
+	background: rgb(64, 64, 64);
+	cursor: pointer;
+}
+
+.line2 {
+	font-weight: bold;
+}
+
+.materialSelectionInfoPanel .gwt-Label {
+	font-size: 15px;
+	color: #404040;
+	/* font-weight: lighter; */
+}
+
+.complexDrillDialogMeasurePanel .formulaCube {
+    width: 100%;
+}
+
+.materialSelectionSlider {
+	display: inline-block;
+	padding: 15px 17px;
+}
+
+.closeButton img.gwt-Image {
+	width: 14px;
+	margin: 10px;
+}
+
+.closeButton {
+	float: right;
+}
+
+.materialSubIsoRadioGroup ins.iCheck-helper {
+	width: 0 !important;
+	height: 0 !important;
+}
+
+.materialNDGradient {
+	background: #f9f9f9; /* Old browsers */
+	background: -moz-linear-gradient(top, #f9f9f9 0%, #fcfcfc 97%, #ffffff 100%);
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f9f9f9),
+		color-stop(97%, #fcfcfc), color-stop(100%, #ffffff));
+	/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #f9f9f9 0%, #fcfcfc 97%, #ffffff 100%);
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #f9f9f9 0%, #fcfcfc 97%, #ffffff 100%);
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #f9f9f9 0%, #fcfcfc 97%, #ffffff 100%);
+	/* IE10+ */
+	background: linear-gradient(to bottom, #f9f9f9 0%, #fcfcfc 97%, #ffffff 100%);
+	/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9',
+		endColorstr='#ffffff', GradientType=0); /* IE6-9 */
+	width: 100%;
+}
+
+.splitToleranceMeasurement .measureUnitBox {
+  min-width: 0px;
+}
+
+.materialPGradient {
+	background: #b7d7e5; /* Old browsers */
+	background: -moz-linear-gradient(top, #b7d7e5 0%, #c3e7f5 98%, #d5ebf5 100%);
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #b7d7e5),
+		color-stop(98%, #c3e7f5), color-stop(100%, #d5ebf5));
+	/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #b7d7e5 0%, #c3e7f5 98%, #d5ebf5 100%);
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #b7d7e5 0%, #c3e7f5 98%, #d5ebf5 100%);
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #b7d7e5 0%, #c3e7f5 98%, #d5ebf5 100%);
+	/* IE10+ */
+	background: linear-gradient(to bottom, #b7d7e5 0%, #c3e7f5 98%, #d5ebf5 100%);
+	/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7d7e5',
+		endColorstr='#d5ebf5', GradientType=0); /* IE6-9 */
+}
+
+.materialMGradient {
+	background: #fff1c3; /* Old browsers */
+	background: -moz-linear-gradient(top, #fff1c3 0%, #fff7d9 98%, #fff9e7 100%);
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff1c3),
+		color-stop(98%, #fff7d9), color-stop(100%, #fff9e7));
+	/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #fff1c3 0%, #fff7d9 98%, #fff9e7 100%);
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #fff1c3 0%, #fff7d9 98%, #fff9e7 100%);
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #fff1c3 0%, #fff7d9 98%, #fff9e7 100%);
+	/* IE10+ */
+	background: linear-gradient(to bottom, #fff1c3 0%, #fff7d9 98%, #fff9e7 100%);
+	/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff1c3',
+		endColorstr='#fff9e7', GradientType=0); /* IE6-9 */
+}
+
+.materialKGradient {
+	background: #f5c1d7; /* Old browsers */
+	background: -moz-linear-gradient(top, #f5c1d7 0%, #f5d1df 98%, #f5dfe7 100%);
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f5c1d7),
+		color-stop(98%, #f5d1df), color-stop(100%, #f5dfe7));
+	/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #f5c1d7 0%, #f5d1df 98%, #f5dfe7 100%);
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #f5c1d7 0%, #f5d1df 98%, #f5dfe7 100%);
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #f5c1d7 0%, #f5d1df 98%, #f5dfe7 100%);
+	/* IE10+ */
+	background: linear-gradient(to bottom, #f5c1d7 0%, #f5d1df 98%, #f5dfe7 100%);
+	/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5c1d7',
+		endColorstr='#f5dfe7', GradientType=0); /* IE6-9 */
+}
+
+.materialNGradient {
+	background: #b9dfbb; /* Old browsers */
+	background: -moz-linear-gradient(top, #b9dfbb 0%, #c9dfc9 98%, #d3dfd3 100%);
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #b9dfbb),
+		color-stop(98%, #c9dfc9), color-stop(100%, #d3dfd3));
+	/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #b9dfbb 0%, #c9dfc9 98%, #d3dfd3 100%);
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #b9dfbb 0%, #c9dfc9 98%, #d3dfd3 100%);
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #b9dfbb 0%, #c9dfc9 98%, #d3dfd3 100%);
+	/* IE10+ */
+	background: linear-gradient(to bottom, #b9dfbb 0%, #c9dfc9 98%, #d3dfd3 100%);
+	/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b9dfbb',
+		endColorstr='#d3dfd3', GradientType=0); /* IE6-9 */
+}
+
+.materialSGradient {
+	background: #EBDBC6;
+	background-image:
+		url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJo…nZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0iaGF0MCIgZ3JhZGllbn");
+	background-image: -moz-linear-gradient(90deg, #ebd7bf 0, #ebddcb 98%, #ebe3d7 100%);
+	background-image: -o-linear-gradient(90deg, #ebd7bf 0, #ebddcb 98%, #ebe3d7 100%);
+	background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#ebd7bf),
+		color-stop(0.98, #ebddcb), to(#ebe3d7));
+	background-image: -webkit-linear-gradient(90deg, #ebd7bf 0, #ebddcb 98%, #ebe3d7 100%);
+	background-image: -ms-linear-gradient(90deg, #ebd7bf 0, #ebddcb 98%, #ebe3d7 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,
+		startColorstr=#ebd7bf, endColorstr=#ebe3d7);
+	background-image: linear-gradient(0deg, #ebd7bf 0, #ebddcb 98%, #ebe3d7 100%);
+}
+
+.withRadiusBarPanel label {
+	color: #666;
+}
+
+.materialHGradient {
+	background: #EAEEF0;
+	background-image:
+		url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJo…nZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0iaGF0MCIgZ3JhZGllbn");
+	background-image: -moz-linear-gradient(90deg, #dfe5e7 0, #edf1f3 97.09%, #f3f3f3 100%);
+	background-image: -o-linear-gradient(90deg, #dfe5e7 0, #edf1f3 97.09%, #f3f3f3 100%);
+	background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#dfe5e7),
+		color-stop(0.97, #edf1f3), to(#f3f3f3));
+	background-image: -webkit-linear-gradient(90deg, #dfe5e7 0, #edf1f3 97.09%, #f3f3f3 100%);
+	background-image: -ms-linear-gradient(90deg, #dfe5e7 0, #edf1f3 97.09%, #f3f3f3 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,
+		startColorstr=#dfe5e7, endColorstr=#f3f3f3);
+	background-image: linear-gradient(0deg, #dfe5e7 0, #edf1f3 97.09%, #f3f3f3 100%);
+}
+
+.materialOGradient {
+	background: #C6C7C8;
+	background-image:
+		url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJo…nZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0iaGF0MCIgZ3JhZGllbn");
+	background-image: -moz-linear-gradient(90deg, #b7b9b9 0, #cdcdcf 97.34%, #d9d9db 100%);
+	background-image: -o-linear-gradient(90deg, #b7b9b9 0, #cdcdcf 97.34%, #d9d9db 100%);
+	background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#b7b9b9),
+		color-stop(0.97, #cdcdcf), to(#d9d9db));
+	background-image: -webkit-linear-gradient(90deg, #b7b9b9 0, #cdcdcf 97.34%, #d9d9db 100%);
+	background-image: -ms-linear-gradient(90deg, #b7b9b9 0, #cdcdcf 97.34%, #d9d9db 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,
+		startColorstr=#b7b9b9, endColorstr=#d9d9db);
+	background-image: linear-gradient(0deg, #b7b9b9 0, #cdcdcf 97.34%, #d9d9db 100%);
+}
+
+.materialSelectionIcon {
+	display: inline-block;
+	font-size: 24px;
+	padding: 41px 29px;
+	border: 2px solid #616161;
+	position: relative;
+	font-weight: bold;
+	margin: 0px 0;
+	margin-left: -3px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	margin-right: 15px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	margin-left: 16px;
+}
+
+.toleranceInputComponent {
+	margin-top: 12px;
+}
+
+.functionalLengthBox input.gwt-TextBox.measureTextBox {
+	width: 72px !important;
+}
+
+.wizardTabsPanel {
+	height: 46px;
+}
+
+.productTitleBar .gwt-Label {
+	width: 100%;
+	text-align: center;
+}
+
+.activityStateBox img.gwt-Image {
+	margin-left: 12px;
+}
+
+.SolidCarbide .chamferAngleMeasureContainer .badge {
+	position: absolute;
+	padding: 5px 10px;
+}
+
+.coolantTitlePanel .radioGroup {
+	display: inline-block;
+}
+
+.rightSidePanel .gwt-Label.badge.measureBoxBadge.badgeLeft {
+	width: 48px;
+}
+
+.gwt-Label.productInfoTitleLabel {
+	font-size: 24px;
+	color: #4b8232;
+	margin-top: 24px;
+}
+
+.inlineValidatorToolTip {
+	background: #4B8232;
+	color: white;
+	margin: 0px !important;h 
+	
+}
+
+.drawingChamferStyleImage {
+	width: 200px;
+}
+
+.drillProductInfoToolTip img.gwt-Image {
+	max-width: 100%;
+}
+
+.chamferDialogDrawingsPanel img.gwt-Image {
+	border: none;
+}
+
+span.gwt-CheckBox.additionalProducts.formmiddle {
+    border: none;
+    float: right;
+    position: absolute;
+    top: -61px;
+    right: 0px;
+}
+
+.spinnerPanel {
+	background: #404040;
+	display: inline-block;
+	padding: 6px 0px !important;
+}
+
+.spinnerPanel>* {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.chamferDialogConfigPanel {
+	margin-top: 12px;
+}
+
+.chamferDialogConfigPanel .formulaCube {
+	margin-bottom: 12px;
+}
+
+.drillingDepthRadioPanel {
+	padding: 12px 6px;
+}
+
+.drillingDepthRadioPanel .radioGroup {
+	margin-top: 12px;
+}
+
+.notSupportedCenterPanel {
+	max-width: 300px;
+	margin: 84px auto;
+	font-size: 15px;
+	color: #5b9141;
+	font-weight: bold;
+	border: 16px solid #565656;
+	padding: 24px;
+}
+
+
+
+.toleranceinputcomponent {
+	margin-top: 12px;
+}
+
+.splitToleranceMeasurement>* {
+	display: inline-block;
+	vertical-align: middle;
+	position: static !important;
+}
+
+.toleranceInputComponent input.gwt-TextBox.toleranceInputBox {
+	width: 53px !important;
+}
+
+.dashToleranceLabel {
+
+	padding-right: 6px;
+	font-weight: 700;
+	font-size: 15px;
+}
+
+.complexDrillLengthInputDialog .textBox .measureUnitBox {
+    min-width: 0;
+      position: static;
+}
+
+.complexDrillLengthInputDialog .measureUnitBox {
+  min-width: 0px;
+}
+
+.insertValuesContainerPanel .visibleValueComponent {
+	display: inline-block;
+	margin-right: 2px;
+	margin-bottom: 2px;
+}
+
+.visibleValueComponent {
+	background: #565656;
+	color: white;
+	padding: 2px 12px;
+}
+
+.gwt-Button.resetButton, .gwt-Button.wizardSubmitButton, .GPBYFDEOC button,
+	.GPBYFDEAD button, .GPBYFDELD button, .gwt-Button.greenButton {
+	background: #5a9b3d; /* Old browsers */
+	background: -moz-linear-gradient(top, #5a9b3d 0%, #366028 100%);
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #5a9b3d),
+		color-stop(100%, #366028)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #5a9b3d 0%, #366028 100%);
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #5a9b3d 0%, #366028 100%);
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #5a9b3d 0%, #366028 100%);
+	/* IE10+ */
+	background: linear-gradient(to bottom, #5a9b3d 0%, #366028 100%);
+	/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5a9b3d',
+		endColorstr='#366028', GradientType=0); /* IE6-9 */
+	border-radius: 3px;
+	color: white;
+	position: static;
+	border: 0px;
+}
+
+.functionalLengthBox {
+	position: static !important;
+	display: inline-block;
+	margin-top: 12px;
+}
+
+.indexableDiameterInputDialog .gwt-Label.fineDrillCartridgeInfo {
+	width: 100% !important;
+	margin-top: 24px;
+}
+
+.additionalValuesPanel {
+	display: inline-block;
+	width: 320px;
+	margin-left: 12px;
+	background: #f0f0f0 !important;
+	border: 1px solid #e5e5e5 !important;
+	padding-left: 12px;
+}
+
+.additionalValuesPanel .barPanel .gwt-Label {
+	padding-left: 12px;
+}
+
+.additionalValuesPanel .propertyValuePair .gwt-Label {
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0px 0px 0px 12px;
+	line-height: normal;
+}
+
+.GPBYFDEOC button, .GPBYFDEAD button, .GPBYFDELD button {
+	width: 28px !important;
+	height: 28px !important;
+	  margin-right: 8px;
+	    margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+div.propertyValuePair {
+	position: relative;
+	margin: 7px 0px;
+}
+
+.SolidCarbide .L1StartTower {
+	top: 84%;
+	left: 6%;
+	position: absolute;
+}
+
+.SolidCarbide .L1EndTower {
+	top: 84%;
+	left: 93%;
+	position: absolute;
+}
+
+.SolidCarbide .L2StartTower {
+	top: 62%;
+	left: 6%;
+	position: absolute;
+}
+
+.SolidCarbide .L2EndTower {
+	top: 62%;
+	left: 56%;
+	position: absolute;
+}
+
+.SolidCarbide .L2EndTower .l2Arrows {
+	top: 0% !important;
+}
+
+.numberofKindlingChannelContainer {
+	border: 1px solid lightgrey !important;
+	background-color: white !important;
+	background-repeat: no-repeat !important;
+	border-radius: 8px;
+	z-index: 1;
+	margin-left: 0px;
+	display: inline-block;
+	float: none;
+	padding-left: 16px;
+	padding-right: 16px;
+	left: 0px;
+	position: relative;
+	vertical-align: top;
+	padding-bottom: 12px;
+	padding-top: 22px;
+}
+
+.drillProductInfoToolTip {
+	max-width: 320px;
+	padding: 11px 8px;
+}
+
+.gwt-Label.productInfoDescriptionLabel {
+	margin-top: 4px;
+	font-size: 15px;
+}
+
+.productInfoFactsLabel {
+	margin-top: 24px;
+}
+
+.SolidCarbide .L5StartTower {
+	top: 62%;
+	left: 66%;
+	position: absolute;
+}
+
+.SolidCarbide .L5EndTower {
+	top: 62%;
+	left: 93%;
+	position: absolute;
+}
+
+.SolidCarbide .L3StartTower {
+	top: 23%;
+	left: 6%;
+	position: absolute;
+}
+
+.SolidCarbide .L3EndTower {
+	top: 23%;
+	left: 26%;
+	position: absolute;
+}
+
+button.gwt-Button.wizardTestButton.prevnext-Button {
+	position: static;
+	float: right;
+	margin-right: 12px;
+	top: 6px;
+}
+
+.SolidCarbide .L4StartTower {
+	top: 23%;
+	left: 31%;
+	position: absolute;
+}
+
+.SolidCarbide .L4EndTower {
+	top: 23%;
+	left: 55%;
+	position: absolute;
+}
+
+.SolidCarbide .measureContainerLength .measureLine {
+	height: 14px;
+}
+
+.additionalValuesPanel .propertyValuePair input {
+	vertical-align: middle;
+	margin: 0px 0px 0px 24px;
+	height: 24px !important;
+	font-size: 12px;
+}
+
+.angleInputContainer, .diameterInputContainer {
+	float: right;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+#RootPanel select > option {
+    display: block;
+}
+
+.formulaCubeRadioGroup .gwt-RadioButton {
+	margin-bottom: -4px;
+}
+
+.angleInputContainer .gwt-Label, .diameterInputContainer .gwt-Label {
+	display: inline;
+}
+
+.measureLine {
+	width: 1px !important;
+	position: absolute;
+	margin-left: 7px;
+	background: black;
+	height: 100%;
+	z-index: 0;
+	top: 0%;
+}
+
+.measureLineRight {
+	margin-left: 7px;
+}
+
+.gwt-TextArea-watermark {
+	color: #ababab;
+}
+
+.customToleranceContainer {
+	display: inline-block;
+	width: 100%;
+}
+
+.customToleranceContainer input.gwt-TextBox {
+	width: 64px;
+}
+
+.indexableToleranceContainer .customToleranceContainer .gwt-Label {
+	width: auto !important;
+	margin-left: 12px;
+	margin-right: 0px;
+}
+
+.measureLineBottom {
+	position: absolute;
+	width: 2px;
+	margin-left: 7px;
+	margin-top: -49px;
+	background: black;
+	height: 100%;
+	z-index: -13;
+}
+
+.parametricValuesContainer {
+    width: 120px;
+        display: inline-block !important
+}
+
+.angle2CoolantBarPanel, .angle1CoolantBarPanel {
+    width: 115px;
+    display: block !important;
+    margin-bottom: 4px;
+}
+
+.requestHistoryPanel tr {
+	line-height: 32px;
+}
+
+.requestHistoryPanel .popupContent {
+	max-width: 940px;
+	margin: 24px auto;
+}
+
+body .GPBYFDEFD {
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 50%, #d5d5d5 78%, #cdcdcd
+		100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff),
+		color-stop(50%, #e5e5e5), color-stop(78%, #d5d5d5),
+		color-stop(100%, #cdcdcd)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%, #e5e5e5 50%, #d5d5d5 78%,
+		#cdcdcd 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 0%, #e5e5e5 50%, #d5d5d5 78%, #cdcdcd
+		100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 0%, #e5e5e5 50%, #d5d5d5 78%, #cdcdcd
+		100%); /* IE10+ */
+	background: linear-gradient(to bottom, #ffffff 0%, #e5e5e5 50%, #d5d5d5 78%, #cdcdcd
+		100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff',
+		endColorstr='#cdcdcd', GradientType=0); /* IE6-9 */
+	text-shadow: none;
+	color: #808080;
+	font-weight: normal;
+	border-bottom: none;
+}
+
+thead th.GPBYFDEFD {
+	border-right: 1px solid #d4d4d4;
+	padding: 0px 8px;
+}
+
+thead th.GPBYFDEDD {
+	border-left: 1px solid #d4d4d4;
+}
+
+body .GPBYFDEOC {
+	border-right: 1px solid #d5d5d5;
+	border-bottom: 1px solid #d5d5d5;
+	background: #ededed;
+	padding: 2px 8px;
+}
+
+body .GPBYFDEAE {
+	/* margin-left: 0px!important; */ /* border: initial; */
+	border-top: none;
+	border-left: none;
+}
+
+.barPanel.functionalLengthBarPanel>* {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+body .GPBYFDEAD {
+	border-top: none;
+	border-left: none;
+	border-right: 1px solid #d5d5d5;
+}
+
+body .GPBYFDEBD {
+	border-left: 1px solid #d5d5d5;
+}
+
+.gwt-PopupPanel.requestHistoryPanel {
+	width: 100% !important;
+	height: 100%;
+	padding: 0 !important;
+	border: 0 !important;
+	background: #eaeaea;
+}
+
+.requestHistoryPanel .actionButton {
+	width: 30px !important;
+	/* padding: 2px 10px; */
+	float: left;
+	margin-top: 0px !important;
+}
+
+/********
+************ VALUES FOR THE PHASE LOGIC WITH OVERLAYING BUTTONS  **/
+img.gwt-Image.phaseTop {
+	position: absolute;
+	left: 25%;
+	top: 15%;
+}
+
+.counterboring .measureContainerDiameterIndexable .diameterCountTwo.withPhase .tb_D
+	{
+	left: 27%;
+	top: 10%;
+}
+
+.counterboring .measureContainerDiameterIndexable .diameterCountTwo.withPhase .id_PD
+	{
+	left: 50%;
+}
+
+.counterboring .diameterCountThree .phaseTop {
+	left: 40%;
+}
+
+.counterboring .diameterCountThree .phaseBot {
+	left: 40%;
+}
+
+.counterboring .diameterCountThree.withPhase .measureComboInline.tb_D {
+	left: 43%;
+	top: 12%;
+	z-index: 10;
+}
+
+.component img.gwt-Image.phaseTop {
+	position: absolute;
+	left: 35%;
+	top: 18%;
+}
+
+img.gwt-Image.phaseBot {
+	position: absolute;
+	left: 25%;
+	top: 48%;
+}
+
+.component img.gwt-Image.phaseBot {
+	position: absolute;
+	left: 35%;
+	top: 47.2%;
+}
+
+.component .diameterCountThree img.gwt-Image.phaseBot {
+	top: 49%;
+}
+
+.component .diameterCountThree img.gwt-Image.phaseTop {
+	top: 13%;
+}
+
+.component .shankImageElement {
+	margin-left: 12%;
+}
+
+/*****************************************
+*****************************************/
+.testdialog {
+	border: 10px solid #404040 !important;
+	background: #fcfcfc; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #fcfcfc 0%, #e5e5e5 100%)
+		!important; /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #fcfcfc),
+		color-stop(100%, #e5e5e5)) !important; /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg, #fcfcfc 0%, #e5e5e5 100%)
+		!important; /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg, #fcfcfc 0%, #e5e5e5 100%)
+		!important; /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg, #fcfcfc 0%, #e5e5e5 100%)
+		!important; /* IE10+ */
+	background: linear-gradient(135deg, #fcfcfc 0%, #e5e5e5 100%) !important;
+	/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc',
+		endColorstr='#e5e5e5', GradientType=1 !important);
+	/* IE6-9 fallback on horizontal gradient */
+	padding: 0 !important;
+	z-index: 9999999999999999999999999 !important
+}
+
+.testdialog .gwt-TextBox, .testdialog .gwt-ListBox {
+	background: #efefe7;
+}
+
+.submitCompleteDialogContent .measureUnitBox {
+  margin-top: 12px;
+}
+
+.spinnerDialog {
+	width: 200px;
+	background: white;
+	vertical-align: middle;
+	text-align: center;
+	border: 12px solid #565656 !important;
+	height: 200px;
+	z-index: 10;
+	  top: 50% !important;
+  margin-top: -100px !important;
+  left: 50% !important;
+  margin-left: -100px !important;
+  position: fixed !important;
+}
+
+div.spinnerDialog>img {
+	top: 50%;
+	margin-left: -26px;
+	margin-top: -26px;
+	position: absolute;
+	left: 50%;
+}
+
+.thanksPage {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	left: 0px;
+	height: 100%;
+	z-index: 10000000000000000000000000000000;
+	background: white;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.l4combiner {
+	position: absolute;
+	width: 100%;
+	top: 99%;
+}
+
+.l3combiner {
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	top: 5%;
+}
+
+.thanksPage>div {
+	text-align: center;
+	width: 50%;
+	margin-left: 25%;
+	background: #5d5d5d;
+	margin-top: 25px;
+	padding: 24px;
+	color: white;
+}
+
+.thanksPage .gwt-Button {
+	margin-top: 14px;
+}
+
+.gwt-TextBox.measureTextBox.disabled, .gwt-TextBox.disabled,
+	.gwt-TextBox.inputDialogBox.disabled {
+	background-color: #f8f8f8;
+	opacity: 1 !important;
+}
+
+input[disabled] {
+	background-color: #f8f8f8 !important;
+	color: black;
+}
+
+div.spinnerDialog>div {
+	margin-top: 24px;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.configBorderPanel {
+	max-width: 377px;
+	padding: 31px 0px;
+	background: white;
+	z-index: -34;
+	border: 1px solid lightgrey;
+	border-radius: 8px;
+}
+
+.singleRadioButtonPanel {
+	margin-bottom: 12px;
+}
+
+.wizardSubmitButton {
+	width: auto !important;
+	position: absolute;
+	right: 6px;
+	top: 6px;
+	padding: 0px 16px !important;
+}
+
+.page_size {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.rightPositioned {
+	float: right;
+}
+
+.expandableImage {
+	margin-right: 2px;
+	margin-left: -6px;
+	border: 0px solid white;
+	width: 18px;
+	margin-top: -2px;
+	display: none !important;
+}
+
+.gwt-Button.greyButton {
+	background: #ffffff;
+	background: -moz-linear-gradient(top, #ffffff 0%, #969699 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff),
+		color-stop(100%, #969699));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #969699 100%);
+	background: -o-linear-gradient(top, #ffffff 0%, #969699 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%, #969699 100%);
+	background: linear-gradient(to bottom, #ffffff 0%, #969699 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff',
+		endColorstr='#969699', GradientType=0);
+}
+
+.measureArrowTop {
+	border-bottom: 5px solid black !important;
+	left: -4px !important;
+	top: 0px !important;
+}
+
+.measureArrowBottom {
+	border-top: 5px solid black !important;
+	left: -4px !important;
+	bottom: 0px !important;
+}
+
+.arrowUp {
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid #F2DEDE;
+	position: absolute;
+	top: -5px;
+	left: 5px;
+}
+
+.arrowDown {
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid #F2DEDE;
+	position: absolute;
+	bottom: -5px;
+	left: 5px;
+}
+
+.arrowRight {
+	top: 0% !important;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(0, 0, 0, 0);
+	border-left-color: #000000;
+	border-width: 7px;
+}
+
+.arrowLeft {
+	right: 100%;
+	top: 0% !important;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(0, 0, 0, 0);
+	border-right-color: #000000;
+	border-width: 7px;
+	left: 0px
+}
+
+
+.pointMeasureLine .arrowRight {
+right: -45%;
+    top: 0px !important;
+}
+
+.pointMeasureLine .gwt-Label.badge.measureElement {
+    position: absolute;
+    left: -32%;
+    top: -20%;
+}
+
+.lineLeftEnd.measureArrowPoint {
+    margin-left: 5px;
+    margin-top: 14%;
+    position: absolute;
+}
+
+.pointMeasureLine .line {
+  top: 18%;
+}
+
+.measureLineElementLeft {
+  /* position: absolute; */
+  /* left: 0%; */
+  /* top: -31%; */
+  margin-left: -28px;
+  /* margin-top: 5%; */
+}
+
+div.measureLine.measureLineLeft {
+	margin-left: 5px;
+}
+
+.arrowUpGreen {
+	border-bottom: 5px solid #5b9141 !important;
+}
+
+.xpressTooltip {
+	border-radius: 4px;
+	/* color: #e5e5e5; */
+	border: 0px solid white !important;
+	color: #BE0f32;
+	background: #F2DEDE !important;
+	margin-top: 5px;
+	z-index: 800 !important;
+	margin-left: 5px;
+	max-width: 200px;
+}
+
+.xpressTooltipGreen {
+	border-radius: 4px;
+	/* color: #e5e5e5; */
+	border: 0px soflid white !important;
+	color: white;
+	background: #5b9141 !important;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.chamferWidget .chamferInsertSpec {
+	width: auto;
+	display: block;
+	margin-top: 12px;
+	position: relative;
+	padding: 3px 0px;
+}
+
+.drillingDepthBarPanel .gwt-Label {
+	display: inline-block;
+	height: auto;
+	margin: 0px;
+	padding: 8px 0px 8px 4px;
+}
+
+.indexableChamferSpecImage img.gwt-Image {
+	width: 40px;
+	margin-top: 2px;
+	margin-left: 5px;
+}
+
+.chamferInsertSpec>* {
+	display: block !important;
+	position: static !important;
+	margin: 2px 4px 2px 0px;
+	line-height: 29px;
+}
+
+.indexableChamferSpecImage {
+	width: 50px !important;
+	display: inline-block !important;
+	margin-bottom: 2px !important;
+	height: 30px;
+}
+
+button.gwt-Button.greenButton.customizeButton {
+	display: inline-block !important;
+	margin-top: 0px;
+	vertical-align: top;
+	margin-left: 8px;
+	height: 32px;
+	padding-top: 0px;
+}
+
+.xpressTooltip a {
+	color: white !important;
+}
+
+.titlepanel.tomTitlePanel.formmiddle {
+	border-bottom-width: 0px;
+}
+
+.xpressTooltip * {
+	background: none !important;
+}
+
+.gwt-PopupPanel {
+	z-index: 100000 !important;
+}
+
+.inchDialogBox {
+	margin-left: 12px;
+}
+
+.rightPositioned  * {
+	display: inline;
+}
+
+.radioGroup {
+	line-height: 36px;
+}
+
+.gwt-PopupPanelGlass {
+	z-index: 900 !important;
+}
+
+input[disabled] {
+	cursor: default !important;
+}
+
+.topoint {
+	width: 231px;
+	margin: 0 auto !important;
+	height: 165px;
+	position: relative;
+	border-radius: 8px;
+	background-repeat: no-repeat !important;
+}
+
+.indexableToleranceInfoPanel {
+	position: static;
+}
+
+.infoToolTip {
+	width: auto !important;
+	background: white !important;
+	border: 1px solid #808080 !important;
+	max-width: none !important;
+	color: #808080 !important;
+	margin-left: 24px;
+}
+
+.toleranceInputComponent .gwt-ListBox.toleranceInputBox {
+	width: 80px;
+}
+
+.SolidCarbide .chamferActionButtons {
+	display: block !important;
+	margin-right: 0px;
+	padding-top: 0px;
+	margin-left: 0px;
+}
+
+.SolidCarbide .rightSidePanel, .SolidCarbide .leftSidePanel,
+	.SolidMilling .rightSidePanel, .SolidMilling .leftSidePanel {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.SolidMilling .solidMillingMeasureContainer .rightSidePanel {
+	vertical-align: top;
+}
+
+.horizontalMeasureLine .gwt-Label.badge.measureElement {
+	position: absolute;
+	z-index: 1;
+}
+
+.rightSidePanel.formmiddle {
+	border-top: 0px;
+	vertical-align: top;
+	padding-top: 0px;
+}
+
+.rightSidePanel .barPanel.chamferTitlePanel {
+	margin-top: 12px !important;
+	padding: 6px 9px;
+}
+
+.gwt-Label.badge.dialogChamferA5 {
+	left: 136px;
+	margin-top: 65px;
+}
+
+.formulaCubeRadioGroup .labelValue {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.chamferDialogDrawingsPanel .gwt-Label.badge {
+	padding: 3px 8px;
+	position: absolute;
+}
+
+.gwt-Label.badge.dialogChamferA1 {
+	left: 144px;
+	top: 35%;
+}
+
+.gwt-Label.badge.dialogChamferA2 {
+	left: 96px;
+	top: 41%;
+}
+
+.indexable .gwt-Label.badge.dialogChamferA2 {
+	left: 151px;
+    top: 20%;
+}
+
+
+.indexable .gwt-Label.badge.dialogChamferA1 {
+    left: 95px;
+    top: 40%;
+}
+
+
+
+.gwt-Label.badge.dialogChamferLC1 {
+	left: 60px;
+	top: 0%;
+}
+
+.gwt-Label.badge.dialogChamferR1 {
+	left: 36px;
+	margin-top: 40px;
+}
+
+.gwt-Label.badge.dialogChamferDC1 {
+	left: 44px;
+	margin-top: 70px;
+}
+
+.gwt-Label.badge.dialogChamferLC3 {
+	left: 46px;
+	margin-top: 3%;
+}
+
+html body .hoverRed {
+	background-color: #BE0F32 !important;
+}
+
+html body .hoverRedText {
+	color: #BE0F32 !important;
+}
+
+.leftSidePanel {
+	margin-right: 12px;
+}
+
+.coolantInfoPanel {
+	max-width: 360px;
+	padding: 8px;
+}
+
+.coolantInfoPanel img.gwt-Image {
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+.questionBadge {
+	border-radius: 55px !important;
+	padding: 2px 9px !important;
+	background: green !important;
+	margin: 4px 12px;
+	cursor: pointer !important;
+	height: auto !important;
+	font-size: 12px !important;
+	font-weight: bold !important;
+	color: white !important;
+	line-height: normal !important;
+	width: auto !important;
+}
+
+
+
+
+
+
+.gwt-Label.badge.questionBadge.coolantInfoTooltip {
+	display: inline-block;
+	font-weight: bold !important;
+	vertical-align: middle;
+	margin-left: 0px !important;
+}
+
+.gwt-Label.badge.questionBadge.workpieceDiameterInfoTooltip {
+	width: auto !important;
+}
+
+.gwt-Button.wizardSubmitButton.prevnext-Button {
+	float: right !important;
+	margin-right: 12px;
+}
+
+.formulaMid {
+	border-top: 1px solid gray;
+	padding-top: 12px;
+	margin-top: 12px;
+	width: 100%;
+}
+
+.gwt-PopupPanel.xpressTooltip.infoToolTip.drillProductTooltip {
+	margin-left: 126px;
+	margin-top: -39px;
+}
+
+.greenButton .iradio_line-grey {
+	background: #4b8232;
+	color: white;
+}
+
+.greenButton .iradio_line-grey:hover {
+	color: black;
+}
+
+.inlinecontainer>* {
+	display: inline-block;
+}
+
+.inputDialogBox {
+	display: inline-block;
+}
+
+.mandatoryTextBox {
+	border: 1px solid #BE0F32 !important;
+}
+
+.gwt-TextBox:focus {
+	outline-color: #666;
+}
+
+input:focus, select:focus, textarea:focus {
+	outline-color: #666;
+}
+
+
+
+.topoint.POINT {
+	background:
+		url('/Content/img/drilling/solidcarbide/geometric/corner_pic_0.png');
+}
+
+.topoint.CHAMFER {
+	background:
+		url('/Content/img/drilling/solidcarbide/geometric/corner_pic_1.png');
+}
+
+.topoint.RADIUS {
+	background:
+		url('/Content/img/drilling/solidcarbide/geometric/corner_pic_2.png');
+}
+
+.measureTextBoxAP {
+	position: absolute;
+	top: 70px !important;
+	left: -15px;
+}
+
+.measureTextBoxLCC {
+	position: absolute;
+	top: 6px !important;
+	margin-left: 56px;
+}
+
+.measureTextBoxLRCC {
+	position: absolute;
+	top: 8px !important;
+	margin-left: 144px;
+}
+
+.measureTextBoxaCC {
+	position: absolute;
+	top: 7px !important;
+	margin-left: 205px
+}
+
+.lineContainer {
+	display: inline-block;
+	padding-top: 12px;
+	vertical-align: top;
+}
+
+.lineContainer .icheckbox_line-grey {
+	margin-bottom: 12px;
+	  padding-right: 10px;
+}
+
+.lineContainer .gwt-TextBox {
+	width: 150px;
+	display: block;
+}
+
+.gwt-TextBox {
+	text-align: center !important;
+	border-radius: 4px;
+}
+
+.qopBox {
+	width: 48px;
+	text-align: left !important;
+	margin-right: 4px;
+	line-height: normal !important;
+}
+
+.xpressTooltip .popupcontent {
+	max-width: 200px
+}
+
+.functionalLengthInfoPanel {
+	width: 300px !important;
+}
+
+.shankListBoxContainer .gwt-Label {
+	display: inline-block;
+	margin-left: 4px;
+}
+
+.shankInputDialog>div {
+	display: inline-block;
+}
+
+.spinnerDialog .popupContent {
+animation: none;
+    padding: 0;
+    width: auto;
+}
+
+.barPanel.chamferTitlePanel {
+	padding: 6px 0px 6px 4px;
+	width: auto;
+	margin-bottom: 10px;
+}
+
+.barPanel .icheckbox_line-grey {
+	margin: 0px !important;
+	background: none !important;
+	border: none !important;
+}
+
+.barPanel.customBarPanel {
+	margin-top: 12px;
+}
+
+.visibleValueComponent .gwt-Label {
+	display: inline-block;
+	margin-right: 4px;
+}
+
+.gwt-Label.insertCoolantLabel {
+	margin-top: 12px;
+}
+
+.xpressTooltip.infoToolTip .popupcontent {
+	max-width: none !important;
+}
+
+.fullScreenDialog .inchSupportBar label {
+	color: #666 !important;
+}
+
+.barPanel.functionalLengthBarPanel {
+	margin-top: 15px;
+	padding: 7px 0px;
+	padding-left: 4px;
+}
+
+.titlepanel>.gwt-TextBox {
+	margin: 0px;
+}
+
+/** 
+* Wizard Dependent Values
+*/
+.wizardTabsPanel .badge {
+	padding: 8px 12px;
+	display: inline !important;
+	margin-left: 12px;
+	background-color: #4b8232;
+	border-radius: 18px;
+}
+
+.dialogContainer {
+	margin: 12px;
+	padding-bottom: 90px;
+}
+
+.wizardTabsPanel .tab {
+	display: inline;
+	padding: 15px 0px;
+	padding-right: 24px;
+	line-height: 46px;
+	color: white;
+}
+
+.wizardHeadPanel .formPanelContainer {
+	padding: 0px 15px;
+	margin-top: 0px !important;
+	border-top: 0px;
+	margin-bottom: 4px;
+}
+
+.wizardTabsPanel .gwt-Label {
+	display: inline;
+	margin-left: 6px;
+	cursor: pointer;
+}
+
+.wizardHeadPanel {
+	overflow: hidden;
+	margin-top: 0px !important;
+}
+
+.indexableToleranceContainer {
+	border-top: 1px solid black;
+	margin-top: 23px;
+	padding-top: 12px;
+}
+
+.measureContainer {
+	border: 1px solid lightgrey;
+	text-align: center;
+	background-color: white !important;
+	background-repeat: no-repeat !important;
+	border-radius: 8px;
+	min-width: 265px;
+	max-width: 640px;
+	position: relative;
+}
+
+.measureContainerLength {
+	border: 1px solid lightgrey;
+	text-align: center;
+	background-color: white !important;
+	background-repeat: no-repeat !important;
+	border-radius: 8px;
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+}
+
+.tolButton div.labelValue {
+	right: 8px;
+	left: initial;
+	top: 20px;
+}
+
+.measureContainerDiameterIndexable .diameterImageContainer {
+	position: static;
+}
+
+.lengthImage {
+	text-align: left;
+	background-repeat: no-repeat !important;
+	background-position: 0px 8px !important;
+	margin: 0px;
+}
+
+.measureTextBoxContainer {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.measureComboInline, .measureComboBlock {
+	position: absolute;
+	z-index: 10;
+	top: 66px;
+}
+
+.measureComboInline>* {
+	display: inline;
+}
+
+.groupPanel .iradio_line-grey.checked .icheck_line-icon {
+	position: absolute;
+	top: 35px;
+	display: block;
+	height: 6px;
+	width: 11px;
+	left: 13px;
+	background-image: url('/Content/img/nav_noses.png') !important;
+	background-repeat: no-repeat;
+	background-position: top center;
+	z-index: 1;
+}
+
+.measureComboBlock>* {
+	display: block !important;
+}
+
+.toleranceInputBox {
+	width: 100px;
+}
+
+.tb_D {
+	top: 106%;
+	left: 67%;
+}
+
+.inch.toleranceInputComponent .gwt-ListBox.toleranceInputBox {
+    width: 165px;
+        display: inline-block;
+}
+
+.inch .splitToleranceMeasurement {
+    position: relative;
+}
+
+
+
+.inch.dialogLabelMeasureBoxCombo .measureUnitBox {
+	    display: block;
+    position: relative;
+}
+
+.inch .splitToleranceMeasurement * {
+  display: inline-block !important;
+  position: relative !important;
+}
+
+.inch.dialogLabelMeasureBoxCombo .splitToleranceMeasurement {
+    width: auto !important;
+    display: block;
+    position: relative;
+    /* float: right; */
+    margin-top: 5px;
+        right: 0px !important;
+}
+
+.historyButton {
+	float: right;
+	height: 30px;
+	/* position: absolute; */
+	width: auto;
+	margin-right: 6px !important;
+	margin-top: 8px !important;
+}
+
+.gwt-Label.badge.questionBadge.inchModusInfoButton {
+	float: right;
+	display: inline-block;
+	width: auto !important;
+	margin: 0px;
+	margin-right: 8px;
+}
+
+.tb_D2 {
+	top: 106%;
+	left: 32%;
+}
+
+.tb_D1 {
+	top: 106%;
+	left: -3%;
+}
+
+.line {
+	background: black;
+	position: absolute;
+}
+
+.arrow1Bot {
+	position: absolute;
+	top: 18%;
+	left: 5%;
+}
+
+.counterboring .measureContainerDiameterIndexable .arrow1Bot,
+	.counterboring .measureContainerDiameterIndexable .arrow1Top {
+	left: 23%
+}
+
+.counterboring .measureContainerDiameterIndexable .arrow2Bot,
+	.counterboring .measureContainerDiameterIndexable .arrow2Top {
+	left: 36%
+}
+
+.counterboring .measureContainerDiameterIndexable .arrow3Bot,
+	.counterboring .measureContainerDiameterIndexable .arrow3Top {
+	left: 60%
+}
+
+.arrow2Bot {
+	top: 18%;
+	left: 20%;
+	position: absolute;
+}
+
+.arrow3Bot {
+	top: 18%;
+	left: 42%;
+	position: absolute;
+}
+
+.arrow1Top {
+	top: 71%;
+	left: 5%;
+	position: absolute;
+}
+
+.arrow2Top {
+	top: 71%;
+	left: 20%;
+	position: absolute;
+}
+
+.arrow3Top {
+	top: 71%;
+	left: 42%;
+	position: absolute;
+}
+
+.seatBox {
+	width: 61% !important;
+}
+
+.measureContainerDiameterIndexable .tb_D1,
+	.measureContainerDiameterIndexable .tb_D2,
+	.measureContainerDiameterIndexable .tb_D {
+	top: 4%
+}
+
+.measureContainerDiameterIndexable .tb_D1 {
+	left: 1%;
+	margin-left: 0;
+}
+
+.inlineFormValidatorPanel {
+    vertical-align: top;
+}
+
+.gwt-Label.badge.questionBadge.errorToolTip {
+    position: static;
+}
+
+.measureContainerDiameterIndexable .diameterCountTwo.withPhase .tb_D {
+	left: 24%;
+}
+
+.measureContainerDiameterIndexable .diameterCountThree.withPhase .tb_D {
+	left: 25%;
+	top: 78%;
+}
+
+.measureContainerDiameterIndexable.component .diameterCountTwo.withPhase .tb_D
+	{
+	left: 35%;
+}
+
+.measureContainerDiameterIndexable.component .diameterCountThree.withPhase .tb_D
+	{
+	left: 35%;
+	top: 4%;
+}
+
+input.gwt-TextBox.toleranceInputBox {
+	width: 83px !important;
+}
+
+.counterboring .measureContainerDiameterIndexable .tb_D1 {
+	left: 13%
+}
+
+.counterboring .measureContainerDiameterIndexable .tb_D2 {
+	left: 29%
+}
+
+.counterboring .measureContainerDiameterIndexable .tb_D {
+	left: 53%
+}
+
+.measureContainerDiameterIndexable .tb_D2 {
+	left: 15%;
+	margin-left: 0;
+}
+
+.measureContainerDiameterIndexable .tb_D {
+	left: 37%;
+	margin-left: 0;
+}
+
+.measureContainerDiameter.measureContainerDiameterIndexable {
+	width: 590px;
+	padding-top: 48px;
+	height: 260px;
+}
+
+select.gwt-ListBox.shankFormListBox {
+	margin-bottom: 12px;
+}
+
+.diameterMeasureLine .line {
+	position: absolute;
+	/* top: 29px; */
+}
+
+.measureLineElementBottom {
+	position: absolute;
+	bottom: 0px;
+}
+
+.innerRelativeContainer {
+	position: relative;
+	/* top: 0pc; */
+	width: 100%;
+	height: 100%;
+}
+
+.formulaCube .cubePanel .gwt-Label {
+	margin-right: 0px;
+	margin-left: 6px;
+	margin-top: 0px;
+	color: #565656;
+	vertical-align: middle;
+}
+
+.measureArrowSecond.bottomEnd {
+	position: absolute;
+	bottom: 0px;
+}
+
+.measureLineElementTop {
+	margin-left: -16px;
+}
+
+.rightEnd.measureArrowSecond {
+	position: absolute;
+	right: 0px;
+}
+
+.measureArrowFirst.topEnd {
+	position: absolute;
+	top: 0px;
+}
+
+.diameterMeasureLine .measureArrowSecond.bottomEnd .line {
+	bottom: 0px;
+	position: relative;
+}
+
+.measureArrowSecond.bottomEnd .diameterMeasureLine .measureArrowTop.arrowUp
+	{
+	position: relative;
+	bottom: 0px !important;
+}
+
+.measureLineElementBottom {
+	position: absolute;
+	bottom: 0px;
+	position: relative;
+	margin-left: -16px;
+}
+
+.formulaCubeRadioGroup .iradio_line-grey.hover {
+	box-shadow: inset 0 0 4px #555;
+	-moz-box-shadow: inset 0 0 4px #555;
+}
+
+.formulaCubeRadioGroup .iradio_line-grey.checked {
+	background-color: transparent !important;
+	text-align: center;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	color: #444 !important;
+	border: none !important;
+	-moz-box-shadow: 0 0 8px #333 !important;
+	-webkit-box-shadow: 0 0 8px #333 !important;
+	box-shadow: 0 0 8px #333 !important;
+}
+
+.formulaCubeRadioGroup .iradio_line-grey {
+	background: none !important;
+	border-left: none;
+	border-top: none;
+	border-bottom: none !important;
+	border-radius: 0px !important;
+	border-right: 1px solid #bab9b9;
+	float: left;
+	cursor: pointer;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 14px 0 14px !important;
+}
+
+.formulaCubeRadioGroup {
+	background: #e2e1e1; /* Old browsers */
+	background: -moz-linear-gradient(top, #e2e1e1 0%, #a09f9f 100%);
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e2e1e1),
+		color-stop(100%, #a09f9f)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #e2e1e1 0%, #a09f9f 100%);
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #e2e1e1 0%, #a09f9f 100%);
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #e2e1e1 0%, #a09f9f 100%);
+	/* IE10+ */
+	background: linear-gradient(to bottom, #e2e1e1 0%, #a09f9f 100%);
+	/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e1e1',
+		endColorstr='#a09f9f', GradientType=0); /* IE6-9 */
+	line-height: normal;
+}
+
+.formulaCubeCaption {
+	margin-right: 24px !important;
+	display: inline-block !important;
+	width: 200px !important;
+}
+
+.formulaCube .cubePanel .gwt-TextBox {
+	margin: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	height: 28px;
+	/* position: relative; */
+	width: 50px;
+}
+
+.formulaCube {
+	vertical-align: bottom !important;
+	border: 1px solid #e5e5e5;
+}
+
+.chamferWidget .titlepanel .titlePanelTitle {
+	margin-top: 16px !important;
+}
+
+.drawingNumberTitlePanel {
+	margin-bottom: 12px;
+}
+
+.groupPanel .gwt-Label {
+	display: inline;
+}
+
+/**
+HERE STARTS THE POSITIONING OF THE SQUARE BADGE TOWERS FOR INDEXABLE WITH DRILLING SELECTED 
+*/
+.L1DPTower {
+	position: absolute;
+	left: 4%;
+	top: 9%;
+	height: 28%;
+	width: 10px;
+}
+
+
+.lengthPointDrill .L1DPPeakTower {
+	position: absolute;
+	left: 4%;
+	top: 9%;
+	height: 41%;
+	
+}
+
+
+.lengthPointDrill .L1DPTower {
+  left: 10.5%;
+ }
+
+
+.DDStartTower {
+	position: absolute;
+	top: 40%;
+	left: 9%;
+	height: 6%;
+}
+
+.DDEndTower {
+	position: absolute;
+	top: 40%;
+	left: 67%;
+	height: 6%;
+}
+
+.L2EndStepStartTower {
+	position: absolute;
+	top: 71%;
+	left: 63%;
+	height: 19%;
+}
+
+.L2EndTower {
+	position: absolute;
+	left: 95.5%;
+	top: 79%;
+	height: 12%;
+}
+
+.complexDrillLengthInputDialog, .complexIndexableDrillLengthDialog {
+	width: auto !important;
+	  max-width: 640px;
+}
+
+.L2EndTower .l2Arrows, .L2EndStepStartTower .l2Arrows {
+	top: 41% !important;
+}
+
+.L1MidStepStartTower {
+	position: absolute;
+	left: 29%;
+	top: 9%;
+	height: 29%;
+}
+
+.L1DPTower .arrowLeft, .L1MidStepEndTower .l1Arrows {
+	top: 31%;
+}
+
+#loading {
+	display: block;
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	text-align: center;
+	width: 100%;
+	background: black;
+	height: 100%;
+	margin-left: 0px;
+	z-index: 9999999999999999999999999;
+	opacity: 0.8;
+}
+
+#loading img {
+	top: 38%;
+	position: absolute;
+	margin-left: -27px;
+	opacity: 1;
+	left: 50%;
+}
+
+div#loadingCenter {
+	width: 320px;
+	height: 250px;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	margin-top: -125px;
+	margin-left: -172px;
+	background: none;
+	opacity: 1;
+	border: none;
+}
+
+.L1MidStepEndTower {
+	position: absolute;
+	left: 35%;
+	top: 9%;
+	height: 20%;
+	width: 10px;
+}
+
+.lengthPointDrill .L1MidStepEndTower {
+	 left: 39%;
+	}
+
+
+.L1MidStepEndTower .measureLine {
+	height: 96%;
+}
+
+.L1EndTower {
+	position: absolute;
+	left: 96%;
+	top: 9%;
+	height: 11%;
+}
+
+div.L2EndStepEndTower {
+	position: absolute;
+	left: 65.5%;
+	top: 79%;
+	height: 14%;
+}
+
+.lengthPointDrill .L2EndStepEndTower {   
+    left: 67.5%;
+   }
+
+.L2EndStepEndTower .l2Arrows {
+	top: 33% !important;
+}
+
+div.L2DPTower {
+	position: absolute;
+	left: 4%;
+	top: 63%;
+	height: 29%;
+}
+
+.lengthPointDrill .L2DPTower {
+   
+    left: 10%;
+  
+}
+
+.L2DPTower .l2Arrows {
+	top: 73% !important;
+}
+
+/**
+HERE ENDS THE POSITIONING OF THE SQUARE BADGE TOWERS FOR INDEXABLE WITH DRILLING SELECTED 
+*/
+/**
+HERE STARTS THE POSITIONING OF THE SQUARE BADGE TOWERS FOR INDEXABLE WITH COUNTERBORING SELECTED 
+*/
+.counterBoring .L1DPTower {
+	position: absolute;
+	left: 9%;
+	top: 16%;
+	height: 21%;
+	width: 10px;
+}
+
+.counterBoring .DDStartTower {
+	position: absolute;
+	top: 40%;
+	left: 9%;
+	height: 6%;
+}
+
+.counterBoring .DDEndTower {
+	position: absolute;
+	top: 40%;
+	left: 67%;
+	height: 6%;
+}
+
+.counterBoring .L2EndStepStartTower {
+	position: absolute;
+	top: 69.5%;
+	left: 63%;
+	height: 22%;
+}
+
+.counterBoring .L2EndTower {
+	position: absolute;
+	left: 95.5%;
+	top: 79%;
+	height: 13%;
+}
+
+.counterBoring .L2EndTower .l2Arrows {
+	top: 38% !important;
+}
+
+.L2EndStepStartTower .l2Arrows {
+	top: 68% !important;
+}
+
+.counterBoring .L1MidStepStartTower {
+	position: absolute;
+	left: 33%;
+	top: 14%;
+	height: 23%;
+}
+
+.counterBoring .L1DPTower .arrowLeft, .L1MidStepEndTower .l1Arrows {
+	top: 31%;
+}
+
+.counterBoring .L1MidStepEndTower {
+	position: absolute;
+	left: 38.5%;
+	top: 15.5%;
+	height: 14%;
+	width: 10px;
+}
+
+.counterBoring .L1MidStepEndTower .measureLine {
+	height: 96%;
+}
+
+.counterBoring .L1EndTower {
+	position: absolute;
+	left: 95%;
+	top: 15%;
+	height: 23%;
+}
+
+.counterBoring .index_tb_L1 {
+	left: 16%;
+	top: 11%;
+}
+
+.counterBoring .index_tb_L2 {
+	left: 73%;
+	top: 79%;
+}
+
+/**
+HERE ENDS THE POSITIONING OF THE SQUARE BADGE TOWERS FOR INDEXABLE WITH COUNTERBORING
+**/
+/***
+****
+*************************************************************
+START OF DIALOG POSITIONING SQUARE BADGE TOWERS FOR INDEXABLE 
+*************************************************************
+****
+**/
+
+
+
+
+.indexL1DPStart {
+	position: absolute;
+	left: 3%;
+	top: -13.5%;
+	height: 41%;
+	width: 10px;
+}
+
+.lengthPointDrill .indexL1DPStart {
+	
+	left: 10%;
+	
+}
+
+.indexL1MidStepStart {
+	position: absolute;
+	left: 29%;
+	top: -13.5%;
+	height: 41%;
+	width: 10px;
+}
+
+.lengthPointDrill .indexL1MidStepStart {	
+	  left: 33.5%;
+	}
+
+  
+
+.indexL1MidStepEnd {
+	position: absolute;
+	left: 34.5%;
+	top: -13.5%;
+	height: 28%;
+	width: 10px;
+}
+
+.lengthPointDrill .indexL1MidStepEnd {
+		 left: 38.5%;
+}
+
+
+.indexL1DPPeakStart {
+    position: absolute;
+    left: 3%;
+    top: -13.5%;
+    height: 64%;
+    width: 10px;
+}
+
+.L2DPPeakTower {
+    position: absolute;
+    left: 4%;
+    top: 49.5%;
+    height: 45%;
+    width: 10px;	
+}
+
+.L2DPPeakTower .l2Arrows.arrowLeft {
+    top: 77% !important;
+}
+
+.lengthPointDrill .L1MidStepStartTower {
+       left: 34%;
+}
+
+.indexL1End {
+	position: absolute;
+	left: 96.5%;
+	top: -14%;
+	height: 14%;
+	width: 10px;
+}
+
+.indexL2DPStart {
+	position: absolute;
+	left: 3.5%;
+	top: 72%;
+	height: 47%;
+	width: 10px;
+}
+
+.indexL2DPPeakStart {
+    position: absolute;
+    left: 3.5%;
+    top: 51%;
+    height: 64%;
+    width: 10px;
+	
+}
+
+
+.indexL2DPPeakStart .l2IndexArrows {
+    top: 84% !important;
+}
+
+.lengthPointDrill .indexL2DPStart {
+      left: 9.5%;
+   }
+
+.indexL2DPStart .l2IndexArrows {
+	top: 71% !important;
+}
+
+.indexL2EndStepStart {
+	position: absolute;
+	left: 60%;
+	top: 84.5%;
+	height: 35%;
+	width: 10px;
+}
+
+.lengthPointDrill .indexL2EndStepStart {
+	
+	left: 63%;
+
+}
+
+.indexL2EndStepStart .l2IndexArrows {
+	top: 57% !important;
+}
+
+.indexL2EndStepEnd {
+	position: absolute;
+	left: 66%;
+	top: 99%;
+	height: 19%;
+	width: 10px;
+}
+
+.lengthPointDrill .indexL2EndStepEnd {
+
+	left: 68%;
+	
+}
+
+
+.indexL2EndStepEnd .l2IndexArrows {
+	top: 32% !important;
+}
+
+.indexL2End {
+	position: absolute;
+	left: 96.5%;
+	top: 98%;
+	height: 20%;
+	width: 10px;
+}
+
+.indexL2End .l2IndexArrows {
+	top: 35% !important;
+}
+
+/***
+****
+*************************************************************
+END OF DIALOG POSITIONING SQUARE BADGE TOWERS FOR INDEXABLE 
+*************************************************************
+****
+**/
+/***
+****
+*************************************************************
+START OF DIALOG POSITIONING SQUARE BADGE TOWERS FOR INDEXABLE OPTION COUNTERBORING 
+*************************************************************
+****
+**/
+.counterBoring .indexL1DPStart {
+	left: 8.5%;
+}
+
+.counterBoring .indexL1MidStepStart {
+	left: 32%;
+}
+
+.counterBoring .indexL1MidStepEnd {
+	left: 37%;
+}
+
+.counterBoring .indexL1End {
+	left: 96%;
+}
+
+.counterBoring .indexL2DPStart {
+	left: 8.5%;
+}
+
+.counterBoring .indexL2EndStepStart {
+	left: 60.5%;
+}
+
+.counterBoring .indexL2EndStepEnd {
+	left: 65.5%;
+}
+
+.counterBoring .indexL2End {
+	left: 93%;
+	top: 80%;
+	height: 17%
+}
+
+.IndexableInserts .typeOfShankMeasureContainer.typeOfShankIndexable>* {
+	display: inline-block;
+	margin-right: 12px;
+	position: static;
+	margin-left: 9px !important;
+	left: 0%;
+	width: auto !important;
+}
+
+/***
+****
+*************************************************************
+END OF DIALOG POSITIONING SQUARE BADGE TOWERS FOR INDEXABLE OPTION COUNTERBORING!!!
+*************************************************************
+****
+**/
+.groupPanel .gwt-RadioButton {
+	vertical-align: bottom;
+	height: 30px;
+}
+
+input[type="text"].gwt-TextBox {
+	height: 28px;
+	background: white;
+	border: 1px solid #ccc;
+	color: #666;
+}
+
+.resetButton {
+	float: right;
+	height: 30px;
+	/* position: absolute; */
+	width: 64px;
+	margin-right: 6px !important;
+	margin-top: 8px !important;
+}
+
+.groupPanel .iradio_line-grey .icheck_line-icon {
+	display: none;
+}
+
+.groupPanel .iradio_line-grey {
+	padding: 2px 8px;
+	border-radius: 8px 8px 8px 8px;
+	margin: 0px;
+	border-bottom: 1px solid lightgrey;
+}
+
+.dialogLabelMeasureBoxCombo {
+	margin-top: 12px;
+	position: relative;
+	    margin-bottom: 12px;
+}
+
+.dialogLabelMeasureBoxCombo>.gwt-Label {
+	position: relative;
+	display: inline-block;
+	padding: 4px 0px;
+}
+
+.dialogLabelMeasureBoxCombo .measureUnitBox {
+      position: absolute;
+    top: 0px;
+    right: 0px;
+   
+    min-width:	110px;
+    
+}
+
+.dialogLabelMeasureBoxCombo .splitToleranceMeasurement {
+	float: right;
+  
+}
+
+
+.complexDrillLengthInputDialog .splitToleranceMeasurement.listBox {
+    right: 62px;
+}
+
+
+.circleBadge {
+	height: 24px;
+	width: 24px;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 50%; /* may require vendor prefixes */
+	background: #565656;
+	color: white;
+	font-size: 9px;
+}
+
+.styleL3 {
+	background: #e6aa00 !important;
+}
+
+.styleL4 {
+	background: #2A85B1 !important;
+}
+
+.configPanel {
+	position: relative;
+	padding: 0px;
+	margin-left: 12px;
+	display: inline-block;
+}
+
+.indexableConfigPanel {
+	position: relative;
+	padding: 34px 0px;
+	display: inline-block;
+	background: white;
+	border: 1px solid #808080;
+	/* margin: 0px 12px; */
+	width: 100%;
+	border-radius: 8px;
+	text-align: center;
+}
+
+.indexableLengthImageContainer {
+	display: inline-block;
+	position: relative;
+}
+
+.indexableConfigPanel img.gwt-Image {
+	width: 97%;
+	max-width: 400px;
+}
+
+/***
+****
+*************************************************************
+START OF DIALOG POSITIONING SQUARE BADGE TOWERS (MEASURE ARROWS) FOR SOLID CARBIDE OPTION DRILL 
+*************************************************************
+****
+**/
+.circleDPStart {
+	position: absolute;
+	top: 20%;
+	left: 4%;
+	height: 41%;
+}
+
+.circleDPEnd {
+	position: absolute;
+	top: 20% !important;
+	left: 7%;
+	height: 28%;
+}
+
+.circleCXStart {
+	position: absolute;
+	top: 20%;
+	left: 45%;
+	height: 27%;
+}
+
+.circleCXEnd {
+	position: absolute;
+	top: 20%;
+	left: 47%;
+	height: 25%;
+}
+
+.circleCYStart {
+	position: absolute;
+	top: 20%;
+	left: 86%;
+	height: 25%;
+}
+
+.circleCYEnd {
+	top: 20%;
+	position: absolute;
+	left: 88%;
+	height: 23%;
+}
+
+.l4circleDPStart {
+	position: absolute;
+	left: 4%;
+	top: 69%;
+	height: 34%
+}
+
+.l4circleDPStart .l4Arrows {
+	top: 67% !important;
+}
+
+.l4circleCXStart .l4Arrows, .l4circleCXEnd .l4Arrows, .l4circleDPEnd .l4Arrows
+	{
+	top: 44% !important;
+}
+
+.l4circleCYStart .l4Arrows {
+	top: 36% !important;
+}
+
+.l4circleCYEnd .l4Arrows {
+	top: 29% !important;
+}
+
+.l4circleDPEnd {
+	left: 7%;
+	position: absolute;
+	top: 84%;
+	height: 19%
+}
+
+.l4circleCXStart {
+	position: absolute;
+	left: 45%;
+	top: 83%;
+	height: 19%
+}
+
+.l4circleCXEnd {
+	position: absolute;
+	left: 48%;
+	top: 85%;
+	height: 19%;
+}
+
+.l4circleCYStart {
+	left: 85%;
+	top: 85%;
+	height: 20%;
+	position: absolute;
+}
+
+.l4circleCYEnd {
+	left: 88%;
+	top: 87%;
+	height: 18%;
+	position: absolute;
+}
+
+/***
+****
+*************************************************************
+END OF DIALOG POSITIONING SQUARE BADGE TOWERS (MEASURE ARROWS) FOR SOLID CARBIDE OPTION DRILL 
+*************************************************************
+****
+**/
+/***
+****
+*************************************************************
+START OF DIALOG POSITIONING SQUARE BADGE TOWERS (MEASURE ARROWS) FOR SOLID CARBIDE OPTION COMPONENT 
+*************************************************************
+****
+**/
+.componentMeasurement .circleDPStart {
+	left: -2%;
+}
+
+.componentMeasurement .circleDPEnd {
+	left: 2%;
+	height: 22%
+}
+
+.componentMeasurement .circleCXStart {
+	left: 44%;
+	height: 21%;
+}
+
+.componentMeasurement .circleCXEnd {
+	left: 46%;
+	height: 16%;
+}
+
+.componentMeasurement .circleCYStart {
+	left: 90%;
+	height: 17%;
+}
+
+.componentMeasurement .circleCYEnd {
+	left: 92%;
+	height: 14%;
+}
+
+.componentMeasurement .l4circleDPStart {
+	left: -2%;
+}
+
+.componentMeasurement .l4circleDPEnd {
+	left: 2%;
+}
+
+.componentMeasurement .l4circleCXEnd {
+	left: 47%;
+}
+
+.componentMeasurement .l4circleCYStart {
+	left: 90%;
+}
+
+.componentMeasurement .l4circleCYEnd {
+	left: 92%;
+}
+
+/***
+****
+*************************************************************
+END OF DIALOG POSITIONING SQUARE BADGE TOWERS (MEASURE ARROWS) FOR SOLID CARBIDE OPTION COMPONENT 
+*************************************************************
+****
+**/
+.styleL3Left {
+	border-radius: 50% 0% 0% 50%;
+	width: 12px;
+	background: #e6aa00 !important;
+}
+
+.squareBadge {
+	width: 20px;
+	height: 20px;
+	margin: 4px 0px 0px 0px;
+	color: white;
+	background: black;
+	font-size: 9px;
+	text-align: center;
+	z-index: 1
+}
+
+.squareBadgeTower {
+	display: inline-block;
+	position: absolute;
+}
+
+.styleL4Right {
+	border-radius: 0% 50% 50% 0%;
+	width: 12px;
+	background-color: #2A85B1 !important;
+	left: 12px;
+	position: absolute;
+}
+
+.gwt-DialogBox {
+	z-index: 99999999;
+}
+
+.measureContainerDiameter {
+	border: 1px solid lightgrey !important;
+	background-color: white !important;
+	background-repeat: no-repeat !important;
+	border-radius: 8px;
+	margin-right: 12px;
+	padding-left: 12px;
+	padding-top: 12px;
+	height: 170px;
+	width: 380px;
+	z-index: 1;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 12px;
+}
+
+.typeOfShankMeasureContainer {
+	border: 1px solid lightgrey !important;
+	background-color: white !important;
+	background-repeat: no-repeat !important;
+	border-radius: 8px;
+	z-index: 1;
+	margin-left: 0px;
+	display: inline-block;
+	float: none;
+	padding-left: 16px;
+	padding-right: 16px;
+	left: 0px;
+	position: relative;
+	padding-bottom: 12px;
+	margin-right: 24px;
+	margin-bottom: 12px;
+}
+
+.grindingBufferGroup {
+	margin-left: 14px;
+	margin-top: 12px;
+}
+
+.measureContainerDiameterIndexable.component .responsiveRelativeContainer
+	{
+	margin-top: -32px;
+}
+
+.typeOfShankMeasureContainer.typeOfShankIndexable>* {
+	display: inline-block;
+	margin-right: 12px;
+}
+
+.typeOfShankMeasureContainer.typeOfShankIndexable {
+	max-width: 310px;
+	padding-top: 12px;
+}
+
+.shankFormListBox {
+	width: 120px;
+}
+
+.shankSizeListBox {
+	width: 100px;
+}
+
+.chamferAngleMeasureContainer {
+	background-position: 10px 6px !important;
+	background-repeat: no-repeat !important;
+	width: 284px;
+	height: 209px;
+	display: inline-block !important;
+	border: 1px solid lightgrey;
+	border-radius: 8px;
+	background-color: white !important;
+	margin-top: 12px;
+}
+
+.chamferActionButtons {
+	display: inline-block !important;
+	margin-right: 14px;
+	padding-top: 19px;
+	margin-left: 12px;
+}
+
+.specificationHolder {
+	
+    vertical-align: top;
+    margin-top: 9px;
+    margin-left: 12px;
+    display: inline-block !important;
+    width: 300px;
+}
+
+.chamferActionButtons > * {
+    display: inline-block !important;
+    vertical-align: middle;
+    margin-right: 8px;
+        margin-top: 4px !important;
+}
+
+.chamferWidget .gwt-CheckBox {
+	margin-left: 0px;
+	vertical-align: middle;
+}
+
+.chamferWidget .gwt-ListBox {
+	display: block;
+	margin-top: 12px;
+}
+
+.chamferWidget .gwt-CheckBox>* {
+	display: inline;
+}
+
+gwt-CheckBox>input[type="checkbox"] {
+	margin: 0px;
+	vertical-align: middle;
+}
+
+.shapeInsertFormBox {
+	width: 128px;
+}
+
+.indexableLengthImage .gwt-Image {
+	position: absolute;
+	top: 0px;
+	left: 0%;
+}
+
+.lengthStartImage {
+	left: 17px !important;
+}
+
+.measureContainerIndexableLength {
+	border: 1px solid lightgrey;
+	text-align: left;
+	background-color: white !important;
+	background-repeat: no-repeat !important;
+	border-radius: 8px;
+	display: inline-block;
+	position: relative;
+	max-width: none;
+	vertical-align: top;
+	padding: 50px 10px !important;
+}
+
+.drillingDepthMeasurePanel .gwt-Image {
+	margin-left: 74px;
+	margin-top: 0px;
+}
+
+.insertDetailsBar {
+	display: block !important;
+	padding: 6px;
+	margin-top: 12px;
+	margin-right: 12px;
+	width: 94% !important;
+	margin-bottom: 12px !important;
+}
+
+.cartridgelistbox {
+	margin-top: 12px;
+}
+
+.lengthEndImage {
+	position: relative !important;
+	top: 0% !important;
+	z-index: 1;
+}
+
+.gwt-CheckBox>label {
+	margin-left: 4px;
+	vertical-align: middle;
+}
+
+.shapeSeatLabel {
+	margin-top: 24px;
+	display: block !important;
+}
+
+.rasterBG {
+	background: url('/Content/img/Raster.png') !important;
+	z-index: 0;
+	background-repeat: no-repeat;
+	width: 94%;
+	height: 92%;
+	top: 4%;
+	left: 4.5%;
+	position: absolute;
+}
+
+.chamferWidget {
+	border: 1px solid lightgrey !important;
+	border-radius: 8px;
+	padding-left: 12px;
+	display: inline-block;
+	padding-right: 12px;
+	padding-bottom: 24px !important;
+	margin-top: 12px;
+	margin-right: 24px;
+	line-height: normal !important;
+	vertical-align: top;
+	width: 97%;
+	position: relative;
+}
+
+.component128 {
+	width: 128px !important;
+}
+
+.insertShapeImage {
+	position: absolute;
+	top: 0px;
+	right: 140px;
+	background: white;
+}
+
+.dialogLeftRightContainer {
+	position: relative;
+	height: 32px;
+}
+
+.dialogLeftPart {
+	padding-top: 8px;
+}
+
+.dialogRightPart {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+.chamferWidget>* {
+	display: inline;
+	vertical-align: top;
+}
+
+
+.typeOfShankMeasureContainer .gwt-Label {
+	margin-top: 6px;
+}
+
+.typeOfShankListBox {
+	margin-top: 12px !important;
+	margin-left: 0px !important;
+	margin-bottom: 12px !important;
+}
+
+.formulaCubeRadioGroup .gwt-RadioButton {
+	display: inline-block;
+	    height: 35px;
+}
+
+.shankImage {
+	height: 60px;
+	width: 159px;
+	background-repeat: no-repeat !important;
+	margin-left: -18px;
+	z-index: 500;
+}
+
+.shankImage.indexableShankImage {
+	height: 0px;
+	width: 0px;
+	margin-left: 120px;
+	margin-top: -7px;
+}
+
+.diameterImageElement {
+	left: 15px;
+	top: 40px;
+}
+
+.measureContainerShank {
+	text-align: center;
+	display: inline-block;
+	border: none !important;
+	background-repeat: no-repeat !important;
+	z-index: 4;
+	left: 265px;
+	top: 33px;
+	position: absolute;
+}
+
+.measureContainerShankEnd {
+	width: 10px;
+	height: 40px;
+	left: 113px;
+	top: 11px;
+	position: absolute;
+}
+
+.tb_DS {
+	top: 74px;
+	left: 43px;
+}
+
+.index_tb_L1 {
+	left: 14%;
+	top: 16%;
+}
+
+.index_tb_L2 {
+	left: 70%;
+	top: 82%;
+}
+
+.index_tb_GB {
+	left: 41%;
+	top: 24%;
+}
+
+.indexable .chamferAngleMeasureContainer {
+	width: 275px;
+	height: 210px;
+}
+
+.tb_L1 {
+	bottom: 7%;
+	left: 44%;
+}
+
+.tb_L2 {
+	bottom: 21%;
+	left: 22%;
+}
+
+.tb_L3 {
+	left: 12%;
+	bottom: 73%;
+	text-align: center;
+}
+
+.tb_L4 {
+	left: 32%;
+	bottom: 73%;
+	text-align: center;
+}
+
+.tb_L5 {
+	bottom: 21%;
+	left: 72%;
+}
+
+.wizardTabsPanel {
+	margin: 0 auto;
+	width: 100% !important;
+}
+
+.wizardRootPanel {
+	position: relative;
+}
+
+.wizardButtons {
+	position: relative;
+	right: 0px;
+	margin-top: 24px;
+	padding-top: 8px;
+	padding-bottom: 6px;
+}
+
+.wizardTabsPanel .tab.after .badge {
+	background: #999999;
+}
+
+.wizardTabsPanel .tab.before .badge {
+	background-color: #468847;
+	/*	background-image: url('/Content/img/check.png'); */
+	background-position: 26px 8px;
+	background-repeat: no-repeat;
+	/*	padding-right: 29px; */
+}
+
+.wizardbutton {
+	padding: 7px !important;
+	margin-right: 13px !important;
+	font-size: 13px !important;
+	border-radius: 3px !important;
+}
+
+.wizardContentPanel {
+	margin-top: 24px;
+}
+
+/*
+Radio Button Dependent Values
+*/
+.radio.iCheck {
+	display: inline-block;
+}
+
+.iradio_line-grey {
+	display: inline;
+}
+
+.gwt-ListBox {
+	height: 30px;
+	color: #666;
+	background: #f4f4f4;
+	background: -moz-linear-gradient(top, #f4f4f4 0%, #9e9c9c 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f4f4f4),
+		color-stop(100%, #9e9c9c));
+	background: -webkit-linear-gradient(top, #f4f4f4 0%, #9e9c9c 100%);
+	background: -o-linear-gradient(top, #f4f4f4 0%, #9e9c9c 100%);
+	background: -ms-linear-gradient(top, #f4f4f4 0%, #9e9c9c 100%);
+	background: linear-gradient(to bottom, #f4f4f4 0%, #9e9c9c 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4',
+		endColorstr='#9e9c9c', GradientType=0);
+	text-align: center;
+	border-radius: 4px;
+	font-size: 12px;
+	padding-top: 4px;
+	padding: 4px 10px 4px 10px;
+}
+
+.matbox {
+	color: #565656 !important;
+	padding-left: 38px !important;
+	padding-top: 4px !important;
+	height: 24px;
+	margin-left: 0px !important;
+	border: 1px solid #AFAFAF !important;
+	margin-top: 0px !important;
+	font-size: 14px !important;
+}
+
+.matbox:hover {
+	background: #e3eddf !important;
+}
+
+.matbox.checked {
+	/*background: #5a9742 !important;
+	color: white !important; */
+	
+}
+
+.formmiddle {
+	border-top: 1px solid #ABABAB;
+	padding-top: 12px;
+}
+
+.formend {
+	line-height: 36px;
+}
+
+.gwt-RadioButton-disabled .iradio_line-grey {
+	background: #e0e0e0;
+}
+
+.formmiddle span.label, .formend span.label {
+	padding: 10px;
+	margin-right: 24px;
+	background: #565656;
+	vertical-align: top;
+}
+
+.formPanelHeader {
+	color: #ffffff;
+	background: #4b8232;
+	border: none;
+	font: 15px/20px 'RobotoLight', Arial, sans-serif;
+	padding: 2px 8px;
+	display: inline-block;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	border-radius: 0px;
+	padding: 0px 7px 0 5px;
+	z-index: 300;
+	font-size: 14px;
+	color: #fff;
+	font-family: Arial;
+}
+
+.dialogButtonPanel .gwt-Button:hover {
+	box-shadow: none;
+}
+
+.formPanelContainer {
+	padding: 8px 15px;
+	position: relative;
+	line-height: 0px;
+}
+
+.formPanelRoot {
+	margin-top: 24px;
+}
+
+#RootPanel .formPanelContainer {
+	margin-top: 12px;
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.74902);
+	/* WebKit */
+	-moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.74902); /* Firefox */
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.74902); /* Standard */
+	border: 3px solid white;
+	background: #ededed; /* Old browsers */
+	background: -moz-linear-gradient(top, #ededed 0%, #dcdcdc 100%);
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ededed),
+		color-stop(100%, #dcdcdc)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ededed 0%, #dcdcdc 100%);
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ededed 0%, #dcdcdc 100%);
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ededed 0%, #dcdcdc 100%);
+	/* IE10+ */
+	background: linear-gradient(to bottom, #ededed 0%, #dcdcdc 100%);
+	/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed',
+		endColorstr='#dcdcdc', GradientType=0); /* IE6-9 */
+}
+
+.chamferA1, .chamferA5 {
+	margin-left: 194px;
+	margin-top: 91px;
+}
+
+.rightSidePanel .measureComboInline.chamferA1 {
+	position: static;
+	margin: 0;
+	display: block;
+}
+
+.rightSidePanel .measureTextBox {
+	width: 64px !important;
+}
+
+.measureContainerShank.indexable {
+	top: 41px;
+}
+
+.testdialog.fullScreenDialog {
+	overflow: hidden !important;
+	position: fixed !important;
+	left: 0px !important;
+	top: 0px !important;
+	border: none !important;
+	color: white !important;
+	background: #404040 !important;
+}
+
+.testdialog.fullScreenDialog .dialogButtonPanel {
+	bottom: 0px;
+	text-align: center;
+	left: 0;
+	width: 100%;
+	height: 80px;
+	z-index: 100;
+	position: fixed;
+	background: #656565; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #656565 0%, #737373 100%);
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #656565),
+		color-stop(100%, #737373)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg, #656565 0%, #737373 100%);
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg, #656565 0%, #737373 100%);
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg, #656565 0%, #737373 100%);
+	/* IE10+ */
+	background: linear-gradient(135deg, #656565 0%, #737373 100%);
+	/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#656565',
+		endColorstr='#737373', GradientType=1);
+	/* IE6-9 fallback on horizontal gradient */
+}
+
+.fullScreenDialog .dialogButtonPanel .gwt-Button {
+	top: 6px !important;
+}
+
+.withRadiusBarPanel {
+	padding: 6px 8px;
+	/* top: 40px; */
+	margin-top: 13px;
+	display: inline-block;
+	width: auto !important;
+}
+
+.chamferR1 {
+	margin-left: 43px;
+	margin-top: 49px;
+}
+
+.chamferLC1, .chamferLC3 {
+	margin-left: 92px;
+	margin-top: 5px;
+}
+
+.chamferA2 {
+	margin-left: 137px;
+	margin-top: 91px;
+}
+
+.indexable .chamferDC1 {
+    margin-top: 106px;
+    margin-left: 73px;
+    position: absolute;
+	
+}
+
+.materialSelectionPanel {
+	padding: 0px;
+}
+
+.chamferDC1 {
+	margin-top: 96px;
+	margin-left: 66px;
+}
+
+.topLabel {
+	font-size: 28px;
+	color: #ffffff;
+	background: #404040;
+	display: inline-block;
+	padding: 5px 12px !important;
+	margin-top: 24px;
+}
+
+.formPanelHeader * {
+	display: inline-block;
+	padding: 4px 11px !important;
+}
+
+.expandIcon {
+	margin: 0px 4px 0px -4px;
+	padding: 0px 5px;
+	border: 1px solid white;
+}
+
+.imageExpandDepand {
+	float: left;
+	margin-top: 3px;
+	margin-right: 4px;
+}
+
+.measurePointButton {
+	margin-left: 0px !important;
+	margin-right: 12px !important;
+	margin-bottom: 4px !important;
+}
+
+.dialogButtonPanel {
+	bottom: 3px;
+	display: block;
+	height: 60px;
+	left: 0;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	z-index: 100;
+}
+
+.dialogButtonPanel .gwt-Button {
+	width: 30%;
+	display: inline-block;
+	height: 34px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: 0 1px 3px 0 #333;
+	-webkit-box-shadow: 0 1px 3px 0 #333;
+	box-shadow: 0 1px 3px 0 #333;
+	-webkit-transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+	-o-transition: all .25s ease-in-out;
+	transition: all .25s ease-in-out;
+	color: #404040;
+	cursor: pointer;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: normal;
+	margin: 4px !important;
+	position: relative;
+	text-align: center;
+
+	/* height: 60px; */
+}
+
+.diameterMeasureCombo .inputDialogBox {
+	margin-left: 0px !important;
+}
+
+.gwt-Button.dialogOkButton {
+	margin: 0px 4px 0px 0px;
+}
+
+.gwt-TextBox.inputDialogBox {
+	width: 57px;
+	margin: 0px 6px 0px 0px;
+}
+
+.inputDialog {
+	margin: 0px;
+	position: relative;
+	width: 320px;
+}
+
+.diameterInputDialog, .shankInputDialog, .angleInputDialog,
+	.indexableDiameterInputDialog, .lengthInputDialog {
+	width: 300px;
+}
+
+.diameterMeasureCombo {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.no-select {
+	user-select: none;
+	-o-user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+}
+
+.toleranceContainer {
+	height: 30px;
+	position: relative;
+}
+
+.measureComboInline .toleranceClassTextBox {
+	position: absolute;
+	width: 100%;
+	display: block;
+	top: 30px;
+	text-align: center;
+	font-size: 10px !important;
+	padding: 0px 0px 0px 0px !important;
+	right: 0px;
+	background-color: white !important;
+}
+
+.inchSupport {
+	margin: 0px !important;
+	background: none !important;
+	border: none !important
+}
+
+.barPanel.inchSupportBar {
+	padding: 10px 15px 10px 4px;
+	margin-bottom: 12px;
+	display: inline-block;
+  width: auto;
+}
+
+.gwt-CheckBox input[type="checkbox"] {
+	margin: 0px;
+	vertical-align: middle;
+}
+
+.inchSupport.checked {
+	color: #565656 !important;
+}
+
+.toleranceMetaContainer>* {
+	margin-top: 12px;
+}
+
+.toleranceContainer .gwt-Label {
+	padding-top: 6px;;
+}
+
+/*
+.toleranceContainer .rightPositioned {
+	position: absolute;
+	float: right;
+	top: 0px;
+	right: 0px;
+}
+*/
+
+.diameterMeasureCombo * {
+	display: inline;
+}
+/**
+Widgets
+*/
+.wizardFooterPanel {
+	margin-top: 24px;
+	background-color: #f9f9f9;
+	border: 1px solid #d4d4d4;
+	padding: 6px 5px;
+	position: relative;
+}
+
+.measureBoxBadge {
+	background-color: #4B8232 !important;
+	color: white !important;
+	padding: 3px 5px !important;
+	vertical-align: middle !important;
+	border-radius: 5px !important;
+	border: 1px solid #565656;
+	text-align: center !important;
+	overflow: hidden;
+}
+
+.badgeTop {
+	margin-bottom: 4px;
+}
+
+.badgeBottom {
+	margin-top: 4px;
+}
+
+.badgeLeft {
+	margin-right: 4px;
+	margin-top: 0px;
+}
+
+.badgeRight {
+	margin-left: 4px;
+	margin-top: 0px;
+}
+
+.infoBadge {
+	border: 1px solid #565656;
+	background: white !important;
+	color: #565656 !important;
+	padding: 4% !important;
+	border-radius: 51% !important
+}
+
+.infoBadgeX {
+	position: absolute;
+	top: 43%;
+	left: 28%;
+	z-index: 5;
+}
+
+.badge {
+	padding-right: 9px;
+	padding-left: 9px;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+}
+
+.badge {
+	display: inline-block;
+	padding: 7px 13px;
+	font-size: 11.844px;
+	font-weight: normal !important;
+	line-height: 14px;
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	white-space: nowrap;
+	vertical-align: baseline;
+	background-color: #999;
+}
+
+.counterBoring .infoBadgeX {
+	top: 54%;
+	left: 5%;
+	z-index: 5;
+}
+
+.counterBoring .infoBadgeY {
+	position: absolute;
+	left: 34%;
+	top: 58%;
+	z-index: 5;
+}
+
+.infoBadgeY {
+	position: absolute;
+	left: 60%;
+	top: 30%;
+	z-index: 5;
+}
+
+.indexable .chamferA2 {
+    margin-left: 200px;
+    margin-top: 47px;
+    position: absolute;
+}
+
+.indexable .chamferA1 {
+    margin-left: 128px;
+    margin-top: 83px;
+    position: absolute;
+	
+}
+
+.infoBadgeZ {
+	position: absolute;
+	left: 62%;
+	top: 29%;
+	z-index: 5;
+}
+
+.infoBadgeDiameter {
+	padding: 2% !important;
+}
+
+.counterboring .infoBadgeDiameter {
+	padding: 2% !important;
+}
+
+.upperToleranceContainer, .lowerToleranceContainer {
+	height: 40px;
+}
+
+.infoBadgeX.infoBadgeXDiameter {
+	left: 16%;
+}
+
+.infoBadgeY.infoBadgeYDiameter {
+	left: 32%;
+	top: 43%;
+}
+
+.counterboring .infoBadgeX.infoBadgeXDiameter {
+	left: 18%;
+	top: 43%;
+}
+
+.counterboring .infoBadgeY.infoBadgeYDiameter {
+	left: 33%;
+	top: 43%;
+}
+
+.counterboring .infoBadgeZ.infoBadgeZDiameter {
+	left: 49%;
+	top: 43%;
+}
+
+.upperToleranceContainer>.gwt-Label, .lowerToleranceContainer>.gwt-Label
+	{
+	display: inline;
+	vertical-align: middle;
+}
+
+.inputDialog>rightPositioned, .inputDialog>.gwt-Label {
+	display: inline-block !important;
+	margin-right: 24px;
+}
+
+.dialogCloseButton {
+	position: absolute !important;
+	right: 5px;
+	top: 6px;
+}
+
+.absoluteRightMeasureUnitBox {
+	position: absolute;
+	right: 0px;
+	top: 60px;
+}
+
+.formulaCubeMeasureUnitBox {
+	display: inline;
+	right: 22px;
+	top: 0px;
+}
+
+.formulaCubeMeasureUnitBox>div {
+	display: inline;
+}
+
+.formulaCubeMeasureUnitBox .mmContainer, .formulaCubeMeasureUnitBox .inchContainer
+	{
+	display: inline;
+}
+
+.absoluteRightMeasureUnitBox .mmContainer, .absoluteRightMeasureUnitBox .inchContainer
+	{
+	display: inline;
+}
+
+.toleranceList {
+	margin-top: 20px;
+	width: 100%;
+}
+
+input[type="text"].gwt-TextBox.measureTextBox {
+	width: 40px;
+	vertical-align: middle !important;
+	height: 28px !important;
+	font-size: 12px !important;
+	margin-bottom: 0px !important;
+	border-radius: 5px;
+	border: 1px solid #808080;
+	background: white;
+}
+
+.solidCarbideMeasurement {
+	background-image: url('/Content/img/sampler/drill.png');
+	height: 137px;
+	width: 100%;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-color: white;
+}
+
+.measurePointDrillPoint {
+	margin-left: 40px !important;
+	position: absolute;
+	border: 1px solid blue !important;
+}
+
+.measurePointDiameter {
+	margin-left: 270px !important;
+	position: absolute;
+	border: 1px solid red !important;
+}
+
+.formula {
+	padding-top: 12px;
+	margin-top: 24px;
+}
+
+.formula>*, .formulaLeft>*, .formulaRight>* {
+	vertical-align: middle;
+	display: inline-block;
+	margin: 0px;
+}
+
+.inlinecontainer>.titlepanel {
+	vertical-align: top;
+}
+
+.formulaLeft>.gwt-Label, .formulaRight>.gwt-Label, .formulaEquation>.gwt-Label
+	{
+	text-align: center;
+	display: inline;
+	margin: 4px 0px;
+}
+
+.grindingBufferButtonPanel {
+	display: block !important;
+	margin-top: 12px;
+	line-height: 38px;
+}
+
+.stepImage {
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin-top: 18px;
+	display: inline-block;
+	max-width: 430px;
+	background: white;
+	padding: 24px 10px;
+	border-radius: 8px;
+	border: 1px solid #808080;
+}
+
+.badgeL1 {
+	position: absolute;
+	bottom: 13%;
+	left: 44%;
+}
+
+.badgeL2 {
+	position: absolute;
+	bottom: 29%;
+	left: 21%;
+}
+
+.badgeL3 {
+	position: absolute;
+	top: 16%;
+	left: 12%;
+}
+
+.badgeL3Top {
+	position: absolute;
+	top: 2px;
+	left: 75px;
+}
+
+.badgeL4Top {
+	position: absolute;
+	top: 3px;
+	z-index: 7;
+	left: 263px;
+}
+
+.badgeL4 {
+	position: absolute;
+	top: 16%;
+	z-index: 7;
+	left: 32%;
+}
+
+.badgeL5 {
+	position: absolute;
+	bottom: 29%;
+	left: 76%;
+}
+
+.indexableDrillDialogMeasurePanel {
+	margin-top: 40px;
+	display: block;
+}
+
+.firstStepImageOverlay {
+	height: 100px;
+	width: 370px
+}
+
+.secondStepImageOverlay {
+	height: 100px;
+	width: 370px;
+	top: 0px;
+	position: absolute;
+}
+
+.formulaCube>.gwt-TextBox {
+	width: 50px;
+	margin-top: 12px;
+	padding-bottom: 0px;
+	margin-bottom: 3px;
+}
+
+.radioGroup.blockRadioGroup>* {
+	display: block;
+}
+
+.diameterImageContainer {
+	position: relative;
+	display: inline-block;
+	left: 0%;
+}
+
+.radioGroup.blockRadioGroup {
+	display: block;
+}
+
+.radioGroup>* {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+}
+
+.formulaCube>.gwt-Label {
+	color: #ffffff !important;
+}
+
+.formulaLeft, .formulaRight {
+	position: relative;
+	width: 100%;
+	display: block !important;
+}
+
+.formulaRight {
+	margin-top: 12px;
+	border-top: 1px solid gray;
+	padding-top: 12px;
+}
+
+.cubePanel {
+	position: relative;
+	padding: 12px 6px;
+	background: #f0f0f0 !important;
+	border: 1px solid #eee;
+}
+
+.hoverRedBorder {
+	border: 1px solid #be0f32 !important;
+}
+
+.activityStateBox {
+	background: #404040;
+	color: white;
+	display: inline-block;
+	padding: 9px 10px;
+	width: 100%
+}
+
+.activityStateBox .gwt-Label {
+	margin-right: 12px;
+}
+
+.stdDrillDepthCube input.gwt-TextBox.inputDialogBox {
+	width: 93px !important;
+}
+
+.activityStateBox * {
+	display: inline-block;
+}
+
+.activityStateBox img.gwt-Image {
+	vertical-align: middle;
+}
+
+.barPanel.withRadiusBarPanel {
+	padding: 7px 12px;
+	margin: 0px;
+	vertical-align: middle;
+}
+
+.complexChamferInputDialog .settingsPanel {
+	margin: 12px 0px;
+}
+
+.complexChamferInputDialog .settingsPanel select.gwt-ListBox {
+	vertical-align: middle;
+	margin-right: 12px;
+}
+
+.rightSidePanel select.gwt-ListBox.measureListBox {
+	width: 74px !important;
+}
+
+.barPanel {
+	-moz-box-shadow: 0 1px 3px 0 #333;
+	-webkit-box-shadow: 0 1px 3px 0 #333;
+	box-shadow: 0 1px 3px 0 #333;
+	width: 100%;
+	background: #fdfdfd; /* Old browsers */
+	background: -moz-linear-gradient(top, #fdfdfd 40%, #f7f7f7 64%, #f0f0f0 100%);
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(40%, #fdfdfd),
+		color-stop(64%, #f7f7f7), color-stop(100%, #f0f0f0));
+	/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #fdfdfd 40%, #f7f7f7 64%, #f0f0f0 100%);
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #fdfdfd 40%, #f7f7f7 64%, #f0f0f0 100%);
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #fdfdfd 40%, #f7f7f7 64%, #f0f0f0 100%);
+	/* IE10+ */
+	background: linear-gradient(to bottom, #fdfdfd 40%, #f7f7f7 64%, #f0f0f0 100%);
+	/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd',
+		endColorstr='#f0f0f0', GradientType=0); /* IE6-9 */
+	padding: 0px;
+}
+
+.inlineMeasureUnitBox {
+	display: inline-block;
+}
+
+.inlineMeasureUnitBox>* {
+	display: inline-block;
+}
+
+.indexableDiameterInputDialog .gwt-Label {
+	display: inline-block;
+	margin-right: 0px;
+}
+
+.inlineMeasureUnitBox .mmContainer, .inlineMeasureUnitBox .inchContainer
+	{
+	display: inline;
+}
+
+.inlineMeasureUnitBox .gwt-Label {
+	width: auto !important;
+}
+
+.mmContainer>*, .inchContainer>* {
+	display: inline;
+}
+
+.inchContainer {
+	margin-left: 12px;
+}
+
+.measurePointChamfer {
+	margin-left: 203px !important;
+	position: absolute;
+	border: 1px solid blue !important;
+}
+
+.measurePointLength {
+	margin-left: 400px !important;
+	position: absolute;
+	border: 1px solid red !important;
+}
+
+.measurePointShank {
+	margin-left: 616px !important;
+	position: absolute;
+	border: 1px solid blue !important;
+}
+
+.measureDrillPointPanel {
+	background-repeat: no-repeat;
+}
+
+.measureChamferPanel {
+	height: auto;
+}
+
+.measureLengthPanel {
+	
+}
+
+.measureShankPanel {
+	height: 150px;
+	background-image: url('/Content/img/sampler/shank.png');
+	background-repeat: no-repeat;
+}
+
+.measureDiameterPanel {
+	height: 150px;
+	background-image: url('/Content/img/sampler/diameters.png');
+	background-repeat: no-repeat;
+}
+
+.prev-Button {
+	background-repeat: no-repeat !important;
+	background: url('/Content/img/backButtonSmall.png') no-repeat bottom,
+		#ffffff; /* Old browsers */
+	background: url('/Content/img/backButtonSmall.png') no-repeat bottom,
+		-moz-linear-gradient(top, #ffffff 0%, #969699 100%) !important;;
+	/* FF3.6+ */
+	background: url('/Content/img/backButtonSmall.png') no-repeat bottom,
+		-webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff),
+		color-stop(100%, #969699)) !important;; /* Chrome,Safari4+ */
+	background: url('/Content/img/backButtonSmall.png') no-repeat bottom,
+		-webkit-linear-gradient(top, #ffffff 0%, #969699 100%) !important;;
+	/* Chrome10+,Safari5.1+ */
+	background: url('/Content/img/backButtonSmall.png') no-repeat bottom,
+		-o-linear-gradient(top, #ffffff 0%, #969699 100%) !important;;
+	/* Opera 11.10+ */
+	background: url('/Content/img/backButtonSmall.png') no-repeat bottom,
+		-ms-linear-gradient(top, #ffffff 0%, #969699 100%) !important;;
+	/* IE10+ */
+	background: url('/Content/img/backButtonSmall.png') no-repeat bottom,
+		linear-gradient(to bottom, #ffffff 0%, #969699 100%) !important;
+	/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff',
+		endColorstr='#969699', GradientType=0), progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/Content/img/backButtonSmallIE.png")
+		!important; /* IE6-9 */
+	float: left;
+	margin-left: 14px !important;
+}
+
+.prevnext-Button {
+	-webkit-background-clip: border-box;
+	-webkit-background-origin: padding-box;
+	-webkit-background-size: auto;
+	-webkit-box-shadow: rgb(102, 102, 102) 0px 1px 3px 0px;
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: rgba(0, 0, 0, 0);
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #cbcbcb 100%);
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff),
+		color-stop(100%, #cbcbcb)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%, #cbcbcb 100%);
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 0%, #cbcbcb 100%);
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 0%, #cbcbcb 100%);
+	/* IE10+ */
+	background: linear-gradient(to bottom, #ffffff 0%, #cbcbcb 100%);
+	/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff',
+		endColorstr='#cbcbcb', GradientType=0); /* IE6-9 */
+	background-origin: padding-box;
+	background-size: auto;
+	bottom: 70px;
+	box-shadow: rgb(102, 102, 102) 0px 1px 3px 0px;
+	color: rgb(34, 34, 34);
+	cursor: pointer;
+	display: block;
+	font-size: 16px;
+	height: 40px;
+	line-height: 22px;
+	text-shadow: rgb(102, 102, 102) 1px 1px 3px;
+	width: 70px;
+}
+
+.next-Button:disabled {
+	background: url('/Content/img/nextButtonSmallDisabled.png') no-repeat
+		bottom, -moz-linear-gradient(top, #ffffff 0%, #cbcbcb 100%) !important;
+	/* FF3.6+ */
+	background: url('/Content/img/nextButtonSmallDisabled.png') no-repeat
+		bottom,
+		-webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff),
+		color-stop(100%, #cbcbcb)) !important; /* Chrome,Safari4+ */
+	background: url('/Content/img/nextButtonSmallDisabled.png') no-repeat
+		bottom, -webkit-linear-gradient(top, #ffffff 0%, #cbcbcb 100%)
+		!important;
+	/* Chrome10+,Safari5.1+ */
+	background: url('/Content/img/nextButtonSmallDisabled.png') no-repeat
+		bottom, -o-linear-gradient(top, #ffffff 0%, #cbcbcb 100%) !important;
+	/* Opera 11.10+ */
+	background: url('/Content/img/nextButtonSmallDisabled.png') no-repeat
+		bottom, -ms-linear-gradient(top, #ffffff 0%, #cbcbcb 100%) !important;
+	/* IE10+ */
+	background: url('/Content/img/nextButtonSmallDisabled.png') no-repeat
+		bottom, linear-gradient(to bottom, #ffffff 0%, #cbcbcb 100%)
+		!important;
+	/* W3C */
+}
+
+.next-Button {
+	position: absolute;
+	right: 14px;
+	top: 6px;
+	background-repeat: no-repeat !important;
+	background: url('/Content/img/nextButtonSmall.png') no-repeat bottom,
+		#ffffff; /* Old browsers */
+	background: url('/Content/img/nextButtonSmall.png') no-repeat bottom,
+		-moz-linear-gradient(top, #ffffff 0%, #969699 100%) !important;;
+	/* FF3.6+ */
+	background: url('/Content/img/nextButtonSmall.png') no-repeat bottom,
+		-webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff),
+		color-stop(100%, #969699)) !important;; /* Chrome,Safari4+ */
+	background: url('/Content/img/nextButtonSmall.png') no-repeat bottom,
+		-webkit-linear-gradient(top, #ffffff 0%, #969699 100%) !important;;
+	/* Chrome10+,Safari5.1+ */
+	background: url('/Content/img/nextButtonSmall.png') no-repeat bottom,
+		-o-linear-gradient(top, #ffffff 0%, #969699 100%) !important;;
+	/* Opera 11.10+ */
+	background: url('/Content/img/nextButtonSmall.png') no-repeat bottom,
+		-ms-linear-gradient(top, #ffffff 0%, #969699 100%) !important;;
+	/* IE10+ */
+	background: url('/Content/img/nextButtonSmall.png') no-repeat bottom,
+		linear-gradient(to bottom, #ffffff 0%, #969699 100%) !important;
+	/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff',
+		endColorstr='#969699', GradientType=0), progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/Content/img/nextButtonSmallIE.png")
+		!important; /* IE6-9 */
+}
+
+/**TITLEPANEL **/
+.titlepanel .titlePanelTitle {
+	/* padding: 1px 12px; */
+	margin-right: 24px;
+	margin-top: 0px;
+	background: none;
+	font-weight: 500 !important;
+	color: #666666;
+	width: auto;
+	min-width: 120px;
+	font-size: 14px;
+	line-height: 30px;
+	white-space: nowrap;
+	border-radius: 5px;
+	/* display: block; */
+	vertical-align: top;
+}
+
+/** IE Adjsutments */
+/* no blue border around focussed button */
+.gwt-Button:focus {
+	border: none;
+}
+
+.titlepanel.formmiddle {
+	margin-top: 12px;
+}
+
+.titlepanel>* {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.mathvaluewidget input[type=text] {
+	width: 60px !important;
+}
+
+.mathvaluewidget .badge {
+	margin-left: 24px;
+}
+
+/**  IMAGE CLASSES **/
+.throughhole {
+	background-image: url('/Content/img/drilling/D_S1_HT2.png') !important;
+	background-repeat: no-repeat !important;
+	background-position: 24px 0px !important;
+	width: 125px;
+	height: 90px;
+}
+
+.baghole {
+	background-image: url('/Content/img/drilling/D_S1_HT1.png') !important;
+	background-repeat: no-repeat !important;
+	background-position: 24px 0px !important;
+	width: 125px;
+	height: 90px;
+}
+
+.insertDrill {
+	background-image: url('/Content/img/drilling/indexable/P_Typ_ID.png')
+		!important;
+	background-repeat: no-repeat !important;
+	background-position: 35px 18px !important;
+	width: 120px;
+	height: 90px;
+}
+
+.indexableDiameterInputDialog {
+	width: 410px;
+}
+
+.imageRadioButton .labelValue {
+	bottom: 0px;
+	position: absolute;
+	left: 0px;
+	margin-left: 0px;
+	text-align: center;
+	margin-right: 0px;
+	width: 100%;
+}
+
+.diameterImageElement.diameterImageIndexable {
+	margin-left: -1px;
+	margin-top: 12px;
+}
+
+.counterboring .diameterImageElement.diameterImageIndexable {
+	margin-left: -1px;
+	margin-top: -20px;
+}
+
+.measureContainerDiameterindexableWorkpiece {
+	max-width: 530px;
+}
+
+.typeOfPointTitlePanel {
+	margin-bottom: 12px;
+	padding-top: 0px !important;
+	border-top: none !important;
+}
+
+.id_PD {
+	bottom: 5%;
+	left: 35%;
+	top: initial;
+}
+
+.id_PD1 {
+	bottom: 5%;
+	left: 2%;
+	top: initial;
+}
+
+.id_PD2 {
+	bottom: 5%;
+	left: 21%;
+	top: initial;
+}
+
+.counterboring .measureContainerDiameterIndexable .id_PD {
+	left: 50%
+}
+
+.counterboring .measureContainerDiameterIndexable .id_PD1 {
+	left: 12%
+}
+
+.counterboring .measureContainerDiameterIndexable .id_PD2 {
+	left: 31%
+}
+
+.SolidCarbide .shankImageElement {
+	margin-left: -82px;
+	margin-top: -7px;
+}
+
+.IndexableInserts .shankImageElement {
+	margin-left: -82px;
+	margin-top: -8px;
+}
+
+.lengthMeasurePanel {
+	margin-top: 12px;
+}
+
+
+
+.counterboring .shankImageElement {
+	margin-left: 41%;
+	margin-top: -9px;
+}
+
+.drillingDepthMeasurePanel {
+	width: 235px;
+	background: white;
+	border: 1px solid lightgrey;
+	border-radius: 8px;
+	padding: 10px;
+	width: 270px;
+	background: white;
+	border-radius: 8px;
+	padding: 10px;
+	margin-right: 12px;
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 12px;
+}
+
+.drillingDepthMeasurePanel .barPanel .gwt-Label.questionBadge {
+	margin-left: 12px;
+	display: inline-block;
+	height: auto !important;
+	margin: 0px !important;
+	margin-left: 12px !important;
+}
+
+.inchContainer, .mmContainer {
+	display: inline-block;
+}
+
+.pointDrill {
+	background-image: url('/Content/img/drilling/indexable/P_Typ_PD.png')
+		!important;
+	background-repeat: no-repeat !important;
+	background-position: 35px 18px !important;
+	width: 120px;
+	height: 90px;
+}
+
+.dimTHA {
+	background-image: url('/Content/img/drilling/d1_TH.png') !important;
+	background-repeat: no-repeat !important;
+	background-position: 33px 0px !important;
+	padding-left: 7px !important;
+	width: 125px;
+	height: 82px;
+}
+
+.dimTHB {
+	background-image: url('/Content/img/drilling/d2_TH.png') !important;
+	background-repeat: no-repeat !important;
+	background-position: 33px 0px !important;
+	padding-left: 7px !important;
+	width: 125px;
+	height: 82px;
+}
+
+.dimTHC {
+	background-image: url('/Content/img/drilling/d3_TH.png') !important;
+	background-repeat: no-repeat !important;
+	background-position: 33px 0px !important;
+	padding-left: 7px !important;
+	width: 125px;
+	height: 82px;
+}
+
+.dimTHD {
+	background-image: url('/Content/img/drilling/d4_TH.png') !important;
+	background-repeat: no-repeat !important;
+	background-position: 33px 0px !important;
+	padding-left: 7px !important;
+	width: 125px;
+	height: 82px;
+}
+
+.dimTHE {
+	background-image: url('/Content/img/drilling/d5_TH.png') !important;
+	background-repeat: no-repeat !important;
+	background-position: 33px 0px !important;
+	padding-left: 7px !important;
+	width: 125px;
+	height: 82px;
+}
+
+.dimBHA {
+	background-image: url('/Content/img/drilling/d1_BH.png') !important;
+	background-repeat: no-repeat !important;
+	background-position: 33px 0px !important;
+	padding-left: 7px !important;
+	width: 125px;
+	height: 82px;
+}
+
+.dimBHB {
+	background-image: url('/Content/img/drilling/d2_BH.png') !important;
+	background-repeat: no-repeat !important;
+	background-position: 33px 0px !important;
+	padding-left: 7px !important;
+	width: 125px;
+	height: 82px;
+}
+
+.dimBHC {
+	background-image: url('/Content/img/drilling/d3_BH.png') !important;
+	background-repeat: no-repeat !important;
+	background-position: 33px 0px !important;
+	padding-left: 7px !important;
+	width: 125px;
+	height: 82px;
+}
+
+.dimBHD {
+	background-image: url('/Content/img/drilling/d4_BH.png') !important;
+	background-repeat: no-repeat !important;
+	background-position: 33px 0px !important;
+	padding-left: 7px !important;
+	width: 125px;
+	height: 82px;
+}
+
+.dimBHE {
+	background-image: url('/Content/img/drilling/d5_BH.png') !important;
+	background-repeat: no-repeat !important;
+	background-position: 33px 0px !important;
+	padding-left: 7px !important;
+	width: 125px;
+	height: 82px;
+}
+
+.matblue {
+	background: #AAE0FC !important;
+}
+
+.matyellow {
+	background: #FFF8C1 !important;
+}
+
+.matpink {
+	background: #F7BFD8 !important;
+}
+
+.matgreen {
+	background: #B2DDBF !important;
+}
+
+.matbrown {
+	background: #E5D1B8 !important;
+}
+
+.matice {
+	background: #E1EBF1 !important;
+}
+
+.matgrey {
+	background: #BBBDC0 !important;
+}
+
+.matwhite {
+	background: #ffffff !important;
+}
+
+/* Spacer Classes **/
+.spacing24 {
+	margin-top: 24px !important;
+}
+
+.spacing12 {
+	margin-top: 12px !important;
+}
+
+.step-content .step-pane {
+	margin-top: 21px !important;
+}
+
+.noMarginDialog {
+	margin: 0px !important;
+}
+
+.SolidCarbide .measureContainerShankEnd {
+	left: 72px;
+}
+
+.noBorder {
+	border: 1px white !important;
+	-webkit-box-shadow: inset 0px 0px 0px !important;
+	box-shadow: inset 0px 0px 0px !important;
+	opacity: 0;
+	background: transparent !important;
+}
+
+@media screen and (max-width: 1050px) {
+	.page_size {
+		width: 100%;
+		overflow-x: hidden;
+		padding-bottom: 48px;
+		border: none !important;
+	}
+	
+	div#RootPanel {
+		border-left: none;
+		border-right: none;
+		padding-bottom: 50px;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.rightSidePanel .measureComboInline {
+		display: block;
+		margin-right: 12px;
+		margin-left: 0px;
+		vertical-align: middle;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.formulaCubeMeasureUnitBox {
+		display: inline-block;
+		right: 22px;
+		margin-top: 0px;
+		top: 0px;
+		vertical-align: middle;
+	}
+	
+	.splitToleranceMeasurement {
+  padding-bottom: 8px;
+}
+
+	.chamferDialogDrawingsPanel {
+		padding: 0%;
+	}
+	.chamferDialogDrawingsPanel.right {
+		display: none;
+	}
+	.chamferDialogDrawingsPanel.left {
+		margin-right: 0px;
+		position: relative;
+	}
+	.complexChamferInputDialog .settingsPanel select.gwt-ListBox {
+		width: 50%;
+		max-width: 200px;
+	}
+	.chamferDialogDrawingsPanel {
+		width: 100%;
+	}
+	.materialSelectionInfoPanel {
+		margin-left: 5%;
+		margin-bottom: 12px;
+	}
+	.measureContainerLength {
+		width: 100%;
+	}
+	.lengthImage img {
+		width: 100%;
+	}
+	#logo {
+		display: none;
+	}
+	.materialSelectionIcon {
+		width: 96%;
+		margin: 11px 2% 0px;
+		padding: 20px 0px;
+		font-size: 30px;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 740px) {
+	
+	.wrappingImageContainer {
+	width: 100%;
+	height: auto;
+}
+
+.centringImageContainer {
+	position: static;
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	height: 100%;
+
+}
+
+.relatingImageContainer {
+	display: inline-block;
+	position: relative;
+	max-width: 100%;
+	height: 100%;
+	
+
+}
+
+
+
+.responsiveImage {
+	max-width: 100%;
+}
+	.typeOfShankMeasureContainer {
+		margin-top: 12px;
+		position: relative;
+		width: 100%;
+		display: block;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	
+	.splitToleranceMeasurement {
+  padding-bottom: 8px;
+}
+
+.inch .toleranceInputComponent .splitToleranceMeasurement > * {
+  display: block !important;
+}
+
+.formulaCube .inch .gwt-Label.dashToleranceLabel {
+  margin-left: 78px;
+}
+
+	.indexable .rightSidePanel .measureComboInline {
+		display: inline-block;
+		vertical-align: middle;
+		margin-right: 12px;
+	}
+	.indexable .rightSidePanel .barPanel.chamferTitlePanel {
+		display: inline-block;
+		margin-right: 12px;
+	}
+	.inputDialog {
+		overflow-y: auto !important;
+		height: inherit !important;
+		overflow-x: hidden;
+	}
+	.fullScreenDialog .popupContent {
+		height: inherit !important;
+	}
+	.fullScreenDialog .popupContent .dialogContainer {
+		height: inherit;
+	}
+	.fullScreenDialog .dialogContainer .dialogParentPanel {
+		height: inherit !important;
+	}
+	.inputDialog.angleInputDialog {
+		height: 60px;
+	}
+	.inputDialog.simpleDiameterInputDialog {
+		height: 60px;
+	}
+	.inputDialog.lengthInputDialog {
+		min-height: 100px;
+	}
+	.counterBoring .L2EndStepStartTower {
+		position: absolute;
+		top: 87%;
+		left: 63.5%;
+		height: 34%;
+	}
+	.counterBoring .L2EndTower {
+		position: absolute;
+		left: 98%;
+		top: 98%;
+		height: 29%;
+	}
+	.counterBoring .L1DPTower {
+		position: absolute;
+		left: 7%;
+		top: 3%;
+		height: 25%;
+		/* width: 36px; */
+	}
+	.counterBoring .L1MidStepEndTower {
+		position: absolute;
+		left: 38%;
+		top: 3.5%;
+		height: 14%;
+		width: 10px;
+	}
+	.horizontalMeasureLine .gwt-Label.badge.measureElement {
+		padding: 2% 3%;
+	}
+	.formulaMid {
+		border-top: none;
+		padding-top: 0px;
+		margin-top: 12px;
+		width: 100%;
+	}
+	.imageRadioButton .iradio_line-grey {
+		width: 100% !important;
+		height: 48px !important;
+		background-size: 40px 40px !important;
+		background-position: 32px 3px !important;
+	}
+	.SolidCarbide .radioGroup.typeofMeasureGroup, .noComponentTooltip {
+		display: block;
+	}
+	.SolidCarbide .shankImageElement {
+		margin-top: 12px;
+		margin-left: -25px;
+	}
+	.activityStateBox {
+		background: #4b8232;
+		width: 100%;
+		padding: 9px 0px;
+	}
+	.activityStateBox .gwt-Label {
+		margin-left: 12px;
+	}
+	.stepImage {
+		width: 100%;
+		padding: 0px;
+	}
+	.activityStateBox img.gwt-Image {
+		background: white;
+	}
+	.stepImage img.gwt-Image {
+		width: 100%;
+	}
+	.wizardTabsPanel {
+		height: auto;
+	}
+	.materialSubIsoRadioGroup {
+		margin-right: 0px;
+	}
+	.materialSubIsoRadioGroup .materialNDGradient {
+		width: 100% !important;
+	}
+	.coolantTitlePanel .radioGroup {
+		display: block;
+	}
+	.productTitleBar {
+		margin: 0px;
+	}
+	.productTitleBar .gwt-Label {
+		height: 17px;
+		padding-top: 2px;
+		margin-top: 10px;
+	}
+	.inputDialog.materialSelectionInputDialog {
+		width: 100%;
+		text-align: left;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.radioGroup.materialSubIsoRadioGroup {
+		margin-left: 0px;
+	}
+	.materialGroupButtonRadioPanel {
+		width: 100%;
+	}
+	.dialogmaterialselectionRadio span.iCheck {
+		width: 12%;
+	}
+	.dialogMaterialSelectionRadio .labelValue {
+		width: 82%;
+		margin-left: 7%;
+	}
+	.productTitleBar {
+		height: 25px;
+	}
+	.rightSidePanel .barPanel.chamferTitlePanel {
+		display: inline-block;
+		margin-right: 12px;
+	}
+	.gwt-Button.wizardSubmitButton, .gwt-Button.wizardTestButton {
+		margin-top: 12px;
+	}
+	.SolidCarbide .measureContainerShankEnd {
+		left: 88%;
+		top: 17px;
+	}
+	.requestHistoryPanel tr {
+		line-height: 8px !important;
+	}
+	.measureContainerShank {
+		width: 163px;
+		height: 110px;
+	}
+	.shankImage.indexableShankImage {
+		height: 189px;
+		width: 225px;
+		margin-left: 35px;
+	}
+	body td {
+		padding: 0 7px !important;
+	}
+	.shankImageElement {
+		margin-left: 0px !important;
+	}
+	.requestHistoryPanel thead tr {
+		line-height: 16px !important;
+	}
+	.titlepanel.tomTitlePanel.formmiddle {
+		border-bottom-width: 1px;
+	}
+	.rasterBG {
+		background: url('/Content/img/Raster_NoEnd.png') !important;
+		width: 100%;
+		height: 150%;
+		top: -23%;
+		left: 0%;
+	}
+	body td {
+		padding: 0px 4px;
+	}
+	.L1DPTower {
+		left: 2%;
+		top: -16%;
+		height: 42%
+	}
+	.L1MidStepStartTower {
+		left: 28%;
+		top: -16%;
+		height: 42%;
+	}
+	.L1MidStepEndTower {
+		left: 34%;
+		top: -16%;
+		height: 30%;
+	}
+	.L2EndStepStartTower {
+		top: 79%;
+		left: 61%;
+		height: 33%;
+	}
+	div.L2EndStepEndTower {
+		left: 66.5%;
+		top: 92%;
+		height: 20%;
+	}
+	.L2EndStepEndTower .l2Arrows {
+		top: 42% !important;
+	}
+	.L2EndTower {
+		left: 97.5%;
+		top: 94%;
+		height: 14%;
+	}
+	div.L2DPTower {
+		left: 2%;
+		top: 66%;
+		height: 49%;
+	}
+	.L1EndTower {
+		left: 98%;
+		top: -16%;
+		height: 17%;
+	}
+	.component .shankImageElement {
+		margin-left: 0%;
+	}
+	img.gwt-Image.phaseTop {
+		position: absolute;
+		left: 46%;
+		top: -14%;
+	}
+	img.gwt-Image.phaseBot {
+		position: absolute;
+		left: 46%;
+		top: 43%;
+	}
+	.xpressTooltip {
+		z-index: 2147483648 !important;
+	}
+	.measureContainerDiameterIndexable .diameterCountTwo.withPhase .tb_D {
+		left: 46%;
+	}
+	.measureContainerDiameterIndexable .tb_D1,
+		.measureContainerDiameterIndexable .tb_D2,
+		.measureContainerDiameterIndexable .tb_D {
+		top: -13%;
+	}
+	.measureContainerShank.indexable {
+		height: auto;
+	}
+	.typeOfShankIndexable .gwt-Label {
+		position: static;
+		margin-left: 0px;
+		width: 100% !important;
+		text-align: center;
+	}
+	.responsiveRelativeContainer {
+		display: inline-block;
+		position: relative;
+	}
+	.typeOfShankListBox {
+		position: absolute;
+		left: 50%;
+		width: 210px;
+		margin-left: -105px !important;
+		top: 40px;
+	}
+	img.gwt-Image.lengthEndImage {
+		max-width: 100%;
+	}
+	.measureContainerIndexableLength .indexableLengthImage {
+		position: static;
+		text-align: center;
+		width: 100%;
+		margin: auto;
+	}
+	.measureContainerIndexableLength {
+		display: block;
+		margin-top: 24px;
+		width: 100%;
+		max-width: 100%;
+		height: auto;
+		padding: 50px 0px !important;
+	}
+	.component.measureContainerDiameterIndexable .tb_D1, .component.measureContainerDiameterIndexable .tb_D2,
+		.component.measureContainerDiameterIndexable .tb_D {
+		top: -9%;
+	}
+	.counterboring .measureContainerDiameterIndexable .tb_D1, .counterboring .measureContainerDiameterIndexable .tb_D2,
+		.counterboring .measureContainerDiameterIndexable .tb_D {
+		top: -17%;
+	}
+	.counterboring .measureContainerDiameterIndexable .id_PD1,
+		.counterboring .measureContainerDiameterIndexable .id_PD2,
+		.counterboring .measureContainerDiameterIndexable .id_PD {
+		bottom: -8%;
+	}
+	.counterboring .measureContainerDiameterIndexable .tb_D {
+		left: 58%;
+	}
+	.counterboring .measureContainerDiameterIndexable .tb_D1 {
+		left: 4%;
+	}
+	.counterboring .measureContainerDiameterIndexable .id_PD {
+		left: 58%;
+	}
+	.counterboring .measureContainerDiameterIndexable .id_PD1 {
+		left: 4%;
+	}
+	.counterboring .measureContainerDiameterIndexable .diameterCountThree.withPhase .tb_D2
+		{
+		left: 26%;
+	}
+	.counterboring .diameterCountThree .phaseTop {
+		left: 60%;
+		top: -7%;
+	}
+	.counterboring .diameterCountThree .phaseBot {
+		left: 61%;
+		top: 36%;
+	}
+	.counterboring .diameterCountThree.withPhase .measureComboInline.tb_D {
+		left: 51%;
+		top: -17%;
+		z-index: 10;
+	}
+	.counterboring .shankImageElement {
+		margin-left: 0%;
+		margin-top: 0%;
+	}
+	.typeOfShankMeasureContainer>.gwt-Label {
+		position: absolute;
+		left: 50%;
+		margin-left: -50px;
+		width: 100px !important;
+		text-align: center;
+	}
+	.SolidCarbide .typeOfShankMeasureContainer>.gwt-Label {
+		width: 100px !important;
+		text-align: center;
+		position: static;
+		margin-left: 0px;
+	}
+	.SolidCarbide .typeOfShankListBox {
+		margin-left: 15px !important;
+		left: 0%;
+		position: static;
+	}
+	.diameterImageContainer {
+		left: 50%;
+		margin-left: -125px;
+	}
+	.gwt-TextBox.measureTextBox {
+		width: 48px !important;
+		height: 21px !important;
+		font-size: 10px !important;
+	}
+	.questionBadge {
+		display: none !important;
+	}
+	.tolButton.imageRadioButton {
+		padding-left: 0px !important;
+	}
+	.measureContainerDiameterIndexable .tb_D {
+		left: 70%;
+	}
+	.inputDialog {
+		width: auto !important;
+	}
+	.withRadiusBarPanel {
+		margin: 12px 0px 0px 0px;
+	}
+	.measureContainerDiameterIndexable .tb_D1 {
+		left: 0%;
+	}
+	.measureContainerDiameterIndexable .tb_D2 {
+		left: 36%;
+	}
+	.arrow1Bot, .arrow1Top {
+		left: 12%;
+	}
+	.arrow2Bot, .arrow2Top {
+		left: 46%;
+	}
+	.diameterCountThree.withPhase .arrow2Bot, .diameterCountThree.withPhase .arrow2Top
+		{
+		left: 37%;
+	}
+	.measureContainerDiameterIndexable .diameterCountThree.withPhase .tb_D {
+		left: 41%;
+		top: 80%;
+	}
+	.measureContainerDiameterIndexable .diameterCountThree.withPhase .tb_D2
+		{
+		left: 32%;
+	}
+	.arrow3Bot, .arrow3Top {
+		left: 82%;
+	}
+	.arrow3Bot, .arrow2Bot, .arrow1Bot {
+		top: 0%;
+	}
+	.arrow3Top, .arrow2Top, .arrow1Top {
+		top: 90%;
+	}
+	.tolButton {
+		display: inline-block !important;
+		height: 74px !important;
+		padding-left: 0px !important;
+	}
+	.component img.gwt-Image.phaseTop {
+		position: absolute;
+		left: 78%;
+		top: 9%;
+	}
+	.component img.gwt-Image.phaseBot {
+		position: absolute;
+		left: 77%;
+		top: 45%;
+	}
+	.component .diameterCountThree img.gwt-Image.phaseBot {
+		top: 47%;
+	}
+	.component .diameterCountThree img.gwt-Image.phaseTop {
+		top: 3%;
+	}
+	.measureContainerDiameterIndexable.component .diameterCountThree.withPhase .tb_D
+		{
+		left: 70%;
+		top: -10%;
+	}
+	.measureContainerDiameterIndexable.component .diameterCountTwo.withPhase .tb_D
+		{
+		left: 68%;
+	}
+	.measureContainerDiameterIndexable.component .diameterCountThree.withPhase .tb_D2
+		{
+		left: 30%;
+	}
+	.measureContainerDiameter.measureContainerDiameterIndexable {
+		height: auto;
+		padding: 30px 0px 30px 0px;
+		width: 100%;
+		/* margin-top: 14px; */
+		position: relative;
+	}
+	.diameterImageElement.diameterImageIndexable {
+		margin-top: 0px;
+		padding: 0px;
+		max-width: 100%;
+	}
+	.measureContainerIndexableLength {
+		display: block;
+		margin-top: 24px;
+	}
+	.measureContainerDiameterIndexable .diameterImageContainer {
+		position: static;
+		text-align: center;
+		width: 100%;
+		margin: auto;
+	}
+	.grindingBufferCubePanel>* {
+		vertical-align: top;
+	}
+	.formulaCube {
+		width: 100%;
+		border: none;
+		border-bottom: 1px solid lightgrey;
+	}
+	.grindingBufferGroup {
+		display: block;
+		margin-left: 0px;
+		margin-top: 12px;
+	}
+	.cubePanel {
+		background: none !important;
+		border: none !important;
+	}
+	.formulaCube .cubePanel .gwt-Label {
+		color: #efefe7;
+	}
+	.testdialog {
+		border: 10px solid #404040 !important;
+		background: #fcfcfc; /* Old browsers */
+		background: -moz-linear-gradient(-45deg, #fcfcfc 0%, #e5e5e5 100%)
+			!important; /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #fcfcfc),
+			color-stop(100%, #e5e5e5)) !important; /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(-45deg, #fcfcfc 0%, #e5e5e5 100%)
+			!important; /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(-45deg, #fcfcfc 0%, #e5e5e5 100%)
+			!important; /* Opera 11.10+ */
+		background: -ms-linear-gradient(-45deg, #fcfcfc 0%, #e5e5e5 100%)
+			!important; /* IE10+ */
+		background: linear-gradient(135deg, #fcfcfc 0%, #e5e5e5 100%) !important;
+		/* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc',
+			endColorstr='#e5e5e5', GradientType=1 !important);
+		/* IE6-9 fallback on horizontal gradient */
+		padding: 0 !important;
+		z-index: 9999999999999999999999999 !important
+	}
+	.imageRadioButton .labelValue {
+		top: 12px;
+		left: 83px;
+		width: auto;
+	}
+	.squareBadge {
+		width: 15px;
+		height: 15px;
+		font-size: 9px;
+		vertical-align: middle;
+		padding-bottom: 4px;
+	}
+	.icheckbox_line-grey, .iradio_line-grey {
+		width: 100%;
+	}
+	.configPanel {
+		background: white;
+	}
+	.radioGroup>* {
+		display: block;
+	}
+	.titlePanelContainer {
+		margin-top: 8px;
+		display: block;
+	}
+	.chamferWidget .gwt-CheckBox {
+		vertical-align: middle;
+		margin-top: 0px;
+		display: block;
+		margin-left: 0px;
+	}
+	.chamferWidget>.titlepanel .titlePanelTitle {
+		margin-left: -4px;
+		margin-top: 12px;
+		/* padding: 12px; */
+	}
+	.imageRadioButton {
+		background-position: 30px 0px !important;
+		background-size: 53px 50px !important;
+	}
+	.formulaCubeRadioGroup .iradio_line-grey {
+		width: auto;
+	}
+	.formulaCubeRadioGroup .iradio_line-grey {
+		width: auto;
+	}
+	.inlinecontainer>* {
+		display: block;
+	}
+	.tab .gwt-Label {
+		display: none;
+	}
+	.tomTitlePanel {
+		margin-right: 0px;
+	}
+	.diameterInputDialog, .shankInputDialog, .angleInputDialog,
+		.indexableDiameterInputDialog, .lengthInputDialog {
+		width: auto;
+	}
+	.shankImage {
+		position: absolute;
+		margin-top: -27px;
+		top: 50%;
+		width: 134px;
+		margin-right: -67px;
+		right: 50%;
+		height: 54px;
+	}
+	.shankListBoxContainer, .angleInputContainer {
+		display: inline-block;
+		position: absolute;
+		right: 0px;
+	}
+	.shankListBoxContainer>*, .angleInputContainer>* {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.chamferWidget .titlepanel .titlePanelTitle {
+		width: 92%;
+		margin-top: 7px;
+	}
+	.shankListBoxContainer .gwt-ListBox {
+		width: 66px;
+		margin-bottom: 0px;
+		margin-right: 8px;
+	}
+	.titlepanel .titlePanelTitle {
+		width: 99%;
+		line-height: 26px;
+		margin-top: 0px;
+		padding: 0px 0px 0px 0px;
+	}
+	.measureContainerDiameter {
+		width: 100%;
+		text-align: left;
+		padding-left: 0px;
+	}
+	.chamferWidget {
+		padding-right: 0px;
+	}
+	.SolidCarbide .rightSidePanel {
+		display: block;
+	}
+	.shankImage.indexableShankImage {
+		/* height: 124px; */
+		width: 155px;
+		/* margin-left: 35px; */ /* margin-top: -72px; */
+		position: static;
+		text-align: center;
+		width: 100%;
+		margin: auto;
+	}
+	.tb_DS {
+		bottom: 0%;
+		left: 50%;
+		top: 8%;
+		margin-left: -40px;
+	}
+	.measureContainerShank {
+		border: 1px solid lightgrey !important;
+		background-color: white !important;
+		width: 100%;
+		height: 100px;
+		margin-left: 0px;
+		left: 0px;
+		top: 0px !important;
+		position: relative;
+		border-radius: 8px;
+		float: none;
+	}
+	.measureContainerDiameter {
+		height: 160px;
+	}
+	.measureContainerShankEnd {
+		left: 88%;
+		top: 17px;
+		position: absolute;
+	}
+	.wizardButtons {
+		position: fixed !important;
+		top: 0px;
+		z-index: 99999999;
+		margin-top: 0px;
+		background: #d3d3d3;
+		height: 58px;
+		width: 100%;
+		padding-top: 0px;
+		background: #ededed; /* Old browsers */
+		background: -moz-linear-gradient(top, #ededed 0%, #ffffff 0%, #d3d3d3 100%);
+		/* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ededed),
+			color-stop(0%, #ffffff), color-stop(100%, #d3d3d3));
+		/* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, #ededed 0%, #ffffff 0%, #d3d3d3 100%);
+		/* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, #ededed 0%, #ffffff 0%, #d3d3d3 100%);
+		/* Opera 11.10+ */
+		background: -ms-linear-gradient(top, #ededed 0%, #ffffff 0%, #d3d3d3 100%);
+		/* IE10+ */
+		background: linear-gradient(to bottom, #ededed 0%, #ffffff 0%, #d3d3d3 100%);
+		/* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed',
+			endColorstr='#d3d3d3', GradientType=0); /* IE6-9 */
+	}
+	.wizardHeadPanel {
+		margin-top: 77px !important;
+		display: block;
+	}
+	.wizardFooterPanel {
+		display: none;
+	}
+	.next-Button, .wizardSubmitButton {
+		position: absolute;
+		top: 8px;
+		right: 8px;
+	}
+	.prev-Button {
+		position: absolute;
+		left: 8px;
+		top: 8px;
+	}
+	.radioGroup {
+		line-height: 0px;
+		margin-top: 0px;
+		margin-bottom: 4px;
+	}
+	.formulaCubeRadioGroup {
+		margin-bottom: 0px;
+	}
+	.infoBadgeX.infoBadgeXDiameter {
+		left: 31%;
+	}
+	.infoBadgeY.infoBadgeYDiameter {
+		left: 64%;
+	}
+	.counterboring .infoBadgeX.infoBadgeXDiameter {
+		left: 27%;
+		top: 43%;
+	}
+	.counterboring .infoBadgeY.infoBadgeYDiameter {
+		left: 49%;
+		top: 43%;
+	}
+	.counterboring .infoBadgeZ.infoBadgeZDiameter {
+		left: 74%;
+		top: 43%;
+	}
+	.counterBoring .shankImageElement {
+		left: 0%;
+	}
+}
