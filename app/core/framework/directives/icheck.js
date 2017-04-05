@@ -22,10 +22,12 @@ angular.module('Fineloo' ).directive('icheck', ['$window', '$timeout', function(
                     $(element).iCheck('update');
                 });
 
+                /*
                 $scope.$watch($attrs['ngDisabled'], function (newValue) {
                     $(element).iCheck(newValue ? 'disable' : 'enable');
                     $(element).iCheck('update');
                 });
+                */
 
                 $scope.$watch($attrs['checked'], function (newValue) {
                     $(element).iCheck('update');

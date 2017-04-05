@@ -1,0 +1,38 @@
+<div class="row common intro on top-padding" >
+
+
+    <h4 ng-show="wertForm.wertObjekt=='Haus' || wertForm.wertObjekt=='Wohnung'" class="col-xs-12">Wie groß ist die Wohnfläche?</h4>
+
+    <div ng-show="wertForm.wertObjekt=='Haus' || wertForm.wertObjekt=='Wohnung'" class="formElementContainer col-xs-10" style="margin-bottom: 15px; margin-left: 15px;">
+        <div class="col-xs-2 col-sm-2">
+
+            <image src="{{imageStep2}}" />
+        </div>
+        <div class="col-xs-10 col-sm-10">
+            <rzslider rz-slider-model="slider_wohnflaeche.value" rz-slider-options="slider_wohnflaeche.options"></rzslider>
+            <label class="inputlabel">m²</label><input class="squaremeterinput" type="number" ng-model="wertForm.wohnflaeche" />
+        </div>
+
+    </div>
+
+
+<h4 class="col-xs-12">Wie groß ist die Grundstücksfläche?</h4>
+
+
+    <div class="formElementContainer col-xs-10" style="margin-left: 15px;">
+        <div class="col-xs-2 col-sm-2">
+
+            <image src="{{imageStep2}}" />
+        </div>
+        <div class="col-xs-10 col-sm-10">
+            <rzslider rz-slider-model="slider_grundstueck.value" rz-slider-options="slider_grundstueck.options"></rzslider>
+            <label class="inputlabel">m²</label><input class="squaremeterinput" type="number" ng-model="wertForm.grundstueckGroesse" />
+        </div>
+
+    </div>
+
+<a ng-click="delegateNextSlide()" class="nextButton btn btn-success">Weiter</a>
+
+
+
+</div>

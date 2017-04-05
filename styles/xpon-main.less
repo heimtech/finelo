@@ -5,6 +5,30 @@ body,html {
     height: auto !important;
 }
 
+ul {
+    padding-left: 0px;
+
+
+    h3,h4 {
+        font-size: 15px;
+
+    }
+}
+
+html body input {
+    /* width: 100%; */
+    /* max-width: 400px; */
+    height: 40px;
+    font-size: 16px;
+    padding-left: 2px;
+    color: @main-color-petrol !important;
+}
+
+div#Baufinanzierung input {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
 @main-color-white: #ffffff;
 @main-color-black : #000000;
 @main-color-darkgrey : #666666;
@@ -13,21 +37,9 @@ body,html {
 
 @main-color-lightgrey: #f1f1f1;
 @main-color-border-lightgrey: #e3e3e3;
-@main-color-green: #4b8232;
+@main-color-petrol: #0f70b7;
 @main-color-black-transparent : fade(@main-color-black, 80%);
 @margin-bottom-elements: 24px;
-
-@main-color-materialP : #bee0ee;
-@main-color-materialM : #fff4d0;
-@main-color-materialK : #dbb7c6;
-@main-color-materialN : #c0dfc1;
-@main-color-materialS : #ebdbc6;
-@main-color-materialH : #c6c7c8;
-@main-color-materialO : #c6c7c8;
-@main-color-materialND : #ffffff;
-
-
-
 
 .calc(@prop; @val) {
         @{prop}: calc(~'@{val}');
@@ -38,16 +50,23 @@ body,html {
 
 .grow { transition: all .2s ease-in-out; }
 
-.grow:hover {   -webkit-transform:scale(1.25);
-    -moz-transform:scale(1.25);
-    -ms-transform:scale(1.25);
-    -o-transform:scale(1.25);
-    transform:scale(1.25);
+.grow:hover {   -webkit-transform:scale(1.05);
+    -moz-transform:scale(1.05);
+    -ms-transform:scale(1.05);
+    -o-transform:scale(1.05);
+    transform:scale(1.05);
 }
 
 .growContainer {
     overflow: hidden;
     border: 1px solid #ebebeb;
+}
+
+input.squaremeterinput {
+    float: right;
+    width: 72px;
+    padding-left: 12px;
+    text-align: center;
 }
 
 
@@ -65,6 +84,28 @@ div#settingsPanel {
     position: fixed;
     right: 0px;
     z-index: 9;
+}
+
+
+.top-padding {
+    padding-top: 15px;
+}
+
+.topQuestion h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white !important;
+    font-size: 16px;
+}
+
+.topQuestion {
+    background-color: @main-color-petrol;
+    vertical-align: middle;
+    padding-top: 0px;
+    padding-left: 12px;
+    color: white;
 }
 
 h2 {
@@ -127,9 +168,6 @@ body md-toolbar.md-default-theme:not(.md-menu-toolbar), body md-toolbar:not(.md-
     margin-top: 18px;
 }
 
-md-progress-circular path {
-  stroke: @main-color-green;
-}
 
 div#gearDraggable {
     vertical-align: top;
@@ -309,7 +347,7 @@ div#content {
     margin-top: -20px;
     padding-bottom: 2px;
     padding-top: 0px;
-    background-color: #19586D;
+    background-color: @main-color-petrol;
 }
 
 
@@ -323,8 +361,9 @@ div#content {
 
 .imgBarBottomBlack h3 {
 
-padding-top: 8px;
+padding-top: 14px;
   color: white !important;
+    letter-spacing: 0.05em;
 
 }
 
@@ -340,9 +379,7 @@ padding-top: 8px;
 
 @media (max-width: 991px) {
 
-    .imgBarBottomBlack h3 {
-        font-size: 18px;
-    }
+
 
     .mt-element-step .step-thin .mt-step-title {
         font-size: 16px;
@@ -373,9 +410,7 @@ padding-top: 8px;
 
 }
 
-.page-sub-navigation li.active a, .page-sub-navigation li a:hover, .page-sub-navigation li a.active {
-    color: @main-color-green;
-}
+
 
 .page-sub-navigation li.active a:after, .page-sub-navigation li a:hover:after, .page-sub-navigation li a.active:after {
     bottom: -4px;
@@ -451,20 +486,7 @@ a.btn.previewButton:hover {
     background-color: @main-color-lightgrey;
 }
 
-.btn.previewButton:hover i {
-    color: @main-color-green;
-}
 
-.headerTitle {
-
-        font-weight: bold;
-
-}
-
-#fromHistory .hiddenButPresent {
-
-    display: none !important;
-}
 
 .btn-green.actionButton {
     padding-left: 10px;
@@ -477,20 +499,7 @@ a.btn.previewButton:hover {
     font-size: 16px;
 }
 
-td.custNameRow {
-    min-width: 175px;
-}
 
-td.actionRow {
-    min-width: 102px;
-}
-
-.borderRight {
-    border-right: 1px solid @main-color-border-lightgrey;
-}
-.borderLeft {
-    border-left: 1px solid @main-color-border-lightgrey;
-}
 .slick-slide.slick-center {
     opacity: 1;
 }
@@ -498,6 +507,23 @@ td.actionRow {
 .slick-slide {
 
     width: 0%
+}
+
+.inputlabel {
+
+    float: right;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+
+.formElementContainer {
+    margin-top: 24px;
+    border: 1px solid grey;
+    padding: 14px 0px;
+}
+
+.slick-slide img {
+    max-width: 100%;
 }
 
 .hiddenButPresent {
@@ -604,7 +630,7 @@ html body :focus {
     letter-spacing: 1px;
     background: #FFF;
     font-weight: bold;
-    color: @main-color-green;
+    color: @main-color-petrol;
     padding: 14px 20px 14px 30px;
 }
 
@@ -703,8 +729,24 @@ html body :focus {
 
 
 .btn-group .btn-primary.active {
-    background-color: @main-color-green;
+    background-color: @main-color-petrol;
     color: @main-color-white;
+}
+
+html body select {
+        width: 100%;
+        max-width: 400px;
+
+        height: 40px;
+        font-size: 16px;
+        padding-left: 6px;
+
+}
+
+
+.wizard-select {
+    margin-top: 24px;
+
 }
 
 .inlinecontainer > * {
@@ -875,6 +917,59 @@ END OF ANIMATIONS
 
 }
 
+.rzslider .rz-pointer {
+    background-color: @main-color-petrol;
+}
+
+.rzslider .rz-pointer.rz-active:after {
+    background-color: white;
+}
+
+.rzslider .rz-pointer:after {
+    background-color: white;
+}
+
+.rzslider .rz-bar-wrapper {
+
+    margin-top: -24px;
+    box-sizing: border-box;
+}
+
+.rzslider .rz-bar {
+
+    height: 20px;
+   }
+
+a.btn-success {
+
+    background-image: none !important;
+    background-color: @main-color-petrol !important;
+    border-color: darken(@main-color-petrol, 10%);
+
+}
+
+
+
+a.btn-success:hover {
+    background-color: darken(@main-color-petrol, 10%);
+
+        border-color: darken(@main-color-petrol, 30%);;
+
+}
+
+.nextButton {
+    margin-right: 15px;
+    float: right;
+    width: 120px;
+    margin-top: 24px;
+
+}
+
+a.btn {
+    border-radius: 0px;
+
+}
+
 
 a.btn.btn-success.slickSubmit {
     position: fixed;
@@ -893,7 +988,14 @@ a.btn.btn-success.slickSubmit.slickTest {
     margin-top: 30px;
 }
 
+.btn-success.active, .btn-success:active {
+    background-color: @main-color-petrol !important;
+    border-color: @main-color-petrol !important;
+}
 
+.btn-success:focus, .btn-success:hover {
+    background-color:  @main-color-petrol !important;
+}
 
 
 
@@ -1035,14 +1137,14 @@ STEP THIN
 
 
 .mt-element-step .step-thin .done {
-    background-color: @main-color-green !important;
+    background-color: @main-color-petrol !important;
 }
 .mt-element-step .step-thin .active {
-    background-color: @main-color-green !important;
+    background-color: @main-color-petrol !important;
 }
 
 .mt-element-step .step-thin .done .mt-step-number {
-    color: @main-color-green !important;
+    color: @main-color-petrol !important;
 }
 
 .mt-element-step .step-thin .done .mt-step-content, .mt-element-step .step-thin .done .mt-step-title {

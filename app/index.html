@@ -16,8 +16,11 @@
   <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
   <link rel="stylesheet" href="bower_components/angular-bootstrap/ui-bootstrap-csp.css">
   <link rel="stylesheet" href="bower_components/angular-material/angular-material.min.css">
+    <link rel="stylesheet" href="bower_components/angularjs-slider/dist/rzslider.min.css">
 
-  <link rel="stylesheet/less" type="text/css" href="../styles/xpon-main.less">
+
+
+    <link rel="stylesheet/less" type="text/css" href="../styles/xpon-main.less">
   <link rel="stylesheet" href="bower_components/slick-carousel/slick/slick.css">
   <link rel="stylesheet" href="bower_components/slick-carousel/slick/slick-theme.css">
   <link href="bower_components/iCheck/skins/square/blue.css" rel="stylesheet">
@@ -41,10 +44,11 @@
 
 
 
-          <div id="content" ng-view></div>
+          <div id="content" class="row" ng-view></div>
 
 <script src="bower_components/jquery/dist/jquery.js"></script>
 <script src="bower_components/angular/angular.js"></script>
+          <script src="bower_components/angularjs-slider/dist/rzslider.min.js"></script>
 <script src="bower_components/slick-carousel/slick/slick.js"></script>
 <script src="bower_components/angular-slick-carousel/dist/angular-slick.min.js"></script>
           <script src="bower_components/angular-route/angular-route.js"></script>
@@ -67,7 +71,20 @@
 
 <script src="core/framework/ui/imageselectiongroup/controller/imageselectiongroup.js"></script>
 <script src="slick/controller/slickCtrl.js"></script>
-<script src="steps/step1/controller/Step1Ctrl.js"></script>
+
+          <!-- Immobilienbewertung -->
+<script src="steps/Immobilienbewertung/immobilienArt/controller/ImmobilienArtCtrl.js"></script>
+<script src="steps/Immobilienbewertung/hausArt/controller/HausArtCtrl.js"></script>
+<script src="steps/Immobilienbewertung/wohnungsArt/controller/WohnungsArtCtrl.js"></script>
+<script src="steps/Immobilienbewertung/flaechen/controller/FlaechenCtrl.js"></script>
+<script src="steps/Immobilienbewertung/kaufen/controller/KaufenCtrl.js"></script>
+
+
+
+
+          <script src="steps/BauRenovierungskosten/Bauart/controller/BauArtCtrl.js"></script>
+          <script src="steps/Baufinanzierung/Kontaktformular/KontaktCtrl.js"></script>
+
 
 <!-- Indexable Milling -->
 

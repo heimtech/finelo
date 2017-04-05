@@ -1,17 +1,42 @@
-<slick class="col-xs-12" id="wizardSlider" style="position:relative;" dots="true" settings="slickConfig" slides-to-show=1>
-    <div class="singleSlide">
-        <div ng-include="'steps/step1/view/step1.html'"></div>
+
+<div class="col-xs-offset-1 col-xs-10 bewertung top-padding">
+    <div class="topQuestion top-padding">
+        <h3>Wie können wir Ihnen weiterhelfen?</h3>
     </div>
-    <div class="singleSlide">
-        <div  ng-include="'steps/step2/view/step2.html'"></div>
-    </div>
-    <div class="singleSlide">
-        <div  ng-include="'steps/step3/view/step3.html'"></div>
-    </div>
-    <div class="singleSlide">
-        <div  ng-include="'steps/step4/view/step4.html'"></div>
-    </div>
-    <div class="singleSlide">
-        <div  ng-include="'steps/step5/view/step5.html'"></div>
-    </div>
-</slick>
+
+    <select ng-model="wertForm.anfrageart" class="wizard-select">
+        <option value="bewertung">Immobilienbewertung</option>
+        <option value="finanzierung">Baufinanzierung</option>
+        <option value="renovierung">Bau- und Renovierungskosten</option>
+    </select>
+    <slick ng-if="wertForm.anfrageart=='bewertung'" id="Immobilienbewertung" style="position:relative;" settings="slickConfigBewertung" slides-to-show=1>
+        <div class="singleSlide">
+            <div ng-include="'steps/Immobilienbewertung/immobilienArt/view/immobilienArt.html'"></div>
+        </div>
+        <div class="singleSlide">
+            <div ng-include="'steps/Immobilienbewertung/kaufen/view/kaufen.html'"></div>
+        </div>
+        <div ng-show="wertForm.wertObjekt=='Haus'" class="singleSlide">
+            <div ng-include="'steps/Immobilienbewertung/hausArt/view/hausArt.html'"></div>
+        </div>
+        <div ng-show="wertForm.wertObjekt=='Wohnung'" class="singleSlide">
+            <div ng-include="'steps/Immobilienbewertung/wohnungsArt/view/wohnungsArt.html'"></div>
+        </div>
+        <div class="singleSlide" ng-controller="FlaechenCtrl">
+            <div ng-include="'steps/Immobilienbewertung/flaechen/view/flaechen.html'"></div>
+        </div>
+
+    </slick>
+
+        <div class="" id="Baufinanzierung" ng-show="wertForm.anfrageart=='finanzierung'">
+            <div ng-include="'steps/Baufinanzierung/Kontaktformular/kontakt.html'"></div>
+        </div>
+
+    <slick id="renovierung" ng-if="wertForm.anfrageart=='renovierung'" style="position:relative;" settings="slickConfigRenovierung" slides-to-show=1>
+
+        <div class="singleSlide">
+            <div ng-include="'steps/BauRenovierungskosten/Bauart/view/bauart.html'"></div>
+        </div>
+
+    </slick>
+</div>
