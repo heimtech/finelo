@@ -13,7 +13,13 @@ angular.module('Fineloo')
         $scope.$watch('wertForm.hausArt', function (newValue) {
 
 
-                $scope.slickConfigBewertung.method.slickGoTo(3);
+          try {
+              $scope.slickConfigBewertung.method.slickGoTo(3);
+
+          }
+          catch (e) {
+
+          }
 
 
         });

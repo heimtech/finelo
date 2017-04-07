@@ -1,4 +1,4 @@
-<div class="row common intro on top-padding" ng-controller="KontaktCtrl">
+<div class="row common intro on top-padding kontaktform" ng-controller="KontaktCtrl">
 
 
     <h4 class="col-xs-12">Wir beraten Sie gerne für Ihre Baufinanzierung?</h4>
@@ -6,12 +6,15 @@
     <div class="col-xs-12">
         <input class="col-xs-5" type="text" ng-required="true" ng-model="wertForm.vorname" placeholder="Vorname*">
         <input class="col-xs-5 " type="text" ng-required="true" ng-model="wertForm.nachname" placeholder="Nachname*">
-        <input class="col-xs-5" type="text" ng-required="true" ng-model="wertForm.email" placeholder="EMail*">
-
-        <input class="col-xs-5" type="text" ng-model="wertForm.telefon" placeholder="Telefon">
-
+        <input class="col-xs-3" type="text" ng-required="true" ng-model="wertForm.email" placeholder="EMail*">
+        <input class="col-xs-3" type="text" ng-model="wertForm.telefon" placeholder="Telefon">
+        <input class="col-xs-3" type="number" ng-required="true" ng-model="wertForm.plz" placeholder="Postleitzahl*">
     </div>
 
 
 
 </div>
+
+
+<a ng-show="wertForm.anfrageart != 'finanzierung'" ng-click="slickConfigBewertung.method.slickPrev()" class="prevButton btn btn-success">Zurück</a>
+<a ng-click="submitForm()" class="sendButton btn btn-warning">Senden</a>

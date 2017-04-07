@@ -15,7 +15,7 @@ angular.module('Fineloo')
         $scope.slickConfigBewertung = {
             initialSlide: 0,
             swipe: false,
-            dots: false,
+            dots: true,
             speed: 600,
             prevArrow: false,
             nextArrow: false,
@@ -25,6 +25,70 @@ angular.module('Fineloo')
                 beforeChange: function (event, slick, currentSlide, nextSlide) {
 
 
+                    if(nextSlide < currentSlide) {
+
+                        if (currentSlide-1 <= 0) {
+
+                            // DELETE ALL WERTFORM VALUES ON SLIDE INDEX 0
+                            $scope.wertForm.wertObjekt = "";
+                        }
+
+                        // DELETE ALL WERTFORM VALUES ON SLIDE INDEX 1
+                        if (currentSlide-1 <= 1) {
+
+                            $scope.wertForm.transaktion = "";
+                        }
+
+                        // DELETE ALL WERTFORM VALUES ON SLIDE INDEX 2
+                        if (currentSlide-1 <= 2) {
+
+                            $scope.wertForm.hausArt = "";
+                        }
+
+                        // DELETE ALL WERTFORM VALUES ON SLIDE INDEX 3
+                        if (currentSlide-1 <= 3) {
+
+                            $scope.wertForm.wohnungsArt = "";
+                        }
+
+                        // DELETE ALL WERTFORM VALUES ON SLIDE INDEX 4
+                        if (currentSlide-1 <= 4) {
+
+                           $scope.wertForm.wohnflaeche = "";
+                           $scope.wertForm.grundstueckGroesse = "";
+                           $scope.wertForm.zimmerZahl = "";
+                        }
+
+                        // DELETE ALL WERTFORM VALUES ON SLIDE INDEX 5
+                        if (currentSlide-1 <= 5) {
+
+                            $scope.wertForm.stockwerke = "";
+
+                        }
+                        // DELETE ALL WERTFORM VALUES ON SLIDE INDEX 6
+                        if (currentSlide-1 <= 6) {
+
+                            $scope.wertForm.baujahr = "";
+
+                        }
+
+                        // DELETE ALL WERTFORM VALUES ON SLIDE INDEX 7
+                        if (currentSlide-1 <= 7) {
+
+                            $scope.wertForm.nutzungsart = "";
+
+                        }
+
+                        // DELETE ALL WERTFORM VALUES ON SLIDE INDEX 8
+                        if (currentSlide-1 <= 8) {
+
+                            $scope.wertForm.stellplatz = "";
+
+                        }
+
+
+
+                    }
 
                 },
                 afterChange: function (event, slick, currentSlide, nextSlide) {
@@ -98,6 +162,37 @@ angular.module('Fineloo')
             }
 
         };
+
+
+        $scope.$watch('wertForm.anfrageart', function (newValue) {
+
+
+
+                $scope.wertForm.wertObjekt = "";
+                $scope.wertForm.transaktion = "";
+                $scope.wertForm.hausArt = "";
+                 $scope.wertForm.wohnungsArt = "";
+
+                $scope.wertForm.wohnflaeche = "";
+                $scope.wertForm.grundstueckGroesse = "";
+                $scope.wertForm.zimmerZahl = "";
+
+                $scope.wertForm.stockwerke = "";
+
+
+                $scope.wertForm.baujahr = "";
+
+                $scope.wertForm.nutzungsart = "";
+
+
+
+                $scope.wertForm.stellplatz = "";
+
+
+
+        });
+
+
 
 
 

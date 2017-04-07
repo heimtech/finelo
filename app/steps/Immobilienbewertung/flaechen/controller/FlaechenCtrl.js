@@ -36,6 +36,17 @@ angular.module('Fineloo')
             }
         };
 
+        //Slider with draggable range
+        $scope.slider_zimmer = {
+
+            value: 3,
+            options: {
+                floor: 1,
+                ceil: 10,
+                step: 1
+            }
+        };
+
 
 
         $scope.$watch('slider_wohnflaeche.value', function (newValue) {
@@ -49,6 +60,35 @@ angular.module('Fineloo')
             $scope.wertForm.grundstueckGroesse = newValue;
         });
 
+        $scope.$watch('slider_zimmer.value', function (newValue) {
+
+            $scope.wertForm.zimmerZahl = newValue;
+        });
+
+        $scope.delegateNextSlide = function() {
+
+
+
+                if($scope.wertForm.wertObjekt == 'Haus' ) {
+
+
+                    $scope.slickConfigBewertung.method.slickGoTo(4);
+                }
+
+                if($scope.wertForm.wertObjekt == 'Wohnung' ) {
+
+
+                    $scope.slickConfigBewertung.method.slickGoTo(6);
+                }
+
+
+            if($scope.wertForm.wertObjekt == 'Grundstueck' ) {
+
+
+                $scope.slickConfigBewertung.method.slickGoTo(7);
+            }
+
+        }
 
 
     }]);
