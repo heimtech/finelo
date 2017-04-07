@@ -10,7 +10,19 @@ angular.module('Fineloo')
 
 
 
+        $scope.$watch('wertForm.wohnungsArt', function (newValue) {
 
+
+            try {
+                $scope.slickConfigBewertung.method.slickGoTo(3);
+
+            }
+            catch (e) {
+
+            }
+
+
+        });
 
 
 

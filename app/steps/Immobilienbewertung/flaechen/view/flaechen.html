@@ -16,10 +16,10 @@
     </div>
 
 
-<h4 class="col-xs-12">Wie groß ist die Grundstücksfläche?</h4>
+<h4 ng-show="wertForm.wertObjekt !='Wohnung'" class="col-xs-12">Wie groß ist die Grundstücksfläche?</h4>
 
 
-    <div class="formElementContainer col-xs-10" style="margin-left: 15px;">
+    <div ng-show="wertForm.wertObjekt !='Wohnung'" class="formElementContainer col-xs-10" style="margin-left: 15px;">
         <div class="col-xs-2 col-sm-2">
 
             <image src="{{imageStep2}}" />
@@ -31,8 +31,25 @@
 
     </div>
 
-<a ng-click="delegateNextSlide()" class="nextButton btn btn-success">Weiter</a>
+
+    <h4 ng-show="wertForm.wertObjekt =='Wohnung'" class="col-xs-12">Wieviel Zimmer hat die Wohnung?</h4>
+
+
+    <div ng-show="wertForm.wertObjekt =='Wohnung'" class="formElementContainer col-xs-10" style="margin-left: 15px;">
+        <div class="col-xs-2 col-sm-2">
+
+            <image src="{{imageStep2}}" />
+        </div>
+        <div class="col-xs-10 col-sm-10">
+            <rzslider rz-slider-model="slider_zimmer.value" rz-slider-options="slider_zimmer.options"></rzslider>
+            <input class="squaremeterinput" type="number" ng-model="wertForm.zimmerZahl" />
+        </div>
+
+    </div>
 
 
 
 </div>
+
+<a ng-click="slickConfigBewertung.method.slickPrev()" class="prevButton btn btn-success">Zurück</a>
+<a ng-click="delegateNextSlide()" class="nextButton btn btn-success">Weiter</a>

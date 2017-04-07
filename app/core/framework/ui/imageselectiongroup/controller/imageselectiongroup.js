@@ -64,10 +64,10 @@ lModule.controller('ImageSelectionGroupCtrl', [ '$scope',  function ($scope) {
 
         $scope.$watch($scope.selectionGroup.modelName, function (newValues, oldValues) {
 
-            if (newValues) {
+
 
                 $scope.userSelection.selectedValue = newValues;
-            }
+
 
 
         }, true);

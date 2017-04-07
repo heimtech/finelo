@@ -20,7 +20,7 @@ angular.module('Fineloo')
             if($scope.wertForm.wertObjekt == 'Wohnung' ) {
 
 
-                $scope.slickConfigBewertung.method.slickGoTo(3);
+                $scope.slickConfigBewertung.method.slickGoTo(2);
             }
 
             if($scope.wertForm.wertObjekt == 'Grundstueck' ) {
@@ -29,6 +29,8 @@ angular.module('Fineloo')
                 $scope.slickConfigBewertung.method.slickGoTo(2);
             }
         });
+
+
 
 
 

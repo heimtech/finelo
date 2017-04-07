@@ -20,9 +20,14 @@ var lApplication = angular.module('Fineloo', [
 lApplication.controller('FinelooCtrl', [ '$scope' , '$mdDialog', function ($scope, $mdDialog) {
 
 
-  $scope.wertForm = { anfrageart : "bewertung", grundstueckGroesse: 100, wohnflaeche: 50};
+  $scope.wertForm = { wertObjekt: "", anfrageart : "bewertung", grundstueckGroesse: 100, wohnflaeche: 50};
 
 
+  $scope.goBackBewertung = function () {
+
+    $scope.wertForm.transaktion = "";
+    slickConfigBewertung.method.slickPrev()
+  }
 
 
 }]);

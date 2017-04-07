@@ -67,6 +67,7 @@ input.squaremeterinput {
     width: 72px;
     padding-left: 12px;
     text-align: center;
+    height: 36px;
 }
 
 
@@ -361,9 +362,12 @@ div#content {
 
 .imgBarBottomBlack h3 {
 
-padding-top: 14px;
-  color: white !important;
+    padding-top: 14px;
+    color: white !important;
     letter-spacing: 0.05em;
+    font-size: 14px;
+    /* font-family: Verdana; */
+    font-weight: 300;
 
 }
 
@@ -517,17 +521,26 @@ a.btn.previewButton:hover {
 }
 
 .formElementContainer {
-    margin-top: 24px;
-    border: 1px solid grey;
-    padding: 14px 0px;
+    margin-top: 8px;
+    border: 1px solid @main-color-border-lightgrey;
+    padding: 8px 0px;
 }
 
 .slick-slide img {
     max-width: 100%;
-}
+    max-height: 90px;
+    width: auto;}
 
 .hiddenButPresent {
     visibility: hidden;
+}
+
+body .h4 {
+    font-size: 16px;
+}
+
+.xponListItem .radio {
+    display: none;
 }
 
 .form-group label {
@@ -745,8 +758,14 @@ html body select {
 
 
 .wizard-select {
-    margin-top: 24px;
+    margin-top: 8px;
 
+}
+
+.h4, .h5, .h6, h4, h5, h6 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 15px;
 }
 
 .inlinecontainer > * {
@@ -963,6 +982,26 @@ a.btn-success:hover {
     width: 120px;
     margin-top: 24px;
 
+}
+
+.prevButton {
+    margin-top: 24px;
+}
+
+
+html body input.ng-invalid {
+    border-color: initial !important;
+}
+
+
+a.sendButton {
+    margin-top: 24px;
+    float: right;
+}
+
+.kontaktform input {
+    margin-bottom: 10px;
+    margin-right: 10px;
 }
 
 a.btn {
