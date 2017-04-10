@@ -9,7 +9,9 @@ angular.module('Fineloo')
         });
     }])
 
-    .controller('FinelooSlickCtrl', ['$scope' , function ($scope) {
+    .controller('FinelooSlickCtrl', ['$scope' ,'$location' , function ($scope, $location) {
+
+        $scope.formMode =  $location.search().formMode;
 
 
         $scope.slickConfigBewertung = {

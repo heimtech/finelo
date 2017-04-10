@@ -4,7 +4,7 @@
         <h3>Wie können wir Ihnen weiterhelfen?</h3>
     </div>
 
-    <select ng-model="wertForm.anfrageart" class="wizard-select">
+    <select ng-show="formMode == 1" ng-model="wertForm.anfrageart" class="wizard-select">
         <option value="bewertung">Immobilienbewertung</option>
         <option value="finanzierung">Baufinanzierung</option>
         <option value="renovierung">Bau- und Renovierungskosten</option>
