@@ -29,9 +29,7 @@ function fineloo_get_ask()
 
 {
 
-$optionPageID1 = get_option("fin_settings", "Option gibts nicht");
 
-echo var_dump($optionPageID1);
    return '<select id="fineloo_ask" class="wizard-select">'.
                          '<option value="null">Wie können wir helfen?</option>'.
                       '<option value="bewertung">Immobilienbewertung</option>'.
@@ -49,6 +47,14 @@ function fineloo_respond_to_ask()
 
 {
 
+$optionPageID1 = get_option("fin_settings", "Option gibts nicht");
+$permaBewertung = get_permalink( $optionPageID1["pageIDImmoblienbewertung"], false );
+$permaFinanzierung = get_permalink( $optionPageID1["pageIDBaufinanzierung"], false );
+$permaBaukosten = get_permalink( $optionPageID1["pageIDBauUndRenovierungskosten"], false );
+
+
+
+
 
 
 echo ("<script>jQuery(document).ready(function() {".
@@ -56,14 +62,14 @@ echo ("<script>jQuery(document).ready(function() {".
 
         " var lValue = jQuery('#fineloo_ask').val();".
         "  if(lValue == 'bewertung') {".
-         "     window.location.href = 'immobilien-bewertung-region-augsburg';".
+         "     window.location.href = '". $permaBewertung ."';".
          " }".
         "  if(lValue == 'finanzierung') {".
-         "     window.location.href = 'www.google.de?searchTerm=finanzierungUpfla';".
+         "     window.location.href = '". $permaFinanzierung ."';".
 
         "  }".
         "  if(lValue == 'renovierung') {".
-        "      window.location.href = 'bau-renovierung-kosten-region-augsburg';".
+        "      window.location.href = '". $permaBaukosten ."';".
 
         "  }});});</script>");
 
