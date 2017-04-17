@@ -29,32 +29,32 @@ angular.module('Fineloo')
 
                     if(nextSlide < currentSlide) {
 
-                        if (currentSlide-1 <= 0) {
+                        if (nextSlide <= 0) {
 
                             // DELETE ALL WERTFORM VALUES ON SLIDE INDEX 0
                             $scope.wertForm.wertObjekt = "";
                         }
 
                         // DELETE ALL WERTFORM VALUES ON SLIDE INDEX 1
-                        if (currentSlide-1 <= 1) {
+                        if (nextSlide <= 1) {
 
                             $scope.wertForm.transaktion = "";
                         }
 
                         // DELETE ALL WERTFORM VALUES ON SLIDE INDEX 2
-                        if (currentSlide-1 <= 2) {
+                        if (nextSlide <= 2) {
 
                             $scope.wertForm.hausArt = "";
                         }
 
                         // DELETE ALL WERTFORM VALUES ON SLIDE INDEX 3
-                        if (currentSlide-1 <= 3) {
+                        if (nextSlide <= 3) {
 
                             $scope.wertForm.wohnungsArt = "";
                         }
 
                         // DELETE ALL WERTFORM VALUES ON SLIDE INDEX 4
-                        if (currentSlide-1 <= 4) {
+                        if (nextSlide <= 4) {
 
                            $scope.wertForm.wohnflaeche = "";
                            $scope.wertForm.grundstueckGroesse = "";
@@ -62,27 +62,27 @@ angular.module('Fineloo')
                         }
 
                         // DELETE ALL WERTFORM VALUES ON SLIDE INDEX 5
-                        if (currentSlide-1 <= 5) {
+                        if (nextSlide <= 5) {
 
                             $scope.wertForm.stockwerke = "";
 
                         }
                         // DELETE ALL WERTFORM VALUES ON SLIDE INDEX 6
-                        if (currentSlide-1 <= 6) {
+                        if (nextSlide <= 6) {
 
                             $scope.wertForm.baujahr = "";
 
                         }
 
                         // DELETE ALL WERTFORM VALUES ON SLIDE INDEX 7
-                        if (currentSlide-1 <= 7) {
+                        if (nextSlide <= 7) {
 
                             $scope.wertForm.nutzungsart = "";
 
                         }
 
                         // DELETE ALL WERTFORM VALUES ON SLIDE INDEX 8
-                        if (currentSlide-1 <= 8) {
+                        if (nextSlide <= 8) {
 
                             $scope.wertForm.stellplatz = "";
 

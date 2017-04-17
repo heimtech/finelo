@@ -9,8 +9,8 @@
         <option value="finanzierung">Baufinanzierung</option>
         <option value="renovierung">Bau- und Renovierungskosten</option>
     </select>
-    <div ng-controller="ImmobilienbewertungCtrl">
-        <slick ng-if="wertForm.anfrageart=='bewertung'" id="Immobilienbewertung" style="position:relative;" settings="slickConfigBewertung" slides-to-show=1>
+    <div ng-controller="ImmobilienbewertungCtrl" ng-show="formMode == 2">
+        <slick id="Immobilienbewertung" style="position:relative;" settings="slickConfigBewertung" slides-to-show=1>
             <div class="singleSlide">
                 <div ng-include="'steps/Immobilienbewertung/immobilienArt/view/immobilienArt.html'"></div>
             </div>
@@ -45,11 +45,11 @@
     </div>
 
 
-        <div class="" id="Baufinanzierung" ng-show="wertForm.anfrageart=='finanzierung'">
+        <div ng-if="formMode == 3" class="" id="Baufinanzierung" ng-show="wertForm.anfrageart=='finanzierung'">
             <div ng-include="'steps/Baufinanzierung/Kontaktformular/kontakt.html'"></div>
         </div>
 
-    <slick id="renovierung" ng-if="wertForm.anfrageart=='renovierung'" style="position:relative;" settings="slickConfigRenovierung" slides-to-show=1>
+    <slick id="renovierung" ng-if="formMode == 4" style="position:relative;" settings="slickConfigRenovierung" slides-to-show=1>
 
         <div class="singleSlide">
             <div ng-include="'steps/BauRenovierungskosten/Bauart/view/bauart.html'"></div>

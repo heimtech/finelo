@@ -13,20 +13,32 @@ angular.module('Fineloo')
 
             if($scope.wertForm.wertObjekt == 'Haus' ) {
 
+                try {
+                    $scope.slickConfigBewertung.method.slickGoTo(2);
+                }
+                catch (e)  {
 
-                $scope.slickConfigBewertung.method.slickGoTo(2);
+                }
             }
 
             if($scope.wertForm.wertObjekt == 'Wohnung' ) {
 
+                try {
+                    $scope.slickConfigBewertung.method.slickGoTo(2);
+                }
+                catch (e)  {
 
-                $scope.slickConfigBewertung.method.slickGoTo(2);
+                }
             }
 
             if($scope.wertForm.wertObjekt == 'Grundstueck' ) {
 
+                try {
+                    $scope.slickConfigBewertung.method.slickGoTo(2);
+                }
+                catch (e)  {
 
-                $scope.slickConfigBewertung.method.slickGoTo(2);
+                }
             }
         });
 

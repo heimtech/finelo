@@ -8,7 +8,12 @@ angular.module('Fineloo')
 
         $scope.goToNutzungsArt =  function() {
 
-            $scope.slickConfigBewertung.method.slickGoTo(6);
+            try {
+                $scope.slickConfigBewertung.method.slickGoTo(6);
+            }
+            catch (e)  {
+
+            }
         }
 
 

@@ -86,7 +86,7 @@ Sets the ask field where client is asked for what he wants
  {
 
 
-    return '<iframe width="100%" height="auto" src="http://www.heim-tech.de/demo/finelo/app/index.html?formMode=1&submitPage=' . plugin_dir_url(__FILE__) . 'formSubmit.php' . '"></iframe>';
+    return '<iframe width="100%" height="500px" src="'  . plugin_dir_url(__FILE__)  . '/app/index.html?formMode=1&submitPage=' . plugin_dir_url(__FILE__) . 'formSubmit.php' . '"></iframe>';
 
 
 }

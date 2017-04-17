@@ -5,13 +5,17 @@ angular.module('Fineloo')
 
     .controller('KontaktCtrl', ['$scope', '$http' , '$mdDialog' , function ($scope, $http, $mdDialog) {
 
+        $scope.submitValue = "Hallo";
 
+        this.submitFormDirect = function () {
+            alert("hallo");
+        }
 
         $scope.submitForm = function() {
 
 
 
-            var lPromise = $http.post($scope.submitURL, $scope.wertForm);
+            var lPromise = $http.post($scope.submitPage, $scope.wertForm);
 
             lPromise.then(
                 function (answer) {
@@ -59,7 +63,8 @@ angular.module('Fineloo')
                 };
             }
 
-    }
+    };
+
 
 
 

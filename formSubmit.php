@@ -5,10 +5,11 @@
 //include('functions.php');
 require_once("../../../wp-load.php");
 
+echo "Hallo";
+$data = json_decode(file_get_contents('php://input'), true);
 
-$id	 = $_POST['id'];
-
-echo var_dump($_POST);
+$anfrageArt = $data[anfrageArt];
+echo var_dump($data);
 
 $options = get_option("fin_settings", "Option gibts nicht");
 

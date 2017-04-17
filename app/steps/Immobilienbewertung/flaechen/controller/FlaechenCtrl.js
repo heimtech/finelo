@@ -70,22 +70,37 @@ angular.module('Fineloo')
 
 
                 if($scope.wertForm.wertObjekt == 'Haus' ) {
+try {
+    $scope.slickConfigBewertung.method.slickGoTo(4);
 
+}
+catch (e)  {
 
-                    $scope.slickConfigBewertung.method.slickGoTo(4);
+}
+
                 }
 
                 if($scope.wertForm.wertObjekt == 'Wohnung' ) {
 
+                    try {
+                        $scope.slickConfigBewertung.method.slickGoTo(6);
+                    }
+                    catch (e)  {
 
-                    $scope.slickConfigBewertung.method.slickGoTo(6);
+                    }
+
                 }
 
 
             if($scope.wertForm.wertObjekt == 'Grundstueck' ) {
 
 
-                $scope.slickConfigBewertung.method.slickGoTo(7);
+                try {
+                    $scope.slickConfigBewertung.method.slickGoTo(7);
+                }
+                catch (e)  {
+
+                }
             }
 
         }
