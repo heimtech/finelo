@@ -14,7 +14,7 @@ angular.module('Fineloo')
             if(newValue == 'Haus' ) {
 
                 try {
-                    $scope.slickConfigBewertung.method.slickGoTo(1);
+                    $scope.slickConfigBewertung.method.slickNext();
                 }
                 catch (e)  {
 
@@ -24,7 +24,7 @@ angular.module('Fineloo')
             if(newValue == 'Wohnung' ) {
 
                 try {
-                    $scope.slickConfigBewertung.method.slickGoTo(1);
+                    $scope.slickConfigBewertung.method.slickNext();
                 }
                 catch (e)  {
 
@@ -34,7 +34,7 @@ angular.module('Fineloo')
             if(newValue == 'Grundstueck' ) {
 
                 try {
-                    $scope.slickConfigBewertung.method.slickGoTo(1);
+                    $scope.slickConfigBewertung.method.slickNext();
                 }
                 catch (e)  {
 

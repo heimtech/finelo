@@ -14,7 +14,7 @@ angular.module('Fineloo')
 
 
             try {
-                $scope.slickConfigBewertung.method.slickGoTo(3);
+                $scope.slickConfigBewertung.method.slickNext();
 
             }
             catch (e) {

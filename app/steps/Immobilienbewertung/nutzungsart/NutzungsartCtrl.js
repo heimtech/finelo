@@ -12,11 +12,11 @@ angular.module('Fineloo')
 
             try {
                 if($scope.wertForm.wertObjekt == "Wohnung") {
-                    $scope.slickConfigBewertung.method.slickGoTo(3);
+                    $scope.slickConfigBewertung.method.slickPrev();
                 }
 
                 if($scope.wertForm.wertObjekt == "Haus") {
-                    $scope.slickConfigBewertung.method.slickPrev()
+                    $scope.slickConfigBewertung.method.slickPrev();
 
                 }
 
@@ -31,7 +31,7 @@ angular.module('Fineloo')
         $scope.$watch('wertForm.nutzungsart', function (newValue) {
 
             try {
-                $scope.slickConfigBewertung.method.slickGoTo(7);
+                $scope.slickConfigBewertung.method.slickNext();
             }
             catch (e)  {
 

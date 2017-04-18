@@ -110,7 +110,7 @@ lApplication.controller('FinelooCtrl', [ '$scope' , '$mdDialog', '$location', '$
   };
 
 
-  $scope.formMode = 2;
+  $scope.formMode = 4;
    $scope.wertForm = { wertObjekt: "", anfrageart : "bewertung", grundstueckGroesse: 100, wohnflaeche: 50};
 
 

@@ -67,41 +67,14 @@ angular.module('Fineloo')
 
         $scope.delegateNextSlide = function() {
 
+            try {
+                $scope.slickConfigBewertung.method.slickNext();
 
-
-                if($scope.wertForm.wertObjekt == 'Haus' ) {
-try {
-    $scope.slickConfigBewertung.method.slickGoTo(4);
-
-}
-catch (e)  {
-
-}
-
-                }
-
-                if($scope.wertForm.wertObjekt == 'Wohnung' ) {
-
-                    try {
-                        $scope.slickConfigBewertung.method.slickGoTo(6);
-                    }
-                    catch (e)  {
-
-                    }
-
-                }
-
-
-            if($scope.wertForm.wertObjekt == 'Grundstueck' ) {
-
-
-                try {
-                    $scope.slickConfigBewertung.method.slickGoTo(7);
-                }
-                catch (e)  {
-
-                }
             }
+            catch (e)  {
+
+            }
+
 
         }
 

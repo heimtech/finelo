@@ -11,7 +11,7 @@ angular.module('Fineloo')
         $scope.$watch('wertForm.stellplatz', function (newValue) {
 
             try {
-                $scope.slickConfigBewertung.method.slickGoTo(8);
+                $scope.slickConfigBewertung.method.slickNext();
             }
             catch (e)  {
 

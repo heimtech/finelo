@@ -26,16 +26,16 @@
             <div class="singleSlide" ng-controller="FlaechenCtrl">
                 <div ng-include="'steps/Immobilienbewertung/flaechen/view/flaechen.html'"></div>
             </div>
-            <div class="singleSlide">
+            <div ng-show="wertForm.wertObjekt=='Wohnung' || wertForm.wertObjekt=='Haus'" class="singleSlide">
                 <div ng-include="'steps/Immobilienbewertung/stockwerke/view/stockwerk.html'"></div>
             </div>
-            <div class="singleSlide">
+            <div ng-show="wertForm.wertObjekt=='Haus'" class="singleSlide">
                 <div ng-include="'steps/Immobilienbewertung/baujahr/view/baujahr.html'"></div>
             </div>
-            <div class="singleSlide">
+            <div ng-show="wertForm.wertObjekt=='Wohnung' || wertForm.wertObjekt=='Haus'" class="singleSlide">
                 <div ng-include="'steps/Immobilienbewertung/nutzungsart/nutzungsart.html'"></div>
             </div>
-            <div class="singleSlide">
+            <div ng-show="wertForm.wertObjekt=='Wohnung' || wertForm.wertObjekt=='Haus'" class="singleSlide">
                 <div ng-include="'steps/Immobilienbewertung/stellplatz/stellplatz.html'"></div>
             </div>
             <div class="singleSlide">
@@ -49,11 +49,34 @@
             <div ng-include="'steps/Baufinanzierung/Kontaktformular/kontakt.html'"></div>
         </div>
 
-    <slick id="renovierung" ng-if="formMode == 4" style="position:relative;" settings="slickConfigRenovierung" slides-to-show=1>
 
-        <div class="singleSlide">
-            <div ng-include="'steps/BauRenovierungskosten/Bauart/view/bauart.html'"></div>
-        </div>
+    <div ng-controller="BaurenovierungCtrl" ng-show="formMode == 4">
+        <slick id="renovierung" style="position:relative;" settings="slickConfigRenovierung" slides-to-show=1>
 
-    </slick>
+            <div class="singleSlide">
+                <div ng-include="'steps/BauRenovierungskosten/Bauart/view/bauart.html'"></div>
+            </div>
+            <div ng-show="wertForm.bauArt =='Neubau'" class="singleSlide">
+                <div ng-include="'steps/BauRenovierungskosten/hausArt/view/hausArt.html'"></div>
+            </div>
+            <div ng-show="wertForm.bauArt =='Neubau'" class="singleSlide" ng-controller="FlaechenCtrl">
+                <div ng-include="'steps/Immobilienbewertung/flaechen/view/flaechen.html'"></div>
+            </div>
+            <div class="singleSlide">
+                <div ng-include="'steps/Immobilienbewertung/stockwerke/view/stockwerk.html'"></div>
+            </div>
+            <div class="singleSlide">
+                <div ng-include="'steps/BauRenovierungskosten/keller/view/keller.html'"></div>
+            </div>
+            <div ng-show="wertForm.bauArt == 'Neubau'" class="singleSlide">
+                <div ng-include="'steps/Immobilienbewertung/stellplatz/stellplatz.html'"></div>
+            </div>
+            <div class="singleSlide">
+                <div ng-include="'steps/Baufinanzierung/Kontaktformular/kontakt.html'"></div>
+            </div>
+        </slick>
+    </div>
+
+
+
 </div>

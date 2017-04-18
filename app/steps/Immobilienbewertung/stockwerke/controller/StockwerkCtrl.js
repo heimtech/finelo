@@ -12,7 +12,7 @@ angular.module('Fineloo')
         $scope.$watch('wertForm.stockwerke', function (newValue) {
 
             try {
-                $scope.slickConfigBewertung.method.slickGoTo(5);
+                $scope.slickConfigBewertung.method.slickNext();
             }
             catch (e)  {
 
