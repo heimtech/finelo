@@ -12,7 +12,7 @@ angular.module('Fineloo')
         $scope.$watch('wertForm.keller', function (newValue) {
 
             try {
-                $scope.slickConfigBewertung.method.slickNext();
+                $scope.slickConfigRenovierung.method.slickNext();
             }
             catch (e)  {
 

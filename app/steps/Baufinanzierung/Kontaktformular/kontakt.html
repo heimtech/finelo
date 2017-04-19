@@ -16,5 +16,7 @@
 </div>
 
 
-<a ng-show="wertForm.anfrageart != 'finanzierung'" ng-click="slickConfigBewertung.method.slickPrev()" class="prevButton btn btn-success">Zurück</a>
+<a ng-show="formMode == 2" ng-click="slickConfigBewertung.method.slickPrev()" class="prevButton btn btn-success">Zurück</a>
+<a ng-show="formMode == 4" ng-click="slickConfigRenovierung.method.slickPrev()" class="prevButton btn btn-success">Zurück</a>
+
 <a ng-click="submitForm()" class="sendButton btn btn-warning">Senden</a>

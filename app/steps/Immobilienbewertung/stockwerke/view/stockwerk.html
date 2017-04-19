@@ -10,4 +10,5 @@
 
 </div>
 
-<a ng-click="slickConfigBewertung.method.slickPrev()" class="prevButton btn btn-success">Zurück</a>
+<a ng-if="formMode == 2" ng-click="slickConfigBewertung.method.slickPrev()" class="prevButton btn btn-success">Zurück</a>
+<a ng-if="formMode == 4" ng-click="slickConfigRenovierung.method.slickPrev()" class="prevButton btn btn-success">Zurück</a>

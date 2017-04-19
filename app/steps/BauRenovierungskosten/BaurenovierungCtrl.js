@@ -17,15 +17,15 @@ lApp.controller('BaurenovierungCtrl', ['$scope' , function ($scope) {
 lApp.controller('RenovierungHausArtCtrl', ['$scope' , function ($scope) {
 
 
-    $scope.selectionGroup = {name: "HausArt" , listClasses: "col-xs-6 col-sm-4" ,  sectionBootstrapClasses: "col-xs-12 col-sm-10", modelName: "wertForm.hausArtRenovierung", items: [  {name: "Einfamilienhaus", value: "einfamilienhaus" , imageName: 'haus.png' },{name: "Doppelhaushälfte", value: "doppelhaushaelfte" , imageName: 'grundstueck.png' },{name: "Sonstige", value: "Sonstige" , imageName: 'grundstueck.png' }]};
+    $scope.selectionGroup = {name: "HausArtRenovierung" , listClasses: "col-xs-6 col-sm-4" ,  sectionBootstrapClasses: "col-xs-12 col-sm-10", modelName: "wertForm.hausArtRenovierung", items: [  {name: "Einfamilienhaus", value: "einfamilienhaus" , imageName: 'haus.png' },{name: "Doppelhaushälfte", value: "doppelhaushaelfte" , imageName: 'grundstueck.png' },{name: "Sonstige", value: "Sonstige" , imageName: 'grundstueck.png' }]};
 
 
 
-    $scope.$watch('wertForm.hausArt', function (newValue) {
+    $scope.$watch('wertForm.hausArtRenovierung', function (newValue) {
 
 
         try {
-            $scope.slickConfigBewertung.method.slickNext();
+            $scope.slickConfigRenovierung.method.slickNext();
 
 
         }

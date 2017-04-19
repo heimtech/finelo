@@ -22,7 +22,9 @@
     "angular-mocks": "~1.5.8",
     "angular-slick-carousel" : "latest",
     "iCheck" : "latest",
-    "angularjs-slider": "latest"
+    "angularjs-slider": "latest",
+    "less": "latest"
+
 
 
 

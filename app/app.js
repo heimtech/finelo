@@ -56,6 +56,37 @@ lApplication.controller('FinelooCtrl', [ '$scope' , '$mdDialog', '$location', '$
 
   $scope.submitPage = $scope.getUrlParameter("submitPage", $scope.url);
 
+    $scope.showAboutDialog = function() {
+
+        $mdDialog.show({
+            controller: SubmitDialogController,
+            templateUrl: '/core/wizard/view/aboutdialog.html',
+            parent: angular.element(document.body),
+            targetEvent: answer,
+            clickOutsideToClose: false
+        })
+            .then(function (answer) {
+                $scope.status = 'You said the information was "' + answer + '".';
+            }, function () {
+                $scope.status = 'You cancelled the dialog.';
+            });
+
+        function SubmitDialogController($scope, $mdDialog) {
+            $scope.hide = function () {
+                $mdDialog.hide();
+            };
+
+            $scope.cancel = function () {
+                $mdDialog.cancel();
+            };
+
+            $scope.answer = function (answer) {
+                $mdDialog.hide(answer);
+            };
+        }
+
+    }
+
   $scope.submitForm = function() {
 
     var lPromise = $http.post($scope.submitPage, $scope.wertForm);
@@ -79,6 +110,19 @@ lApplication.controller('FinelooCtrl', [ '$scope' , '$mdDialog', '$location', '$
               });
 
 
+            function SubmitDialogController($scope, $mdDialog) {
+                $scope.hide = function () {
+                    $mdDialog.hide();
+                };
+
+                $scope.cancel = function () {
+                    $mdDialog.cancel();
+                };
+
+                $scope.answer = function (answer) {
+                    $mdDialog.hide(answer);
+                };
+            }
 
 
         },
@@ -93,19 +137,7 @@ lApplication.controller('FinelooCtrl', [ '$scope' , '$mdDialog', '$location', '$
         });
 
 
-    function SubmitDialogController($scope, $mdDialog) {
-      $scope.hide = function () {
-        $mdDialog.hide();
-      };
 
-      $scope.cancel = function () {
-        $mdDialog.cancel();
-      };
-
-      $scope.answer = function (answer) {
-        $mdDialog.hide(answer);
-      };
-    }
 
   };
 
