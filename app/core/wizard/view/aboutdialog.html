@@ -1,4 +1,4 @@
-<md-dialog aria-label="Status">
+<md-dialog id="aboutdialo" aria-label="Status">
     <form ng-cloak>
         <md-toolbar>
             <div class="md-toolbar-tools">
@@ -12,38 +12,19 @@
 
         <md-dialog-content>
             <div class="md-dialog-content">
-                <h2>Info</h2>
-                Icons von:
-                Daan Dirk von NounProject
-                Lisa Staudinger von NounProject
-                Tim Reiter von NounProject
-                Numero Uno
-                Franc
-                Ralf Schmitzer
-                Luis Prado
-                juliana takeuchi
-                Lloyd Humphreys
-                Hea Poh Lin
-                AlfredoCreates.com
-                Creative Stall
-                Aleksandr Vector
-                Adrien Coquet
-
-                Entwicklung: Dominik Heim <a href="www.heim-tech.de">Heim Tech | www.heim-tech.de</a>
+                Icons von: <br />
+                Daan Dirk, Lisa Staudinger, Tim Reiter, Numero Uno, Franc, Ralf Schmitzer, Luis Prado, juliana takeuchi, Lloyd Humphreys, Hea Poh Lin, AlfredoCreates.com,
+            Creative Stall, Aleksandr Vector, Adrien Coquet von NounProject
+<br /><br />
+                <b>Entwicklung: Dominik Heim <a href="http://www.heim-tech.de">Heim Tech | www.heim-tech.de</a></b>
 
             </div>
         </md-dialog-content>
 
         <md-dialog-actions layout="row">
-            <md-button href="http://en.wikipedia.org/wiki/Mango" target="_blank" md-autofocus>
-                More on Wikipedia
-            </md-button>
-            <span flex></span>
-            <md-button ng-click="answer('not useful')">
-                Not Useful
-            </md-button>
-            <md-button ng-click="answer('useful')">
-                Useful
+
+            <md-button ng-click="answer('Ok')">
+                Ok
             </md-button>
         </md-dialog-actions>
     </form>

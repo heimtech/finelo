@@ -87,7 +87,7 @@ Sets the ask field where client is asked for what he wants
  {
 
 
-    return '<iframe class="finelooframe" width="100%" height="700px" src="'  . plugin_dir_url(__FILE__)  . '/app/index.html?formMode=4&submitPage=' . plugin_dir_url(__FILE__) . 'formSubmit.php' . '"></iframe>';
+    return '<iframe class="finelooframe" width="100%" height="700px" src="'  . plugin_dir_url(__FILE__)  . 'app/index.html?formMode=4&submitPage=' . plugin_dir_url(__FILE__) . 'formSubmit.php' . '"></iframe>';
 
 
 }
@@ -97,7 +97,7 @@ Sets the ask field where client is asked for what he wants
  {
 
 
-    return '<iframe class="finelooframe" width="100%" height="700px" src="'  . plugin_dir_url(__FILE__)  . '/app/index.html?formMode=3&submitPage=' . plugin_dir_url(__FILE__) . 'formSubmit.php' . '"></iframe>';
+    return '<iframe class="finelooframe" width="100%" height="700px" src="'  . plugin_dir_url(__FILE__)  . 'app/index.html?formMode=3&submitPage=' . plugin_dir_url(__FILE__) . 'formSubmit.php' . '"></iframe>';
 
 
 }
@@ -107,7 +107,7 @@ Sets the ask field where client is asked for what he wants
  {
 
 
-    return '<iframe class="finelooframe" width="100%" height="700px" src="'  . plugin_dir_url(__FILE__)  . '/app/index.html?formMode=2&submitPage=' . plugin_dir_url(__FILE__) . 'formSubmit.php' . '"></iframe>';
+    return '<iframe class="finelooframe" width="100%" height="700px" src="'  . plugin_dir_url(__FILE__)  . 'app/index.html?formMode=2&submitPage=' . plugin_dir_url(__FILE__) . 'formSubmit.php' . '"></iframe>';
 
 
 }
@@ -118,7 +118,7 @@ function fineloo_get_ask()
 
 
    return '<select id="fineloo_ask" class="wizard-select">'.
-                         '<option value="null">Wie können wir helfen?</option>'.
+                         '<option value="null">Bitte wählen</option>'.
                       '<option value="bewertung">Immobilienbewertung</option>'.
                       '<option value="finanzierung">Baufinanzierung</option>'.
                       '<option value="renovierung">Bau- und Renovierungskosten</option>'.
