@@ -9,15 +9,16 @@ angular.module('Fineloo')
         });
     }])
 
-    .controller('FinelooSlickCtrl', ['$scope' ,'$location' , function ($scope, $location) {
+    .controller('FinelooSlickCtrl', ['$scope' ,'$location', '$timeout', function ($scope, $location, $timeout) {
 
+
+        $scope.showSlicks = false;
 
 
 
         $scope.slickConfigBewertung = {
-            initialSlide: 0,
             swipe: false,
-            dots: true,
+            dots: false,
             speed: 600,
             prevArrow: false,
             nextArrow: false,
@@ -26,8 +27,8 @@ angular.module('Fineloo')
             event: {
                 beforeChange: function (event, slick, currentSlide, nextSlide) {
 
+                    if(nextSlide <= currentSlide) {
 
-                    if(nextSlide < currentSlide) {
 
                         if (nextSlide <= 0) {
 
@@ -56,9 +57,7 @@ angular.module('Fineloo')
                         // DELETE ALL WERTFORM VALUES ON SLIDE INDEX 4
                         if (nextSlide <= 4) {
 
-                           $scope.wertForm.wohnflaeche = "";
-                           $scope.wertForm.grundstueckGroesse = "";
-                           $scope.wertForm.zimmerZahl = "";
+
                         }
 
                         // DELETE ALL WERTFORM VALUES ON SLIDE INDEX 5
@@ -88,9 +87,10 @@ angular.module('Fineloo')
 
                         }
 
-
-
                     }
+
+
+
 
                 },
                 afterChange: function (event, slick, currentSlide, nextSlide) {
@@ -110,6 +110,8 @@ angular.module('Fineloo')
                 },
                 init: function (event, slick) {
                     console.log('init');
+
+
                 },
                 setPosition: function (evnet, slick) {
                     console.log('setPosition');
@@ -136,6 +138,53 @@ angular.module('Fineloo')
 
 
 
+                    if(nextSlide <= currentSlide) {
+
+
+
+                        if (nextSlide <= 0) {
+
+                            // DELETE ALL WERTFORM VALUES ON SLIDE INDEX 0
+                            $scope.wertForm.bauArt = "";
+                        }
+
+                        // DELETE ALL WERTFORM VALUES ON SLIDE INDEX 1
+                        if (nextSlide <= 1) {
+
+                            $scope.wertForm.hausArtRenovierung = "";
+                        }
+
+                        // DELETE ALL WERTFORM VALUES ON SLIDE INDEX 2
+                        if (nextSlide <= 2) {
+
+
+                        }
+
+                        // DELETE ALL WERTFORM VALUES ON SLIDE INDEX 3
+                        if (nextSlide <= 3) {
+
+                            $scope.wertForm.stockwerke = "";
+                        }
+
+                        // DELETE ALL WERTFORM VALUES ON SLIDE INDEX 4
+                        if (nextSlide <= 4) {
+
+                            $scope.wertForm.keller = "";
+
+                        }
+
+                        // DELETE ALL WERTFORM VALUES ON SLIDE INDEX 5
+                        if (nextSlide <= 5) {
+
+                            $scope.wertForm.stellplatz = "";
+
+                        }
+
+
+                    }
+
+
+
                 },
                 afterChange: function (event, slick, currentSlide, nextSlide) {
 
@@ -154,6 +203,18 @@ angular.module('Fineloo')
                 },
                 init: function (event, slick) {
                     console.log('init');
+
+                    $timeout(function() {
+                        try {
+                            $scope.slickConfigRenovierung.method.slickGoTo(0);
+                        }
+                        catch(e) {
+
+                        }
+
+
+
+                    }, 500);
                 },
                 setPosition: function (evnet, slick) {
                     console.log('setPosition');
@@ -197,6 +258,33 @@ angular.module('Fineloo')
 
 
 
+        $scope.$on('$viewContentLoaded', function(){
+
+
+                try {
+
+                    $scope.slickConfigRenovierung.method.slickGoTo(0);
+                }
+                catch(e) {
+
+                }
+
+                try {
+
+                    $scope.slickConfigBewertung.method.slickGoTo(0);
+                }
+                catch(e) {
+
+                }
+
+                $scope.showSlicks = true;
+
+
+
+
+
+
+        });
 
 
     }]);

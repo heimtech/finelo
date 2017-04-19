@@ -9,7 +9,9 @@ angular.module('Fineloo')
         $scope.goToNutzungsArt =  function() {
 
             try {
-                $scope.slickConfigBewertung.method.slickNext();
+
+                    $scope.slickConfigBewertung.method.slickNext();
+
             }
             catch (e)  {
 

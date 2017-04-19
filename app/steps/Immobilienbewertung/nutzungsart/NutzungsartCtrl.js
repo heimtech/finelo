@@ -5,7 +5,7 @@ angular.module('Fineloo')
 
     .controller('NutzungsartCtrl', ['$scope' , function ($scope) {
 
-        $scope.selectionGroup = {name: "Nutzungsart" , listClasses: "col-xs-6 col-sm-4" ,  sectionBootstrapClasses: "col-xs-12 col-sm-10", modelName: "wertForm.nutzungsart", items: [  {name: "Vermietet", value: "Vermietet" , imageName: 'Haus.png' }, {name: "Eigennutzung", value: "Eigennutzung" , imageName: 'wohnung.png' },{name: "Sonstiges", value: "Sonstiges" , imageName: 'grundstueck.png' }]};
+        $scope.selectionGroup = {name: "Nutzungsart" , listClasses: "col-xs-6 col-sm-4" ,  sectionBootstrapClasses: "col-xs-12 col-sm-10", modelName: "wertForm.nutzungsart", items: [  {name: "Vermietet", value: "Vermietet" , imageName: 'vermietet.png' }, {name: "Eigennutzung", value: "Eigennutzung" , imageName: 'familie.png' },{name: "Sonstiges", value: "Sonstiges" , imageName: 'sonstige.png' }]};
 
 
         $scope.goPrevNutzungsArt = function() {
@@ -31,8 +31,9 @@ angular.module('Fineloo')
         $scope.$watch('wertForm.nutzungsart', function (newValue) {
 
             try {
-                $scope.slickConfigBewertung.method.slickNext();
-            }
+                if(newValue != undefined && newValue != "") {
+                    $scope.slickConfigBewertung.method.slickNext();
+                }            }
             catch (e)  {
 
             }

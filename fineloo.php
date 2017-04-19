@@ -70,6 +70,8 @@ wp_enqueue_script('angular_interpolate_filter', plugin_dir_url(__FILE__) . 'app/
 
 add_shortcode('fineloo_ask', 'fineloo_get_ask');
 add_shortcode('fineloo_bewertung', 'fineloo_get_bewertung');
+add_shortcode('fineloo_baukosten', 'fineloo_get_baukosten');
+add_shortcode('fineloo_finanzierung', 'fineloo_get_finanzierung');
 
 add_action( 'wp_footer', 'fineloo_respond_to_ask' );
 
@@ -80,13 +82,32 @@ Sets the ask field where client is asked for what he wants
 
 
 
+ function fineloo_get_baukosten()
+
+ {
+
+
+    return '<iframe class="finelooframe" width="100%" height="700px" src="'  . plugin_dir_url(__FILE__)  . '/app/index.html?formMode=4&submitPage=' . plugin_dir_url(__FILE__) . 'formSubmit.php' . '"></iframe>';
+
+
+}
+
+ function fineloo_get_finanzierung()
+
+ {
+
+
+    return '<iframe class="finelooframe" width="100%" height="700px" src="'  . plugin_dir_url(__FILE__)  . '/app/index.html?formMode=3&submitPage=' . plugin_dir_url(__FILE__) . 'formSubmit.php' . '"></iframe>';
+
+
+}
 
  function fineloo_get_bewertung()
 
  {
 
 
-    return '<iframe width="100%" height="500px" src="'  . plugin_dir_url(__FILE__)  . '/app/index.html?formMode=1&submitPage=' . plugin_dir_url(__FILE__) . 'formSubmit.php' . '"></iframe>';
+    return '<iframe class="finelooframe" width="100%" height="700px" src="'  . plugin_dir_url(__FILE__)  . '/app/index.html?formMode=2&submitPage=' . plugin_dir_url(__FILE__) . 'formSubmit.php' . '"></iframe>';
 
 
 }

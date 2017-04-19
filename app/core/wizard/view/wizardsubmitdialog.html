@@ -12,23 +12,16 @@
 
         <md-dialog-content>
             <div class="md-dialog-content">
-                <h2>Nachricht versendet</h2>
                 Vielen Dank für Ihre Nachricht. </br>
                 Wir werden uns schnellstmöglich mit Ihnen in Verbindung setzen.
             </div>
         </md-dialog-content>
 
         <md-dialog-actions layout="row">
-            <md-button href="http://en.wikipedia.org/wiki/Mango" target="_blank" md-autofocus>
-                More on Wikipedia
+             <md-button ng-click="answer('Ok')">
+                Ok
             </md-button>
-            <span flex></span>
-            <md-button ng-click="answer('not useful')">
-                Not Useful
-            </md-button>
-            <md-button ng-click="answer('useful')">
-                Useful
-            </md-button>
+
         </md-dialog-actions>
     </form>
 </md-dialog>

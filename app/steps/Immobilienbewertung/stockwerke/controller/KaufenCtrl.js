@@ -6,7 +6,7 @@ angular.module('Fineloo')
     .controller('KaufenCtrl', ['$scope' , function ($scope) {
 
 
-        $scope.selectionGroup = {name: "Kaufen" , listClasses: "col-xs-3 col-sm-3" ,  sectionBootstrapClasses: "col-xs-12 col-sm-10", modelName: "wertForm.transaktion", items: [  {name: "Kaufen", value: "Kaufen" , imageName: 'haus.png' }, {name: "Verkaufen", value: "Verkaufen" , imageName: 'wohnung.png' }]};
+        $scope.selectionGroup = {name: "Kaufen" , listClasses: "col-xs-6 col-sm-4" ,  sectionBootstrapClasses: "col-xs-12 col-sm-10", modelName: "wertForm.transaktion", items: [  {name: "Kaufen", value: "Kaufen" , imageName: 'kaufen.png' }, {name: "Verkaufen", value: "Verkaufen" , imageName: 'verkaufen.png' }]};
 
 
         $scope.$watch('wertForm.transaktion', function (newValue) {
@@ -14,8 +14,9 @@ angular.module('Fineloo')
             if($scope.wertForm.wertObjekt == 'Haus' ) {
 
                 try {
-                    $scope.slickConfigBewertung.method.slickNext();
-                }
+                    if(newValue != undefined && newValue != "") {
+                        $scope.slickConfigBewertung.method.slickNext();
+                    }                         }
                 catch (e)  {
 
                 }
@@ -24,7 +25,9 @@ angular.module('Fineloo')
             if($scope.wertForm.wertObjekt == 'Wohnung' ) {
 
                 try {
-                    $scope.slickConfigBewertung.method.slickNext();
+                    if(newValue != undefined && newValue != "") {
+                        $scope.slickConfigBewertung.method.slickNext();
+                    }
                 }
                 catch (e)  {
 
@@ -34,8 +37,9 @@ angular.module('Fineloo')
             if($scope.wertForm.wertObjekt == 'Grundstueck' ) {
 
                 try {
-                    $scope.slickConfigBewertung.method.slickNext();
-                }
+                    if(newValue != undefined && newValue != "") {
+                        $scope.slickConfigBewertung.method.slickNext();
+                    }                         }
                 catch (e)  {
 
                 }

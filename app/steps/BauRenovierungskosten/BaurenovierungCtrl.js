@@ -17,7 +17,7 @@ lApp.controller('BaurenovierungCtrl', ['$scope' , function ($scope) {
 lApp.controller('RenovierungHausArtCtrl', ['$scope' , function ($scope) {
 
 
-    $scope.selectionGroup = {name: "HausArtRenovierung" , listClasses: "col-xs-6 col-sm-4" ,  sectionBootstrapClasses: "col-xs-12 col-sm-10", modelName: "wertForm.hausArtRenovierung", items: [  {name: "Einfamilienhaus", value: "einfamilienhaus" , imageName: 'haus.png' },{name: "Doppelhaushälfte", value: "doppelhaushaelfte" , imageName: 'grundstueck.png' },{name: "Sonstige", value: "Sonstige" , imageName: 'grundstueck.png' }]};
+    $scope.selectionGroup = {name: "HausArtRenovierung" , listClasses: "col-xs-6 col-sm-4" ,  sectionBootstrapClasses: "col-xs-12 col-sm-10", modelName: "wertForm.hausArtRenovierung", items: [  {name: "Einfamilienhaus", value: "einfamilienhaus" , imageName: 'haus.png' },{name: "Doppelhaushälfte", value: "doppelhaushaelfte" , imageName: 'doppelhaushaelfte.png' },{name: "Sonstige", value: "Sonstige" , imageName: 'sonstige.png' }]};
 
 
 
@@ -25,8 +25,9 @@ lApp.controller('RenovierungHausArtCtrl', ['$scope' , function ($scope) {
 
 
         try {
-            $scope.slickConfigRenovierung.method.slickNext();
-
+            if(newValue != undefined && newValue != "") {
+                $scope.slickConfigRenovierung.method.slickNext();
+            }
 
         }
         catch (e) {
