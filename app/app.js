@@ -52,7 +52,26 @@ lApplication.controller('FinelooCtrl', [ '$scope' , '$mdDialog', '$location', '$
 
 
   $scope.formMode = $scope.getUrlParameter("formMode", $scope.url);
+$scope.slickTitle = "Wie können wir Ihnen weiterhelfen?";
 
+    if($scope.formMode == 2) {
+
+        $scope.slickTitle = "Jetzt kostenfrei Ihre Bau- und Renovierungskosten ermitteln.";
+
+
+    }
+
+    if($scope.formMode == 3) {
+
+        $scope.slickTitle = "&lt;b&gt;Jetzt zum besten Zins finanzieren.&lt/b&gt; – bereits über 1.000 begeisterte Kunden.";
+
+    }
+
+    if($scope.formMode == 4) {
+
+        $scope.slickTitle = "&lt;b&gt;kostenfreie Immobilienbewertung&lt/b&gt; – Was ist Ihre Immobilie wirklich wert?";
+
+    }
 
 
 
