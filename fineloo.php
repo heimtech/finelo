@@ -100,14 +100,14 @@ echo ("<script>jQuery(document).ready(function() {".
 
         " var lValue = jQuery('#fineloo_ask').val();".
         "  if(lValue == 'bewertung') {".
-         "     window.location.href = '". $permaBewertung ."';".
+         "     window.location.href = '". $permaBewertung ."#main';".
          " }".
         "  if(lValue == 'finanzierung') {".
-         "     window.location.href = '". $permaFinanzierung ."';".
+         "     window.location.href = '". $permaFinanzierung ."#main';".
 
         "  }".
         "  if(lValue == 'renovierung') {".
-        "      window.location.href = '". $permaBaukosten ."';".
+        "      window.location.href = '". $permaBaukosten ."#main';".
 
         "  }});});</script>");
 

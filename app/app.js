@@ -52,6 +52,13 @@ lApplication.controller('FinelooCtrl', [ '$scope' , '$mdDialog', '$location', '$
 
 
   $scope.formMode = $scope.getUrlParameter("formMode", $scope.url);
+
+    if($scope.formMode == undefined) {
+
+        $scope.formMode = 3;
+
+    }
+
 $scope.slickTitle = "Wie können wir Ihnen weiterhelfen?";
 
     if($scope.formMode == 2) {
@@ -63,7 +70,7 @@ $scope.slickTitle = "Wie können wir Ihnen weiterhelfen?";
 
     if($scope.formMode == 3) {
 
-        $scope.slickTitle = "&lt;b&gt;Jetzt zum besten Zins finanzieren.&lt/b&gt; – bereits über 1.000 begeisterte Kunden.";
+        $scope.slickTitle = "Jetzt zum besten Zins finanzieren. – bereits über 1.000 begeisterte Kunden.";
 
     }
 

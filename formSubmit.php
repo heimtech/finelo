@@ -61,6 +61,9 @@ $hausArtRenovierung = $data["hausArtRenovierung"];
 // Keller - gefragt für Renovierung und Neubau
 $keller = $data["keller"];
 
+$lagePLZ = $data["immoPLZ"];
+$lageStrasse  = $data["immoLage"];
+$besonderheit = $data["besonderheit"];
 
 $mail_body = "Sie haben eine Kontaktanfrage erhalten\r\n\r\n";
 
@@ -78,6 +81,12 @@ $mail_body = $mail_body . "\r\nAnfragedaten: \r\n\r\n";
 if ($anfrageArt == "bewertung") {
 
     $mail_body = $mail_body . "Objekt: " . $wertObjekt . " \r\n";
+
+
+            $mail_body = $mail_body . "Lage PLZ: " . $lagePLZ . " \r\n";
+            $mail_body = $mail_body . "Lage Straße: " . $lageStrasse . " \r\n";
+            $mail_body = $mail_body . "Besonderheit: " . $besonderheit . " \r\n";
+
 
     if ($wertObjekt == 'Wohnung' || $wertObjekt == 'Haus') {
 

@@ -11,6 +11,31 @@ angular.module('Fineloo')
             alert("hallo");
         }
 
+
+        $scope.kontaktText = "Text";
+
+
+        if($scope.formMode == 2) {
+            $scope.kontaktText = "Immobilienbewertung vom Spezialisten.";
+            $scope.textBlueBar = ""
+
+        }
+        if($scope.formMode == 3) {
+            $scope.kontaktText = "Sie möchten sich persönlich und unverbindlich beraten lassen?";
+            $scope.textBlueBar = "Über 1.000 begeisterte Kunden aus der Region Augsburg!"
+
+        }
+        if($scope.formMode == 4) {
+            $scope.kontaktText = "Bau- und Renovierungskosten vom Spezialisten.";
+            $scope.textBlueBar = "unverbindlich, kostenfrei, Top-Service"
+
+        }
+
+
+
+
+
+
         $scope.submitForm = function() {
 
 
