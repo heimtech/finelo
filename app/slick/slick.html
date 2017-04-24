@@ -84,6 +84,18 @@
         </slick>
     </div>
 
+    <div ng-controller="PrivatkreditCtrl" ng-show="formMode == 5">
+        <slick ng-show="showSlicks" id="privatkredit" style="position:relative;" settings="slickConfigPrivatkredit" slides-to-show=1>
+
+            <div class="singleSlide">
+                <div ng-include="'steps/Privatkredit/view/kreditdaten.html'"></div>
+            </div>
+            <div class="singleSlide">
+                <div ng-include="'steps/Baufinanzierung/Kontaktformular/kontakt.html'"></div>
+            </div>
+        </slick>
+    </div>
+
 
 
 </div>

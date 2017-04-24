@@ -227,6 +227,83 @@ angular.module('Fineloo')
         };
 
 
+        $scope.slickConfigPrivatkredit = {
+
+            initialSlide: 0,
+            swipe: false,
+            dots: false,
+            speed: 600,
+            prevArrow: false,
+            nextArrow: false,
+            centerPadding: '60px',
+            method: {},
+            event: {
+                beforeChange: function (event, slick, currentSlide, nextSlide) {
+
+
+
+                    if(nextSlide <= currentSlide) {
+
+
+
+                        if (nextSlide <= 0) {
+
+                            // DELETE ALL WERTFORM VALUES ON SLIDE INDEX 0
+                            $scope.wertForm.bauArt = "";
+                        }
+
+                        // DELETE ALL WERTFORM VALUES ON SLIDE INDEX 1
+                        if (nextSlide <= 1) {
+
+                            $scope.wertForm.hausArtRenovierung = "";
+                        }
+                    }
+
+
+
+                },
+                afterChange: function (event, slick, currentSlide, nextSlide) {
+
+                },
+                breakpoint: function (event, slick, breakpoint) {
+                    console.log('breakpoint');
+                },
+                destroy: function (event, slick) {
+                    console.log('destroy');
+                },
+                edge: function (event, slick, direction) {
+                    console.log('edge');
+                },
+                reInit: function (event, slick) {
+                    console.log('re-init');
+                },
+                init: function (event, slick) {
+                    console.log('init');
+
+                    $timeout(function() {
+                        try {
+                            $scope.slickConfigPrivatkredit.method.slickGoTo(0);
+                        }
+                        catch(e) {
+
+                        }
+
+
+
+                    }, 500);
+                },
+                setPosition: function (evnet, slick) {
+                    console.log('setPosition');
+                },
+                swipe: function (event, slick, direction) {
+                    console.log('swipe');
+                }
+            }
+
+        };
+
+
+
         $scope.$watch('wertForm.anfrageart', function (newValue) {
 
 
@@ -276,6 +353,14 @@ angular.module('Fineloo')
                 catch(e) {
 
                 }
+
+            try {
+
+                $scope.slickConfigPrivatkredit.method.slickGoTo(0);
+            }
+            catch(e) {
+
+            }
 
                 $scope.showSlicks = true;
 

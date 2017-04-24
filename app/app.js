@@ -55,7 +55,7 @@ lApplication.controller('FinelooCtrl', [ '$scope' , '$mdDialog', '$location', '$
 
     if($scope.formMode == undefined) {
 
-        $scope.formMode = 3;
+        $scope.formMode = 2;
 
     }
 
@@ -79,6 +79,44 @@ $scope.slickTitle = "Wie können wir Ihnen weiterhelfen?";
         $scope.slickTitle = "&lt;b&gt;kostenfreie Immobilienbewertung&lt/b&gt; – Was ist Ihre Immobilie wirklich wert?";
 
     }
+
+    if($scope.formMode == 5) {
+
+        $scope.slickTitle = "Individuelle Kredite und Finanzierungen";
+
+    }
+
+    /*
+     Headline: „Jetzt zum besten Zins Ihren Wunsch erfüllen. –
+
+     > “               (Blauen Balken)
+
+     >
+
+     > o   1. Seite: Subline: „Sie möchten sich persönlich und
+
+     > unverbindlich beraten lassen?“
+
+     >
+
+     > o   1. Seite: Eingabefeld: Kredithöhe, Laufzeit, Verwendung
+
+     >
+
+     > o   2. Seite: Kontaktfeld: „hier schicke ich noch die notwendigen
+
+     > Eingabefelder (zur Not kann ich es aber auch selbst dann erweitern)
+
+     >
+
+     > §  Text für Anfrage: „Schnell, Unverbindlich, 100% kostenfrei,
+
+     > individuell für Sie!“
+
+     >
+
+     > §  Balken Blau: „Über 1.000 begeisterte Kunden aus der Region Augsburg!“
+     */
 
 
 

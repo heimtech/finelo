@@ -21,6 +21,9 @@ add_shortcode('fineloo_ask2', 'fineloo_get_ask2');
 add_shortcode('fineloo_bewertung', 'fineloo_get_bewertung');
 add_shortcode('fineloo_baukosten', 'fineloo_get_baukosten');
 add_shortcode('fineloo_finanzierung', 'fineloo_get_finanzierung');
+add_shortcode('fineloo_privatkredit', 'fineloo_get_privatkredit');
+
+
 
 add_action( 'wp_footer', 'fineloo_respond_to_ask' );
 
@@ -51,6 +54,16 @@ Sets the ask field where client is asked for what he wants
 
 }
 
+ function fineloo_get_finanzierung()
+
+ {
+
+
+    return '<iframe class="finelooframe" width="100%" height="700px" src="'  . plugin_dir_url(__FILE__)  . 'app/index.html?formMode=5&submitPage=' . plugin_dir_url(__FILE__) . 'formSubmit.php' . '"></iframe>';
+
+
+}
+
  function fineloo_get_bewertung()
 
  {
@@ -71,6 +84,8 @@ function fineloo_get_ask()
                       '<option value="bewertung">Immobilienbewertung</option>'.
                       '<option value="finanzierung">Baufinanzierung</option>'.
                       '<option value="renovierung">Bau- und Renovierungskosten</option>'.
+                      '<option value="privatkredit">Privatkredit</option>'.
+
                   '</select>';
 
 
@@ -89,6 +104,7 @@ $optionPageID1 = get_option("fin_settings", "Option gibts nicht");
 $permaBewertung = get_permalink( $optionPageID1["pageIDImmoblienbewertung"], false );
 $permaFinanzierung = get_permalink( $optionPageID1["pageIDBaufinanzierung"], false );
 $permaBaukosten = get_permalink( $optionPageID1["pageIDBauUndRenovierungskosten"], false );
+$permaPrivatkredit = get_permalink( $optionPageID1["pageIDPrivatkredit"], false );
 
 
 
@@ -106,6 +122,10 @@ echo ("<script>jQuery(document).ready(function() {".
          "     window.location.href = '". $permaFinanzierung ."#main';".
 
         "  }".
+         "  if(lValue == 'privatkredit') {".
+                 "     window.location.href = '". $permaPrivatkredit ."#main';".
+
+                "  }".
         "  if(lValue == 'renovierung') {".
         "      window.location.href = '". $permaBaukosten ."#main';".
 

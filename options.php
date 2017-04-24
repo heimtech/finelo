@@ -45,6 +45,14 @@ function fin_settings_init(  ) {
 		'fin_pluginPage_section'
 	);
 
+		add_settings_field(
+    		'fineloo_pageid_privatkredit',
+    		__( 'Page ID für Privatkredit', 'wordpress' ),
+    		'fin_text_field_5_render',
+    		'pluginPage',
+    		'fin_pluginPage_section'
+    	);
+
 	add_settings_field(
 		'fineloo_email',
 		__( 'Empfangs-Email', 'wordpress' ),
@@ -80,6 +88,16 @@ function fin_text_field_1_render(  ) {
 	$options = get_option( 'fin_settings' );
 	?>
 	<input type='text' name='fin_settings[pageIDBaufinanzierung]' value='<?php echo $options['pageIDBaufinanzierung']; ?>'>
+	<?php
+
+}
+
+
+function fin_text_field_5_render(  ) {
+
+	$options = get_option( 'fin_settings' );
+	?>
+	<input type='text' name='fin_settings[pageIDPrivatkredit]' value='<?php echo $options['pageIDPrivatkredit']; ?>'>
 	<?php
 
 }
