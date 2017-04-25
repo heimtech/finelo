@@ -2,6 +2,8 @@
 
 require_once("../../../wp-load.php");
 
+header("access-control-allow-origin: *");
+
 //echo "Hallo";
 $data = json_decode(file_get_contents("php://input"), true);
 

@@ -41,7 +41,7 @@ angular.module('Fineloo')
 
 
 
-
+/*
 
         $scope.submitForm = function() {
 
@@ -55,7 +55,7 @@ angular.module('Fineloo')
 
                     $mdDialog.show({
                         controller: SubmitDialogController,
-                        templateUrl: '/core/wizard/view/wizardsubmitdialog.html',
+                        templateUrl: 'core/wizard/view/wizardsubmitdialog.html',
                         parent: angular.element(document.body),
                         targetEvent: answer,
                         clickOutsideToClose: false
@@ -97,7 +97,7 @@ angular.module('Fineloo')
 
     };
 
-
+*/
 
 
     }]);

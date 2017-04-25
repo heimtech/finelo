@@ -54,7 +54,7 @@ Sets the ask field where client is asked for what he wants
 
 }
 
- function fineloo_get_finanzierung()
+ function fineloo_get_privatkredit()
 
  {
 
