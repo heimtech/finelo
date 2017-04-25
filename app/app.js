@@ -50,8 +50,10 @@ lApplication.controller('FinelooCtrl', [ '$scope' , '$mdDialog', '$location', '$
 
   $scope.url =  $location.absUrl();
 
+    $scope.wertForm = { wertObjekt: "", anfrageart : "bewertung", grundstueckGroesse: 100, wohnflaeche: 50};
 
-  $scope.formMode = $scope.getUrlParameter("formMode", $scope.url);
+
+    $scope.formMode = $scope.getUrlParameter("formMode", $scope.url);
 
     if($scope.formMode == undefined) {
 
@@ -64,26 +66,26 @@ $scope.slickTitle = "Wie können wir Ihnen weiterhelfen?";
     if($scope.formMode == 2) {
 
         $scope.slickTitle = "Jetzt kostenfrei Ihre Bau- und Renovierungskosten ermitteln.";
-
+        $scope.wertForm.anfrageart = "bewertung";
 
     }
 
     if($scope.formMode == 3) {
 
         $scope.slickTitle = "Jetzt zum besten Zins finanzieren. – bereits über 1.000 begeisterte Kunden.";
-
+        $scope.wertForm.anfrageart = "finanzierung";
     }
 
     if($scope.formMode == 4) {
 
         $scope.slickTitle = "&lt;b&gt;kostenfreie Immobilienbewertung&lt/b&gt; – Was ist Ihre Immobilie wirklich wert?";
-
+        $scope.wertForm.anfrageart = "renovierung";
     }
 
     if($scope.formMode == 5) {
 
         $scope.slickTitle = "Individuelle Kredite und Finanzierungen";
-
+        $scope.wertForm.anfrageart = "privatkredit";
     }
 
     /*
@@ -123,7 +125,7 @@ $scope.slickTitle = "Wie können wir Ihnen weiterhelfen?";
   $scope.submitPage = $scope.getUrlParameter("submitPage", $scope.url);
 
     if($scope.submitPage || $scope.submitPage == undefined) {
-        $scope.submitPage = "http://wpdemo.heim-tech.de/wp-content/plugins/finelo/formSubmit.php";
+        $scope.submitPage = "http://fineloo.de/wp-content/plugins/finelo/formSubmit.php";
 
     }
 
@@ -215,7 +217,6 @@ $scope.slickTitle = "Wie können wir Ihnen weiterhelfen?";
   };
 
 
-   $scope.wertForm = { wertObjekt: "", anfrageart : "bewertung", grundstueckGroesse: 100, wohnflaeche: 50};
 
 
   $scope.goBackBewertung = function () {

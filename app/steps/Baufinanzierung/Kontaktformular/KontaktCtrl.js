@@ -13,17 +13,18 @@ angular.module('Fineloo')
 
 
         $scope.kontaktText = "Text";
-
+        $scope.titleSendButton = "Senden";
 
         if($scope.formMode == 2) {
             $scope.kontaktText = "Immobilienbewertung vom Spezialisten.";
             $scope.textBlueBar = ""
 
+
         }
         if($scope.formMode == 3) {
             $scope.kontaktText = "Sie möchten sich persönlich und unverbindlich beraten lassen?";
-            $scope.textBlueBar = "Über 1.000 begeisterte Kunden aus der Region Augsburg!"
-
+            $scope.textBlueBar = "Über 1.000 begeisterte Kunden aus der Region Augsburg!";
+            $scope.titleSendButton = "Jetzt unverbindlich beraten lassen";
         }
         if($scope.formMode == 4) {
             $scope.kontaktText = "Bau- und Renovierungskosten vom Spezialisten.";
@@ -31,6 +32,12 @@ angular.module('Fineloo')
 
         }
 
+        if($scope.formMode == 5) {
+            $scope.kontaktText = "Sie möchten sich persönlich und unverbindlich beraten lassen?";
+            $scope.textBlueBar = "Über 1.000 begeisterte Kunden aus der Region Augsburg!";
+            $scope.titleSendButton = "Jetzt kostenlose Angebote erhalten.";
+
+        }
 
 
 

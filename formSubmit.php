@@ -65,6 +65,10 @@ $lagePLZ = $data["immoPLZ"];
 $lageStrasse  = $data["immoLage"];
 $besonderheit = $data["besonderheit"];
 
+$kreditSumme = $data["kreditSumme"];
+$kreditDauer  = $data["kreditDauer"];
+$kreditGrund = $data["kreditGrund"];
+
 $mail_body = "Sie haben eine Kontaktanfrage erhalten\r\n\r\n";
 
 $mail_body = $mail_body . "Anfragegrund: " . $anfrageArt . "\r\n\r\n";
@@ -132,6 +136,15 @@ if ($anfrageArt == "renovierung") {
     $mail_body = $mail_body . "Wohnungsart: " . $wohnungsArt . " \r\n";
     $mail_body = $mail_body . "Baujahr: " . $baujahr . " \r\n";
     $mail_body = $mail_body . "Transaktion: " . $transaktion . " \r\n";
+
+}
+
+if ($anfrageArt == "privatkredit") {
+
+    $mail_body = $mail_body . "Kreditsumme: " . $kreditSumme . " \r\n";
+    $mail_body = $mail_body . "Kreditdauer: " . $kreditDauer . " \r\n";
+    $mail_body = $mail_body . "Kreditgrund: " . $kreditGrund . " \r\n";
+
 
 }
 

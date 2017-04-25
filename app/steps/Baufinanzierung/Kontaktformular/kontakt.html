@@ -1,4 +1,4 @@
-<div class="row common intro on top-padding kontaktform" ng-form="kontaktForm" ng-controller="KontaktCtrl">
+<div ng-class="{ 'col-xs-12' : formMode == 5}" class="common intro on top-padding kontaktform" ng-form="kontaktForm" ng-controller="KontaktCtrl">
 
 
     <h4 class="col-xs-12">{{kontaktText}}</h4>
@@ -16,8 +16,9 @@
 
     <a ng-show="formMode == 2" ng-click="slickConfigBewertung.method.slickPrev()" class="prevButton btn btn-success">Zurück</a>
     <a ng-show="formMode == 4" ng-click="slickConfigRenovierung.method.slickPrev()" class="prevButton btn btn-success">Zurück</a>
+    <a ng-show="formMode == 5" ng-click="slickConfigPrivatkredit.method.slickPrev()" class="prevButton btn btn-success">Zurück</a>
 
-    <a ng-disabled="!kontaktForm.$valid" ng-click="wertForm.checkAGB === false || submitForm()" class="sendButton btn btn-warning">Senden</a>
+    <a ng-disabled="!kontaktForm.$valid" ng-click="wertForm.checkAGB === false || submitForm()" class="sendButton btn btn-warning">{{titleSendButton}}</a>
     <div class="nutzung">
         <input type="checkbox" id="nutzungsbedingung" ng-required="true" ng-model="wertForm.checkAGB"><label for="nutzungsbedingung">Ich bin mit den <a href="/nutzungsbedingungen" target="_blank">Nutzungsbedingungen</a> einverstanden</label>
 
