@@ -55,11 +55,35 @@ function fin_settings_init(  ) {
 
 	add_settings_field(
 		'fineloo_email',
-		__( 'Empfangs-Email', 'wordpress' ),
+		__( 'Empfangs-Email Bewertung', 'wordpress' ),
 		'fin_text_field_3_render',
 		'pluginPage',
 		'fin_pluginPage_section'
 	);
+
+		add_settings_field(
+    		'fineloo_email_kosten',
+    		__( 'Empfangs-Email Kosten', 'wordpress' ),
+    		'fin_text_field_mail_kosten_render',
+    		'pluginPage',
+    		'fin_pluginPage_section'
+    	);
+
+    		add_settings_field(
+        		'fineloo_email_finanzierung',
+        		__( 'Empfangs-Email Finanzierung', 'wordpress' ),
+        		'fin_text_field_mail_finanzierung_render',
+        		'pluginPage',
+        		'fin_pluginPage_section'
+        	);
+
+        		add_settings_field(
+            		'fineloo_email_privatkredit',
+            		__( 'Empfangs-Email Privatkredit', 'wordpress' ),
+            		'fin_text_field_mail_privatkredit_render',
+            		'pluginPage',
+            		'fin_pluginPage_section'
+            	);
 
 	add_settings_field(
 		'fineloo_smtp',
@@ -118,6 +142,36 @@ function fin_text_field_3_render(  ) {
 	$options = get_option( 'fin_settings' );
 	?>
 	<input type='text' name='fin_settings[email]' value='<?php echo $options['email']; ?>'>
+	<?php
+
+}
+
+
+function fin_text_field_mail_kosten_render(  ) {
+
+	$options = get_option( 'fin_settings' );
+	?>
+	<input type='text' name='fin_settings[email_kosten]' value='<?php echo $options['email_kosten']; ?>'>
+	<?php
+
+}
+
+
+function fin_text_field_mail_finanzierung_render(  ) {
+
+	$options = get_option( 'fin_settings' );
+	?>
+	<input type='text' name='fin_settings[email_finanzierung]' value='<?php echo $options['email_finanzierung']; ?>'>
+	<?php
+
+}
+
+
+function fin_text_field_mail_privatkredit_render(  ) {
+
+	$options = get_option( 'fin_settings' );
+	?>
+	<input type='text' name='fin_settings[email_privatkredit]' value='<?php echo $options['email_privatkredit']; ?>'>
 	<?php
 
 }

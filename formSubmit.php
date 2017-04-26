@@ -156,7 +156,21 @@ $options = get_option("fin_settings", "Option gibts nicht");
 
 echo var_dump($options);
 
-wp_mail($options["email"], "Kontaktanfrage", $mail_body);
+$mail = $options["email"];
+
+if($anfrageArt == "privatkredit" ) {
+$mail = $options["email_privatkredit"];
+}
+
+if($anfrageArt == "renovierung" ) {
+$mail = $options["email_kosten"];
+}
+
+if($anfrageArt == "finanzierung" ) {
+$mail = $options["email_finanzierung"];
+}
+
+wp_mail($mail, "Kontaktanfrage", $mail_body);
 
 
 ?>

@@ -9,6 +9,13 @@ html body {
 html {
   background: transparent;
 }
+.bewertung p {
+  margin-bottom: 24px;
+  font-size: 15px;
+}
+.blueBar {
+  margin-left: 15px;
+}
 .blueBar {
   /* display: block; */
   /* float: right; */

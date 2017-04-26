@@ -78,7 +78,7 @@ $scope.slickTitle = "Wie können wir Ihnen weiterhelfen?";
 
     if($scope.formMode == 4) {
 
-        $scope.slickTitle = "&lt;b&gt;kostenfreie Immobilienbewertung&lt/b&gt; – Was ist Ihre Immobilie wirklich wert?";
+        $scope.slickTitle = "kostenfreie Immobilienbewertung – Was ist Ihre Immobilie wirklich wert?";
         $scope.wertForm.anfrageart = "renovierung";
     }
 

@@ -14,15 +14,18 @@
 
     <div ng-show="formMode == 3 || formMode == 4" class="col-xs-12 blueBar">{{textBlueBar}}</div>
 
-    <a ng-show="formMode == 2" ng-click="slickConfigBewertung.method.slickPrev()" class="prevButton btn btn-success">Zurück</a>
-    <a ng-show="formMode == 4" ng-click="slickConfigRenovierung.method.slickPrev()" class="prevButton btn btn-success">Zurück</a>
-    <a ng-show="formMode == 5" ng-click="slickConfigPrivatkredit.method.slickPrev()" class="prevButton btn btn-success">Zurück</a>
+    <div class="buttonBar col-xs-12">
+        <a ng-show="formMode == 2" ng-click="slickConfigBewertung.method.slickPrev()" class="prevButton btn btn-success">Zurück</a>
+        <a ng-show="formMode == 4" ng-click="slickConfigRenovierung.method.slickPrev()" class="prevButton btn btn-success">Zurück</a>
+        <a ng-show="formMode == 5" ng-click="slickConfigPrivatkredit.method.slickPrev()" class="prevButton btn btn-success">Zurück</a>
 
-    <a ng-disabled="!kontaktForm.$valid" ng-click="wertForm.checkAGB === false || submitForm()" class="sendButton btn btn-warning">{{titleSendButton}}</a>
-    <div class="nutzung">
-        <input type="checkbox" id="nutzungsbedingung" ng-required="true" ng-model="wertForm.checkAGB"><label for="nutzungsbedingung">Ich bin mit den <a href="/nutzungsbedingungen" target="_blank">Nutzungsbedingungen</a> einverstanden</label>
+        <a ng-disabled="!kontaktForm.$valid" ng-click="wertForm.checkAGB === false || submitForm()" class="sendButton btn btn-warning">{{titleSendButton}}</a>
+        <div class="nutzung">
+            <input type="checkbox" id="nutzungsbedingung" ng-required="true" ng-model="wertForm.checkAGB"><label for="nutzungsbedingung">Ich bin mit den <a href="/nutzungsbedingungen" target="_blank">Nutzungsbedingungen</a> einverstanden</label>
 
+        </div>
     </div>
+
 
 
 </div>
