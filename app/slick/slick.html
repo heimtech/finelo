@@ -1,8 +1,8 @@
 
-<div class="col-xs-12 col-md-10 bewertung top-padding">
-    <div class="topQuestion top-padding">
-        <h3>{{slickTitle}}</h3>
-        <a class="aboutLink" href="#" ng-click="showAboutDialog()">Info</a>
+<div class="col-xs-12 bewertung top-padding">
+    <div class=" col-xs-12 topQuestion top-padding">
+        <h3>{{slickTitle}} <p ng-show="formMode == 3 || formMode == 5" class="slickTitleRight">{{slickTitleRight}}</p></h3>
+        <a ng-show="false" class="aboutLink" href="#" ng-click="showAboutDialog()">Info</a>
     </div>
 
     <select ng-show="formMode == 1" ng-model="wertForm.anfrageart" class="wizard-select">
@@ -10,8 +10,8 @@
         <option value="finanzierung">Baufinanzierung</option>
         <option value="renovierung">Bau- und Renovierungskosten</option>
     </select>
-    <div ng-controller="ImmobilienbewertungCtrl" ng-show="formMode == 2">
-        <slick ng-show="showSlicks" id="Immobilienbewertung" style="position:relative;" settings="slickConfigBewertung" slides-to-show=1>
+    <div ng-controller="ImmobilienbewertungCtrl" class="row" ng-show="formMode == 2">
+        <slick class="col-xs-12" ng-show="showSlicks" id="Immobilienbewertung" style="position:relative;" settings="slickConfigBewertung" slides-to-show=1>
             <div class="singleSlide">
                 <div ng-include="'steps/Immobilienbewertung/immobilienArt/view/immobilienArt.html'"></div>
             </div>
@@ -54,8 +54,8 @@
         </div>
 
 
-    <div ng-controller="BaurenovierungCtrl" ng-show="formMode == 4">
-        <slick ng-show="showSlicks" id="renovierung" style="position:relative;" settings="slickConfigRenovierung" slides-to-show=1>
+    <div class="row" ng-controller="BaurenovierungCtrl" ng-show="formMode == 4">
+        <slick class="col-xs-12" ng-show="showSlicks" id="renovierung" style="position:relative;" settings="slickConfigRenovierung" slides-to-show=1>
 
             <div class="singleSlide">
                 <div ng-include="'steps/BauRenovierungskosten/Bauart/view/bauart.html'"></div>
@@ -84,8 +84,8 @@
         </slick>
     </div>
 
-    <div ng-show="formMode == 5">
-        <slick ng-show="showSlicks" id="privatkredit" style="position:relative;" settings="slickConfigPrivatkredit" slides-to-show=1>
+    <div class="row" ng-show="formMode == 5">
+        <slick class="col-xs-12" ng-show="showSlicks" id="privatkredit" style="position:relative;" settings="slickConfigPrivatkredit" slides-to-show=1>
 
             <div class="singleSlide">
                 <div ng-include="'steps/Privatkredit/view/kreditdaten.html'"></div>

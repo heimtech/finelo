@@ -110,7 +110,17 @@ angular.module('Fineloo')
                 },
                 init: function (event, slick) {
                     console.log('init');
+                    $timeout(function() {
+                        try {
+                            $scope.slickConfigBewertung.method.slickGoTo(0);
+                        }
+                        catch(e) {
 
+                        }
+
+
+
+                    }, 500);
 
                 },
                 setPosition: function (evnet, slick) {

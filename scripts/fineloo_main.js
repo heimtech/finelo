@@ -1,7 +1,9 @@
 jQuery(document).ready(function () {
 
     jQuery(window).resize(function () {
-        jQuery(".finelooframe").css({height: jQuery("FinelooBody").height()});
+
+        var lNewHeight = jQuery("#FinelooBody").height();
+        jQuery(".finelooframe").css( "height" ,lNewHeight );
     });
 });
 

@@ -57,7 +57,7 @@ lApplication.controller('FinelooCtrl', [ '$scope' , '$mdDialog', '$location', '$
 
     if($scope.formMode == undefined) {
 
-        $scope.formMode = 2;
+        $scope.formMode = 4;
 
     }
 
@@ -65,27 +65,31 @@ $scope.slickTitle = "Wie können wir Ihnen weiterhelfen?";
 
     if($scope.formMode == 2) {
 
-        $scope.slickTitle = "Jetzt kostenfrei Ihre Bau- und Renovierungskosten ermitteln.";
+        $scope.slickTitle = "Kostenfreie Immobilienbewertung – Was ist Ihre Immobilie wirklich wert?";
         $scope.wertForm.anfrageart = "bewertung";
 
     }
 
     if($scope.formMode == 3) {
 
-        $scope.slickTitle = "Jetzt zum besten Zins finanzieren. – bereits über 1.000 begeisterte Kunden.";
+        $scope.slickTitle = "Jetzt zum besten Zins finanzieren.";
         $scope.wertForm.anfrageart = "finanzierung";
+        $scope.slickTitleRight = "Über 1.000 begeisterte Kunden der Region Augsburg.";
+
     }
 
     if($scope.formMode == 4) {
 
-        $scope.slickTitle = "kostenfreie Immobilienbewertung – Was ist Ihre Immobilie wirklich wert?";
+        $scope.slickTitle = "Jetzt Ihre Bau- und Renovierungskosten ermitteln.";
         $scope.wertForm.anfrageart = "renovierung";
     }
 
     if($scope.formMode == 5) {
 
-        $scope.slickTitle = "Individuelle Kredite und Finanzierungen";
+        $scope.slickTitle = "Jetzt Kredit beantragen.";
         $scope.wertForm.anfrageart = "privatkredit";
+        $scope.slickTitleRight = "Über 1.000 begeisterte Kunden der Region Augsburg.";
+
     }
 
     /*

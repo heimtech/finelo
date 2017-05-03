@@ -5,16 +5,16 @@
     <p class="col-xs-12">Unverbindlich, 100% kostenfrei, individuell für Sie! Aus über 400 Banken, Versicherungen
         und Bausparkassen den Top-Zins erhalten!</p>
     <div class="col-xs-12">
-        <div class="how-much-container col-xs-5">
+        <div class="how-much-container col-xs-12 col-md-5">
             <input class="how-much" tabindex=4 type="text" ng-required="true"
-                   ng-model="wertForm.kreditSumme" placeholder="Wieviel?">
+                   ng-model="wertForm.kreditSumme" placeholder="Wieviel? Auswahl 1.000 - 120.000€">
             <span class="currency">€</span>
         </div>
 
 
 
 
-        <select class="col-xs-6 col-xs-offset-1 kreditDauer tabindex=5" ng-required="true" ng-model="wertForm.kreditDauer">
+        <select class="col-xs-12 col-xs-offset-0 col-md-6 col-md-offset-1 kreditDauer tabindex=5" ng-required="true" ng-model="wertForm.kreditDauer">
             <option value="" disabled selected>Wie lange?</option>
             <option value="12"  >12 Monate</option>
             <option value="18"  >18 Monate</option>
@@ -29,7 +29,7 @@
             <option value="120"  >120 Monate</option>
 
         </select>
-        <select class="col-xs-5 kreditGrund" tabindex=5 ng-required="true" ng-model="wertForm.kreditGrund">
+        <select class="col-xs-12 col-md-5 kreditGrund" tabindex=5 ng-required="true" ng-model="wertForm.kreditGrund">
             <option value="" disabled selected>Wofür?</option>
             <option value="Freie Verwendung" class="">Freie Verwendung</option>
             <option value="Gebrauchtfahrzeug">Gebrauchtfahrzeug</option>
@@ -42,14 +42,15 @@
             <option value="PC/Audio/Video">PC/Audio/Video</option>
             <option value="Reise">Reise</option>
         </select>
-
+      <div class="col-xs-12 col-md-6 col-md-offset-1">
+          <a ng-click="slickConfigPrivatkredit.method.slickNext()" class="kreditDatenButton nextButton btn btn-success">Weiter</a>
+      </div>
 
 
     </div>
 
-    <div class="col-xs-5 blueBar">Über 1000 zufriedene Kunden der Region Augsburg!</div>
+    <div class="col-xs-12 "><p class="col-xs-12 blueBar">Unverbindlich, 100% kostenfrei und individuell für Sie!</p></div>
 
-     <a ng-click="slickConfigPrivatkredit.method.slickNext()" class="nextButton btn btn-success">Weiter</a>
 
 
 
