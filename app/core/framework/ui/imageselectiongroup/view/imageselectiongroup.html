@@ -1,6 +1,6 @@
-<section class="top-padding imageselectiongroup" ng-controller="ImageSelectionGroupCtrl" ng-class="selectionGroup.sectionBootstrapClasses" >
+<section class=" imageselectiongroup" ng-controller="ImageSelectionGroupCtrl" ng-class="selectionGroup.sectionBootstrapClasses" >
     <div class="row">
-              <div class="col-xs-12 imageselectiongrouplist">
+              <div class="row col-xs-12 imageselectiongrouplist">
 
                 <ul class="row">
                    <li class="xponListItem" ng-click="userSelection.selectedValue = singleItem.value" ng-class="selectionGroup.listClasses" ng-repeat="singleItem in selectionGroup.items">
@@ -14,9 +14,9 @@
                         <div class="growContainer">
 
 
-                            <img class="grow" ng-src="../assets/img/{{singleItem.imageName}}">
+                            <img class="grow" ng-src="/wp-content/plugins/finelo/assets/img/{{singleItem.imageName}}">
                         </div>
-                        <div class="imgBarBottomBlack"><h3>{{singleItem.name}}</h3>
+                        <div class="imgBarBottomBlack"><h4>{{singleItem.name}}</h4>
                          </div>
 
                     </li>

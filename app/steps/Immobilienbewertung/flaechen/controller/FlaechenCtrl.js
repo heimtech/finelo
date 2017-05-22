@@ -11,9 +11,9 @@ angular.module('Fineloo')
 
 
         $scope.FlaecheTitle = "Wie groß ist die Grundstücksfläche?";
-        $scope.imageStep1 = "../assets/img/wohnflaeche.png";
-        $scope.imageStep2 = "../assets/img/grundstueck.png";
-        $scope.imageStep3 = "../assets/img/zimmer.png";
+        $scope.imageStep1 = "/wp-content/plugins/finelo/assets/img/wohnflaeche.png";
+        $scope.imageStep2 = "/wp-content/plugins/finelo/assets/img/grundstueck.png";
+        $scope.imageStep3 = "/wp-content/plugins/finelo/assets/img/zimmer.png";
 
 
         //Slider with draggable range

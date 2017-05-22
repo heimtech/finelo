@@ -4,7 +4,7 @@
 
               <div class="col-xs-offset-1 col-xs-10 bewertung top-padding">
                   <div class="topQuestion top-padding">
-                      <h3>Wie können wir Ihnen weiterhelfen?</h3>
+                      <h4>Wie können wir Ihnen weiterhelfen?</h4>
                   </div>
 
                   <select ng-show="formMode == 1" ng-model="wertForm.anfrageart" class="wizard-select">
@@ -39,17 +39,17 @@
                               <div ng-include="'steps/Immobilienbewertung/nutzungsart/nutzungsart.html'"></div>
                           </div>
                           <div class="singleSlide">
-                              <div ng-include="'steps/Immobilienbewertung/stellplatz/stellplatz.html'"></div>
+                              <div ng-include="'/wp-content/plugins/finelo/app/steps/Immobilienbewertung/stellplatz/stellplatz.html'"></div>
                           </div>
                           <div class="singleSlide">
-                              <div ng-include="'steps/Baufinanzierung/Kontaktformular/kontakt.html'"></div>
+                              <div ng-include="'/wp-content/plugins/finelo/app/steps/kontakt.html'"></div>
                           </div>
                       </slick>
                   </div>
 
 
                   <div class="" id="Baufinanzierung" ng-show="wertForm.anfrageart=='finanzierung'">
-                      <div ng-include="'steps/Baufinanzierung/Kontaktformular/kontakt.html'"></div>
+                      <div ng-include="'/wp-content/plugins/finelo/app/steps/kontakt.html'"></div>
                   </div>
 
                   <slick id="renovierung" ng-if="wertForm.anfrageart=='renovierung'" style="position:relative;" settings="slickConfigRenovierung" slides-to-show=1>

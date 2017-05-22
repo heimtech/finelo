@@ -5,7 +5,7 @@ angular.module('Fineloo')
 
     .controller('NutzungsartCtrl', ['$scope' , function ($scope) {
 
-        $scope.selectionGroup = {name: "Nutzungsart" , listClasses: "col-xs-6 col-sm-4" ,  sectionBootstrapClasses: "col-xs-12 col-sm-10", modelName: "wertForm.nutzungsart", items: [  {name: "Vermietet", value: "Vermietet" , imageName: 'vermietet.png' }, {name: "Eigennutzung", value: "Eigennutzung" , imageName: 'familie.png' },{name: "Sonstiges", value: "Sonstiges" , imageName: 'sonstige.png' }]};
+        $scope.selectionGroup = {name: "Nutzungsart" , listClasses: "col-sm-6 col-md-4" ,  sectionBootstrapClasses: "col-sm-12", modelName: "wertForm.nutzungsart", items: [  {name: "Vermietet", value: "Vermietet" , imageName: 'vermietet.png' }, {name: "Eigennutzung", value: "Eigennutzung" , imageName: 'familie.png' },{name: "Sonstiges", value: "Sonstiges" , imageName: 'sonstige.png' }]};
 
 
         $scope.goPrevNutzungsArt = function() {

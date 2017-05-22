@@ -104,7 +104,7 @@ module.factory('Wizard', ['$location', '$anchorScroll', 'WebRequestService', 'Ti
 
                     $mdDialog.show({
                         controller: SubmitDialogController,
-                        templateUrl: '/core/wizard/view/wizardsubmitdialog.html',
+                        templateUrl: '/wp-content/plugins/finelo/app/core/wizard/view/wizardsubmitdialog.html',
                         parent: angular.element(document.body),
                         targetEvent: answer,
                         clickOutsideToClose: false
@@ -123,7 +123,7 @@ module.factory('Wizard', ['$location', '$anchorScroll', 'WebRequestService', 'Ti
                     lThat.scope.global.isLoading = false;
                     $mdDialog.show({
                         controller: SubmitDialogController,
-                        templateUrl: 'core/wizard/view/wizardsubmitdialog.html',
+                        templateUrl: '/wp-content/plugins/finelo/app/core/wizard/view/wizardsubmitdialog.html',
                         parent: angular.element(document.body),
                         targetEvent: error,
                         clickOutsideToClose: false

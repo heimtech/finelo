@@ -17,7 +17,7 @@ lApp.controller('BaurenovierungCtrl', ['$scope' , function ($scope) {
 lApp.controller('RenovierungHausArtCtrl', ['$scope' , function ($scope) {
 
 
-    $scope.selectionGroup = {name: "HausArtRenovierung" , listClasses: "col-xs-6 col-sm-4" ,  sectionBootstrapClasses: "col-xs-12 col-sm-10", modelName: "wertForm.hausArtRenovierung", items: [  {name: "Einfamilienhaus", value: "einfamilienhaus" , imageName: 'haus.png' },{name: "Doppelhaushälfte", value: "doppelhaushaelfte" , imageName: 'doppelhaushaelfte.png' },{name: "Sonstige", value: "Sonstige" , imageName: 'sonstige.png' }]};
+    $scope.selectionGroup = {name: "HausArtRenovierung" , listClasses: "col-sm-6 col-md-4" ,  sectionBootstrapClasses: "col-sm-12", modelName: "wertForm.hausArtRenovierung", items: [  {name: "Einfamilienhaus", value: "einfamilienhaus" , imageName: 'haus.png' },{name: "Doppelhaushälfte", value: "doppelhaushaelfte" , imageName: 'doppelhaushaelfte.png' },{name: "Sonstige", value: "Sonstige" , imageName: 'sonstige.png' }]};
 
 
 
@@ -43,140 +43,52 @@ lApp.controller('RenovierungHausArtCtrl', ['$scope' , function ($scope) {
 
 
 
+lApp.controller('BauArtCtrl', ['$scope' , function ($scope) {
 
 
+    $scope.selectionGroup = {name: "Bauart" , listClasses: "col-sm-6 col-md-4" ,  sectionBootstrapClasses: "col-sm-12", modelName: "wertForm.bauArt", items: [ {name: "Neubau", value: "Neubau" , imageName: 'haus.png' }, {name: "Renovierung", value: "Renovierung" , imageName: 'renovierung.png' }]};
 
 
-/*
-Bau- und Renovierungskosten
+    $scope.$watch('wertForm.bauArt', function (newValue) {
+        try {
+            if(newValue != undefined && newValue != "") {
+                $scope.slickConfigRenovierung.method.slickNext();
+            }
+        }
+        catch (e) {
 
->>
+        }
 
->>
 
->>
+    });
 
->> 1.       Auswahl
 
->>
 
->> -          Neubau
 
->>
+}]);
 
->> -          Renovierung
+lApp.controller('KellerCtrl', ['$scope' , function ($scope) {
 
->>
 
->>
+    $scope.selectionGroup = {name: "Keller" , listClasses: "col-sm-6 col-md-4" ,  sectionBootstrapClasses: "col-sm-12", modelName: "wertForm.keller", items: [  {name: "Keller", value: "Keller" , imageName: 'keller.png' }, {name: "Bodenplatte", value: "Bodenplatte" , imageName: 'bodenplatte.png' }]};
 
->>
 
->> für Neubau folgen folgende Auswahlmöglichkeiten
+    $scope.$watch('wertForm.keller', function (newValue) {
 
->>
+        try {
+            if(newValue != undefined && newValue != "") {
+                $scope.slickConfigRenovierung.method.slickNext();
+            }            }
+        catch (e)  {
 
->> 2.       Auswahl
+        }
 
->>
+    });
 
->>
 
->>
 
->> -          Einfamilienhaus
 
->>
+}]);
 
->> -          Doppelhaushälfte
 
->>
 
->>
-
->>
-
->> 3.       Auswahl
-
->>
-
->> -          Wohnfläche
-
->>
-
->>
-
->>
-
->> 4.       Auswahl
-
->>
-
->> -          Stockwerke
-
->>
-
->>
-
->>
-
->> 5.       Auswahl
-
->>
-
->> -          Keller
-
->>
-
->>
-
->>
-
->> 6.       Auswahl
-
->>
-
->> -          Garage
-
->>
-
->>
-
->>
-
->> 7.       Auswahl
-
->>
-
->> -          PLZ / Ort
-
->>
-
->>
-
->>
-
->> 8.       Auswahl
-
->>
-
->> -          Kontakt
-
->>
-
->>
-
->>
-
->> Bei Renovierung
-
->>
-
->>
-
->>
-
->> WOHNUNG kommt Auswahl 4, 5, 8, 9
-
-
- */

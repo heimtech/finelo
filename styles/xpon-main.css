@@ -9,26 +9,27 @@ html body {
 html {
   background: transparent;
 }
-.bewertung p {
+#FinelooBody .bewertung p {
   margin-bottom: 24px;
   font-size: 15px;
 }
-.kreditDatenButton {
+#FinelooBody .kreditDatenButton {
   float: none !important;
   margin-left: -15px !important;
   margin-top: 26px !important;
 }
-.blueBar {
-  margin-left: 15px;
+#FinelooBody .blueBar {
+  margin-left: 0px;
 }
-.blueBar {
+#FinelooBody .blueBar {
   /* display: block; */
   /* float: right; */
-  margin-top: 20px;
+  margin-top: 20px !important;
   max-width: 100% !important;
   margin-right: 28px;
   font-size: 14px;
   background-color: #0f70b7;
+
   color: white;
   padding: 4px;
 }
@@ -73,7 +74,13 @@ html body input {
   /* width: 100%; */
   /* max-width: 400px; */
   height: 40px;
-  font-size: 16px;
+  font-size: 16px !important;
+  padding-left: 15px;
+  color: #0f70b7 !important;
+}
+
+html body textarea {
+  font-size: 16px !important;
   padding-left: 15px;
   color: #0f70b7 !important;
 }
@@ -97,10 +104,10 @@ div#Baufinanzierung input {
 }
 input.squaremeterinput {
   float: right;
-  width: 72px;
-  padding-left: 12px;
+  width: 72px !important;
+  padding-left: 12px !important;
   text-align: center;
-  height: 36px;
+  height: 36px !important;
 }
 a.aboutLink {
   font-size: 10px;
@@ -141,8 +148,8 @@ select#fineloo_ask option {
 .topQuestion h3 {
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
   color: white !important;
   font-size: 20px;
 }
@@ -274,8 +281,8 @@ div#gearDraggable {
   text-align: center;
 }
 span.icon.nextarrow:before {
-  background: url("../assets/img/icon_nextarrow.png") no-repeat;
-  background: url("../assets/img//icon_nextarrow.svg") no-repeat, none;
+  background: url("/wp-content/plugins/finelo/assets/img/icon_nextarrow.png") no-repeat;
+  background: url("/wp-content/plugins/finelo/assets/img//icon_nextarrow.svg") no-repeat, none;
 }
 .scrollPreview {
   position: fixed;
@@ -330,7 +337,7 @@ div#xponcontent {
   width: 100%;
   display: inline-block !important;
 }
-.section h3 {
+#FinelooBody .section h3 {
   font-size: 20px;
 }
 .slick-slide {
@@ -353,28 +360,29 @@ md-dialog {
   bottom: 0px;
   left: 0px;
   top: 0px;
-  margin-top: -20px;
+  margin-top: 0px;
   padding-bottom: 2px;
   padding-top: 0px;
   background-color: #0f70b7;
 }
-.imgBarBottomBlack h3,
-.imgBarBottomBlack .description {
+#FinelooBody .imgBarBottomBlack h4,
+#FinelooBody .imgBarBottomBlack .description {
   color: #ffffff;
   text-align: center;
 }
-.imgBarBottomBlack h3 {
-  padding-top: 14px;
+#FinelooBody .imgBarBottomBlack h4 {
+  padding-top: 14px !important;
   color: white !important;
   letter-spacing: 0.05em;
   font-size: 14px;
+  margin-top: 0px !important;
   /* font-family: Verdana; */
   font-weight: 300;
 }
-.imgBarBottomBlack .description {
+#FinelooBody .imgBarBottomBlack .description {
   padding-bottom: 8px;
 }
-.section h2 {
+#FinelooBody .section h2 {
   padding-top: 8px;
 }
 @media (max-width: 991px) {
@@ -417,7 +425,7 @@ md-dialog {
   margin-left: -4.5px;
   width: 9px;
   height: 7px;
-  background: url(../assets/img/icon-arrow2-down-blue.png);
+  background: url(/wp-content/plugins/finelo/assets/img/icon-arrow2-down-blue.png);
 }
 textarea {
   padding: 12px !important;
@@ -527,10 +535,10 @@ html body :focus {
 .slick-next {
   right: 0px !important;
   background-position: 5px 18px !important;
-  background-image: url(../assets/img/sliderArrowRight.png) !important;
+  background-image: url(/wp-content/plugins/finelo/assets/img/sliderArrowRight.png) !important;
 }
 .slick-prev {
-  background-image: url(../assets/img/sliderArrowLeft.png) !important;
+  background-image: url(/wp-content/plugins/finelo/assets/img/sliderArrowLeft.png) !important;
   left: 0px !important;
   background-position: 5px 18px !important;
 }
@@ -587,7 +595,7 @@ html body :focus {
   height: 13px;
 }
 .text-icon.text-icon-arrow-blue-right {
-  background: url(../assets/img/arrow_right.png) left center no-repeat;
+  background: url(/wp-content/plugins/finelo/assets/img/arrow_right.png) left center no-repeat;
   width: 20px;
   display: inline-block;
   background-position-y: 5px;

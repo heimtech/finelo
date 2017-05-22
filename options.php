@@ -85,6 +85,14 @@ function fin_settings_init(  ) {
             		'fin_pluginPage_section'
             	);
 
+            	add_settings_field(
+                        		'fineloo_email_immobilienverkauf',
+                        		__( 'Empfangs-Email Immobilienverkauf', 'wordpress' ),
+                        		'fin_text_field_mail_immobilienverkauf_render',
+                        		'pluginPage',
+                        		'fin_pluginPage_section'
+                        	);
+
 	add_settings_field(
 		'fineloo_smtp',
 		__( 'SMTP Server', 'wordpress' ),
@@ -162,6 +170,15 @@ function fin_text_field_mail_finanzierung_render(  ) {
 	$options = get_option( 'fin_settings' );
 	?>
 	<input type='text' name='fin_settings[email_finanzierung]' value='<?php echo $options['email_finanzierung']; ?>'>
+	<?php
+
+}
+
+function fin_text_field_mail_immobilienverkauf_render(  ) {
+
+	$options = get_option( 'fin_settings' );
+	?>
+	<input type='text' name='fin_settings[email_immobilienverkauf]' value='<?php echo $options['email_immobilienverkauf']; ?>'>
 	<?php
 
 }

@@ -4,7 +4,7 @@ angular.module('Fineloo')
 
     .config(['$routeProvider', function ($routeProvider) {
         $routeProvider.when('/slick', {
-            templateUrl: 'slick/slick.html',
+            templateUrl: '/wp-content/plugins/finelo/app/slick/slick.html',
             controller: 'FinelooSlickCtrl'
         });
     }])
@@ -94,6 +94,11 @@ angular.module('Fineloo')
 
                 },
                 afterChange: function (event, slick, currentSlide, nextSlide) {
+
+                    console.log('slide Change');
+
+                  //  var lNewHeight2 = jQuery("#FinelooBody").height();
+                  //  jQuery('.finelooframe', window.parent.document).height(lNewHeight2);
 
                 },
                 breakpoint: function (event, slick, breakpoint) {
@@ -198,6 +203,12 @@ angular.module('Fineloo')
                 },
                 afterChange: function (event, slick, currentSlide, nextSlide) {
 
+                    console.log('slide Change');
+
+                   // var lNewHeight2 = jQuery("#FinelooBody").height();
+                   // jQuery('.finelooframe', window.parent.document).height(lNewHeight2);
+
+
                 },
                 breakpoint: function (event, slick, breakpoint) {
                     console.log('breakpoint');
@@ -273,6 +284,10 @@ angular.module('Fineloo')
 
                 },
                 afterChange: function (event, slick, currentSlide, nextSlide) {
+                    console.log('slide Change');
+
+                   // var lNewHeight2 = $("#FinelooBody").height();
+                   // $('.finelooframe', window.parent.document).height(lNewHeight2);
 
                 },
                 breakpoint: function (event, slick, breakpoint) {

@@ -6,7 +6,7 @@ angular.module('Fineloo')
     .controller('KaufenCtrl', ['$scope' , function ($scope) {
 
 
-        $scope.selectionGroup = {name: "Kaufen" , listClasses: "col-xs-6 col-sm-4" ,  sectionBootstrapClasses: "col-xs-12 col-sm-10", modelName: "wertForm.transaktion", items: [  {name: "Kaufen", value: "Kaufen" , imageName: 'kaufen.png' }, {name: "Verkaufen", value: "Verkaufen" , imageName: 'verkaufen.png' }]};
+        $scope.selectionGroup = {name: "Kaufen" , listClasses: "col-sm-6 col-md-4" ,  sectionBootstrapClasses: "col-sm-12", modelName: "wertForm.transaktion", items: [  {name: "Kaufen", value: "Kaufen" , imageName: 'kaufen.png' }, {name: "Verkaufen", value: "Verkaufen" , imageName: 'verkaufen.png' }]};
 
 
         $scope.$watch('wertForm.transaktion', function (newValue) {

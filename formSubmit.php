@@ -3,15 +3,15 @@
 require_once("../../../wp-load.php");
 
 header("access-control-allow-origin: *");
+header("access-control-allow-headers: Origin, X-Requested-With, Content-Type, Accept");
 
-//echo "Hallo";
+
 $data = json_decode(file_get_contents("php://input"), true);
 
 
 //bewertung, finanzierung oder renovierung
 $anfrageArt = $data["anfrageart"];
 
-echo var_dump($anfrageArt);
 
 //1 - IMMOBEWERTUNG
 
@@ -150,7 +150,6 @@ if ($anfrageArt == "privatkredit") {
 
 }
 
-echo var_dump($data);
 
 $options = get_option("fin_settings", "Option gibts nicht");
 
@@ -170,6 +169,11 @@ if($anfrageArt == "finanzierung" ) {
 $mail = $options["email_finanzierung"];
 }
 
+if($anfrageArt == "immobilienverkauf" ) {
+$mail = $options["email_immobilienverkauf"];
+}
+
+echo "send email to:" . $mail . "with body" . $mail_body;
 wp_mail($mail, "Kontaktanfrage", $mail_body);
 
 

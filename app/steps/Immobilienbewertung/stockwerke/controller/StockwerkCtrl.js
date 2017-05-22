@@ -6,7 +6,7 @@ angular.module('Fineloo')
     .controller('StockwerkCtrl', ['$scope' , function ($scope) {
 
 
-        $scope.selectionGroup = {name: "Stockwerke" , listClasses: "col-xs-6 col-sm-4" ,  sectionBootstrapClasses: "col-xs-12 col-sm-10", modelName: "wertForm.stockwerke", items: [  {name: "1 Stockwerk", value: "1-Stockwerk" , imageName: '1Stock.png' }, {name: "2 Stockwerke", value: "2-Stockwerke" , imageName: '2Stock.png' }, {name: "3 und mehr", value: "3-Stockwerke-oder-mehr" , imageName: '3.png' }]};
+        $scope.selectionGroup = {name: "Stockwerke" , listClasses: "col-sm-6 col-md-4" ,  sectionBootstrapClasses: "col-sm-12", modelName: "wertForm.stockwerke", items: [  {name: "1 Stockwerk", value: "1-Stockwerk" , imageName: '1Stock.png' }, {name: "2 Stockwerke", value: "2-Stockwerke" , imageName: '2Stock.png' }, {name: "3 und mehr", value: "3-Stockwerke-oder-mehr" , imageName: '3.png' }]};
 
 
         $scope.$watch('wertForm.stockwerke', function (newValue) {

@@ -1,6 +1,6 @@
 
-<div class="col-xs-12 bewertung top-padding">
-    <div class=" col-xs-12 topQuestion top-padding">
+<div class="row bewertung ">
+    <div class=" col-xs-12 topQuestion ">
         <h3>{{slickTitle}} <p ng-show="formMode == 3 || formMode == 5" class="slickTitleRight">{{slickTitleRight}}</p></h3>
         <a ng-show="false" class="aboutLink" href="#" ng-click="showAboutDialog()">Info</a>
     </div>
@@ -13,44 +13,44 @@
     <div ng-controller="ImmobilienbewertungCtrl" class="row" ng-show="formMode == 2">
         <slick class="col-xs-12" ng-show="showSlicks" id="Immobilienbewertung" style="position:relative;" settings="slickConfigBewertung" slides-to-show=1>
             <div class="singleSlide">
-                <div ng-include="'steps/Immobilienbewertung/immobilienArt/view/immobilienArt.html'"></div>
+                <div ng-include="'/wp-content/plugins/finelo/app/steps/Immobilienbewertung/immobilienArt.html'"></div>
             </div>
             <div class="singleSlide">
-                <div ng-include="'steps/Immobilienbewertung/kaufen/view/kaufen.html'"></div>
+                <div ng-include="'/wp-content/plugins/finelo/app/steps/Immobilienbewertung/kaufen.html'"></div>
             </div>
             <div ng-show="wertForm.wertObjekt=='Haus'" class="singleSlide">
-                <div ng-include="'steps/Immobilienbewertung/hausArt/view/hausArt.html'"></div>
+                <div ng-include="'/wp-content/plugins/finelo/app/steps/Immobilienbewertung/hausArt.html'"></div>
             </div>
             <div ng-show="wertForm.wertObjekt=='Wohnung'" class="singleSlide">
-                <div ng-include="'steps/Immobilienbewertung/wohnungsArt/view/wohnungsArt.html'"></div>
+                <div ng-include="'/wp-content/plugins/finelo/app/steps/Immobilienbewertung/wohnungsArt.html'"></div>
             </div>
             <div class="singleSlide" ng-controller="FlaechenCtrl">
-                <div ng-include="'steps/Immobilienbewertung/flaechen/view/flaechen.html'"></div>
+                <div ng-include="'/wp-content/plugins/finelo/app/steps/Immobilienbewertung/flaechen.html'"></div>
             </div>
             <div ng-show="wertForm.wertObjekt=='Wohnung' || wertForm.wertObjekt=='Haus'" class="singleSlide">
-                <div ng-include="'steps/Immobilienbewertung/stockwerke/view/stockwerk.html'"></div>
+                <div ng-include="'/wp-content/plugins/finelo/app/steps/Immobilienbewertung/stockwerk.html'"></div>
             </div>
             <div ng-show="wertForm.wertObjekt=='Haus'" class="singleSlide">
-                <div ng-include="'steps/Immobilienbewertung/baujahr/view/baujahr.html'"></div>
+                <div ng-include="'/wp-content/plugins/finelo/app/steps/Immobilienbewertung/baujahr.html'"></div>
             </div>
             <div ng-show="wertForm.wertObjekt=='Wohnung' || wertForm.wertObjekt=='Haus'" class="singleSlide">
-                <div ng-include="'steps/Immobilienbewertung/nutzungsart/nutzungsart.html'"></div>
+                <div ng-include="'/wp-content/plugins/finelo/app/steps/Immobilienbewertung/nutzungsart.html'"></div>
             </div>
             <div ng-show="wertForm.wertObjekt=='Wohnung' || wertForm.wertObjekt=='Haus'" class="singleSlide">
-                <div ng-include="'steps/Immobilienbewertung/stellplatz/stellplatz.html'"></div>
+                <div ng-include="'/wp-content/plugins/finelo/app/steps/Immobilienbewertung/stellplatz.html'"></div>
             </div>
             <div class="singleSlide">
-                <div ng-include="'steps/immobilienlage/immobilienlage.html'"></div>
+                <div ng-include="'/wp-content/plugins/finelo/app/steps/immobilienlage.html'"></div>
             </div>
             <div class="singleSlide">
-                <div ng-include="'steps/Baufinanzierung/Kontaktformular/kontakt.html'"></div>
+                <div ng-include="'/wp-content/plugins/finelo/app/steps/kontakt.html'"></div>
             </div>
         </slick>
     </div>
 
 
-        <div ng-if="formMode == 3" class="" id="Baufinanzierung" >
-            <div ng-include="'steps/Baufinanzierung/Kontaktformular/kontakt.html'"></div>
+        <div ng-if="formMode == 3 || formMode == 6" class="" id="Baufinanzierung" >
+            <div ng-include="'/wp-content/plugins/finelo/app/steps/kontakt.html'"></div>
         </div>
 
 
@@ -58,28 +58,28 @@
         <slick class="col-xs-12" ng-show="showSlicks" id="renovierung" style="position:relative;" settings="slickConfigRenovierung" slides-to-show=1>
 
             <div class="singleSlide">
-                <div ng-include="'steps/BauRenovierungskosten/Bauart/view/bauart.html'"></div>
+                <div ng-include="'/wp-content/plugins/finelo/app/steps/BauRenovierungskosten/bauart.html'"></div>
             </div>
             <div ng-show="wertForm.bauArt =='Neubau'" class="singleSlide">
-                <div ng-include="'steps/BauRenovierungskosten/hausArt/view/hausArt.html'"></div>
+                <div ng-include="'/wp-content/plugins/finelo/app/steps/BauRenovierungskosten/hausArt.html'"></div>
             </div>
             <div ng-show="wertForm.bauArt =='Neubau'" class="singleSlide" ng-controller="FlaechenCtrl">
-                <div ng-include="'steps/Immobilienbewertung/flaechen/view/flaechen.html'"></div>
+                <div ng-include="'/wp-content/plugins/finelo/app/steps/Immobilienbewertung/flaechen.html'"></div>
             </div>
             <div class="singleSlide">
-                <div ng-include="'steps/Immobilienbewertung/stockwerke/view/stockwerk.html'"></div>
+                <div ng-include="'/wp-content/plugins/finelo/app/steps/Immobilienbewertung/stockwerk.html'"></div>
             </div>
             <div class="singleSlide">
-                <div ng-include="'steps/BauRenovierungskosten/keller/view/keller.html'"></div>
+                <div ng-include="'/wp-content/plugins/finelo/app/steps/BauRenovierungskosten/keller.html'"></div>
             </div>
             <div ng-show="wertForm.bauArt == 'Neubau'" class="singleSlide">
-                <div ng-include="'steps/Immobilienbewertung/stellplatz/stellplatz.html'"></div>
+                <div ng-include="'/wp-content/plugins/finelo/app/steps/Immobilienbewertung/stellplatz.html'"></div>
             </div>
             <div class="singleSlide">
-                <div ng-include="'steps/immobilienlage/immobilienlage.html'"></div>
+                <div ng-include="'/wp-content/plugins/finelo/app/steps/immobilienlage.html'"></div>
             </div>
             <div class="singleSlide">
-                <div ng-include="'steps/Baufinanzierung/Kontaktformular/kontakt.html'"></div>
+                <div ng-include="'/wp-content/plugins/finelo/app/steps/kontakt.html'"></div>
             </div>
         </slick>
     </div>
@@ -88,10 +88,10 @@
         <slick class="col-xs-12" ng-show="showSlicks" id="privatkredit" style="position:relative;" settings="slickConfigPrivatkredit" slides-to-show=1>
 
             <div class="singleSlide">
-                <div ng-include="'steps/Privatkredit/view/kreditdaten.html'"></div>
+                <div ng-include="'/wp-content/plugins/finelo/app/steps/Privatkredit/kreditdaten.html'"></div>
             </div>
             <div class="singleSlide">
-                <div ng-include="'steps/Baufinanzierung/Kontaktformular/kontakt.html'"></div>
+                <div ng-include="'/wp-content/plugins/finelo/app/steps/kontakt.html'"></div>
             </div>
         </slick>
     </div>
