@@ -375,7 +375,7 @@ lApplication.controller('KontaktCtrl', ['$scope', '$http' , '$mdDialog' , functi
     }
 
     if($scope.formMode == 6) {
-        $scope.kontaktText = "Sie möchten Ihr Haus zum Höchstpreis verkaufen?";
+        $scope.kontaktText = "Sie möchten Ihre Immobilie zum Höchstpreis verkaufen?";
         $scope.textBlueBar = "Ihr regionaler Experte mit großem Netzwerk und Interessentenliste";
         $scope.titleSendButton = "Jetzt in Kontakt treten";
 
