@@ -174,63 +174,6 @@ $scope.slickTitle = "Wie können wir Ihnen weiterhelfen?";
 
     }
 
-  $scope.submitForm = function() {
-
-      $mdDialog.show({
-          controller: SubmitDialogController,
-          templateUrl: '/wp-content/plugins/finelo/app/core/wizard/view/wizardsubmitdialog.html',
-          parent: angular.element(document.body),
-          hasBackdrop: false,
-          clickOutsideToClose: false
-      })
-          .then(function (answer) {
-              $scope.status = 'You said the information was "' + answer + '".';
-          }, function () {
-              $scope.status = 'You cancelled the dialog.';
-          });
-
-
-      function SubmitDialogController($scope, $mdDialog) {
-          $scope.hide = function () {
-              $mdDialog.hide();
-          };
-
-          $scope.cancel = function () {
-              $mdDialog.cancel();
-          };
-
-          $scope.answer = function (answer) {
-              $mdDialog.hide(answer);
-          };
-      }
-
-
-    var lPromise = $http.post($scope.submitPage, $scope.wertForm);
-
-    lPromise.then(
-        function (answer) {
-
-
-
-
-
-        },
-
-        function (error) {
-
-        },
-
-        function (progress) {
-          // report progress
-
-        });
-
-
-
-
-  };
-
-
 
 
   $scope.goBackBewertung = function () {
@@ -380,6 +323,71 @@ lApplication.controller('KontaktCtrl', ['$scope', '$http' , '$mdDialog' , functi
         $scope.titleSendButton = "Jetzt in Kontakt treten";
 
     }
+
+
+    $scope.submitForm = function() {
+
+
+        if($scope.kontaktForm.$valid) {
+
+            $mdDialog.show({
+                controller: SubmitDialogController,
+                templateUrl: '/wp-content/plugins/finelo/app/core/wizard/view/wizardsubmitdialog.html',
+                parent: angular.element(document.body),
+                hasBackdrop: false,
+                clickOutsideToClose: false
+            })
+                .then(function (answer) {
+                    $scope.status = 'You said the information was "' + answer + '".';
+                }, function () {
+                    $scope.status = 'You cancelled the dialog.';
+                });
+
+
+
+
+
+            var lPromise = $http.post($scope.submitPage, $scope.wertForm);
+
+            lPromise.then(
+                function (answer) {
+
+
+
+
+
+                },
+
+                function (error) {
+
+                },
+
+                function (progress) {
+                    // report progress
+
+                });
+
+
+
+
+
+        }
+
+        function SubmitDialogController($scope, $mdDialog) {
+            $scope.hide = function () {
+                $mdDialog.hide();
+            };
+
+            $scope.cancel = function () {
+                $mdDialog.cancel();
+            };
+
+            $scope.answer = function (answer) {
+                $mdDialog.hide(answer);
+            };
+        }
+
+    };
 
 
 

@@ -41,45 +41,53 @@ angular.module('Fineloo')
 
 
 
-/*
-
         $scope.submitForm = function() {
 
 
+            if($scope.kontaktForm.$valid) {
 
-            var lPromise = $http.post($scope.submitPage, $scope.wertForm);
-
-            lPromise.then(
-                function (answer) {
-
-
-                    $mdDialog.show({
-                        controller: SubmitDialogController,
-                        templateUrl: 'core/wizard/view/wizardsubmitdialog.html',
-                        parent: angular.element(document.body),
-                        targetEvent: answer,
-                        clickOutsideToClose: false
-                    })
-                        .then(function (answer) {
-                            $scope.status = 'You said the information was "' + answer + '".';
-                        }, function () {
-                            $scope.status = 'You cancelled the dialog.';
-                        });
+                $mdDialog.show({
+                    controller: SubmitDialogController,
+                    templateUrl: 'core/wizard/view/wizardsubmitdialog.html',
+                    parent: angular.element(document.body),
+                    hasBackdrop: false,
+                    clickOutsideToClose: false
+                })
+                    .then(function (answer) {
+                        $scope.status = 'You said the information was "' + answer + '".';
+                    }, function () {
+                        $scope.status = 'You cancelled the dialog.';
+                    });
 
 
 
 
-                },
 
-                function (error) {
+                var lPromise = $http.post($scope.submitPage, $scope.wertForm);
 
-                },
+                lPromise.then(
+                    function (answer) {
 
-                function (progress) {
-                    // report progress
 
-                });
 
+
+
+                    },
+
+                    function (error) {
+
+                    },
+
+                    function (progress) {
+                        // report progress
+
+                    });
+
+
+
+
+
+            }
 
             function SubmitDialogController($scope, $mdDialog) {
                 $scope.hide = function () {
@@ -95,9 +103,8 @@ angular.module('Fineloo')
                 };
             }
 
-    };
-
-*/
+        };
 
 
     }]);
+

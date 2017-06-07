@@ -1,15 +1,19 @@
-<div class="row common intro on kontaktform" ng-form="kontaktForm" ng-controller="KontaktCtrl">
+<div class="row common intro on top-padding kontaktform" ng-form="kontaktForm" ng-controller="KontaktCtrl">
 
 
     <h4 class="col-xs-12">{{kontaktText}}</h4>
-        <p class="col-xs-12" ng-show="formMode == 3">Unverbindlich, 100% kostenfrei, individuell für Sie! Aus über 400 Banken, Versicherungen und Bausparkassen den Top-Zins erhalten!</p>
+    <p class="col-xs-12" ng-show="formMode == 3">Unverbindlich, 100% kostenfrei, individuell für Sie! Aus über 400 Banken, Versicherungen und Bausparkassen den Top-Zins erhalten!</p>
     <div class="col-xs-12">
         <input class="col-sm-5 col-xs-10" tabindex=4 type="text" ng-required="true" ng-model="wertForm.vorname" placeholder="Vorname*">
         <input class="col-sm-5 col-xs-10"tabindex=5  type="text" ng-required="true" ng-model="wertForm.nachname" placeholder="Nachname*">
         <input class="col-sm-5 col-xs-10" tabindex=6 type="text" ng-required="true" ng-model="wertForm.email" placeholder="EMail*">
-        <input class="col-sm-5 col-xs-10" tabindex=7 type="text" ng-model="wertForm.telefon" placeholder="Telefon">
+        <input class="col-sm-5 col-xs-10" tabindex=7 type="text" ng-model="wertForm.telefon" placeholder="Telefon*">
         <input class="col-sm-5 col-xs-10" tabindex=8 type="number" ng-required="true" ng-model="wertForm.plz" placeholder="Postleitzahl*">
 
+
+        <div class="errorMessage" ng-messages="kontaktForm.$error">
+            <p ng-message="required">Bitte befüllen Sie alle Felder und bestätigen Sie die Nutzungsdaten </p>
+        </div>
     </div>
 
 
@@ -31,5 +35,9 @@
 
 
 </div>
+
+
+
+
 
 
